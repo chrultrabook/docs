@@ -1,5 +1,13 @@
 # Before we begin, keep in mind the following:
 
+### Supported Devices:
+
+| Intel            | AMD           |                              ARM            |
+| ---------------- | --------------------------------------------| ------------- |
+| Fully Supported  | Needs RWL hack in order to install WIndows  | ??? |
+|     | Stoney has several issues                   | ??? |
+
+-------------
 
 ### Asking for help properly:
 
