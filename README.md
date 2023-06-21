@@ -8,7 +8,7 @@ Centralized project documentation - WIP
 - [ ] How to clone, build own ROMs
 - [ ] SuzyQ / WP Jumper / WP Screw
 - [ ] OS Selection, Advantages/Disadvantages
-- [ ] Keyboard Mapping
+- [ ] OS configuration (Keyboard Mapping, Audio, etc)
 - [ ] Known problem devices (eg, celes) and its listed reported issues
 - [ ] Centralised docs for cbfstool, flashrom, cbmem etc etc
 - [ ] Basics on how to debug and troubleshoot issues (Template for reporting issues with devices, perhaps?)
