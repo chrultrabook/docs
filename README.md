@@ -4,6 +4,7 @@ Centralized project documentation - WIP
 ## TODO
 - [ ] What is the chrultrabook project, and its purpose
 - [ ] Compatibility (Full device list)
+- [ ] List of models to avoid (CELES, KOHAKU, all AMD-based models, ARM-based models, etc)
 - [ ] Differences between RWL/Full ROM, advantages & disadvantages between them
 - [ ] How to clone, build own ROMs
 - [ ] SuzyQ / WP Jumper / WP Screw
