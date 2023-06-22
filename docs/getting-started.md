@@ -1,6 +1,6 @@
 # Before we begin, keep in mind the following:
 
-### Supported Devices:
+### Supported Platforms:
 
 | Intel            | AMD           |                              ARM            |
 | ---------------- | --------------------------------------------| ------------- |
