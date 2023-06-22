@@ -1,4 +1,4 @@
-<h1 align=“center”>Welcome to the Chrultrabook wiki!</h1>
+<h1>Welcome to the Chrultrabook wiki!</h1>
 
 ### What is a Chrultrabook and who is this guide for?
 
