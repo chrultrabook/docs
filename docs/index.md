@@ -4,7 +4,7 @@
 
 A Chrultrabook is a modified Chromebook designed to run Windows, Linux, or even macOS by utilizing MrChromebox coreboot firmware and custom CoolStar drivers. The purpose of this repository is to provide comprehensive and user-friendly documentation on hardware, firmware, and operating systems.
 
-[Getting Started →](getting-started.md)
+[Getting Started →](prerequisites.md)
 --------------------------------------
 
 **The wiki focuses on two main things:**

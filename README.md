@@ -1,3 +1,8 @@
+# contributors: please read!:
+This fork is not ready for merging. Some OS related content may be incorrect, plesase submit PRs to correct them. `installing-linux.md`, `installing-windows.md`, `altos.md`, and `known-issues.md` all need to be addressed before merging.
+
+-----
+
 ## Chrultrabook Wiki Port
 
 #### ok what is this:

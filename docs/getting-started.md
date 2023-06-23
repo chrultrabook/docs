@@ -9,6 +9,12 @@
 
 -------------
 
+### Supported Chromebooks:
+
+Please refer to [this chart](supported-devices.md) for a full list of supported devices.
+
+-------------
+
 ### Asking for help properly:
 
 **Do not use manufacturer's model name** (i.e: HP Chromebook 14a), it doesn't help with identifying the machine. Provide the boardname, otherwise your support request will be ignored.

@@ -1,5 +1,37 @@
 ## Installing Windows
 
-WIP
+### Installation:
+
+1. Install Windows from a USB:
+    1.  On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
+    2. Plug the USB Drive into the chromebook
+    3. Plug a USB keyboard or mouse in for installation
+    4. Turn on the chromebook, and let it boot the USB drive
+
+   >**Note**: If you need to select a different boot device, press any key in "Select Boot Option". Then select "Boot Manager" to select your boot drive.
+
+2. Bypassing Windows 11 installation checks:
+    1. At the Windows installer, press Shift + F10 (Volume Up) to open command prompt  
+    2. Type in "regedit" and press enter
+    3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\Setup
+    4. Right click setup and create a new Key called "LabConfig"
+    5. Right click LabConfig and create new DWORD (32 bit) called "BypassSecureBootCheck" and set it to 1
+    6. Right click LabConfig and create new DWORD (32 bit) called "BypassTPMCheck" and set it to 1
+    7. Close regedit and command prompt and proceed with installation normally
+
+3. Install drivers:
+   See https://coolstar.org/chromebook/windows-install.html for drivers.
+
+
+
+---
+
+### Buying Audio Drivers
+
+~~1. add step by step tutorial. it will reduce the amount of `@Coolstar how do i pay???` messages.~~
+
+
+
+
 
 ### [Post Install →](post-install.md) 
