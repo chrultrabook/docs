@@ -3911,7 +3911,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 <td colspan="7">
 </td></tr>
 
-</td></tr></tbody></table>
+</tbody></table>
 
 ----
 originally from https://mrchromebox.tech/#devices
