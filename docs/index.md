@@ -16,4 +16,4 @@ Because of this, you will be expected to read, learn, and even use Google. This 
 
 --------------------------------------
 
-Finally, those who are still facing issues can ask for help in the [r/chrultrabook subreddit](https://reddit.com/r/chrultrabook) or the [chrultrabook Discord](https://discord.com/invite/tkPTk5w)
+Finally, those who are still facing issues can ask for help in the [chrultrabook Discord.](https://discord.com/invite/tkPTk5w)
