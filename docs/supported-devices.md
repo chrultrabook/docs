@@ -9,10 +9,18 @@ The chart below provides a full, authoritative list of all ChromeOS devices curr
 ### OS Support
 A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not imply any level of functionality when running an OS other than ChromeOS. Some devices/platforms are better supported in some Linux distros vs others. Some devices/platforms are better supported under Windows than others.
 
+---------
 
+### Supported Platforms:
 
----------------
+| Intel            | AMD           |                              ARM            |
+| ---------------- | --------------------------------------------| ------------- |
+| Fully Supported  | Needs RWL hack in order to install WIndows  | Currently unsupported by Windows |
+|     | Stoney has several issues that prevent it from booting UEFI full ROM                   | Only a handful of Linux distros support some ARM CPUs|
 
+---------
+
+### Supported Devices 
 
 <table class="wikitable" style="width: 90%; margin: auto">
 
