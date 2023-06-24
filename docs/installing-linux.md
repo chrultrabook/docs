@@ -13,7 +13,9 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 
 
 ### Fixing Audio
->**Warning**: Using AVS on a device with max98357a will blow your speakers. You have been warned. 
+
+ {: .warning }
+ Using AVS on a device with max98357a will blow your speakers. You have been warned. 
 
 1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
