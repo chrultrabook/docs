@@ -1,4 +1,4 @@
-## Supported Devices
+## Supported Devices and Platforms
 Supported devices are listed in the table below, grouped by platform/family, roughly in chronological order. To reiterate, support is determined entirely and exclusively by the Board Name. Device Names are just for reference, and may be incomplete as many models/sub-models may use the same Board Name. Please don't email me asking if your HP Chromebook 14b-ca0023dx (eg) is supported. Figure out the Board Name and then locate it in the table. If it's not listed, it's not supported.
 
 ### Determining Device Support
