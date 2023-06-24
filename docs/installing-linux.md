@@ -3,13 +3,13 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 
 ### Installation:
 1. Create & install Linux as you would on any other device
-2. (add more stuff, idk)
+2. (TODO)
 
 
 ### Fixing Audio
 >**Warning**: Using AVS on max(something) will blow your speakers. You have been warned. 
 
-1. Run WeirdTreeThing's audio script.
+1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 2. If needed, install a ChromeOS kernel.
 
 ### [Post Install →](post-install.md) 
