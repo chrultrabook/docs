@@ -76,7 +76,10 @@ This list is incomplete. Feel free to improve it.
 6. take those files you downloaded and put the .aml files in the ACPI folder, and the .kexts into the kexts folder
 7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
-{: .warning } NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
+
+  {: .warning }
+   If you dualboot, you might run into issues. A `OSI_` check is not present in these SSDTs.
+
 
 {: .fs-5 }
 {: .text-right }
