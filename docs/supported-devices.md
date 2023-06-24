@@ -1035,7 +1035,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook C223NA
@@ -1050,7 +1050,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook C523NA
@@ -1065,7 +1065,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>CTL Chromebook NL7/NL7T<br>Edxis Chromebook 11/X11<br>Positivo Chromebook N2110/N2112<br>Viglen Chromebook 360C<br>
@@ -1080,7 +1080,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 15 (CB315)
@@ -1095,7 +1095,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 15 (CP315)
@@ -1110,7 +1110,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 11 (R751T)
@@ -1125,7 +1125,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 514
@@ -1140,7 +1140,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 11 CP311
@@ -1155,7 +1155,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Chromebook 11 5190
@@ -1170,7 +1170,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Chromebook 11 5190 2-in-1
@@ -1185,7 +1185,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo Thinkpad 11e/Yoga 11e (G4)
@@ -1200,7 +1200,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook C423
@@ -1215,7 +1215,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip C213SA
@@ -1230,7 +1230,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 100e Chromebook
@@ -1245,7 +1245,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 500e Chromebook
@@ -1260,7 +1260,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 15 (CB515-1HT)
@@ -1275,7 +1275,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 11 (CB311-8H)
@@ -1290,7 +1290,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 11 G1 EE<br>HP Chromebook 11 G6<br>HP Chromebook 14 G5
@@ -1305,7 +1305,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>CTL Chromebook J41/J41T<br>PCmerge Chromebook AL116<br>Prowise Chromebook Eduline<br>Sector 5 E3 Chromebook<br>Viglen Chromebook 11C
@@ -1320,7 +1320,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -1357,7 +1357,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 13
@@ -1372,7 +1372,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Google Pixelbook Go (2019)
@@ -1387,7 +1387,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 715 (CB715)
@@ -1402,7 +1402,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 714 (CB714)
@@ -1417,7 +1417,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Google Pixelbook (2017)
@@ -1432,7 +1432,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Google Meet kit (KBL)
@@ -1447,7 +1447,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/a8/Excelsior_wp.jpg" class="internal" title="Excelsior wp.jpg">screw</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/a8/Excelsior_wp.jpg" class="internal" title="Excelsior wp.jpg">screw</a>
 </td></tr>
 <tr>
 <td>AOpen Chromebox Commercial 2<br>Newline Chromebox A10
@@ -1462,7 +1462,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
 </td></tr>
 <tr>
 <td>Acer Chromebase 24I2
@@ -1477,7 +1477,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
 </td></tr>
 <tr>
 <td>HP Chromebox G2
@@ -1492,7 +1492,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook C425
@@ -1507,7 +1507,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Samsung Chromebook Plus V2
@@ -1522,7 +1522,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Google Pixel Slate
@@ -1537,7 +1537,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo Yoga Chromebook C630
@@ -1552,7 +1552,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip C433/C434
@@ -1567,7 +1567,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebox CXI3
@@ -1582,7 +1582,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14
@@ -1597,7 +1597,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook X2
@@ -1612,7 +1612,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 15 G1
@@ -1627,7 +1627,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebox 3 (CN65)
@@ -1642,7 +1642,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
 <td>Dell Inspiron Chromebook 14 (7460)
@@ -1657,7 +1657,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>CTL Chromebox CBx1<br>Promethean Chromebox<br>SMART Chromebox G3<br>ViewSonic NMP660 Chromebox
@@ -1672,7 +1672,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -1711,7 +1711,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip C204
@@ -1726,7 +1726,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 12b
@@ -1741,7 +1741,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 14a
@@ -1756,7 +1756,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14a/14b
@@ -1771,7 +1771,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 315
@@ -1786,7 +1786,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Samsung Chromebook 4
@@ -1801,7 +1801,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 311<br>(CB311-9H, CB311-9HT, C733, C733U, C733T)
@@ -1816,7 +1816,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)<br>Acer Chromebook Spin 511 (R752T, R752TN)
@@ -1831,7 +1831,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Samsung Chromebook 4+
@@ -1846,7 +1846,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>NEC Chromebook Y2
@@ -1861,7 +1861,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 14 G6
@@ -1876,7 +1876,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 314 (CB314)<br>Packard Bell Chromebook 314 (PCB314)
@@ -1891,7 +1891,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Chromebook 3100
@@ -1906,7 +1906,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>CTL Chromebook VX11/VX11T<br>Poin2 Chromebook 11P
@@ -1921,7 +1921,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Poin2 Chromebook 11P
@@ -1936,7 +1936,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>ADVAN Chromebook 116<br>Axioo Chromebook<br>Baicells Chromebook BB01<br>CTL Chromebook NL71/CT/LTE<br>EVERCOSS Chromebook CB1<br>Edxis Chromebook 11 (S20-C)<br>JOI Chromebook C100<br>Multilaser Chromebook M11C-PC914<br>Pixart Rxart Chromebook<br>Poin2 Chromebook 11A<br>SPC Chromebook X1 Mini<br>Sector 5 E4 LTE Chromebook<br>WS Chromebook A101<br>Zyrex Chromebook M432
@@ -1951,7 +1951,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Ascon Chromebook 11A<br>Axioo Chromebook 360<br>Baicells Chromebook BB01<br>CTL Chromebook NL71T/TW/TWB<br>EVERCOSS Chromebook CB1A<br>Edxis Chromebook 11 (S20-X)<br>JOI Chromebook C100<br>Multilaser Chromebook M11HC-PC915<br>Pixart Rxart Chromebook<br>Poin2 Chromebook 11A<br>SPC Chromebook X1 Mini<br>WS Chromebook A101<br>Zyrex Chromebook 360
@@ -1966,7 +1966,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>CTL Chromebook NL81/NL81T
@@ -1981,7 +1981,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 311
@@ -1996,7 +1996,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 311
@@ -2011,7 +2011,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Chromebook 3100 2-in-1
@@ -2026,7 +2026,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo Chromebook C340
@@ -2041,7 +2041,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo Chromebook S340/IdeaPad 3
@@ -2056,7 +2056,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo Ideapad 3 Chromebook
@@ -2071,7 +2071,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 11 G2 EE
@@ -2086,7 +2086,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 11 G7 EE
@@ -2101,7 +2101,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook C424
@@ -2116,7 +2116,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Chromebook 3400
@@ -2131,7 +2131,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 100e Chromebook Gen 2
@@ -2146,7 +2146,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 300e Chromebook Gen 2/IdeaPad Flex 3<br>NEC Chromebook Y1
@@ -2161,7 +2161,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 500e Chromebook Gen 2
@@ -2176,7 +2176,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 512 (C851/C851T)
@@ -2191,7 +2191,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 512 (R851TN)
@@ -2206,7 +2206,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 11 G8 EE
@@ -2221,7 +2221,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 11 G3 EE
@@ -2236,7 +2236,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -2273,7 +2273,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 11A G6 EE<br>HP Chromebook 11A G8 EE
@@ -2288,7 +2288,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 14A G5
@@ -2303,7 +2303,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 311 (C721)
@@ -2318,7 +2318,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 311 (R721T)
@@ -2333,7 +2333,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 14e Chromebook (S345)
@@ -2348,7 +2348,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 100e Chromebook Gen 2 AMD
@@ -2363,7 +2363,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 300e Chromebook Gen 2 AMD
@@ -2378,7 +2378,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -2415,7 +2415,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
 </td></tr>
 <tr>
 <td>Dell Latitude 5400 Chromebook Enterprise
@@ -2430,7 +2430,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -2467,7 +2467,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14c
@@ -2482,7 +2482,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Dell Latitude 7410 Chromebook Enterprise
@@ -2497,7 +2497,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Pro c640 Chromebook
@@ -2512,7 +2512,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebox 4
@@ -2527,7 +2527,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/ab/Duffy_wp_jumper.png" class="internal" title="Duffy wp jumper.png">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/ab/Duffy_wp_jumper.png" class="internal" title="Duffy wp jumper.png">jumper</a>
 </td></tr>
 <tr>
 <td>Asus Fanless Chromebox
@@ -2542,7 +2542,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip C436FA
@@ -2557,7 +2557,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Elite c1030 Chromebook<br>HP Chromebook x360 13c
@@ -2572,7 +2572,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebox CXI4
@@ -2587,7 +2587,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook 712 (C871)
@@ -2602,7 +2602,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 713 (CP713-2W)
@@ -2617,7 +2617,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Samsung Galaxy Chromebook
@@ -2632,7 +2632,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Samsung Galaxy Chromebook 2
@@ -2647,7 +2647,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebox G3
@@ -2662,7 +2662,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/9/9d/Noibat_wp.png" class="internal" title="Noibat wp.png">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/9/9d/Noibat_wp.png" class="internal" title="Noibat wp.png">jumper</a>
 </td></tr>
 <tr>
 <td>CTL Chromebox CBx2
@@ -2677,7 +2677,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b0/Wyvern_WP_jumper.png" class="internal" title="Wyvern WP jumper.png">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b0/Wyvern_WP_jumper.png" class="internal" title="Wyvern WP jumper.png">jumper</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -2714,7 +2714,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 14a
@@ -2729,7 +2729,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 514
@@ -2744,7 +2744,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14a
@@ -2759,7 +2759,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo ThinkPad C13 Yoga Chromebook
@@ -2774,7 +2774,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 100e Chromebook Gen 3
@@ -2789,7 +2789,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 14e Chromebook Gen 2
@@ -2804,7 +2804,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 300e Chromebook Gen 3
@@ -2819,7 +2819,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CM5
@@ -2834,7 +2834,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -2871,7 +2871,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CX3
@@ -2886,7 +2886,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CX5 (CX5400)
@@ -2901,7 +2901,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CX55, CX5 (CX5500), C536
@@ -2916,7 +2916,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook CX9 (CX9400)
@@ -2931,7 +2931,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14c
@@ -2946,7 +2946,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>HP Pro c640 G2 Chromebook
@@ -2961,7 +2961,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo IdeaPad Flex 5i Chromebook
@@ -2976,7 +2976,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Lenovo 5i-14 Chromebook<br>Lenovo Slim 5 Chromebook
@@ -2991,7 +2991,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 514 (CB514-2H)
@@ -3006,7 +3006,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 515 (CB515-1W, CB515-1WT)
@@ -3021,7 +3021,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 514 (CB514-1W, CB514-1WT)
@@ -3036,7 +3036,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 713 (CP713-3W)
@@ -3051,7 +3051,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
 <td colspan="7">
@@ -3088,7 +3088,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Lenovo 3i-15 Chromebook
@@ -3103,7 +3103,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Lenovo 100e Chromebook Gen 3
@@ -3118,7 +3118,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>Lenovo 500e Chromebook Gen 3
@@ -3133,7 +3133,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>Lenovo Flex 3i-11 / IdeaPad Flex 3i Chromebook
@@ -3148,7 +3148,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>Samsung Galaxy Chromebook 2 360
@@ -3163,7 +3163,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Dell Chromebook 3110
@@ -3178,7 +3178,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Dell Chromebook 3110 2-in-1
@@ -3193,7 +3193,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>HP Chromebook x360 11 G4 EE
@@ -3208,7 +3208,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/50/Drawcia_wp.jpg" class="internal" title="Drawcia wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/50/Drawcia_wp.jpg" class="internal" title="Drawcia wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 11 G9 EE
@@ -3223,7 +3223,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/1/17/Drawlat_wp.jpg" class="internal" title="Drawlat wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/1/17/Drawlat_wp.jpg" class="internal" title="Drawlat wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>HP Chromebook 14 G7
@@ -3238,7 +3238,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>HP Fortis 14 G10 Chromebook
@@ -3253,7 +3253,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1500CKA
@@ -3268,7 +3268,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1500FKA
@@ -3283,7 +3283,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1700CKA
@@ -3298,7 +3298,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1 CX1102
@@ -3313,7 +3313,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CX1 CX1102
@@ -3328,7 +3328,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1
@@ -3343,7 +3343,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CX1400FKA
@@ -3358,7 +3358,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>CTL Chromebook NL72
@@ -3373,7 +3373,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>CTL Chromebook NL72T <br>LG Chromebook 11TC50Q/11TQ50Q
@@ -3388,7 +3388,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14a-ca1
@@ -3403,7 +3403,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>HP Chromebook 15a-na0
@@ -3418,7 +3418,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>HP Chromebook 14a
@@ -3433,7 +3433,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>HP Chromebook x360 14b
@@ -3448,7 +3448,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 314
@@ -3463,7 +3463,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook 512 [C852]
@@ -3478,7 +3478,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 512 [R853TA/R853TNA]
@@ -3493,7 +3493,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b6/Maglia_wp.jpg" class="internal" title="Maglia wp.jpg">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b6/Maglia_wp.jpg" class="internal" title="Maglia wp.jpg">jumper</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 511 [C733/C734]
@@ -3508,7 +3508,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook 315 [CB315-4H/4HT]
@@ -3523,7 +3523,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook 314 [CB314-3H/3HT, C934/C934T]
@@ -3538,7 +3538,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 511 [R753T]
@@ -3553,7 +3553,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Acer Chromebook 317 [CB317-1H]
@@ -3568,7 +3568,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
 </td></tr>
 <tr>
 <td>NEC Chromebook Y3
@@ -3583,7 +3583,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
 </td></tr>
 <tr>
 <td>Gateway Chromebook 15
@@ -3598,7 +3598,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Axioo Chromebook P11<br>CTL Chromebook PX11E<br>SPC Chromebook Z1 Mini<br>Zyrex Chromebook M432-2
@@ -3613,7 +3613,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Axioo Chromebook P14<br>Gateway Chromebook 14
@@ -3628,7 +3628,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Samsung Galaxy Chromebook Go
@@ -3643,7 +3643,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook CR1100CKA
@@ -3658,7 +3658,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CR1100FKA
@@ -3673,7 +3673,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
 <td colspan="7">
@@ -3710,7 +3710,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Framework Laptop Chromebook Edition
@@ -3725,7 +3725,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Dell Latitude 5430 Chromebook
@@ -3740,7 +3740,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Dell Latitude 5430 2-in-1 Chromebook
@@ -3755,7 +3755,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook Flip CX5 (CX5601)
@@ -3770,7 +3770,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Spin 714 (CP714-1WN)
@@ -3785,7 +3785,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Asus Chromebook CX34 Flip<br>Asus Chromebook Vibe CX34 Flip
@@ -3800,7 +3800,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook 516 GE (CBG516-1H)
@@ -3815,7 +3815,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Lenovo ThinkPad C14 Gen 1 Chromebook
@@ -3830,7 +3830,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>HP Elite Dragonfly Chromebook
@@ -3845,7 +3845,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Lenovo IdeaPad Gaming Chromebook 16
@@ -3860,7 +3860,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Lenovo Flex 5i Chromebook / IdeaPad Flex 5i Chromebook
@@ -3875,7 +3875,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Vero 514
@@ -3890,7 +3890,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td>Acer Chromebook Vero 712 (CV872, CV872T)
@@ -3905,7 +3905,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 </td>
 <td>
 </td>
-<td style="text-align:center;"> <a href="/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
 <td colspan="7">
