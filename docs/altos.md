@@ -8,7 +8,8 @@ nav_order: 8
 
 ----------
 
-#### Windows:
+**Windows:**
+
 Pros:
 * Easy to setup 
 * Works on most platforms with minimal tweaking¹
@@ -25,7 +26,8 @@ Cons:
 
 ----------
 
-#### Linux
+**Linux**
+
 Pros:
 * Free audio support 
 * Lightweight
@@ -44,7 +46,8 @@ Cons:
 
 ----------
 
-#### macOS
+**macOS**
+
 Pros:
 * Experience is near identical to a MacBook
 
@@ -58,6 +61,7 @@ Cons:
   >**Note**: **Any** Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.html) 
+
 
 ¹On Drallion, audio should work OOTB with AppleALC because it uses HDA, rather than the traditional SST.
 
