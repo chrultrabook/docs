@@ -15,8 +15,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel            | AMD           |                              ARM            |
 | ---------------- | --------------------------------------------| ------------- |
-| Fully Supported  | Needs RWL hack in order to install WIndows  | Currently unsupported by Windows |
-|     | Stoney has several issues that prevent it from booting UEFI full ROM                   | Only a handful of Linux distros support some ARM CPUs|
+| Intel platforms have good support for both linux and windows.  | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in windows at all, and has a few issues when running linux.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM chromebooks. |
 
 ---------
 
