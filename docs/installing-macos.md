@@ -78,10 +78,11 @@ This list is incomplete. Feel free to improve it.
   
 
   {: .warning }
-   If you dualboot, you might run into issues. A OSI_ check is not present in these SSDTs.
+   If you dualboot, you might run into issues. A `OSI_` check is not present in these SSDTs.
 
 
 (todo)
 
-
-### [Post Install →](post-install.html) 
+{: .fs-5 }
+{: .text-right }
+[Post Install →](post-install.html) 
