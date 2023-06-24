@@ -17,7 +17,9 @@ callouts:
   warning:
     title: Warning
     color: red
-  note:
+
+callouts:  
+note:
     title: Note
     color: blue
 
