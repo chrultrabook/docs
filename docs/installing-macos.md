@@ -25,7 +25,10 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 -------
 
 ### Tested Devices:
->**Note**: This list is incomplete. Feel free to improve it.
+
+{: .note }
+This list is incomplete. Feel free to improve it.
+
 - Asus C425 (LEONA)
 - Asus C434 (SHYVANA)
 - Asus C433 (SHYVANA)
@@ -69,9 +72,14 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 1. Grab the sample SSDTs from here: (todo)
 
-  >**Note**: These devices disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
   
-  >**Warning**: If you dualboot, you might run into issues. A OSI_ check is not present in these SSDTs.
+  {: .note }
+   These devices disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
+  
+
+  {: .warning }
+   If you dualboot, you might run into issues. A OSI_ check is not present in these SSDTs.
+
 
 (todo)
 
