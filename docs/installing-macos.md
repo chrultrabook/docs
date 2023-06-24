@@ -67,15 +67,16 @@ This list is incomplete. Feel free to improve it.
 
 #### Chromebook Specific Modifications
 
+
 1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/releases/tag/v0.1.0) remaps keys to chromebook keyboard layout
 2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch) fixes issues with coreboot 4.20
 3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable) disabes SD card as it's currently broken
 4. [croshdasdisable](https://github.com/meghan06/croshdasdisable) disables audio as there is no kext for it
 5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases) enables eMMC support
-6. Download corpnewt's SSDTTime, then launch it and select FixHPET. Next, select 'C' for default, and drag the SSDT it generated (SSDT-HPET.aml) into your ACPI folder. Finally, copy the patches from oc_patches.plist into your config.plist under ACPI -> Patch.
+6. take those files you downloaded and put the .aml files in the ACPI folder, and the .kexts into the kexts folder
+7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
-7. 
-
+{: .warning } NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
 
 {: .fs-5 }
 {: .text-right }
