@@ -5,7 +5,7 @@
 #### Windows:
 Pros:
 * Easy to setup 
-* Works on most platforms with minimal tweaking*
+* Works on most platforms with minimal tweaking¹
 * Almost everything works OOTB
 
 Cons: 
@@ -15,6 +15,7 @@ Cons:
 
 ### [Installing Windows →](installing-windows.md) 
 
+¹Some devices such as CELES need workarounds. Additionally, AMD ultrabooks need several modifications to enable Windows support.
 
 ----------
 
@@ -22,13 +23,13 @@ Cons:
 Pros:
 * Free audio support 
 * Lightweight
-* Optimal for Chrultrabooks with low storage
+* Optimal for Chrultrabooks with low storage / slow CPUs
 
 Cons:
 * Potentially diffucult for a new user (depending on the distro of choice)
 * Requires some work on the end user
 * Outdated audio driver packages on certain distros.
-  >**Note**: Anything Ubuntu based will **not** work. Linux Mint, Ubuntu, and ElementaryOS are some examples.
+   >**Note**: Anything Ubuntu based will **not** work. Linux Mint, Ubuntu, and ElementaryOS are some examples.
 
 ### [Installing Linux →](installing-linux.md) 
 
@@ -42,11 +43,12 @@ Pros:
 Cons:
 * Battery life is subpar
 * Hardware based DRM (e.g AppleTV.app) is broken
-* No audio support
+* No audio, mic, or 3.5mm support¹
 * Doesn't support all devices
   >**Note**: **Any** Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.md) 
 
+¹On Drallion, audio should work OOTB because it has HDA.
 
 ----------
