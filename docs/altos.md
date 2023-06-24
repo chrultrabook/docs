@@ -58,7 +58,9 @@ Cons:
 * Doesn't support all devices.
 * Takes often up to a week or longer to setup.
 * Limited support
-  >**Note**: **Any** Celeron or Pentium CPU is not supported.
+
+  {: .note }
+  **Any** Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.html) 
 
