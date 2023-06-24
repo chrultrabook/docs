@@ -20,7 +20,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
   * 4 gigabytes or more for a online installer;
   * 32 gigbytes or more for offline installer
 * The ability to use a command prompt 
-  * We won’t help you if you don't know how to cd to a directory.
+  * We won't help you if you don't know how to cd to a directory.
 
 -------
 
@@ -59,32 +59,23 @@ This list is incomplete. Feel free to improve it.
 -------
 
 ### Installing macOS
-
-1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
-2. Add the following SSDT to your ACPI folder: croscorebootpatch (todo)
  
--------
-
-### Disabling Unsupported Devices
-
-**You will need:**
-* iASL on Windows or Linux
-* maciASL on macOS
-
 #### Getting Started:
 
-1. Grab the sample SSDTs from here: (todo)
+1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
+2. if you didn't follow the laptop guide for your CPU generation
 
-  
-  {: .note }
-   These devices disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
-  
+#### Chromebook Specific Modifications
 
-  {: .warning }
-   If you dualboot, you might run into issues. A `OSI_` check is not present in these SSDTs.
+1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/releases/tag/v0.1.0) remaps keys to chromebook keyboard layout
+2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch) fixes issues with coreboot 4.20
+3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable) disabes SD card as it's currently broken
+4. [croshdasdisable](https://github.com/meghan06/croshdasdisable) disables audio as there is no kext for it
+5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases) enables eMMC support
+6. Download corpnewt's SSDTTime, then launch it and select FixHPET. Next, select 'C' for default, and drag the SSDT it generated (SSDT-HPET.aml) into your ACPI folder. Finally, copy the patches from oc_patches.plist into your config.plist under ACPI -> Patch.
 
+7. 
 
-(todo)
 
 {: .fs-5 }
 {: .text-right }
