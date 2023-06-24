@@ -4,8 +4,8 @@
 
 | Intel            | AMD           |                              ARM            |
 | ---------------- | --------------------------------------------| ------------- |
-| Fully Supported  | Needs RWL hack in order to install WIndows  | ??? |
-|     | Stoney has several issues                   | ??? |
+| Fully Supported  | Needs RWL hack in order to install WIndows  | Currently unsupported by Windows |
+|     | Stoney has several issues that prevent it from booting UEFI full ROM                   | A handful of Linux distros support some ARM CPUs|
 
 -------------
 
