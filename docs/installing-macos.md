@@ -30,13 +30,14 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 - Google Pixelbook Go (2019) (ATLAS)
 - Dell Latitude 7410 Chromebook Enterprise (DRALLION)
 - Asus Chromebox 2 (CN62)	(GUADO)
+- HP Chromebook x360 14c (DRAGONAIR)
 
 **The following devices have dedicated guides written for them:**
 
 * [ChromebookOSX](https://github.com/meghan06/ChromebookOSX):
-- Asus C425 (LEONA)
-- Asus C434 (SHYVANA)
-- Asus C433 (SHYVANA) 
+* Asus C425 (LEONA)
+* Asus C434 (SHYVANA)
+* Asus C433 (SHYVANA) 
 
 * [PixelbookOSX](https://github.com/olm3ca/PixelbookOSX):
 - Google Pixelbook (2017)	(EVE)
@@ -48,7 +49,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 ### Installing macOS
 
 1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
-2. Add the following SSDT to your ACPI folder: croscorbootpatch (todo)
+2. Add the following SSDT to your ACPI folder: croscorebootpatch (todo)
  
 -------
 
@@ -60,7 +61,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 #### Getting Started:
 
-1. Grab the sample SSDTs from here:
+1. Grab the sample SSDTs from here: (todo)
 
   >**Note**: These devices disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
   
