@@ -20,4 +20,6 @@ Before we jump head first into the amazing world of Chrultrabooks, we need to go
 
 ------
 
-## [Getting Started →](getting-started.html)
+{: .fs-5 }
+{: .text-right }
+[Getting Started →](getting-started.html)
