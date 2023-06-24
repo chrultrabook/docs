@@ -16,10 +16,8 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 callouts:
   warning:
     title: Warning
-    color: red
-
-callouts:  
-note:
+    color: red 
+  note:
     title: Note
     color: blue
 
