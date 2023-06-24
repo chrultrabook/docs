@@ -7,7 +7,7 @@
 * No.
 
 **How do I buy the audio driver?**
-* See [here]()
+* See [here](todo(
 
 **Can I get AVS or SOF drivers for free?**
 * No.
@@ -16,7 +16,7 @@
 * Because their packages are broken. Please switch to another distro that isn't based off of Ubuntu, like Arch Linux or Fedora.
 
 **What Linux distros are reccomended?**
-* See [here]()
+* See [here](todo(
 
 **Why is there a license error in Device Manager after installing audio drivers?**\
 * You messed up the license setup. Please refer to the README provided with the audio drivers and try again.
