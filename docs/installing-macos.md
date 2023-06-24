@@ -54,7 +54,7 @@ This list is incomplete. Feel free to improve it.
 * Google Pixelbook Go (2019) (ATLAS)
 
 * [macOS-Dragonair](https://github.com/mine-man3000/macOS-Dragonair):
-*  HP Chromebook x360 14c (DRAGONAIR)
+* HP Chromebook x360 14c (DRAGONAIR)
 -------
 
 ### Installing macOS
