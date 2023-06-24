@@ -31,7 +31,7 @@ When asking for help, **do not use manufacturer's model name** (i.e: HP Chromebo
 Only Linux kernel 6.1 LTS or newer is supported.
 
 {: .warning }
-Ubuntu and ubuntu-based distributions, such as Mint or ElementaryOS **are unsupported.**
+Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS **are unsupported.**
 
 --------------
 
