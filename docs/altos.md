@@ -35,6 +35,7 @@ Cons:
 * Potentially diffucult for a new user (depending on the distro of choice)
 * Requires some work on the end user
 * Outdated audio driver packages on certain distros.
+
    {: .note }
    Anything Ubuntu based will **not** work. Linux Mint, Ubuntu, and ElementaryOS are some examples.
 
