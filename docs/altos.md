@@ -61,7 +61,4 @@ Cons:
 
 ¹On Drallion, audio should work OOTB with AppleALC because it uses HDA, rather than the traditional SST.
 
-{: .note }
-A paragraph
-
 ----------
