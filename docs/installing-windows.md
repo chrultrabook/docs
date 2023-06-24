@@ -28,8 +28,8 @@
 
 ### Buying Audio Drivers
 
-~~1. add step by step tutorial. it will reduce the amount of `@Coolstar how do i pay???` messages.~~
-
+1. (todo)
+   // add step by step tutorial on how to setup a account, link to to driver portal, which tier to buy, and what to expect after to buying and leave a note to unsubscribe after paying so they dont get charged monthly.
 
 
 
