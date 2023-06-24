@@ -78,7 +78,7 @@ This list is incomplete. Feel free to improve it.
 
 
   {: .warning }
-   If you dualboot, you might run into issues. A `OSI_` check is not present in these SSDTs.
+   NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
 
 
 {: .fs-5 }
