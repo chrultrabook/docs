@@ -25,4 +25,6 @@ Because of this, you will be expected to read, learn, and even use Google. This 
 
 --------------------------------------
 
-Finally, those who are still facing issues can ask for help in the [chrultrabook Discord.](https://discord.com/invite/tkPTk5w)
+Finally, those who are still facing issues can ask for help in the [chrultrabook Discord](https://discord.com/invite/tkPTk5w).
+
+Help us improve this documentation on [GitHub](https://github.com/chrultrabook/docs/)!
