@@ -10,6 +10,5 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 >**Warning**: Using AVS on max(something) will blow your speakers. You have been warned. 
 
 1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
-2. If needed, install a ChromeOS kernel.
 
 ### [Post Install →](post-install.md) 
