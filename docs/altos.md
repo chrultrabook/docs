@@ -44,11 +44,13 @@ Cons:
 * Battery life is subpar
 * Hardware based DRM (e.g AppleTV.app) is broken
 * No audio, mic, or 3.5mm support¹
-* Doesn't support all devices
+* Doesn't support all devices.
+* Takes often up to a week or longer to setup.
+* Limited support
   >**Note**: **Any** Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.md) 
 
-¹On Drallion, audio should work OOTB because it has HDA.
+¹On Drallion, audio should work OOTB with AppleALC because it uses HDA, rather than the traditional SST.
 
 ----------
