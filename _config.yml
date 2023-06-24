@@ -3,4 +3,4 @@ description: Centralized documentation for the Chrultrabook project.
 theme: just-the-docs
 
 url: https://github.com/chrultrabook/docs
-
+favicon_ico: "/assets/favicon.ico"
