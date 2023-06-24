@@ -14,9 +14,10 @@ nav_order: 11
     3. Plug a USB keyboard or mouse in for installation
     4. Turn on the chromebook, and let it boot the USB drive
 
-   >**Note**: If you need to select a different boot device, press any key in "Select Boot Option". Then select "Boot Manager" to select your boot drive.
+    {: .note }
+    If you need to select a different boot device, press any key in "Select Boot Option". Then select "Boot Manager" to select your boot drive.
 
-2. Bypassing Windows 11 installation checks:
+3. Bypassing Windows 11 installation checks:
     1. At the Windows installer, press Shift + F10 (Volume Up) to open command prompt  
     2. Type in "regedit" and press enter
     3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\Setup
@@ -25,7 +26,7 @@ nav_order: 11
     6. Right click LabConfig and create new DWORD (32 bit) called "BypassTPMCheck" and set it to 1
     7. Close regedit and command prompt and proceed with installation normally
 
-3. Install drivers:
+4. Install drivers:
    See https://coolstar.org/chromebook/windows-install.html for drivers.
 
 
