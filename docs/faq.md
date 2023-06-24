@@ -5,7 +5,9 @@ nav_order: 2
 ---
 
 # FAQ
-**Please read this page before asking a question in the Discord. Your help request will be ignored if the answer is found on the FAQ.**
+
+{: .highlight }
+Please read this page before asking a question in the Discord. Your help request will be ignored if the answer is found on the FAQ.
 
 -----
 
