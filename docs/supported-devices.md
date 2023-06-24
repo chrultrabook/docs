@@ -25,8 +25,10 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ---------
 
-### Firmware (not os) support for each device.
-### If you device isn't listed, it doesn't have custom firmware support.
+### Firmware (not OS) support for each device.
+
+{: .highlight }
+If your device isn't listed, it doesn't have custom firmware support.
 
 <table class="wikitable" style="width: 90%; margin: auto">
 
