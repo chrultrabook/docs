@@ -19,4 +19,6 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 
 1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
-### [Post Install →](post-install.html) 
+{: .fs-5 }
+{: .text-right }
+[Post Install →](post-install.html) 
