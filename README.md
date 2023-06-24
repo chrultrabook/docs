@@ -15,7 +15,7 @@ Centralized project documentation - WIP
 - [ ] Basics on how to debug and troubleshoot issues (Template for reporting issues with devices, perhaps?)
 
 ### Bugs:
-- [ ] fix broken link redirect in `/documentation/supported-devices.html` for `CR50 (battery)`
+- [x] fix broken link redirect in `/documentation/supported-devices.html` for `CR50 (battery)`
 - [ ] add correct information to `installing-linux.md`, `installing-windows.md`, `altos.md`
 - [ ] find a good way to present all information
 - [ ] make it eaiser to find stuff, search bar maybe?
