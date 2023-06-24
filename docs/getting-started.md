@@ -27,9 +27,11 @@ When asking for help, **do not use manufacturer's model name** (i.e: HP Chromebo
 * If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
 * If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, under #hackintosh. 
 
->**Note**: Only Linux 6.1 LTS or newer is supported.
+{: .note }
+Only Linux kernel 6.1 LTS or newer is supported.
 
->**Warning**: Ubuntu and ubuntu-based distributions, such as Mint or ElementaryOS **are unsupported**.
+{: .warning }
+Ubuntu and ubuntu-based distributions, such as Mint or ElementaryOS **are unsupported.**
 
 --------------
 
