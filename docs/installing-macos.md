@@ -49,7 +49,7 @@ This list is incomplete. Feel free to improve it.
 * Asus C433 (SHYVANA)
 
 * [PixelbookOSX](https://github.com/olm3ca/PixelbookOSX):
-* Google Pixelbook (2017)	(EVE)
+* Google Pixelbook (2017) (EVE)
 * Google Pixel Slate	(NOCTURNE)
 * Google Pixelbook Go (2019) (ATLAS)
 
@@ -58,15 +58,15 @@ This list is incomplete. Feel free to improve it.
 
 -------
 
-### Installing macOS
- 
-#### Getting Started:
+**Installing macOS**
+
+
+**Getting Started:**
 
 1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
 2. if you didn't follow the laptop guide for your CPU generation
 
-#### Chromebook Specific Modifications
-
+**Chromebook Specific Modifications**
 
 1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/): Remaps top row FX keys to their intended purpose for Chromebook keyboards
 2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze on booting with coreboot 4.20 and up.
@@ -76,9 +76,12 @@ This list is incomplete. Feel free to improve it.
 6. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
 7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
- {: .warning }
-NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
 
+{: .note }
+`croshdasdisable` and `crossdxcdisable` disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
+
+{: .warning }
+If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. A `OSI_` check is not present in these SSDTs.
 
 {: .fs-5 }
 {: .text-right }
