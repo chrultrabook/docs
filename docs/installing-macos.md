@@ -68,17 +68,16 @@ This list is incomplete. Feel free to improve it.
 #### Chromebook Specific Modifications
 
 
-1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/releases/tag/v0.1.0) remaps keys to chromebook keyboard layout
-2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch) fixes issues with coreboot 4.20
-3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable) disabes SD card as it's currently broken
-4. [croshdasdisable](https://github.com/meghan06/croshdasdisable) disables audio as there is no kext for it
-5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases) enables eMMC support
-6. take those files you downloaded and put the .aml files in the ACPI folder, and the .kexts into the kexts folder
+1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/): Remaps top row FX keys to their intended purpose for Chromebook keyboards
+2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze on booting with coreboot 4.20 and up.
+3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable): Disables SD card reader as it is unsupported.
+4. [croshdasdisable](https://github.com/meghan06/croshdasdisable): Disables the `HDAS` device in ACPI as there is no support for it in macOS.
+5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
+6. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
 7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
-
-  {: .warning }
-   NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
+ {: .warning }
+NEVER do clean snapshots (`ctrl/cmd+shift+r`) after adding your HPET patches, they will be **wiped**. Only do regular snapshots. (`ctrl/cmd+r`).
 
 
 {: .fs-5 }
