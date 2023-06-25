@@ -41,7 +41,7 @@ Cons:
    {: .note }
    Anything Ubuntu based will **not** work. Linux Mint, Ubuntu, and ElementaryOS are some examples.
 
-### [Installing Linux →](installing-linux.html) 
+### [Installing Linux →](installing-linux.html)
 
 
 ----------
@@ -61,6 +61,8 @@ Cons:
 
   {: .note }
   **Any** Celeron or Pentium CPU is not supported.
+
+### [Installing macOS →](installing-macos.html)
 
 <table>
 <tr>
