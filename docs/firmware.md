@@ -45,5 +45,3 @@ With that done, let's move onto installing AltOS.
 </td>
 </tr>
 </table>
-
-
