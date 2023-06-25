@@ -23,5 +23,13 @@ Before we jump head first into the amazing world of Chrultrabooks, we need to go
 {: .fs-5 }
 {: .text-right }
 
-{: style="text-align: right" }
-[← Home](https://chrultrabook.github.io/docs/) {: style="text-align: left" } [Getting Started →](getting-started.html)
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://chrultrabook.github.io/docs/">← Home</a> 
+</td>
+<td width="50%">
+<a href="getting-started.html">Getting Started →</a> 
+</tr>
+</table>
