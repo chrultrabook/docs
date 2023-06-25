@@ -17,7 +17,7 @@ You should avoid buying any device in this list.
 
 ### Intel:
 * Samsung Chromebook 3 (CELES): Numerous hardware bugs
-* Samsung Galaxy Chromebook (KOHAKU): Dadly designed hardware, deteriorating trackpad grounding, possibly faulty backlight circuit.
+* Samsung Galaxy Chromebook (KOHAKU): Badly designed hardware, deteriorating trackpad grounding, possibly faulty backlight circuit.
 
 ### AMD:
 * **All** AMD Chromebooks: AMD not caring to fix broken PSP blobs 
