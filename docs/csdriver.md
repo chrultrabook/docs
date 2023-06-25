@@ -1,23 +1,24 @@
 ---
 title: CoolStar Drivers
 layout: default
-nav_order: 14
+nav_order: 13
 ---
 
+// images are broken for some reason, workaround soon:tm:
 
 ## Purchasing CoolStar Drivers
 
 ### Step 1:
 
 Go to [CoolStar's Driver Portal](https://coolstar.org/chromebook/driverlicense/login.html) and click "Sign Up with Patreon".
-<img src="/docs/csdriver/step1.png">
+<img src="https://github.com/meghan06/docs/blob/b2eff3f993960e0a1b6a6f7dad8fa140c8f1841d/docs/csdriver/step1.png">
 
 --------
 
 ### Step 2:
 
 Click "Sign Up with Patreon" one more time.
-<img src="/docs/csdriver/step2.png">
+<img src="">
 
 --------
 
@@ -79,5 +80,4 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
 <td width="50%" style="text-align: right">
 <a href="signedlicense.html">License Activation →</a> 
 </td>
-</tr>
 </table>
