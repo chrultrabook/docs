@@ -49,7 +49,7 @@ Cons:
 **macOS**
 
 Pros:
-* Experience is near identical to a MacBook
+* OS experience is near identical to a Mac
 
 Cons:
 * Battery life is subpar
@@ -60,7 +60,7 @@ Cons:
 * Limited support
 
   {: .note }
-  **Any** Celeron or Pentium CPU is not supported.
+  **Any** Chromebook with a Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.html)
 
