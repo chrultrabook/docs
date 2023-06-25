@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<h1><div align="center">Welcome to the Chrultrabook Wiki!</div></h1>
+<h1><div align="center">Welcome to the Chrultrabook Docs!</div></h1>
 
 ### What is a Chrultrabook and who is this guide for?
 
