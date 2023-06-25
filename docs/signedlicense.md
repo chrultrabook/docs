@@ -1,7 +1,7 @@
 ---
 title: License Activation
 layout: default
-nav_order: 14
+nav_order: 13
 ---
 
 ## License Activation
@@ -57,6 +57,11 @@ Follow the on screen instructions to generate a license.
 This step is crucial. The drivers will not work without a valid license.
 
 ------
+
+### Step 8:
+Reboot.
+
+//add image
 
 Thats it! If you followed all the steps correctly, your drivers should be working.
 
