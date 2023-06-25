@@ -78,6 +78,13 @@ If you do not unsubscribe, you will get charged again next month.
 
 --------
 
+### Step 10:
+Reboot.
+
+![image](https://github.com/chrultrabook/docs/assets/77316348/7202cae6-ac59-493b-b488-880ff313dd8b)
+
+--------
+
 <table>
 <td width="50%" style="text-align: right">
 <a href="signedlicense.html">License Activation →</a> 
