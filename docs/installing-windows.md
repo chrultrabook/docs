@@ -42,4 +42,14 @@ nav_order: 11
 
 {: .fs-5 }
 {: .text-right }
-[Post Install →](post-install.html) 
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="altos.html">← Installing altOS</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="post-install.html">Post Install →</a> 
+</td>
+</tr>
+</table>

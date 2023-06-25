@@ -20,7 +20,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
   * 4 gigabytes or more for a online installer;
   * 32 gigbytes or more for offline installer
 * The ability to use a command prompt 
-  * We won’t help you if you don't know how to cd to a directory.
+  * We won't help you if you don't know how to cd to a directory.
 
 -------
 
@@ -49,7 +49,7 @@ This list is incomplete. Feel free to improve it.
 * Asus C433 (SHYVANA)
 
 * [PixelbookOSX](https://github.com/olm3ca/PixelbookOSX):
-* Google Pixelbook (2017)	(EVE)
+* Google Pixelbook (2017) (EVE)
 * Google Pixel Slate	(NOCTURNE)
 * Google Pixelbook Go (2019) (ATLAS)
 
@@ -58,34 +58,40 @@ This list is incomplete. Feel free to improve it.
 
 -------
 
-### Installing macOS
+**Installing macOS**
+
+
+**Getting Started:**
 
 1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
-2. Add the following SSDT to your ACPI folder: croscorebootpatch (todo)
- 
--------
+2. if you didn't follow the laptop guide for your CPU generation
 
-### Disabling Unsupported Devices
+**Chromebook Specific Modifications**
 
-**You will need:**
-* iASL on Windows or Linux
-* maciASL on macOS
-
-#### Getting Started:
-
-1. Grab the sample SSDTs from here: (todo)
-
-  
-  {: .note }
-   These devices disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
-  
-
-  {: .warning }
-   If you dualboot, you might run into issues. A `OSI_` check is not present in these SSDTs.
+1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/): Remaps top row FX keys to their intended purpose for Chromebook keyboards
+2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze on booting with coreboot 4.20 and up.
+3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable): Disables SD card reader as it is unsupported.
+4. [croshdasdisable](https://github.com/meghan06/croshdasdisable): Disables the `HDAS` device in ACPI as there is no support for it in macOS.
+5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
+6. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
+7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
 
-(todo)
+{: .note }
+`croshdasdisable` and `crossdxcdisable` disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
+
+{: .warning }
+If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. A `OSI_` check is not present in these SSDTs.
 
 {: .fs-5 }
-{: .text-right }
-[Post Install →](post-install.html) 
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="altos.html">← Installing altOS</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="post-install.html">Post Install →</a> 
+</td>
+</tr>
+</table>

@@ -20,5 +20,15 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
 {: .fs-5 }
-{: .text-right }
-[Post Install →](post-install.html) 
+
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="altos.html">← Installing altOS</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="post-install.html">Post Install →</a> 
+</td>
+</tr>
+</table>

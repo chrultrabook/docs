@@ -3931,3 +3931,11 @@ If your device isn't listed, it doesn't have custom firmware support.
 
 ----
 Originally from https://mrchromebox.tech/#devices
+
+<table>
+<tr>
+<td width="100%" style="text-align: left">
+<a href="getting-started.html">← Getting Started</a> 
+</td>
+</tr>
+</table>

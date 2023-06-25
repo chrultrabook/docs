@@ -31,5 +31,15 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 With that done, let's move onto installing AltOS.
 
 {: .fs-5 }
-{: .text-right }
-[Installing altOS →](altos.html) 
+
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="getting-started.html">← Getting Started</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="altos.html">Installing altOS →</a> 
+</td>
+</tr>
+</table>

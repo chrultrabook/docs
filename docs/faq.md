@@ -40,3 +40,11 @@ Please read this page before asking a question in the Discord. Your help request
 
 **How do I buy audio drivers in bulk?**
 * Please ping CoolStar in the Chrultrabook Discord.
+
+<table>
+<tr>
+<td width="100%" style="text-align: left">
+<a href="getting-started.html">← Getting Started</a> 
+</td>
+</tr>
+</table>
