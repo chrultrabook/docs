@@ -18,7 +18,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
     * This is not a one click setup thing. It usually takes one or more weeks to have a stable hack.
 * A USB drive 
   * 4 gigabytes or more for a online installer;
-  * 32 gigbytes or more for offline installer
+  * 32 gigabytes or more for offline installer
 * The ability to use a command prompt 
   * We won't help you if you don't know how to cd to a directory.
 
@@ -95,3 +95,6 @@ If you dualboot with the SSDTs mentioned above, you might run into issues on oth
 </td>
 </tr>
 </table>
+
+
+
