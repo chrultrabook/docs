@@ -20,6 +20,7 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 
 {: .warning }
 **Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting is generally buggy and will cause you issues in the long run. Full ROM (UEFI) is recommended for best experience. 
+
 -------
 
 ### Note: 
