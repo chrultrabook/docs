@@ -75,4 +75,9 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
 
 --------
 
-
+<table>
+<td width="50%" style="text-align: right">
+<a href="signedlicense.html">License Activation →</a> 
+</td>
+</tr>
+</table>
