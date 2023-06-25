@@ -61,7 +61,7 @@ This step is crucial. The drivers will not work without a valid license.
 ### Step 8:
 Reboot.
 
-//add image
+![image](https://github.com/chrultrabook/docs/assets/77316348/7202cae6-ac59-493b-b488-880ff313dd8b)
 
 Thats it! If you followed all the steps correctly, your drivers should be working.
 
