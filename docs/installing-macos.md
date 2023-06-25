@@ -88,7 +88,7 @@ If you dualboot with the SSDTs mentioned above, you might run into issues on oth
 <table>
 <tr>
 <td width="50%" style="text-align: left">
-<a href="altOS.html">← installing altOS</a> 
+<a href="altos.html">← installing altOS</a> 
 </td>
 <td width="50%" style="text-align: right">
 <a href="post-install.html">Post Install →</a> 

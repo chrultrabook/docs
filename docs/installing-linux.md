@@ -25,7 +25,7 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 <table>
 <tr>
 <td width="50%" style="text-align: left">
-<a href="altOS.html">← installing altOS</a> 
+<a href="altos.html">← installing altOS</a> 
 </td>
 <td width="50%" style="text-align: right">
 <a href="post-install.html">Post Install →</a> 
