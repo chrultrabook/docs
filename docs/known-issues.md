@@ -7,24 +7,24 @@ nav_order: 3
 # Known Issues
 The following page is aimed for documenting all issues Chrultrabooks face. Feel free to improve this page by contributing to it.
 
+{: .highlight }
+You should avoid buying any device in this list.
+
 -----
 
-## Platforms:
+## Devices:
 
 
 ### Intel:
-
-(todO)
-
+* Samsung Chromebook 3 (CELES): Numerous hardware bugs
+* Samsung Galaxy Chromebook (KOHAKU): Dadly designed hardware, deteriorating trackpad grounding, possibly faulty backlight circuit.
 
 ### AMD:
-
-(todo)
+* **All** AMD Chromebooks: AMD not caring to fix broken PSP blobs 
 
 
 ### ARM:
-
-(todo)
+* **All** ARM Chromebooks: No support, though development is slowly starting.
 
 
 
