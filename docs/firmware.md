@@ -7,7 +7,7 @@ nav_order: 7
 ## Flashing custom firmware
 
 {: .warning }
-**Flashing the firmware has the potential to brick your device**, requiring relatively inexpensive hardware and some technical knowledge to recover. Not all boards can be tested prior to release, and even then slight differences in hardware can lead to unforseen failures. If you don't have the ability to recover from a bad flash, you're taking a risk. Flashing Full ROM firmware will remove your ability to run ChromeOS. 
+**Flashing the firmware has the potential to brick your device**, requiring relatively inexpensive hardware and some technical knowledge to recover. Not all boards can be tested prior to release, and even then slight differences in hardware can lead to unforeseen failures. If you don't have the ability to recover from a bad flash, you're taking a risk. Flashing Full ROM firmware will remove your ability to run ChromeOS. 
 
 
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
@@ -19,7 +19,7 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. Do **not** interrupt the first boot.
 
 {: .warning }
-**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting is generally buggy and will cause you issues in the long run. Full ROM (UEFI) is recommended for best experience. 
+**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting is generally buggy and will cause you issues in the long run. Full ROM (UEFI) is recommended for the best experience. 
 
 -------
 

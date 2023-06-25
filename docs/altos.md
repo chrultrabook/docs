@@ -11,7 +11,7 @@ nav_order: 8
 **Windows:**
 
 Pros:
-* Easy to setup 
+* Easy to set up 
 * Works on most platforms with minimal tweaking¹
 * Almost everything works OOTB
 
@@ -34,7 +34,7 @@ Pros:
 * Optimal for Chrultrabooks with low storage / slow CPUs
 
 Cons:
-* Potentially diffucult for a new user (depending on the distro of choice)
+* Potentially difficult for a new user (depending on the distro of choice)
 * Requires some work on the end user
 * Outdated audio driver packages on certain distros.
 
@@ -56,7 +56,7 @@ Cons:
 * Hardware based DRM (e.g AppleTV.app) is broken
 * No audio, mic, or 3.5mm support¹
 * Doesn't support all devices.
-* Takes often up to a week or longer to setup.
+* Often takes up to a week or longer to set up.
 * Limited support
 
   {: .note }
@@ -71,3 +71,4 @@ Cons:
 </td>
 </tr>
 </table>
+

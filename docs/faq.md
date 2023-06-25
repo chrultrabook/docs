@@ -23,7 +23,7 @@ Please read this page before asking a question in the Discord. Your help request
 **How come audio isn't working on Ubuntu / Ubuntu forks?**
 * Because their packages are broken. Please switch to another distro that isn't based off of Ubuntu, like Arch Linux or Fedora.
 
-**What Linux distros are reccomended?**
+**What Linux distros are recommended?**
 * See [here](todo(
 
 **Why is there a license error in Device Manager after installing audio drivers?**\
@@ -48,3 +48,5 @@ Please read this page before asking a question in the Discord. Your help request
 </td>
 </tr>
 </table>
+
+
