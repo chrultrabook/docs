@@ -36,8 +36,7 @@ nav_order: 11
 
 ### Buying Audio Drivers
 
-1. (todo)
-   // add step by step tutorial on how to setup a account, link to to driver portal, which tier to buy, and what to expect after to buying and leave a note to unsubscribe after paying so they dont get charged monthly.
+Please see [here](csdriver.html) for a step by step tutorial.
 
 
 
