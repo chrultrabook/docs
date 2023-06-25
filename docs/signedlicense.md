@@ -1,3 +1,9 @@
+---
+title: License Activation
+layout: default
+nav_order: 14
+---
+
 ## License Activation
 (t0d0)
 
