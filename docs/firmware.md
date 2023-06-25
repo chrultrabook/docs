@@ -39,7 +39,7 @@ With that done, let's move onto installing AltOS.
 <a href="getting-started.html">← Getting Started</a> 
 </td>
 <td width="50%" style="text-align: right">
-<a href="altos.html">installing altOS →</a> 
+<a href="altos.html">Installing altOS →</a> 
 </td>
 </tr>
 </table>
