@@ -34,7 +34,7 @@ nav_order: 11
 
 ---
 
-### Audio / TB4 Drivers
+### Paid Drivers
 
 Please see [here](csdriver.html) for a step by step tutorial on purchasing drivers.
 
@@ -42,8 +42,8 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 
 ### **What drivers do I need to buy?**
    
-| CPU Generation | Paid Drivers | Notes         |
-| -------------  | ---------------- | ------------- |
+| CPU Generation     | Paid Drivers     | Notes         |
+| ----------------   | ---------------- | ------------- |
 | **Sandybridge**    | n/a              |
 | **Ivybridge**      | n/a              |
 | **Haswell**        | n/a              |
