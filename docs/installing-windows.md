@@ -9,13 +9,16 @@ nav_order: 11
 ### Installation:
 
 1. Install Windows from a USB:
-    1.  On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
-    2. Plug the USB Drive into the chromebook
-    3. Plug a USB keyboard or mouse in for installation
-    4. Turn on the chromebook, and let it boot the USB drive
+    1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
+    2. Plug the USB Drive into the Chromebook
+    3. Plug a USB mouse in for installation (If you only have one USB port, use tab, enter, and space to navigate the menu)
+    4. Turn on the Chromebook, press ESC at the POST screen, and select the USB to boot from.
 
     {: .note }
     If you need to select a different boot device, press any key in "Select Boot Option". Then select "Boot Manager" to select your boot drive.
+
+   {: .warning }
+    **Do NOT** unplug the install USB until the installation has completed. If you do so, the installation will fail as the Windows install file won't exist anymore.
 
 3. Bypassing Windows 11 installation checks:
     1. At the Windows installer, press Shift + F10 (Volume Up) to open command prompt  
@@ -28,8 +31,6 @@ nav_order: 11
 
 4. Install drivers:
    See https://coolstar.org/chromebook/windows-install.html for drivers.
-
-
 
 ---
 
