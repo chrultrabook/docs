@@ -54,13 +54,6 @@ Enter your payment information. You can also pay via PayPal.
 
 ### Step 7:
 
-After you pay, ensure the transaction went though, then **unsubscribe** from the Patreon so you don't get charged double.
-<img src="https://raw.githubusercontent.com/chrultrabook/docs/main/docs/csdriver/step7.png">
-
---------
-
-### Step 8:
-
 Go back to the [CoolStar driver portal](https://coolstar.org/chromebook/driverlicense/login.html), and sign in with the username and password you chose in Step 3. After you sign in, head to the "Account" tab, then click "Refresh" under the word "Patreon".
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/docs/csdriver/step8.png">
 
@@ -69,9 +62,19 @@ It may take up to **two** (2) hours for the funds to show up. Do not panic, you 
 
 --------
 
-### Step 9:
+### Step 8:
 Once the funds show up, head back to "Available Drivers", select the driver you want to buy, then click "Buy".
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/docs/csdriver/step9.png">
+
+--------
+
+### Step 9:
+
+Unsubscribe from the Patreon so you don't get charged double.
+<img src="https://raw.githubusercontent.com/chrultrabook/docs/main/docs/csdriver/step7.png">
+
+{: .warning }
+If you do not unsubscribe, you will get charged again next month. 
 
 --------
 
