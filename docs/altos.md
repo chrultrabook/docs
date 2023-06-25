@@ -62,9 +62,10 @@ Cons:
   {: .note }
   **Any** Celeron or Pentium CPU is not supported.
 
-### [Installing macOS →](installing-macos.html) 
-
-
-¹On Drallion, audio should work OOTB with AppleALC because it uses HDA, rather than the traditional SST.
-
-----------
+<table>
+<tr>
+<td width="100%" style="text-align: left">
+<a href="firmware.html">← Flashing Coreboot Firmware</a> 
+</td>
+</tr>
+</table>

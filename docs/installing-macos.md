@@ -84,5 +84,14 @@ This list is incomplete. Feel free to improve it.
 If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. A `OSI_` check is not present in these SSDTs.
 
 {: .fs-5 }
-{: .text-right }
-[Post Install →](post-install.html) 
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="altOS.html">← installing altOS</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="post-install.html">Post Install →</a> 
+</td>
+</tr>
+</table>

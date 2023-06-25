@@ -48,5 +48,15 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS **are unsupp
 With that out the way, let's move on to the fun stuff:
 
 {: .fs-5 }
-{: .text-right }
-[Flashing Coreboot firmware →](firmware.html) 
+
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="prerequisites.html">← Prerequisites</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="firmware.html">Flashing Coreboot Firmware →</a> 
+</td>
+</tr>
+</table>
