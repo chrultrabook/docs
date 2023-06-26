@@ -34,10 +34,32 @@ nav_order: 11
 
 ---
 
-### Buying Audio Drivers
+### Paid Drivers
 
-Please see [here](csdriver.html) for a step by step tutorial.
+Please see [here](csdriver.html) for a step by step tutorial on purchasing drivers.
 
+--------------
+
+### **What drivers do I need to buy?**
+   
+| CPU Generation     | Paid Drivers     | Notes         |
+| ----------------   | ---------------- | ------------- |
+| **Sandybridge**    | n/a              |
+| **Ivybridge**      | n/a              |
+| **Haswell**        | n/a              |
+| **Broadwell**      | n/a              | 
+| **Baytrail**       | n/a              |
+| **Braswell**       | n/a              |
+| **Skylake**        | AVS              | Celeron and Pentium models are eligible for a AUE discount.
+| **Apollo Lake**    | AVS or SOF       | Can use either SOF or AVS
+| **Kaby Lake**      | AVS              |
+| **Amber Lake**     | AVS              |
+| **Gemini Lake**    | SOF              |
+| **Comet Lake**     | SOF              |
+| **Picasso / Dali** | n/a              | 
+| **Tiger Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
+| **Jasper Lake**    | SOF              |
+| **Alder Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
 
 
 {: .fs-5 }
