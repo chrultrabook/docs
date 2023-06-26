@@ -1,7 +1,7 @@
 ---
 title: All About Firmware
 layout: default
-nav_order: 8
+nav_order: 7
 ---
 
 
@@ -32,3 +32,18 @@ Do not run Windows on RWL. The RW_LEGACY firmware is for users who want to dual-
 
 {: .highlight }
 The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows exclusively), and who don't mind opening their device to disable the firmware write-protect.
+
+<br>
+
+---------------
+
+<table>
+<tr>
+<td width="50%" style="text-align: left">
+<a href="getting-started.html">← Getting Started</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="firmware.html">Flashing Firmware →</a> 
+</td>
+</tr>
+</table>
