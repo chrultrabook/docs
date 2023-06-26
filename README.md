@@ -18,7 +18,7 @@ Centralized project documentation - WIP
 - [ ] Add correct information to `installing-linux.md`, `installing-windows.md`, `altos.md`
 - [ ] Centralised docs for cbfstool, flashrom, cbmem etc etc
 - [ ] Basics on how to debug and troubleshoot issues (Template for reporting issues with devices, perhaps?)
-- [ ] How to clone, build own ROMs
+- [x] How to clone, build own ROMs
 - [ ] SuzyQ / WP Jumper / WP Screw
 
 
