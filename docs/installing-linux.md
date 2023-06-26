@@ -7,6 +7,25 @@ nav_order: 9
 ## Installing Linux
 Thanks to recent advancements in the chrultrabook community, Linux works really well on most Chromebooks.
 
+----------------
+
+### Recommended Distributions
+
+{: .note } Only Linux kernel 6.1 LTS or newer is supported.
+
+{: .warning } Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsupported.
+
+**Recommended distros as of June 2023 (in no particular order) are:**
+
+* Arch Linux
+* Fedora
+* OpenSUSE Tumbleweed
+* Pop!_OS
+* Debian 12 (Bookworm)
+
+----------------
+
+
 ### Installation:
 
 1. Create a bootable Linux USB. Ubuntu and Ubuntu based distros have outdated packages and thus are not supported.
@@ -14,6 +33,8 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 3. Turn on the Chromebook, press `ESC` at the POST screen, and select the USB to boot from. 
 4. Install as you would on any other computer.
 
+
+--------------
 
 
 ### Fixing Audio
