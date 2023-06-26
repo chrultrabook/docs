@@ -12,10 +12,10 @@ Please read this page before asking a question in the Discord. Your help request
 -----
 
 **Can I pay using PayPal?**
-* No.
+* You can pay via PayPal in Patreon. 
 
 **How do I buy the audio driver?**
-* See [here](todo(
+* See [here](https://chrultrabook.github.io/docs/docs/csdriver.html)
 
 **Can I get AVS or SOF drivers for free?**
 * No.
@@ -24,10 +24,10 @@ Please read this page before asking a question in the Discord. Your help request
 * Because their packages are broken. Please switch to another distro that isn't based off of Ubuntu, like Arch Linux or Fedora.
 
 **What Linux distros are recommended?**
-* See [here](todo(
+* See [here](https://chrultrabook.github.io/docs/docs/installing-linux.html)
 
 **Why is there a license error in Device Manager after installing audio drivers?**\
-* You messed up the license setup. Please refer to the README provided with the audio drivers and try again.
+* You messed up the license setup. Please refer to the [licensing guide](https://chrultrabook.github.io/docs/docs/signedlicense.html) and try again.
 
 **Can I hackintosh my Celeron/Pentium CPU?**
 * No.
@@ -40,6 +40,10 @@ Please read this page before asking a question in the Discord. Your help request
 
 **How do I buy audio drivers in bulk?**
 * Please ping CoolStar in the Chrultrabook Discord.
+
+**Can I use one license across multiple devices?**
+* No. One license per device.
+
 
 <table>
 <tr>
