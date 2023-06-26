@@ -23,6 +23,7 @@ Please refer to [this chart](supported-devices.html) for a full list of supporte
   * **Your boardname**
 *  **A basic knowledge of command lines and how to use a terminal/command prompt.**
   * We can't help you if you don't know how to cd to a directory or delete a file.
+* When asking for help, ask in English. We can't help you if we don't understand the question. Using a translator is fine.
 * A minimum of an 8GB USB drive for making a bootable USB.
 
 ------
