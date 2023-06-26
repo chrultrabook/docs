@@ -45,26 +45,26 @@ The (UEFI) Full ROM firmware is the best option for all users who no longer need
 // this information might be wrong. do not follow for now. 
 // remove when this gets merged upstream 
 
-1. Install tools and libraries needed for coreboot:
+1. **Install tools and libraries needed for coreboot:**
   * Debian based distros: `sudo apt-get install -y bison build-essential curl flex git gnat libncurses5-dev m4 zlib1g-dev`
   * Arch based distros: `sudo pacman -S base-devel curl git gcc-ada ncurses zlib`
   * Redhat based distros: `sudo dnf install git make gcc-gnat flex bison xz bzip2 gcc g++ ncurses-devel wget zlib-devel patch`
-2. Clone the repository:
+2. **Clone the repository:**
     * `git clone https://github.com/mrchromebox/coreboot --depth 1`
 3. `cd` to the coreboot folder, then build the coreboot toolchain
     * `make crossgcc-i386 CPUS=$(nproc)`
-4. Make your changes now, if needed.
-5. Build the ROM
+4. **Make changes now, if needed.**
+5. **Build the ROM**
     * `./build-uefi.sh boardname`
     * For example, `./build-uefi.sh leona`
-6. Download flashrom, then `chmod +x` the file.
+6. **Download flashrom, then `chmod +x` the file.**
     * [Click here](https://elly.rocks/tmp/coreboot-development/flashrom-alderlake)
-7. Flash your custom ROM
+7. **Flash your custom ROM**
     * Using the flashrom binary we just downloaded, run `sudo ./flashrom-alderlake -p internal -w /location/to/the/rom/file/coreboot_tiano-boardname-mrchromebox_yearmonthdate.rom` 
-8. Reboot
+8. **Reboot**
     * Assuming it said `success` on all checks, reboot.
 
-    {: .warning }
+   {: .warning }
     Do not reboot if any of the checks failed. 
 
 --------------
