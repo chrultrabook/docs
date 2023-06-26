@@ -7,7 +7,7 @@ nav_order: 16
 ### Cloning & Building ROMs
 
 {: .warning }
-Building and flashing your own firmware has the potential to brick your device! Do not do this unless you are sure you know what you're doing/have a way to recover from a bad flash. Some level of knowledge with using the linux command line is required!
+Building and flashing your own firmware has the potential to brick your device. Do not do this unless you are sure you know what you're doing/have a way to recover from a bad flash. Some level of knowledge with using the Linux command line is required.
 
 1. **Install tools and libraries needed for coreboot:**
   * Debian based distros: `sudo apt-get install -y bison build-essential curl flex git gnat libncurses5-dev m4 zlib1g-dev`
