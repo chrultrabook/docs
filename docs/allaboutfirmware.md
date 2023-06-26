@@ -52,7 +52,7 @@ The (UEFI) Full ROM firmware is the best option for all users who no longer need
   * Redhat based distros: `sudo dnf install git make gcc-gnat flex bison xz bzip2 gcc g++ ncurses-devel wget zlib-devel patch`
 2. **Clone the repository:**
     * `git clone https://github.com/mrchromebox/coreboot --depth 1`
-3. `cd` to the coreboot folder, then build the coreboot toolchain
+3. **`cd` to the coreboot folder, then build the coreboot toolchain**
     * `make crossgcc-i386 CPUS=$(nproc)`
 4. **Make changes now, if needed.**
 5. **Build the ROM**
