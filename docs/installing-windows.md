@@ -1,13 +1,13 @@
 ---
 title: Installing Windows
 layout: default
-nav_order: 11
+nav_order: 12
 ---
 
 ## Installing Windows
 
 {: .warning }
-**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting Windows with RWL is generally buggy and will cause you issues in the long run. Full ROM (UEFI) is recommended for the best experience. 
+**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting Windows with RWL is generally buggy and will cause you issues in the long run. **Full ROM (UEFI) is recommended for the best experience.** 
 
 
 ### Installation:
