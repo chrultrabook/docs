@@ -6,7 +6,7 @@ nav_order: 8
 
 ## Flashing Custom Firmware
 
-Refer to [here](allaboutfirmware.html) for a overview of both RWL and UEFI.
+Refer to [here](allaboutfirmware.html) for a overview of both RW_LEGACY and UEFI.
 
 {: .warning }
 **Flashing the firmware has the potential to brick your device**, requiring relatively inexpensive hardware and some technical knowledge to recover. Not all boards can be tested prior to release, and even then slight differences in hardware can lead to unforeseen failures. If you don't have the ability to recover from a bad flash, you're taking a risk. Flashing Full ROM firmware will remove your ability to run ChromeOS. 
@@ -15,19 +15,9 @@ Refer to [here](allaboutfirmware.html) for a overview of both RWL and UEFI.
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
 1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
-2. Plug in your charger, then boot into chromeOS with the internal battery disconnected to disable SPI write protect.
-
-{: .note }
-To boot the machine without internal battery plugged in, your USB-C PD charger needs to support 15V mode.
-
-{: .note }
-You need a SuzyQable to disable SPI Write Protect on AlderLake.
-
-{: .note }
-On Jasper Lake Chromebook/boxes you need to bridge a jumper on the motherboard instead.
-   
+2. Refer to [supported devices](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
 3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
-4. Make sure to create firmware backup and **store it in safe place**, reverting to stock without backup is **very difficult**.
+4. Make sure to create firmware backup and **store it in safe place** (Google drive, another pc, etc), reverting to stock without backup is **very difficult**.
 5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
 
 {: .warning }
