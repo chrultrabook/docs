@@ -1,7 +1,7 @@
 ---
 title: AltOS Pros/Cons
 layout: default
-nav_order: 8
+nav_order: 9
 ---
 
 ## altOS Pros / Cons
@@ -42,6 +42,8 @@ Cons:
 
    {: .note }
    Anything Ubuntu based will **not** work. Linux Mint, Ubuntu, and ElementaryOS are some examples.
+
+<br>
 
 ### [Installing Linux →](installing-linux.html)
 
