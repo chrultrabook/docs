@@ -54,7 +54,7 @@ With that out the way, let's move on to the fun stuff:
 <a href="https://chrultrabook.github.io/docs/">← Home</a> 
 </td>
 <td width="50%" style="text-align: right">
-<a href="firmware.html">Flashing Coreboot Firmware →</a> 
+<a href="allaboutfirmware.html">All About Firmware →</a> 
 </td>
 </tr>
 </table>
