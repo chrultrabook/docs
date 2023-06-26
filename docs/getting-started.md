@@ -35,15 +35,6 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS **are unsupp
 
 --------------
 
-**Recommended distributions as of June 2023 (in no particular order) are:**
-
-* Arch Linux
-* Fedora
-* OpenSUSE Tumbleweed
-* Pop!_OS
-* Debian 12 (Bookworm)
-
-----------------
 
 With that out the way, let's move on to the fun stuff:
 
