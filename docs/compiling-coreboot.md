@@ -24,7 +24,7 @@ Building and flashing your own firmware has the potential to brick your device. 
 5. **Build the ROM**
     * create build dir: `mkdir -p ~/dev/firmware`
     * `./build-uefi.sh <boardname>`
-    * For example, `./build-uefi.sh leona`
+      * For example, `./build-uefi.sh leona`
     * Roms will be stored in `~/dev/firmware`
 6. **Download flashrom, then give it execute permission.**
     * `cd; curl -LO https://elly.rocks/tmp/coreboot-development/flashrom-alderlake; chmod +x flashrom-alderlake`
