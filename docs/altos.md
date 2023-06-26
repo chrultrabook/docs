@@ -4,9 +4,9 @@ layout: default
 nav_order: 8
 ---
 
-### So you're wondering what OS you can install on your newly flashed chrultrabook. Here's a list of pros/cons of every OS.
+## altOS Pros / Cons
 
-----------
+
 
 **Windows:**
 
@@ -21,6 +21,8 @@ Cons:
 * AVS and SOF users experience instability at times
 
 ### [Installing Windows →](installing-windows.html) 
+
+<br>
 
 ¹Some devices such as CELES need workarounds. Additionally, AMD Ryzen devices need several modifications to enable Windows support.
 
@@ -59,10 +61,13 @@ Cons:
 * Often takes up to a week or longer to set up.
 * Limited support
 
-  {: .note }
-  **Any** Chromebook with a ARM, Celeron or Pentium CPU is not supported.
+{: .note }
+Any Chromebook with a ARM, Celeron or Pentium CPU is not supported.
 
 ### [Installing macOS →](installing-macos.html)
+
+<br>
+
 
 <table>
 <tr>
