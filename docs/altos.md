@@ -58,14 +58,14 @@ Cons:
 * Doesn't support all devices.
 * Often takes up to a week or longer to set up.
 * Limited support
-* 
 
-  {: .note }
-  **Any** Chromebook with a ARM, Celeron or Pentium CPU is not supported.
+{: .note }
+Any Chromebook with a ARM, Celeron or Pentium CPU is not supported.
+
+### [Installing macOS →](installing-macos.html)
 
 <br>
 
-### [Installing macOS →](installing-macos.html)
 
 <table>
 <tr>
