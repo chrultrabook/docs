@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 ---
 
-# Before we begin, keep in mind the following:
+## Before we begin, keep in mind the following:
 
 
 ### Supported Chromebooks:
@@ -18,20 +18,13 @@ If you are facing a issue, please read the [FAQ](faq.html) first.
 
 When asking for help, **do not use manufacturer's model name** (i.e: HP Chromebook 14a), it doesn't help with identifying the machine. Provide the boardname, otherwise your support request will be ignored.
 
---------------
 
 ### Provide logs.
 
 * If you're experiencing firmware bugs, provide output from `cbmem` console.
-* If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalct`l or `/var/log/messages`, respectively*
+* If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalct`l or `/var/log/messages`, respectively
 * If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
 * If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, under #hackintosh. 
-
-{: .note }
-Only Linux kernel 6.1 LTS or newer is supported.
-
-{: .warning }
-Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS **are unsupported.**
 
 --------------
 
