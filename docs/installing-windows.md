@@ -6,6 +6,10 @@ nav_order: 11
 
 ## Installing Windows
 
+{: .warning }
+**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting Windows with RWL is generally buggy and will cause you issues in the long run. Full ROM (UEFI) is recommended for the best experience. 
+
+
 ### Installation:
 
 1. Install Windows from a USB:
