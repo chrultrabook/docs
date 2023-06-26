@@ -18,10 +18,10 @@ nav_order: 7
 * Does not require disabling the firmware write-protect
 * Carries zero risk of bricking the device
 * On many models, includes bugfixes and enables additional functionality
-* Required to boot windows on zen2 devices (Ryzen 3000)
+* Required to boot windows on Zen2 devices (Ryzen 3000)
 
 {: .highlight }
-Do not run Windows on RW_LEGACY unless you have a Ryzen device. The RW_LEGACY firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are ok with the accompanying limitations). Or for Ryzen users that require booting from stock firmware for windows to function properly.
+Do not run Windows on RW_LEGACY unless you have a Ryzen device. The RW_LEGACY firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are ok with the accompanying limitations). Or for Ryzen users that require booting from stock firmware for Windows to function properly.
 
 
 **(UEFI) Full ROM**
@@ -36,7 +36,7 @@ Do not run Windows on RW_LEGACY unless you have a Ryzen device. The RW_LEGACY fi
 * Essentially turns your ChromeOS device into a "regular" PC / laptop
 
 {: .highlight }
-The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/MacOS exclusively), and who don't mind disabling write-protection on their device
+The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/macOS exclusively), and who don't mind disabling write-protection on their device
 
 <br>
 
