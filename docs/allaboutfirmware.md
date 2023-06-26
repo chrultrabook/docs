@@ -57,13 +57,13 @@ Building and flashing your own firmware has the potential to brick your device! 
     * `make crossgcc-i386 CPUS=$(nproc)`
 4. **Make changes now, if needed.**
     * Common changes include:
-        * Replacing the default logo (Documentation/coreboot_logo.bmp)
+        * Replacing the default logo (`Documentation/coreboot_logo.bmp`)
         * Changing version string (`CONFIG_LOCALVERSION`)
 5. **Build the ROM**
     * create build dir: `mkdir -p ~/dev/firmware`
     * `./build-uefi.sh <boardname>`
     * For example, `./build-uefi.sh leona`
-    * Roms will be stored in '~/dev/firmware'
+    * Roms will be stored in `~/dev/firmware`
 6. **Download flashrom, then give it execute permission.**
     * 'cd; curl -LO https://elly.rocks/tmp/coreboot-development/flashrom-alderlake; chmod +x flashrom-alderlake'
 7. **Flash your custom ROM**
