@@ -1,7 +1,7 @@
 ---
 title: Flashing Firmware
 layout: default
-nav_order: 7
+nav_order: 8
 ---
 
 ## Flashing Custom Firmware
@@ -39,11 +39,10 @@ With that done, let's move onto installing AltOS.
 
 {: .fs-5 }
 
-
 <table>
 <tr>
 <td width="50%" style="text-align: left">
-<a href="getting-started.html">← Getting Started</a> 
+<a href="allaboutfirmware.html">← All About Firmware</a> 
 </td>
 <td width="50%" style="text-align: right">
 <a href="altos.html">Installing altOS →</a> 
