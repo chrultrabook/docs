@@ -1,7 +1,7 @@
 ---
 title: Installing Linux
 layout: default
-nav_order: 9
+nav_order: 10
 ---
 
 ## Installing Linux
@@ -43,6 +43,8 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsuppor
 
  {: .warning }
  Using AVS on a device with max98357a will blow your speakers. You have been warned. 
+
+<br>
 
 1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
