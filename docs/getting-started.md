@@ -5,7 +5,9 @@ nav_order: 4
 ---
 
 ## Getting Started
-Before we begin, we need to go over a few things:
+Before we begin, we need to go over a few things.
+
+-------------
 
 ### Supported Chromebooks:
 
