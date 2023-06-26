@@ -22,6 +22,8 @@ Cons:
 
 ### [Installing Windows →](installing-windows.html) 
 
+<br>
+
 ¹Some devices such as CELES need workarounds. Additionally, AMD Ryzen devices need several modifications to enable Windows support.
 
 ----------
