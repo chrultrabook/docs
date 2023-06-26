@@ -51,7 +51,7 @@ With that out the way, let's move on to the fun stuff:
 <table>
 <tr>
 <td width="50%" style="text-align: left">
-<a href="prerequisites.html">← Prerequisites</a> 
+<a href="https://chrultrabook.github.io/docs/">← Home</a> 
 </td>
 <td width="50%" style="text-align: right">
 <a href="firmware.html">Flashing Coreboot Firmware →</a> 
