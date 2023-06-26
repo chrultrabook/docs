@@ -4,9 +4,9 @@ layout: default
 nav_order: 8
 ---
 
-### So you're wondering what OS you can install on your newly flashed chrultrabook. Here's a list of pros/cons of every OS.
+## altOS Pros / Cons
 
-----------
+
 
 **Windows:**
 
@@ -58,9 +58,12 @@ Cons:
 * Doesn't support all devices.
 * Often takes up to a week or longer to set up.
 * Limited support
+* 
 
   {: .note }
   **Any** Chromebook with a ARM, Celeron or Pentium CPU is not supported.
+
+<br>
 
 ### [Installing macOS →](installing-macos.html)
 
