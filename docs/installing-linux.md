@@ -11,9 +11,11 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 
 ### Recommended Distributions
 
-{: .note } Only Linux kernel 6.1 LTS or newer is supported.
+{: .note } 
+Only Linux kernel 6.1 LTS or newer is supported.
 
-{: .warning } Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsupported.
+{: .warning } 
+Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsupported.
 
 **Recommended distros as of June 2023 (in no particular order) are:**
 
