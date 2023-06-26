@@ -13,7 +13,7 @@ nav_order: 7
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
 1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
-2. Boot into ChromeOS with battery disconnected.
+2. Plug in your charger, then boot into chromeOS with the internal battery disconnected to disable SPI write protect.
 
 {: .note }
 To boot the machine without internal battery plugged in, your USB-C PD charger needs to support 15V mode.
@@ -24,9 +24,9 @@ You need a SuzyQable to disable SPI Write Protect on AlderLake.
 {: .note }
 On Jasper Lake Chromebook/boxes you need to bridge a jumper on the motherboard instead.
    
-4. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
-5. Make sure to create firmware backup and **store it in safe place**, reverting to stock without backup is **very difficult**.
-6. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
+3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
+4. Make sure to create firmware backup and **store it in safe place**, reverting to stock without backup is **very difficult**.
+5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
 
 {: .warning }
 Do **not** interrupt the first boot. 
