@@ -9,6 +9,7 @@ nav_order: 7
 
 ### Firmware Types
 
+----------------------
 
 **RW_LEGACY**
 * Updates/replaces the stock legacy boot payload (SeaBIOS) included on many models; supplements the ChromeOS / secure boot payload
