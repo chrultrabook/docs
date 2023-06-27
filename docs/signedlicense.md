@@ -1,7 +1,7 @@
 ---
 title: License Activation
 layout: default
-nav_order: 13
+nav_order: 14
 ---
 
 ## License Activation

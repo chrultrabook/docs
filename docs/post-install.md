@@ -1,12 +1,12 @@
 ---
 title: Post Install 
 layout: default
-nav_order: 14
+nav_order: 15
 ---
 
 ## Post Install for altOS
 
-//WIP
+WIP
 
 ### Windows
 * Compress the install with `compact.exe /compactos:always` in a command prompt with admin privileges if necessary.

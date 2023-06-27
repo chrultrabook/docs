@@ -21,7 +21,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel            | AMD           |                              ARM            |
 | ---------------- | --------------------------------------------| ------------- |
-| Intel platforms have good support for both linux and windows.  | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in windows at all, and has a few issues when running linux.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM chromebooks. |
+| Intel platforms have good support for both Linux and Windows.  | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in Windows at all, and has a few issues when running Linux.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
@@ -3928,6 +3928,18 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td></tr>
 
 </tbody></table>
+
+-----
+
+### Notes:
+* STUMPY: The DisplayPort outputs don't seem functional under Windows, but work fine pre-OS and under Linux.
+* VGA output (via DVI port) is not functional.
+* CELES: Running Windows on CELES requires a post-install workaround.
+* CELES can be a highly problematic device running OSes other than ChromeOS. Highly recommended to avoid.
+* AMD: Some StoneyRidge devices (CAREENA? BARLA?) may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.
+* GeminiLake legacy boot mode/alternative firmware menu works but does not show payload list
+
+//todo: relink footnotes to ### Notes
 
 ----
 Originally from https://mrchromebox.tech/#devices
