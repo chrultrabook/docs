@@ -40,14 +40,10 @@ If your device isn't listed, it doesn't have custom firmware support.
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -57,11 +53,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td>
 </td>
-<td>
-</td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook" target="_blank">switch</a>
 </td></tr>
@@ -70,13 +62,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LINK
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel" target="_blank">screw</a>
 </td></tr>
@@ -87,11 +75,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td>
 </td>
-<td>
-</td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge" target="_blank">jumper</a>
 </td></tr>
@@ -102,11 +86,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td>
 </td>
-<td>
-</td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook" target="_blank">jumper</a>
 </td></tr>
@@ -117,11 +97,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td>
 </td>
-<td>
-</td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook" target="_blank">switch</a>
 </td></tr>
@@ -132,11 +108,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td>
 </td>
-<td>
-</td>
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stumpy_1-1" class="reference"><a href="#cite_note-stumpy-1">[1]</a></sup>
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/" target="_blank">jumper</a>
 </td></tr>
