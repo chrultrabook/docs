@@ -33,7 +33,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <table class="wikitable" style="width: 90%; margin: auto">
 
 <tbody><tr>
-<th colspan="7" style="text-align:left;"> <i>Sandybridge/Ivybridge</i>
+<th colspan="5" style="text-align:left;"> <i>Sandybridge/Ivybridge</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
@@ -51,7 +51,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BUTTERFLY
 </td>
-<td>
+<td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -73,7 +73,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LUMPY
 </td>
-<td>
+<td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -84,7 +84,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PARROT
 </td>
-<td>
+<td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -95,7 +95,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> STOUT
 </td>
-<td>
+<td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -106,32 +106,28 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> STUMPY
 </td>
-<td>
+<td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stumpy_1-1" class="reference"><a href="#cite_note-stumpy-1">[1]</a></sup>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/" target="_blank">jumper</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Haswell</i>
+<th colspan="5" style="text-align:left;"> <i>Haswell</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -139,13 +135,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FALCO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14" target="_blank">screw</a>
 </td></tr>
@@ -154,13 +146,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LEON
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/toshiba-cb30-chromebook" target="_blank">screw</a>
 </td></tr>
@@ -169,13 +157,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> McCLOUD
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
@@ -184,13 +168,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MONROE
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -199,13 +179,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PANTHER
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
@@ -214,13 +190,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PEPPY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a>
 </td></tr>
@@ -229,13 +201,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TRICKY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
@@ -244,13 +212,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WOLF
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/dell-chromebook-11" target="_blank">screw</a>
 </td></tr>
@@ -259,50 +223,37 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ZAKO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Broadwell</i>
+<th colspan="5" style="text-align:left;"> <i>Broadwell</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
-</th>
-<td>
-</td>
-<th scope="col"> WP Method
+</th><th scope="col"> WP Method
 </th></tr>
 <tr>
 <td>Acer C740 Chromebook
 </td>
 <td style="text-align:center;"> AURON_PAINE
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a>
 </td></tr>
@@ -311,13 +262,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> AURON_YUNA
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a>
 </td></tr>
@@ -326,13 +273,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BUDDY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -341,13 +284,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GANDOF
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
-<td style="text-align:center;"> ✅
-</td>
-<td>
+<td style="text-align:center;"> 
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -356,13 +295,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GUADO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
@@ -371,13 +306,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LULU
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a>
 </td></tr>
@@ -386,13 +317,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> RIKKU
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
@@ -401,13 +328,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SAMUS
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel-2015#TOC-Firmware-Write-Protect" target="_blank">screw</a>
 </td></tr>
@@ -416,35 +339,27 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TIDUS
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Baytrail</i>
+<th colspan="5" style="text-align:left;"> <i>Baytrail</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
-</th>
-<td>
 </td>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
-</th>
-<td>
 </td>
 <th scope="col"> WP Method
 </th></tr>
@@ -453,13 +368,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BANJO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -468,13 +379,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CANDY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -483,13 +390,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CLAPPER
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -498,13 +401,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ENGUARDE
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -513,13 +412,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GLIMMER
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -528,13 +423,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GNAWTY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -543,13 +434,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> HELI
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -558,13 +445,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KIP
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -573,13 +456,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NINJA
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -588,13 +467,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ORCO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -603,13 +478,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> QUAWKS
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -618,29 +489,20 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SQUAWKS
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
 <td style="text-align:center;"> screw
 </td></tr>
-
 <tr>
 <td>AOpen Chromebase Commercial
 </td>
 <td style="text-align:center;"> SUMO
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -649,13 +511,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SWANKY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> screw
 </td></tr>
@@ -664,36 +522,28 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WINKY
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Braswell</i>
+<th colspan="5" style="text-align:left;"> <i>Braswell</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -701,13 +551,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BANON
 </td>
-<td>
-</td>
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
-</td>
-<td>
 </td>
 <td style="text-align:center;"> <a href="/images/b/bb/Banon_wp.jpg" class="internal" title="Banon wp.jpg">screw</a>
 </td></tr>
@@ -716,14 +562,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CELES
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅ <sup id="cite_ref-celes_2-1" class="reference"><a href="#cite_note-celes-2">[2]</a></sup>
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -731,14 +575,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CYAN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -746,14 +588,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EDGAR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.ifixit.com/Teardown/Acer+Chromebook+14+Teardown/76353" target="_blank">screw</a>
 </td></tr>
 <tr>
@@ -761,14 +601,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KEFKA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -776,14 +614,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> REKS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -791,14 +627,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> RELM
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="/images/5/54/C731_wp.jpg" class="internal" title="C731 wp.jpg">screw</a>
 </td></tr>
 <tr>
@@ -806,14 +640,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SETZER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -821,14 +653,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TERRA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="/images/0/08/C202sa_wp.jpg" class="internal" title="C202sa wp.jpg">screw</a>
 </td></tr>
 <tr>
@@ -836,14 +666,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TERRA13
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -851,14 +679,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ULTIMA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -866,36 +692,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WIZPIG
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Skylake</i>
+<th colspan="5" style="text-align:left;"> <i>Skylake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -903,14 +725,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ASUKA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -918,14 +738,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CAROLINE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -933,14 +751,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CAVE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -948,14 +764,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CHELL
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -963,14 +777,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LARS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
@@ -978,36 +790,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SENTRY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> screw
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Apollolake</i>
+<th colspan="5" style="text-align:left;"> <i>Apollolake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -1015,14 +823,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ASTRONAUT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1030,14 +836,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BABYMEGA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1045,14 +849,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BABYTIGER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1060,14 +862,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLACKTIP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1075,14 +875,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLUE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1090,14 +888,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BRUCE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1105,14 +901,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ELECTRO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1120,14 +914,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EPAULETTE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1135,14 +927,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LAVA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1150,14 +940,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NASHER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1165,14 +953,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NASHER360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1180,14 +966,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PYRO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1195,14 +979,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> RABBID
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1210,14 +992,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> REEF
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1225,14 +1005,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ROBO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1240,14 +1018,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ROBO360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1255,14 +1031,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SAND
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1270,14 +1044,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SANTA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1285,14 +1057,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SNAPPY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1300,36 +1070,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WHITETIP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Kabylake / Amberlake</i>
+<th colspan="5" style="text-align:left;"> <i>Kabylake / Amberlake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -1337,14 +1103,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> AKALI
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1352,14 +1116,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> AKALI360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1367,14 +1129,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ATLAS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1382,14 +1142,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BARD
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1397,14 +1155,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EKKO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1412,14 +1168,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EVE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1427,14 +1181,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EXCELSIOR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/a8/Excelsior_wp.jpg" class="internal" title="Excelsior wp.jpg">screw</a>
 </td></tr>
 <tr>
@@ -1442,14 +1194,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> JAX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
 </td></tr>
 <tr>
@@ -1457,14 +1207,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KARMA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, screw
 </td></tr>
 <tr>
@@ -1472,14 +1220,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KENCH
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
@@ -1487,14 +1233,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LEONA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1502,14 +1246,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NAUTILUS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1517,14 +1259,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NOCTURNE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1532,14 +1272,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PANTHEON
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1547,14 +1285,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SHYVANA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1562,14 +1298,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SION
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
@@ -1577,14 +1311,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SONA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1592,14 +1324,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SORAKA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1607,14 +1337,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SYNDRA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1622,14 +1350,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TEEMO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
@@ -1637,14 +1363,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VAYNE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1652,36 +1376,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WUKONG
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Geminilake</i> <sup id="cite_ref-glk_4-1" class="reference"><a href="#cite_note-glk-4">[4]</a></sup>
+<th colspan="5" style="text-align:left;"> <i>Geminilake</i> <sup id="cite_ref-glk_4-1" class="reference"><a href="#cite_note-glk-4">[4]</a></sup>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 <p><br>
 </p>
@@ -1691,14 +1411,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> AMPTON
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1706,14 +1424,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> APEL
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1721,14 +1437,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLOOG
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1736,14 +1450,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLOOGLET
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1751,14 +1463,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLOOGUARD
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1766,14 +1476,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLORB
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1781,14 +1489,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLUEBIRD
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1796,14 +1502,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BOBBA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1811,14 +1515,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BOBBA360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1826,14 +1528,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CASTA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1841,14 +1541,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DOOD
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1856,14 +1554,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DORP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1871,14 +1567,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DROID
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1886,14 +1580,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FLEEX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1901,14 +1593,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FOOB
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1916,14 +1606,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FOOB360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1931,14 +1619,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GARG
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1946,14 +1632,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GARG360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1961,14 +1645,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GARFOUR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1976,14 +1658,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GLK
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -1991,14 +1671,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GLK360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2006,14 +1684,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GRABBITER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2021,14 +1697,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LASER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2036,14 +1710,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LASER14
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2051,14 +1723,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LICK
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2066,14 +1736,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MEEP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2081,14 +1749,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MIMROCK
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2096,14 +1762,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NOSPIKE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2111,14 +1775,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ORBATRIX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2126,14 +1788,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PHASER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2141,14 +1801,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PHASER360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2156,14 +1814,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PHASER360S
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2171,14 +1827,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SPARKY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2186,14 +1840,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SPARKY360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2201,14 +1853,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VORTICON
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2216,36 +1866,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VORTININJA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Stoneyridge</i>
+<th colspan="5" style="text-align:left;"> <i>Stoneyridge</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -2253,14 +1899,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ALEENA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-1" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2268,14 +1912,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BARLA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-2" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2283,14 +1925,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CAREENA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-3" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2298,14 +1938,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KASUMI
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-4" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2313,14 +1951,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KASUMI360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-5" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2328,14 +1964,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LIARA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-6" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2343,14 +1977,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TREEYA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-7" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2358,36 +1990,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TREEYA360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-8" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Whiskeylake</i>
+<th colspan="5" style="text-align:left;"> <i>Whiskeylake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -2395,14 +2023,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ARCADA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
 </td></tr>
 <tr>
@@ -2410,36 +2036,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SARIEN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Cometlake</i>
+<th colspan="5" style="text-align:left;"> <i>Cometlake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -2447,14 +2069,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> AKEMI
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2462,14 +2082,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRAGONAIR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2477,14 +2095,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRALLION
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">  ✅
 </td>
 <td style="text-align:center;">  ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2492,14 +2108,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRATINI
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2507,14 +2121,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DUFFY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/a/ab/Duffy_wp_jumper.png" class="internal" title="Duffy wp jumper.png">jumper</a>
 </td></tr>
 <tr>
@@ -2522,14 +2134,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FAFFY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -2537,14 +2147,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> HELIOS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2552,14 +2160,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> JINLON
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2567,14 +2173,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KAISA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -2582,14 +2186,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KINDRED
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2597,14 +2199,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KLED
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2612,14 +2212,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KOHAKU
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2627,14 +2225,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NIGHTFURY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;">
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2642,14 +2238,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> NOIBAT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/9/9d/Noibat_wp.png" class="internal" title="Noibat wp.png">jumper</a>
 </td></tr>
 <tr>
@@ -2657,36 +2251,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WYVERN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b0/Wyvern_WP_jumper.png" class="internal" title="Wyvern WP jumper.png">jumper</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Picasso/Dali</i>
+<th colspan="5" style="text-align:left;"> <i>Picasso/Dali</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -2694,14 +2284,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BERKNIP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2709,14 +2297,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DIRINBOZ
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2724,14 +2310,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> EZKINIL
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2739,14 +2323,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GUMBOZ
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2754,14 +2336,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MORPHIUS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2769,14 +2349,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VILBOZ
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2784,14 +2362,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VILBOZ14
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2799,14 +2375,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VILBOZ360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2814,36 +2388,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> WOOMAX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;">
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>TigerLake</i>
+<th colspan="5" style="text-align:left;"> <i>TigerLake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -2851,14 +2421,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CHRONICLER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2866,14 +2434,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> COLLIS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2881,14 +2447,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> COPANO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2896,14 +2460,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DELBIN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2911,14 +2473,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DROBIT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2926,14 +2486,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ELDRID
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2941,14 +2499,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ELEMI
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2956,14 +2512,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LILLIPUP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2971,14 +2525,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LINDAR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -2986,14 +2538,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VOEMA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -3001,14 +2551,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VOLET
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -3016,14 +2564,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VOLTA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
@@ -3031,36 +2577,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VOXEL
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>JasperLake</i>
+<th colspan="5" style="text-align:left;"> <i>JasperLake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -3068,14 +2610,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BEETLEY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3083,14 +2623,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BLIPPER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3098,14 +2636,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BOOKEM
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3113,14 +2649,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BOTEN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3128,14 +2662,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BOTENFLEX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/5c/Boten_wp.jpg" class="internal" title="Boten wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3143,14 +2675,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BUGZZY
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3158,14 +2688,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CRET
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3173,14 +2701,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CRET360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3188,14 +2714,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRAWCIA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/50/Drawcia_wp.jpg" class="internal" title="Drawcia wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3203,14 +2727,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRAWLAT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/1/17/Drawlat_wp.jpg" class="internal" title="Drawlat wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3218,14 +2740,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRAWMAN
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3233,14 +2753,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> DRAWPER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/5/52/Drawman_wp.jpg" class="internal" title="Drawman wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3248,14 +2766,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALITH
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3263,14 +2779,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALITH360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3278,14 +2792,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALLOP
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3293,14 +2805,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALNAT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3308,14 +2818,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALNAT360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3323,14 +2831,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALTIC
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3338,14 +2844,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> GALTIC360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3353,14 +2857,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KRACKO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3368,14 +2870,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KRACKO360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3383,14 +2883,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LANDIA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3398,14 +2896,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LANDRID
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3413,14 +2909,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> LANTIS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3428,14 +2922,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MADOO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3443,14 +2935,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGISTER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3458,14 +2948,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGLET
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3473,14 +2961,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGLIA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/b/b6/Maglia_wp.jpg" class="internal" title="Maglia wp.jpg">jumper</a>
 </td></tr>
 <tr>
@@ -3488,14 +2974,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGLITH
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3503,14 +2987,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGMA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3518,14 +3000,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGNETO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3533,14 +3013,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGOLOR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3548,14 +3026,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MAGPIE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
 </td></tr>
 <tr>
@@ -3563,14 +3039,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> METAKNIGHT
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, <a href="/images/3/3c/Magpie_wp_jumper.png" class="internal" title="Magpie wp jumper.png">jumper</a>
 </td></tr>
 <tr>
@@ -3578,14 +3052,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PASARA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3593,14 +3065,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PIRETTE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3608,14 +3078,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PIRIKA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3623,14 +3091,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> SASUKE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3638,14 +3104,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> STORO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
@@ -3653,36 +3117,32 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> STORO360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 <tr>
-<th colspan="7" style="text-align:left;"> <i>Alderlake</i>
+<th colspan="5" style="text-align:left;"> <i>Alderlake</i>
 </th></tr>
 <tr>
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
 </th>
-<td>
-</td>
+
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
 </th>
-<td>
-</td>
+
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -3690,14 +3150,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ANAHERA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3705,14 +3163,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> BANSHEE
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3720,14 +3176,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CROTA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3735,14 +3189,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> CROTA360
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3750,14 +3202,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> FELWINTER
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3765,14 +3215,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> KANO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3780,14 +3228,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> MITHRAX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3795,14 +3241,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> OSIRIS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3810,14 +3254,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> PRIMUS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3825,14 +3267,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> REDRIX
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3840,14 +3280,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TANIKS
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3855,14 +3293,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> TAEKO
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3870,14 +3306,12 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> VOLMAR
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
@@ -3885,18 +3319,16 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;"> ZAVALA
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
-<td>
-</td>
+
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </td></tr>
 
 </tbody></table>
