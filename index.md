@@ -6,6 +6,12 @@ nav_order: 1
 
 <button class="btn js-toggle-dark-mode">Dark Mode</button>
 
+
+<script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
+
+
+idk what im doing
+
 <h1><div align="center">Welcome to the Chrultrabook Docs!</div></h1>
 
 ### What is a Chrultrabook and who is this guide for?
