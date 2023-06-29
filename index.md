@@ -4,6 +4,8 @@ layout: home
 nav_order: 1
 ---
 
+<button class="btn js-toggle-dark-mode">Dark Mode</button>
+
 <h1><div align="center">Welcome to the Chrultrabook Docs!</div></h1>
 
 ### What is a Chrultrabook and who is this guide for?
