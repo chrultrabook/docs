@@ -24,7 +24,7 @@ You should avoid buying any devices in this list.
 ----
 
 ## Firmware
-* **All** AMD Chromebooks: AMD PSP blobs are broken, and some StoneyRidge devicdes do not have working Legacy Boot.
+* **All** AMD Chromebooks: AMD PSP blobs are broken, and some StoneyRidge devices do not have working Legacy Boot.
 * **All** ARM Chromebooks: No support, though development is slowly starting.
 * GeminiLake: Legacy boot mode/alternative firmware menu works but does not show payload list
 
@@ -36,19 +36,27 @@ You should avoid buying any devices in this list.
 
 ### Windows
 
-(todo)
+* No touchpad support in the installer
+* No fingerprint reader support
+* No TPM support
+* No IPU camera support
 
 
 ### Linux
 
-(todo)
+* Broken USB-C on TigerLake and AlderLake
+* No fingerprint reader support
 
 
 
 ### macOS
 
 
-(todo)
+* Broken DRM
+* No audio
+* No PCIe SD card reader support
+* No fingerprint reader support
+* Continuity features (AirDrop, Sidecar, etc)
 
 
 -----
