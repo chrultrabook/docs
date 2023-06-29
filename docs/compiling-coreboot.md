@@ -6,6 +6,8 @@ nav_order: 16
 
 ### Cloning & Building ROMs
 
+<br>
+
 {: .warning }
 Building and flashing your own firmware has the potential to brick your device. Do not do this unless you are sure you know what you're doing/have a way to recover from a bad flash. Some level of knowledge with using the Linux command line is required.
 
