@@ -44,7 +44,7 @@ You should avoid buying any devices in this list.
 
 ### Linux
 
-* Broken USB-C on TigerLake and AlderLake
+* Broken USB-C on TigerLake and AlderLake (although there is a workaround)
 * No fingerprint reader support
 
 
