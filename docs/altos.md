@@ -6,6 +6,7 @@ nav_order: 9
 
 ## altOS Pros / Cons
 
+-----------------------
 
 
 **Windows:**

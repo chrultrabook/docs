@@ -8,45 +8,55 @@ nav_order: 3
 The following page is aimed for documenting all issues Chrultrabooks face. Feel free to improve this page by contributing to it.
 
 {: .highlight }
-You should avoid buying any device in this list.
+You should avoid buying any devices in this list.
 
 -----
 
-## Devices:
 
-
-### Intel:
-* Samsung Chromebook 3 (CELES): Numerous hardware bugs
+## Devices
+* Samsung Chromebook 3 (CELES): Numerous hardware bugs that make it difficult to use.
 * Samsung Galaxy Chromebook (KOHAKU): Badly designed hardware, deteriorating trackpad grounding, possibly faulty backlight circuit.
+* Samsung Chromebox Series 3 (STUMPY): DisplayPort output is non-functional under Windows, and VGA output through the DVI port is non-functional.
 
-### AMD:
-* **All** AMD Chromebooks: AMD not caring to fix broken PSP blobs 
-
-
-### ARM:
-* **All** ARM Chromebooks: No support, though development is slowly starting.
 
 
 
 ----
 
-## Operating Systems:
-
-### Windows:
-
-(todo)
-
-
-### Linux:
-
-(todo)
+## Firmware
+* **All** AMD Chromebooks: AMD PSP blobs are broken, and some StoneyRidge devices do not have working Legacy Boot.
+* **All** ARM Chromebooks: No support, though development is slowly starting.
+* GeminiLake: Legacy boot mode/alternative firmware menu works but does not show payload list
 
 
 
-### macOS:
+----
+
+## Operating Systems
+
+### Windows
+
+* No touchpad support in the installer
+* No fingerprint reader support
+* No TPM support
+* No IPU camera support
 
 
-(todo)
+### Linux
+
+* Broken USB-C on TigerLake and AlderLake (although there is a workaround)
+* No fingerprint reader support
+
+
+
+### macOS
+
+
+* Broken DRM
+* No audio
+* No PCIe SD card reader support
+* No fingerprint reader support
+* Continuity features (AirDrop, Sidecar, etc)
 
 
 -----
