@@ -5,7 +5,7 @@ nav_order: 6
 ---
 
 ## Supported Devices and Platforms
-Supported devices are listed in the table below, grouped by platform/family, roughly in chronological order. To reiterate, support is determined entirely and exclusively by the Board Name. Device Names are just for reference, and may be incomplete as many models/sub-models may use the same Board Name. Please don't email me asking if your HP Chromebook 14b-ca0023dx (eg) is supported. Figure out the Board Name and then locate it in the table. If it's not listed, it's not supported.
+Supported devices are listed in the table below, grouped by platform/family, roughly in chronological order. To reiterate, support is determined entirely and exclusively by the Board Name. Device Names are just for reference, and may be incomplete as many models/sub-models may use the same Board Name. Figure out the Board Name and then locate it in the table. If it's not listed, it's not supported.
 
 ### Determining Device Support
 What's in a name? All ChromeOS devices have a board/device name, which determines which firmware, OS build, etc a device uses. The board name is listed at the bottom of both the Recovery Mode and Developer Mode screens, as part of the hardware ID (HWID). Your device's board name is what determines if it's supported or not -- not the make, model, CPU, or anything else. The only thing that matters is the name, so use that when determining support in the table below (or for anything else really).
@@ -17,7 +17,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ---------
 
-### Supported Platforms:
+### Supported Platforms
 
 | Intel            | AMD           |                              ARM            |
 | ---------------- | --------------------------------------------| ------------- |
@@ -25,7 +25,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ---------
 
-### Firmware (not OS) support for each device.
+### Firmware (not OS) support for each device
 
 {: .highlight }
 If your device isn't listed, it doesn't have custom firmware support.
@@ -3333,20 +3333,9 @@ If your device isn't listed, it doesn't have custom firmware support.
 
 </tbody></table>
 
------
-
-### Notes:
-* STUMPY: The DisplayPort outputs don't seem functional under Windows, but work fine pre-OS and under Linux.
-* VGA output (via DVI port) is not functional.
-* CELES: Running Windows on CELES requires a post-install workaround.
-* CELES can be a highly problematic device running OSes other than ChromeOS. Highly recommended to avoid.
-* AMD: Some StoneyRidge devices (CAREENA? BARLA?) may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.
-* GeminiLake legacy boot mode/alternative firmware menu works but does not show payload list
-
-//todo: relink footnotes to ### Notes
 
 ----
-Originally from https://mrchromebox.tech/#devices
+Adapted from https://mrchromebox.tech/#devices
 
 <table>
 <tr>
