@@ -1,2 +1,3 @@
-<button class="btn js-toggle-dark-mode">Switch to dark mode</button>
+<span class="fs-3">
+<class="btn js-toggle-dark-mode">Switch to dark mode</class>{: .btn }
 <script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Switch to dark mode'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Switch to light mode'; } }); </script>
