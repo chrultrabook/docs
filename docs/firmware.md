@@ -17,7 +17,7 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
 2. Refer to [supported devices](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
 3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
-4. Make sure to create firmware backup and **store it in safe place** (Google drive, another pc, etc), reverting to stock without backup is **very difficult**.
+4. Make sure to create firmware backup and **store it in safe place** (Google Drive, another PC, etc), reverting to stock without backup is **very difficult**.
 5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
 
 {: .warning }
