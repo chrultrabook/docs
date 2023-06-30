@@ -3330,7 +3330,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <tr>
 <td colspan="5">
 </td>
-
+</table>
 -----
 
 Adapted from https://mrchromebox.tech/#devices
