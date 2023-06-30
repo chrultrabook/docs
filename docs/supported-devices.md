@@ -25,7 +25,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ---------
 
-### Firmware (not OS) support for each device
+### Firmware (not OS) Support
 
 {: .highlight }
 If your device isn't listed, it doesn't have custom firmware support.
@@ -3329,12 +3329,10 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td></tr>
 <tr>
 <td colspan="5">
-</td></tr>
+</td>
 
-</tbody></table>
+-----
 
-
-----
 Adapted from https://mrchromebox.tech/#devices
 
 <table>
