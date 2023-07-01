@@ -19,8 +19,6 @@ nav_order: 7
 * Carries zero risk of bricking the device
 * On many models, includes bugfixes and enables additional functionality
 * Required to boot windows on Zen2 devices (Ryzen 3000)
-* Touch screen does not work
-* AVS microphone does not work
 
 {: .warning }
 Touchscreen and AVS microphone **WILL NOT** work!
