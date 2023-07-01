@@ -1,5 +1,5 @@
 # Chrultrabook Docs
-Centralized project documentation - WIP
+Centralized project documentation 
 
 ## TODO
 - [x] What is the chrultrabook project, and its purpose
@@ -14,12 +14,13 @@ Centralized project documentation - WIP
 - [x] Add a theme to the documentation
 - [x] add driver purchasing pictures/gifs
 - [x] Differences between RWL/Full ROM, advantages & disadvantages between them
+- [x] Add correct information to `installing-linux.md`, `installing-windows.md`, `altos.md`
+- [x] How to clone, build own ROMs
 - [ ] OS configuration (Keyboard Mapping, Audio, etc)
-- [ ] Add correct information to `installing-linux.md`, `installing-windows.md`, `altos.md`
 - [ ] Centralised docs for cbfstool, flashrom, cbmem etc etc
 - [ ] Basics on how to debug and troubleshoot issues (Template for reporting issues with devices, perhaps?)
-- [x] How to clone, build own ROMs
 - [ ] SuzyQ / WP Jumper / WP Screw
+- [ ] Fix the broken table in supported-devices.md
 
 
 **PRs are welcome ;)**
