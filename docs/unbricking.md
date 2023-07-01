@@ -22,14 +22,14 @@ and newer (2017+) Chromebooks using a USB-C debug cable (aka Suzy-Q cable).
   - HP Chromebook 13 G1
   - Asus Chromebook C302SA
   
-  { .note }
+  {: .note }
   These devices all use a WSON-8 flash chip, which does not expose the pins of the chip, so they cannot easily be "clipped" like a SOIC-8 chip. While it is usually possible to modify a SOIC-8 chip clip to attach to a WSON-8 chip, it's less than ideal. Both Chromebook Pixels feature a Google debug header, which can connect to a debug servo with a special cable and be flashed that way, but not an option for most users.
 
 * A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu 23.04 live USB.
 * A ch341a USB flash programmer 
 * A 1.8v adapter 
 
-  { .note }
+  {: .note }
   The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip
 
 * An SOIC-8 chip clip 
@@ -48,13 +48,13 @@ While this is somewhat device-specific, the main points are the same:
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
-   { .note }
+   {: .note }
    Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB or 16MB chip, with the identifier W25Q64[xx] (8MB) or W25Q128[xx] (16MB) where [xx] is usually FV or DV. We do not want to touch the EC firmware chip, which is identified by W25X40[xx].
 
-   { .note }
+   {: .note }
    Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash. This is true for most Baytrail and Braswell models.
  
-   { .note }
+   {: .note }
    Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring (a red strip on the example linked above).
 
 
@@ -107,7 +107,7 @@ Flashrom will produce output identifying the flash chip. If it doesn't, double c
             * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
             * ` wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
-{ .note }
+{: .note }
 If you're not sure which file to use for your device / don't know your device's board name, you can reference:
 https://mrchromebox.tech/#devices and/or http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices
 
@@ -117,7 +117,7 @@ https://mrchromebox.tech/#devices and/or http://www.chromium.org/chromium-os/dev
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
-{ .note }
+{: .note }
 You don't need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
 
 1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary, so let's download/extract that:
@@ -159,6 +159,7 @@ Even though flashrom does this as part of the write process, verifying the entir
 ------------------
 
 **Clean Up**
+
 Reassembly is the reverse of disassembly. Reconnect the internal battery and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 --------------
