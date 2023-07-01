@@ -20,6 +20,9 @@ nav_order: 7
 * On many models, includes bugfixes and enables additional functionality
 * Required to boot windows on Zen2 devices (Ryzen 3000)
 
+{: .warning }
+Touchscreen and AVS microphone **WILL NOT** work!
+
 {: .highlight }
 Do not run Windows on RW_LEGACY unless you have a Ryzen device. The RW_LEGACY firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are ok with the accompanying limitations). Or for Ryzen users that require booting from stock firmware for Windows to function properly.
 
