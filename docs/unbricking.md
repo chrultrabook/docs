@@ -55,7 +55,7 @@ While this is somewhat device-specific, the main points are the same:
    Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash. This is true for most Baytrail and Braswell models.
  
    {: .note }
-   Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring (a red strip on the example linked above).
+   Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
 
 
 Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover removal tends to be very similar.
@@ -126,9 +126,9 @@ You don't need to do this if flashing a stock firmware backup created by the Fir
         * `sudo flashrom -p ch341a_spi -r badflash.rom`
         * `./cbfstool badflash.rom read -r RO_VPD -f vpd.bin`
     * Option 2: Extract VPD from stock firmware backup created by Firmware Utility Script (this assumes the file has been copied into working directory)
-        * ./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin
+        * `./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin`
         * Then we inject the VPD into the firmware image to be flashed.
-        * ./cbfstool <Shellball ROM/UEFI Full ROM filename> write -r RO_VPD -f vpd.bin
+        * `./cbfstool <Shellball ROM/UEFI Full ROM filename> write -r RO_VPD -f vpd.bin`
 
 Now the firmware image is ready to be flashed, and will maintain the device's unique serial, LAN MAC address, etc.
 
