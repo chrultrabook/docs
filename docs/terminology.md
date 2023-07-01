@@ -27,7 +27,7 @@ nav_order: 17
 | NVRAM        | Non Volatile Random Access Memory. NVRAM exists on a chip in your motherboard, and contains things like your boot entries/boot order along with a suite of other things.
 | RWL          | Abbreviation of RW_Legacy
 | altOS        | Stands for **alt**ernate **OS**, a operating system thats not chromeOS.
-| POST         | Stands for *P**ower **O**n **S**elf **T**est. POST is a process performed by firmware or software routines immediately after a computer or other digital electronic device is powered on.
+| POST         | Stands for **P**ower **O**n **S**elf **T**est. POST is a process performed by firmware or software routines immediately after a computer or other digital electronic device is powered on.
 | DRM          | Digital rights management (DRM) is the use of technology to control access to copyrighted material. It also enables copyright holders and content creators to manage what users can do with their content, such as how many devices they can access media on and whether they can share it.
 | LTS          | Stands for **L**ong **T**erm **S**upport.
 | ACPI         | Advanced Configuration and Power Interface (ACPI), an open standard for operating systems to identify and set up computer hardware components.
