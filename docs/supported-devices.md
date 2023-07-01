@@ -3338,7 +3338,10 @@ Adapted from https://mrchromebox.tech/#devices
 <table>
 <tr>
 <td width="100%" style="text-align: left">
-<a href="getting-started.html">← Getting Started</a> 
+<a href="terminology.html">← Terminology</a> 
+</td>
+<td width="50%" style="text-align: right">
+<a href="allaboutfirmware.html">All About Firmware →</a> 
 </td>
 </tr>
 </table>
