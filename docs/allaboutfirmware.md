@@ -20,11 +20,6 @@ nav_order: 7
 * On many models, includes bugfixes and enables additional functionality
 * Required to boot windows on Zen2 devices (Ryzen 3000)
 
-test:
-
-thier
-ddifferenntts
-differncse
 
 {: .warning }
 Touchscreen and microphones that rely on the AVS driver **WILL NOT** work on RW_LEGACY!
