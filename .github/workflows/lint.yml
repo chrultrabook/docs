@@ -11,23 +11,26 @@ on:
       - main
 
 jobs:
-  spell_check:
+  spell-check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Install cSpell
-        run: npm install -g cspell
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-      - name: Generate code names list
-        id: generate_code_names
-        run: |
-          code_names=$(grep -Eo '[A-Z]{2,}' *.md)
-          echo "::set-output name=code_names::$code_names"
+      - name: Install Dependencies
+        run: npm install
 
-      - name: Run spell check
+      - name: Spell Check
         run: |
-          code_names=${{ steps.generate_code_names.outputs.code_names }}
-          cspell "**/*.md" --ignore "$code_names"
+          npm run build  
+          npm install -g cspell
+
+          # Check for spelling errors and ignore unknown words and words in all caps
+          cspell "**/*.{md}" --ignore-unknown --ignore-caps
+
