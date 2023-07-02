@@ -2,13 +2,30 @@ name: Lint
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   pull_request:
+    branches:
+      - main
 
 jobs:
-  # You may pin to the exact commit or the version.
-  # uses: tomwhross/write-good-action@5897a4ff597390bd521c5c3a6c062bf96147a341
-  uses: tomwhross/write-good-action@v1.6
-  with:
-    # Name of Directory to scan with write-good [default is "."]
-    directory: /docs
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install -g markdownlint-cli misspell
+
+      - name: Run Markdown Linter
+        run: markdownlint **/*.md
+
+      - name: Run Misspell Checker
+        run: misspell -error -locale US **/*.md
