@@ -12,7 +12,7 @@ jobs:
   spellcheck:
     runs-on: ubuntu-latest
 
-    steps:
+   steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -22,10 +22,6 @@ jobs:
       - name: Install dictionaries
         run: sudo apt-get install aspell-en -y
 
-      - name: List Markdown Files
-        run: |
-          find . -name "*.md" -type f -print > filelist.txt
-
       - name: Run Spell Check
         run: |
-          cat filelist.txt | xargs -I % sh -c "aspell --lang=en --mode=markdown --personal=.aspell.en.pws -c %" || true
+          find . -name "*.md" -type f -exec aspell --lang=en --mode=markdown --personal=.aspell.en.pws -c {} \;
