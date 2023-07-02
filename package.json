@@ -1,0 +1,8 @@
+{
+  "name": "spell-check-workflow",
+  "version": "1.0.0",
+  "description": "Spell Check Workflow",
+  "dependencies": {
+    "cspell": "^7.1.3"
+  }
+}
