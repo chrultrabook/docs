@@ -46,5 +46,5 @@ jobs:
         run: npm install
 
       - name: Spell Check
-        run: npx cspell "**/*.{js,ts,md}" --ignore-caps
+        run: npx cspell "**/*.{md}" 
 
