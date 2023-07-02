@@ -16,17 +16,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+      - name: Install Pandoc
+        run: sudo apt-get install pandoc -y
 
-      - name: Install codespell
-        run: python -m pip install codespell
-
-      - name: Run Spellcheck 
+      - name: Extract Plain Text
         run: |
-          git ls-files '*.md' | xargs grep -Eni --color=always "\b[A-Z]{2,}\b" |& \
+          find . -name "*.md" -type f -exec sh -c 'pandoc -f markdown -t plain "$0" -o "${0%.*}.txt"' {} \;
+
+      - name: Run Spell Check
+        run: |
+          git ls-files '*.txt' | xargs grep -Eni --color=always "\b[A-Z]{2,}\b" |& \
             if grep -vq "^Binary file" ; then \
               grep -vE "\b[A-Z]{2,}\b" ; \
               exit 1 ; \
