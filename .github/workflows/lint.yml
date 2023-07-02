@@ -21,5 +21,13 @@ jobs:
       - name: Install cSpell
         run: npm install -g cspell
 
+      - name: Generate code names list
+        id: generate_code_names
+        run: |
+          code_names=$(grep -Eo '[A-Z]{2,}' *.md)
+          echo "::set-output name=code_names::$code_names"
+
       - name: Run spell check
-        run: cspell "**/*.md"
+        run: |
+          code_names=${{ steps.generate_code_names.outputs.code_names }}
+          cspell "**/*.md" --ignore "$code_names"
