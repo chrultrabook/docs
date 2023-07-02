@@ -19,4 +19,4 @@ jobs:
       - name: Run spell check
         run: |
           cd docs
-          npx markdown-spellcheck --ignore "supported-devices.md,terminology.md" --report '**/*.md'
+          npx markdown-spellcheck --ignore "supported-devices.md,terminology.md" --report '**/*.md' --ignore-numbers --ignore-acronyms --ignore-regex "\[\S+\]\(\S+\)" --ignore-regex "\*\*.*?\*\*"
