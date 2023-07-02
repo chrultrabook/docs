@@ -44,17 +44,17 @@ This list is incomplete. Feel free to improve it.
 **The following devices have dedicated guides written for them:**
 
 * [ChromebookOSX](https://github.com/meghan06/ChromebookOSX):
-* Asus C425 (LEONA)
-* Asus C434 (SHYVANA)
-* Asus C433 (SHYVANA)
+   * Asus C425 (LEONA)
+   * Asus C434 (SHYVANA)
+   * Asus C433 (SHYVANA)
 
 * [PixelbookOSX](https://github.com/olm3ca/PixelbookOSX):
-* Google Pixelbook (2017) (EVE)
-* Google Pixel Slate	(NOCTURNE)
-* Google Pixelbook Go (2019) (ATLAS)
+   * Google Pixelbook (2017) (EVE)
+   * Google Pixel Slate	(NOCTURNE)
+   * Google Pixelbook Go (2019) (ATLAS)
 
 * [macOS-Dragonair](https://github.com/mine-man3000/macOS-Dragonair):
-* HP Chromebook x360 14c (DRAGONAIR)
+   * HP Chromebook x360 14c (DRAGONAIR)
 
 -------
 
