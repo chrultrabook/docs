@@ -28,7 +28,6 @@ jobs:
 
       - name: Spell Check
         run: |
-          # Find Markdown files in the "docs" folder and pass them to cspell
           markdown_files=$(find docs -name "*.md")
-          echo "$markdown_files" | xargs -I{} npx cspell "{}" --ignore-caps
+          echo "$markdown_files" | xargs -I{} npx cspell "{}" 
 
