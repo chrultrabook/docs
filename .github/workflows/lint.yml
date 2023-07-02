@@ -1,2 +1,14 @@
-  name: Markdown Lint
-  uses: articulate/actions-markdownlint@v1.1.0
+name: Lint
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  # You may pin to the exact commit or the version.
+  # uses: tomwhross/write-good-action@5897a4ff597390bd521c5c3a6c062bf96147a341
+  uses: tomwhross/write-good-action@v1.6
+  with:
+    # Name of Directory to scan with write-good [default is "."]
+    directory: /docs
