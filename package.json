@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Spell Check Workflow",
   "dependencies": {
-    "cspell": "^7.1.3"
+    "cspell": "^5.0.0"
   }
 }
