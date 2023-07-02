@@ -1,0 +1,2 @@
+  name: Markdown Lint
+  uses: articulate/actions-markdownlint@v1.1.0
