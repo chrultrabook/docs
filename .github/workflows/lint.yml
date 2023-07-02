@@ -20,4 +20,4 @@ jobs:
         run: sudo apt-get install codespell -y
 
       - name: Run Spell Check
-        run: codespell -q 3 --ignore-words-list .codespellignore --skip docs/supported-devices.md **/*.md
+        run: codespell -q 3 --ignore-words-list .codespellignore --skip docs/supported-devices.md --skip docs/terminology.md **/*.md
