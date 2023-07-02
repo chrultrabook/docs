@@ -27,10 +27,5 @@ jobs:
         run: npm install
 
       - name: Spell Check
-        run: |
-          npm run build  
-          npm install -g cspell
-
-          # Check for spelling errors and ignore unknown words and words in all caps
-          cspell "**/*.{md}" --ignore-unknown --ignore-caps
+        run: npx cspell "**/*.{js,ts,md}" --ignore-unknown --ignore-caps
 
