@@ -19,7 +19,7 @@ Contributing via Issues is pretty simple but there are some rules:
 
 ------------
 
-### Contributing via PRs
+### Contribituting via PRs
 
 Some guidelines when contributing via PRs:
 
