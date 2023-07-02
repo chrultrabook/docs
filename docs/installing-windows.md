@@ -54,7 +54,7 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 | **Broadwell**      | n/a              | 
 | **Baytrail**       | n/a              |
 | **Braswell**       | n/a              |
-| **Skylake**        | AVS              | Celeron and Pentium models are eligible for a AUE discount.
+| **Skylake**        | AVS              | Models with a Celeron, Pentium, i3 or m3 CPU are eligible for a AUE discount.
 | **Apollo Lake**    | AVS or SOF       | Can use either SOF or AVS
 | **Kaby Lake**      | AVS              |
 | **Amber Lake**     | AVS              |
