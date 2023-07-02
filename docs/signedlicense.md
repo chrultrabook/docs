@@ -63,7 +63,7 @@ Reboot.
 
 ![image](https://github.com/chrultrabook/docs/assets/77316348/7202cae6-ac59-493b-b488-880ff313dd8b)
 
-Thats it! If you followed all the steps correctly, your drivers should be working.
+That's it! If you followed all the steps correctly, your drivers should be working.
 
 ------
 
