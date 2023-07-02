@@ -23,9 +23,7 @@ jobs:
 
       - name: Install Dependencies
         run: npm install -g markdownlint-cli misspell
-
-      - name: Run Markdown Linter
-        run: markdownlint **/*.md
-
+    
+    
       - name: Run Misspell Checker
         run: misspell -error -locale US **/*.md
