@@ -1,4 +1,4 @@
-name: Spellcheck
+name: Spell Check
 
 on:
   push:
@@ -16,13 +16,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
       - name: Install codespell
-        run: python -m pip install codespell
+        run: sudo apt-get install codespell -y
 
       - name: Run Spell Check
-          codespell -q 3 --ignore-words-list .codespellignore --skip docs/supported-devices.md **/*.md
+        run: codespell -q 3 --ignore-words-list .codespellignore --skip docs/supported-devices.md **/*.md
