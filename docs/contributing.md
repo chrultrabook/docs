@@ -10,6 +10,9 @@ Want to help support the docs? Well there's some ways you can help!
 
 ------------
 
+beacause dis is a tipo
+
+
 ### Contributing via Issues
 
 Contributing via Issues is pretty simple but there are some rules:
