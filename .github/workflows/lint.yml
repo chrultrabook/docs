@@ -25,4 +25,9 @@ jobs:
         run: python -m pip install codespell
 
       - name: Run Spellcheck 
-        run: codespell -q 3 --ignore-words-list .codespellignore **/*.md
+        run: |
+          git ls-files '*.md' | xargs grep -Eni --color=always "\b[A-Z]{2,}\b" |& \
+            if grep -vq "^Binary file" ; then \
+              grep -vE "\b[A-Z]{2,}\b" ; \
+              exit 1 ; \
+            fi
