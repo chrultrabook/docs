@@ -11,7 +11,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 - ARM/AMD CPUs are not supported.
 - Intel Celeron / Pentium CPUs are not supported.
 - Tiger Lake (11th gen) CPUs and newer are not supported.
-- You need at least 32gb of eMMC storage
+- You need at least 32GB of eMMC storage
 
 **You will also need:**
 * Patience 
@@ -20,7 +20,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
   * 4 gigabytes or more for a online installer;
   * 32 gigabytes or more for offline installer
 * The ability to use a command prompt 
-  * We won't help you if you don't know how to cd to a directory.
+  * We won't help you if you don't know how to `cd` to a directory.
 
 -------
 
@@ -64,7 +64,9 @@ This list is incomplete. Feel free to improve it.
 **Getting Started:**
 
 1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
-2. if you didn't follow the laptop guide for your CPU generation
+2. Follow the laptop guide for your CPU generation
+   * Amber Lake Chromebooks should follow the Kaby Lake config.plist setup   
+
 
 **Chromebook Specific Modifications**
 
@@ -72,9 +74,13 @@ This list is incomplete. Feel free to improve it.
 2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze on booting with coreboot 4.20 and up.
 3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable): Disables SD card reader as it is unsupported.
 4. [croshdasdisable](https://github.com/meghan06/croshdasdisable): Disables the `HDAS` device in ACPI as there is no support for it in macOS.
-5. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
-6. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
-7. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
+
+   {: .warning }
+   croshdasdisable will break HDMI audio!
+   
+6. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
+7. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
+8. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
 
 {: .note }
