@@ -33,19 +33,20 @@ Some guidelines when contributing via PRs:
 
 ### How to Contribute
 
-The best way to test your commits and ensure proper formatting is by forking the repository, enabling GitHub pages, and activating the workflows in GitHub Actions. Your changes will be accessible at `https://githubusername.github.io/reponame`.
+The best way to test your commits and ensure proper formatting is by forking the repository, making and testing changes locally, then contributing with a pull request.
 
 
-**Simple step-by-steps:**
+**Simple step-by-step guide**
 
+* Install Ruby, Jekyll, and bundle
+  * See [Jekyll's installation guide](https://jekyllrb.com/docs/installation/#guides) for your platform.
 * [Fork this repo](https://github.com/chrultrabook/docs/fork/)
-* Enable GitHub Actions
-  * Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
-* Enable GitHub Actions
-  * Actions -> Click the green button 
-* Make changes now
-* Preview changes
-  * Can be found at `https://githubusername.github.io/reponame` 
+* Clone your fork, open a terminal and `cd` to it
+* Run the `bundle` command, then `bundle exec jekyll serve`
+* Visit `localhost:4000` in your web browser and preview your changes.
+
+{: .note }
+Jekyll will automatically regenerate pages when you make changes.
 
 
 ------------
