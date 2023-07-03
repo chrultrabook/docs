@@ -48,11 +48,11 @@ While this is somewhat device-specific, the main points are the same:
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
-   {: .note }
-   Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB or 16MB chip, with the identifier W25Q64[xx] (8MB) or W25Q128[xx] (16MB) where [xx] is usually FV or DV. We do not want to touch the EC firmware chip, which is identified by W25X40[xx].
+   {: .warning }
+   Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB or 16MB chip, with the identifier W25Q64[xx] (8MB) or W25Q128[xx] (16MB) where [xx] is usually FV or DV. We do **not** want to touch the EC firmware chip, which is identified by W25X40[xx].
 
    {: .note }
-   Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash. This is true for most Baytrail and Braswell models.
+   Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash.
  
    {: .note }
    Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
@@ -108,8 +108,7 @@ Flashrom will produce output identifying the flash chip. If it doesn't, double c
             * ` wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
 {: .note }
-If you're not sure which file to use for your device / don't know your device's board name, you can reference:
-https://mrchromebox.tech/#devices and/or http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices
+If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
 
 ----------
 
@@ -144,7 +143,7 @@ Now that everything is prepped, time to flash the device. To be thorough, we'll 
     * Otherwise use
         * `sudo flashrom -p ch341a_spi -w <filename>`
 
-    Where <filename> is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 30s-90s to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written.
+    Where \<filename\> is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 30s-90s to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written.
 
 2. Verify the firmware
 
@@ -164,10 +163,10 @@ Reassembly is the reverse of disassembly. Reconnect the internal battery and rep
 
 --------------
 
-todo:
+<!-- todo:
 copy over the flashing with suzyqable part
 
 
----
+--- -->
 
-Adopted from https://wiki.mrchromebox.tech/Unbricking
+Adapted from <a href="https://wiki.mrchromebox.tech/Unbricking">https://wiki.mrchromebox.tech/Unbricking</a>
