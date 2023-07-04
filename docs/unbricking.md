@@ -100,12 +100,12 @@ Flashrom will produce output identifying the flash chip. If it doesn't, double c
             * Don't forget to get the SHA1 file for verification:
             * `wget https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
             * Then verify the download:
-            * sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1
+            * 1sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
     * The shellball firmware for the device
         * As with the UEFI firmware above, the shellball ROM can be downloaded by concatenating the shellball base path with the device-specific filename:
             * `wget <shellball base path>/shellball.<device name>.bin`
             * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
-            * ` wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
+            * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
 {: .note }
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
@@ -221,12 +221,12 @@ Let's get to it:
             * Don't forget to get the SHA1 file for verification:
             * `wget https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
             * Then verify the download:
-            * sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1
+            * `sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
     * The shellball firmware for the device
         * As with the UEFI firmware above, the shellball ROM can be downloaded by concatenating the shellball base path with the device-specific filename:
             * `wget <shellball base path>/shellball.<device name>.bin`
             * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
-            * ` wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
+            * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
 {: .note }
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
