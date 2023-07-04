@@ -268,6 +268,7 @@ Now that everything is prepped, time to flash the device.
 -----------
 
 **Clean Up**
+
 Once flashing is complete, disconnect the Suzy-Q cable. If the internal battery was not disconnected, the device will likely reboot as soon as flashing has completed. If the internal battery was disconnected, reconnect it and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 -----------
