@@ -204,8 +204,8 @@ Let's get to it:
   * `sudo apt install flashrom`
 5. Connect the USB-C end of the Suzy-Q cable to the CCD port on your ChromeOS device (usually left USB-C port) and the USB-A end to your Linux device
 6. Verify the cable is properly connected:
-  * ls /dev/ttyUSB*
-    * This command should return 3 items: ttyUSB0, ttyUSB1, and ttyUSB2.
+  * `ls /dev/ttyUSB*`
+    * This command should return 3 items: `ttyUSB0`, `ttyUSB1`, and `ttyUSB2`.
     * If not, then your cable is connected to the wrong port or is upside down; adjust and repeat comment until output is as expected
 7. Set the CCD state to open:
   * `echo "ccd open" | sudo tee -a /dev/ttyUSB0 > /dev/null`
