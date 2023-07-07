@@ -45,7 +45,7 @@ Please read this page before asking a question in the Discord. Your help request
 * No. One license per device.
 
 **I want to buy a Chromebook to run Windows or Linux -- which should I buy?**
-
+* 
 
 
 
