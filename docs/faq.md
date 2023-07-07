@@ -44,7 +44,7 @@ Please read this page before asking a question in the Discord. Your help request
 **Can I use one driver license across multiple devices?**
 * No. One license per device.
 
-
+**
 
 
 
