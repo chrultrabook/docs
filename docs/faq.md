@@ -61,11 +61,11 @@ Please read this page before asking a question in the Discord. Your help request
 
 **I'm using your UEFI firmware, installed my OS [Linux], and it still boots to the EFI shell - what do I do?**
 * Sounds like your Linux distro doesn't install the EFI bootloader in the default location - no worries, it's an easy fix:
-  * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from /EFI/[distro name]/grubx64.efi (where [distro name] will be ubuntu, arch, debian,     etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
+  * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from `/EFI/[distro name]/grubx64.efi` (where [distro name] will be ubuntu, arch, debian, etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
 
-sudo su
-mkdir -p /boot/efi/EFI/BOOT
-cp /boot/efi/EFI/[distro name from above]/grubx64.efi /boot/efi/EFI/BOOT/BOOTX64.efi
+   * `sudo su`
+   * `mkdir -p /boot/efi/EFI/BOOT`
+   * `cp /boot/efi/EFI/[distro name from above]/grubx64.efi /boot/efi/EFI/BOOT/BOOTX64.efi`
 
 then reboot to test. What we're doing is copying the grub EFI boot stub from the OS installed location to the location the firmware is expecting (/EFI/BOOT/BOOTX64.efi) on the EFI system partition (ESP), which most (Debian/Ubuntu-based?) distros will mount at /boot/efi. You may need to adjust slightly for your distro, but these instructions should work in most cases.
 
