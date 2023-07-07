@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# Using version 1e5s45sv1b5w
 
 gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
 # gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
