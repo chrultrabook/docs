@@ -44,8 +44,9 @@ Please read this page before asking a question in the Discord. Your help request
 **Can I use one driver license across multiple devices?**
 * No. One license per device.
 
-**I want to buy a Chromebook to run Windows or Linux -- which should I buy?**
-* 
+**I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?**
+* Buying any Chromebook with the intention of running macOS, Windows or Linux is not a great idea. Many can't boot anything other than ChromeOS; Those that can boot Linux (or Windows) often have functional deficiencies -- DO NOT EXPECT EVERYTHING TO WORK OUT OF THE BOX. Older models may fair better compatibility wise, but there are still lots of caveats, and it's not recommended to buy a Chromebook as a cheap Linux device.
+
 
 
 
