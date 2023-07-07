@@ -51,8 +51,7 @@ Please read this page before asking a question in the Discord. Your help request
 * Please see [here](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
 **I just want to boot Linux from USB on my Chromebook, what do I need to do?**
-
-
+*
 
 
 
