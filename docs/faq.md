@@ -63,6 +63,7 @@ For a Linux ISO, select the ISO, then change the write mode from 'ISO Image' to 
 **Should I install 32 or 64-bit OS?**
 * The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
 
+**
 
 
 
