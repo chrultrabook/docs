@@ -53,7 +53,7 @@ Please read this page before asking a question in the Discord. Your help request
 **I just want to boot Linux from USB on my Chromebook, what do I need to do?**
 * Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, then simply put your device into Developer Mode, then run my script and update the RW_LEGACY firmware (no need to disable the firmware write protect for this). Reboot, press CTRL+L to boot in Legacy Boot Mode/Alternative Bootloader Menu, then press ESC and select your USB from the boot menu.
 
-**: I just installed the UEFI firmware, and now my device boots to a black screen that says 'shell' - what do I do?**
+**I just installed the UEFI firmware, and now my device boots to a black screen that says 'shell' - what do I do?**
 
 
 
