@@ -73,10 +73,6 @@ Please read this page before asking a question in the Discord. Your help request
 * You can, but your existing OS install won't boot. You'll need to either reinstall the OS (often the easiest course of action), or you can attempt to migrate your existing install, but this isn't ideal and should be considered unsupported.
 
 
-
-
-
-
 <table>
 <tr>
 <td width="100%" style="text-align: left">
