@@ -60,7 +60,7 @@ You need to install a UEFI-boot capable OS from a properly formatted USB/SD devi
 If writing a Windows ISO, select the ISO, then set the Partition scheme to 'MBR for UEFI' or 'GPT for UEFI;' 'MBR for UEFI-CSM' will not work since CSM = Legacy BIOS and the UEFI firmware doesn't support Legacy mode.
 For a Linux ISO, select the ISO, then change the write mode from 'ISO Image' to 'DD Image' from the drop-down menu. As most Linux ISO images these days are compatible with both Legacy and UEFI booting, this ensures maximum compatibility.
 
-**
+**hould I install 32 or 64-bit OS?**
 
 
 
