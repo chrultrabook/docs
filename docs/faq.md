@@ -1,6 +1,3 @@
-
-
-
 ---
 title: FAQ
 layout: default
