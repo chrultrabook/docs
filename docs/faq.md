@@ -51,6 +51,11 @@ Please read this page before asking a question in the Discord. Your help request
 * Please see [here](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
 
+
+
+
+
+
 <table>
 <tr>
 <td width="100%" style="text-align: left">
