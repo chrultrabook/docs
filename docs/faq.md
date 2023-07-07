@@ -78,6 +78,10 @@ then reboot to test. What we're doing is copying the grub EFI boot stub from the
 
 
 
+
+
+
+
 <table>
 <tr>
 <td width="100%" style="text-align: left">
