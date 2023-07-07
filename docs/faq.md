@@ -45,6 +45,11 @@ Please read this page before asking a question in the Discord. Your help request
 * No. One license per device.
 
 
+
+
+
+
+
 <table>
 <tr>
 <td width="100%" style="text-align: left">
