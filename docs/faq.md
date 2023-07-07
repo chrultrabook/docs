@@ -50,7 +50,7 @@ Please read this page before asking a question in the Discord. Your help request
 **How can I get audio working under Linux?**
 * Please see [here](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
-
+**
 
 
 
