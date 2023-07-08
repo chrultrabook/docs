@@ -8,10 +8,10 @@ nav_order: 19
 ## Reverting to Stock chromeOS
 
 {: .note }
-If your device hit AUE (Auto Update Expiration) and is EOL, you are **not** able to revert to chromeOS / stock.
+If your device hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS.
 
 {: .warning }
-Reverting to stock without your backup ROM is very difficult and will not be covered in this guide.
+Reverting to stock without your backup ROM is somewhat difficult and will not be covered in this guide currently.
 
 --------
 
@@ -23,6 +23,8 @@ Reverting to stock without your backup ROM is very difficult and will not be cov
 
 
 ---------
+
+**Flashing Stock Firmware**
 
 1. Boot a live Linux USB (Ubuntu 22.04 or later recommended)
 2. Connect to WiFi
@@ -36,6 +38,18 @@ Reverting to stock without your backup ROM is very difficult and will not be cov
 7. Follow on screen instructions 
 
 
+**Making a Recovery USB**
+1. Download the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) from the Chrome Web Store
+2. Launch the app, then follow on-screen instructions. If you are unable to find your device, you can select the "Select a model from a list" option.
+3. Select the USB drive you want to use
+4. Wait for it to complete.
+
+
+**Booting the Recovery USB**
+1. Boot into chromeOS
+2. Plug in your recovery USB drive
+3. Press `esc` + `refresh` + `power`
+4. Begin the recovery process
 
 -------------
 
