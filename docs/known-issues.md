@@ -46,7 +46,7 @@ You should avoid buying any devices in this list.
 
 * Broken USB-C on TigerLake and AlderLake (although there is a workaround)
 * No fingerprint reader support
-
+* Sandybridge/Ivybridge need a [workaround](https://github.com/MrChromebox/scripts/issues/277) to flash firmware from linux.
 
 
 ### macOS
