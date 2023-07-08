@@ -12,6 +12,12 @@ WIP
 * Compress the install with `compact.exe /compactos:always` in a command prompt with admin privileges if necessary.
 * Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already 
 
+#### CELES post install script
+
+1. Boot the Windows install media you used to install windows.
+2. Click "Repair my computer" and choose the cmd option.
+3. Enter `bcdedit /set {default} useplatformclock true`
+4. Reboot
 
 ### Linux
 * Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
