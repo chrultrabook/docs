@@ -3331,6 +3331,17 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td colspan="5">
 </td></tr>
 </table>
+
+## Notes
+
+<ol>
+<li id="cite_note-stumpy-1"><b>STUMPY</b>: The DisplayPort outputs don't seem functional under Windows, but work fine pre-OS and under Linux. <br>VGA output (via DVI port) is not functional.</li>
+<li id="cite_note-celes-2"><b>CELES</b>: Running Windows on CELES requires <a rel="nofollow noopener noreferrer" class="external text" href="https://www.reddit.com/r/chrultrabook/comments/9vi9kv/windows_10_on_samsung_chromebook_3_celes_fix/" target="_blank">a post-install workaround</a>. <br>
+CELES can be a highly problematic device running OSes other than ChromeOS. <b>Highly recommended to avoid</b>.</li>
+<li id="cite_note-stoney-3"><b>AMD</b>: Some StoneyRidge devices (CAREENA? BARLA?) may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.</li>
+<li id="cite_note-glk-4"><b>GeminiLake</b> legacy boot mode/alternative firmware menu works but does not show payload list</li>
+</ol>
+
 -----
 
 Adapted from https://mrchromebox.tech/#devices
