@@ -14,7 +14,7 @@ WIP
 
 #### CELES post install script
 
-1. Boot the windows install media you used to install windows.
+1. Boot the Windows install media you used to install windows.
 2. Click "Repair my computer" and choose the cmd option.
 3. Enter `bcdedit /set {default} useplatformclock true`
 4. Reboot
