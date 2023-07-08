@@ -3342,13 +3342,6 @@ CELES can be a highly problematic device running OSes other than ChromeOS. <b>Hi
 <li id="cite_note-glk-4"><b>GeminiLake</b> legacy boot mode/alternative firmware menu works but does not show payload list</li>
 </ol>
 
-### CELES post install script
-
-1. Boot the windows install media you used to install windows.
-2. Click "Repair my computer" and choose the cmd option.
-3. Enter `bcdedit /set {default} useplatformclock true`
-4. Reboot
-
 -----
 
 Adapted from https://mrchromebox.tech/#devices
