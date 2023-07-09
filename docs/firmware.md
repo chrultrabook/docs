@@ -1,10 +1,10 @@
 ---
-title: Flashing Firmware
+title: Firmware
 layout: default
 nav_order: 8
 ---
 
-## Flashing Custom Firmware
+**Flashing Custom Firmware**
 
 Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
 
@@ -25,7 +25,18 @@ Do **not** interrupt the first boot.
 
 -------
 
-With that done, let's move onto installing AltOS.
+**Updating coreboot**
+
+1. Boot a Linux live USB (Ubuntu 22.04 recommended)
+
+  {: .note }
+  curl is not installed by default for Ubuntu / Ubuntu distros. To install it, run: `sudo apt update;sudo apt install curl -y`
+
+
+2. Run the same firmware utility script you used to install coreboot (see https://mrchromebox.tech/#fwscript if you forgot)
+3. Pick option 1; "Install/Update UEFI (Full ROM) Firmware" and reboot if successful
+
+-------
 
 {: .fs-5 }
 
