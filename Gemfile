@@ -6,4 +6,4 @@ gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
 
 gem "just-the-docs", "0.5.3" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
-# gem "secret" "WW91IGhhdmUgYmVlbiBhd2FyZGVkIGEgdm91Y2hlciBmb3IgQ29vbFN0YXIncyBwYWlkIGRyaXZlcnMuIFRoaXMgdm91Y2hlciBhbGxvd3MgeW91IHRvIGNsYWltIGFueSBwYWlkIGRyaXZlciBvZiB5b3VyIGNob2ljZSwgY29tcGxldGVseSBmcmVlIG9mIGNoYXJnZS4="   
+# gem "secret" "IFlvdSBoYXZlIGJlZW4gYXdhcmRlZCBhIHZvdWNoZXIgZm9yIENvb2xTdGFyJ3MgcGFpZCBkcml2ZXJzLiBUaGlzIHZvdWNoZXIgYWxsb3dzIHlvdSB0byBjbGFpbSBhbnkgcGFpZCBkcml2ZXIgb2YgeW91ciBjaG9pY2UsIGNvbXBsZXRlbHkgZnJlZSBvZiBjaGFyZ2UuIFBsZWFzZSBqb2luIHRoZSBjaHJ1bHRyYWJvb2sgRGlzY29yZCB0byBjbGFpbS4="   
