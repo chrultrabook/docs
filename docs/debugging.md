@@ -78,12 +78,15 @@ Write protection:
 
 View status:
   * `sudo flashrom -p internal --wp-status`
-  Enable:
-    * `sudo flashrom -p internal --wp-enable`
-  Disable:
-    * `sudo flashrom -p internal --wp-disable`
-  Clear WP range:
-  * `sudo flashrom -p internal --wp-range 0 0`
+ 
+Enable WP:
+ * `sudo flashrom -p internal --wp-enable`
+  
+Disable WP:
+ * `sudo flashrom -p internal --wp-disable`
+  
+Clear WP range:
+ * `sudo flashrom -p internal --wp-range 0 0`
 
 Common programmers:
 * `internal`: Use this when you run flashrom on the chromebook you want to program.
