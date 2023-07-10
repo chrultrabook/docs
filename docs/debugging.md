@@ -34,7 +34,7 @@ cbmem is used to view coreboot logs
 
 -----------
 
-## Linux Audio Server
+### Linux Audio Server
 
 Run this script to get a log from your audio server
 
@@ -53,14 +53,16 @@ Run this script to get a log from your audio server
 
 To launch a CR50 console:
   * `sudo minicom -D /dev/ttyUSB0`
+
 To launch a cbmem / OS console:
   * `sudo minicom -D /dev/ttyUSB1`
+
 To launch a EC console:
   * `sudo minicom -D /dev/ttyUSB2`
 
 -----------
 
-## flashrom
+### flashrom
 
 Flashrom is used to read and write from the SPI flash
 
@@ -106,4 +108,4 @@ Unlock CCD:
   * `sudo gsctool -a -o`
   * This will prompt you multiple times to press the power button, on the last time, the device will reboot back into verified mode
 
------------
+
