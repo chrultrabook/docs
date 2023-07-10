@@ -43,6 +43,9 @@ Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then sele
 {: .note }
 You may need to select "See all 5 levels" if you don't see the driver you want.
 
+{: .important }
+The drivers are a one time purchase. 
+
 --------
 
 ### Step 6:
@@ -70,11 +73,11 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
 
 ### Step 9:
 
-Unsubscribe from the Patreon so you don't get charged double.
+**Unsubscribe from the Patreon** so you **don't get charged double.**
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step7.png">
 
 {: .warning }
-If you do not unsubscribe, you will get charged again next month. 
+If you do not unsubscribe from the Patreon, you will get charged again next month.
 
 --------
 
