@@ -26,7 +26,7 @@ Cons:
 
 <br>
 
-¹Some devices such as CELES need workarounds. Additionally, AMD Ryzen devices need to use CoolStar's RW_LEGACY script in order to boot Windows.
+¹Some devices such as CELES need workarounds. Additionally, AMD Ryzen devices need to use CoolStar's RW_LEGACY script in order to boot Windows. Refer to the [known issues page](known-issues.html) to check whether you need patches.
 
 ----------
 
