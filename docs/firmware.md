@@ -15,10 +15,28 @@ Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEF
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
 1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
-2. Refer to [supported devices](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
-3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
-4. Make sure to create a firmware backup and **store it in a safe place** (Google Drive, another PC, etc), as reverting to stock firmware without a backup is **very difficult**.
-5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
+
+  {: .warning }
+  Doing this will wipe **all** user data! Make backups if needed before proceeding.
+
+  * Press `esc` `refresh` (f3) and `power` at the same time. Doing this should cause your system to reboot into a screen that prompts you to insert a recovery USB or SD card.
+  * Press `ctrl` and `d` at the same time.
+  * Follow the on screen instructions, then once it reboots, you should be in Developer Mode. **Do not enable debugging features.**
+  * Setup the system as you would on any other Chromebook.
+  
+
+3. Refer to [supported devices](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
+    * Depending on your device, you will need to do **one** of the following:
+        * Undo a WP screw
+        * Unplug your battery
+        * Bridge two jumpers
+        
+4. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
+    * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
+    * If you encounter certificate related errors when downloading the script from ChromeOS, then add -k to the curl command and script command to bypass SSL certificate checking as so:
+        * `cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
+5. Make sure to create a firmware backup and **store it in a safe place** (Google Drive, another PC, etc), as reverting to stock firmware without a backup is **very difficult**.
+6. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. 
 
 {: .warning }
 Do **not** interrupt the first boot. 
@@ -32,8 +50,9 @@ Do **not** interrupt the first boot.
   {: .note }
   curl is not installed by default for Ubuntu / Ubuntu distros. To install it, run: `sudo apt update;sudo apt install curl -y`
 
+2. Run the same firmware utility script you used to install coreboot
+   * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
 
-2. Run the same firmware utility script you used to install coreboot (see https://mrchromebox.tech/#fwscript if you forgot)
 3. Pick option 1; "Install/Update UEFI (Full ROM) Firmware" and reboot if successful
 
 -------
