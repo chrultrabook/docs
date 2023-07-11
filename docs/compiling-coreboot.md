@@ -16,7 +16,7 @@ Building and flashing your own firmware has the potential to brick your device. 
   * Arch based distros: `sudo pacman -S base-devel curl git gcc-ada ncurses zlib`
   * Redhat based distros: `sudo dnf install git make gcc-gnat flex bison xz bzip2 gcc g++ ncurses-devel wget zlib-devel patch`
 2. **Clone the repository:**
-    * `git clone https://github.com/mrchromebox/coreboot --depth 1`
+    * `git clone https://github.com/mrchromebox/coreboot`
 3. **`cd` to the coreboot folder, then build the coreboot toolchain**
     * `make crossgcc-i386 CPUS=$(nproc)`
 4. **Make changes now, if needed.**
