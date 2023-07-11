@@ -30,8 +30,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 {: .highlight }
 If your device isn't listed, it doesn't have custom firmware support.
 
-<table class="wikitable" style="width: 90%; margin: auto">
-
+<table>
 <tbody><tr>
 <th colspan="5" style="text-align:left;"> <i>Sandybridge/Ivybridge</i>
 </th></tr>
