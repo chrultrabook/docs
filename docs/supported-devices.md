@@ -3324,8 +3324,15 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> ✅
 </td>
 
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+</td></tr>
+<tr>
+<td colspan="5">
+</td></tr>
 </table>
 
+
+<br>
 
 <table>
 <tr>
