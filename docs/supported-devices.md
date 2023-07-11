@@ -3340,7 +3340,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <a href="terminology.html">← Terminology</a> 
 </td>
 <td width="50%" style="text-align: right">
-<a href="allaboutfirmware.html">All About Firmware →</a> 
+<a href="supported-devices.html">Supported Devices →</a> 
 </td>
 </tr>
 </table>
