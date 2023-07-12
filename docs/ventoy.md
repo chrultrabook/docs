@@ -41,10 +41,12 @@ Run the following command to start the Ventoy web gui:
 Next, open chrome and type `http://localhost:24680` in the address bar and press enter.
 
 You should see this on your screen now
+
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/ventoy.png">
 
 ### Installing Ventoy
 Plug in your USB drive and click the green circle to refresh devices. You should see your USB drive get detected. Now click options, then Partition Style, then choose GPT.
+
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/gpt.png">
 
 Once you have done that and your drive is detected, click on Install and click Ok twice when prompted and again once the installation has completed. Once installation is complete, unplug and plug back in your USB drive.
@@ -53,7 +55,9 @@ Once you have done that and your drive is detected, click on Install and click O
 Download an image of any OS you want. For Windows we recommend that you only use official isos from Microsoft.
 
 Open the ChromeOS files and click on your USB drive, you should then see a device named "Ventoy".
+
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/ventoy-drive.png">
 
 Copy your images from Downloads to the Ventoy drive. Do not touch VTOYEFI. Once you have done that, eject your USB drive and now you're done.
+
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/isos.png">
