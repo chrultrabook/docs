@@ -70,6 +70,7 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
   * List of USB devices (`lsusb`)
 
   Into `debug-logs.tar.gz` archive on your desktop.
+
 2. Run it: `chmod +x debug.sh;./debug.sh`
 
 3. Upload this file if you need help with troubleshooting.
