@@ -14,7 +14,7 @@ Before we begin, be sure to backup any data that may be on your USB drive as it 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/backup.png">
 
 ### Downloading Ventoy
-Grab the latest Ventoy release from [github](https://github.com/ventoy/Ventoy/releases). Be sure to get the linux version.
+Grab the latest Ventoy release from [GitHub](https://github.com/ventoy/Ventoy/releases). Be sure to get the Linux version.
 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/ventoy/download.png">
 
