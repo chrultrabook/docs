@@ -28,7 +28,8 @@ Open crosh by pressing `Ctrl` + `Alt` + `T` and run the following commands:
 5. `tar xf ventoy-<ventoy version>-linux.tar.gz`
 6. `cd ventoy-<ventoy version>-linux`
 
-{: .note } On commands 4, 5, and 6, after typing ventoy, you can press tab to fill in the rest of the file name automatically.
+{: .note }
+On commands 4, 5, and 6, after typing ventoy, you can press tab to fill in the rest of the file name automatically.
 
 You can then run `ls` to verify you have the correct files, it should look something like this
 
