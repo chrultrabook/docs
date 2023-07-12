@@ -36,4 +36,11 @@ nav_order: 15
 * [Setup Emulated NVRAM](https://dortania.github.io/OpenCore-Post-Install/misc/nvram.html) if necessary.
 
 
-
+<br>
+<table>
+</td>
+<td width="50%" style="text-align: left">
+<a href="altos.html">← Installing altOS</a> 
+</td>
+</tr>
+</table>

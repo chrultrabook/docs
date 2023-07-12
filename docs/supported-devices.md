@@ -30,8 +30,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 {: .highlight }
 If your device isn't listed, it doesn't have custom firmware support.
 
-<table class="wikitable" style="width: 90%; margin: auto">
-
+<table>
 <tbody><tr>
 <th colspan="5" style="text-align:left;"> <i>Sandybridge/Ivybridge</i>
 </th></tr>
@@ -3332,19 +3331,8 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td></tr>
 </table>
 
-## Notes
 
-<ol>
-<li id="cite_note-stumpy-1"><b>STUMPY</b>: The DisplayPort outputs don't seem functional under Windows, but work fine pre-OS and under Linux. <br>VGA output (via DVI port) is not functional.</li>
-<li id="cite_note-celes-2"><b>CELES</b>: Running Windows on CELES requires a post-install workaround, see Post Install for steps. <br>
-CELES can be a highly problematic device running OSes other than ChromeOS. <b>Highly recommended to avoid</b>.</li>
-<li id="cite_note-stoney-3"><b>AMD</b>: Some StoneyRidge devices (CAREENA? BARLA?) may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.</li>
-<li id="cite_note-glk-4"><b>GeminiLake</b> legacy boot mode/alternative firmware menu works but does not show payload list</li>
-</ol>
-
------
-
-Adapted from https://mrchromebox.tech/#devices
+<br>
 
 <table>
 <tr>
@@ -3352,7 +3340,7 @@ Adapted from https://mrchromebox.tech/#devices
 <a href="terminology.html">← Terminology</a> 
 </td>
 <td width="50%" style="text-align: right">
-<a href="allaboutfirmware.html">All About Firmware →</a> 
+<a href="supported-devices.html">Supported Devices →</a> 
 </td>
 </tr>
 </table>
