@@ -38,7 +38,7 @@ cbmem is used to view coreboot logs
 
 Run this script to get a log from your audio server
 
-1. Download the binary
+1. Download the script
   * `wget https://cdn.discordapp.com/attachments/1121994891950559283/1126689828063412234/audio-debug.sh`
 2. Give it execute permissions
   * `chmod +x audio-debug.sh`
@@ -57,7 +57,7 @@ To launch a CR50 console:
 To launch a cbmem / OS console:
   * `sudo minicom -D /dev/ttyUSB1`
 
-To launch a EC console:
+To launch an EC console:
   * `sudo minicom -D /dev/ttyUSB2`
 
 -----------
