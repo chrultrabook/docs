@@ -49,8 +49,8 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
   * `minicom -D /dev/ttyUSB2 -b 115200`
 
 * Platform serial can be used to debug the payload or kernel, but you need to re-compile coreboot with following configuration options enabled:
-`CONSOLE_SERIAL=y
-EDK2_SERIAL_SUPPORT=y`
+`CONSOLE_SERIAL=y`
+`EDK2_SERIAL_SUPPORT=y`
 * To use SuzyQ as platform debugger, you will also need to append the following to your kernel commandline:
 `loglevel=15 console=ttyS0,115200n8`
 
@@ -58,16 +58,21 @@ EDK2_SERIAL_SUPPORT=y`
 
 ### ACPI and Linux kernelspace
 
-1. Download elly's debugging script. It will dump:
+1. Download elly's debugging script.
+  * `cd ~/Desktop;wget https://elly.rocks/tmp/coreboot-development/debug.sh`
+
+  It will dump:
   * ACPI tables from sysfs (`/sys/firmware/acpi/*`)
   * DMI information (`dmidecode`)
   * Coreboot buffer (`cbmem`)
   * Linux kernel logs (`dmesg`)
   * List of PCI devices (`lspci`)
   * List of USB devices (`lsusb`)
-Into `debug-logs.tar.gz` archive on your desktop.
 
-2. Please upload this file if you need help with debugging.
+  Into `debug-logs.tar.gz` archive on your desktop.
+2. Run it: `chmod +x debug.sh;./debug.sh`
+
+3. Upload this file if you need help with troubleshooting.
   * Remember to remove WiFi information from dmesg to protect your privacy.
 
 -----------
