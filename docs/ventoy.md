@@ -1,5 +1,5 @@
 ---
-title: Installing Ventoy to a USB drive in ChromeOS
+title: Installing Ventoy in chromeOS
 layout: default
 nav_order: 21
 ---
