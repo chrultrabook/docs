@@ -17,6 +17,8 @@ nav_order: 12
 {: .warning }
 Do not use Windows 8 or older. Only Windows 10 and 11 are supported.
 
+{: .note }
+If you want to create a Windows installer from ChromeOS, see the [installing Ventoy](https://chrultrabook.github.io/docs/docs/ventoy.html) page.
 
 1. Install Windows from a USB:
     1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
