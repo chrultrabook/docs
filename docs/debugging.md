@@ -10,27 +10,71 @@ This page has instructions on using multiple different utilities to debug issues
 
 -----------
 
-### dmesg
+### Firmware
 
-dmesg is used to view kernel logs
+To debug firmware, you will need the following tools:
 
-To grab a log, run:
-  * `sudo dmesg > dmesg.log`
+1. `cbmem` - To view Coreboot logs
+2. `ectool` - To interface with ChromeOS Embedded Controller
+3. SuzyQ - If you're experiencing severe system instability (lockups, crashes), preventing you from on-device debugging.
+
+To dump the cbmem buffer, follow these steps:
+1. Download the tar archive from MrChromebox's website:
+  * `wget https://mrchromebox.tech/files/util/cbmem.tar.gz`
+2. Unzip the file and give the binary executable permissions:
+  * `tar -xf cbmem.tar.gz;rm cbmem.tar.gz;chmod +x cbmem`
+3. Run `cbmem` and pipe it's output to `cbmem.log` file:
+  * `sudo ./cbmem -c > cbmem.log`
+4. Upload `cbmem.log` file for further analysis.
+
+To interface with the Embedded Controller:
+1. Download the tar archive from MrChromebox's website:
+  * `wget https://mrchromebox.tech/files/util/ectool.tar.gz`
+2. Unzip the file and give the binary executable permissions:
+  * `tar -xf ectool.tar.gz;rm ectool.tar.gz;chmod +x ectool`
+3. Issue commands to EC by executing commands, for example setting the fan to 100%:
+  * `sudo ./ectool --name=cros_ec fanduty 100`
+  * Running `./ectool help` will provide you with a list of available commands, or you can take a look at ectool's source code directly:
+https://chromium.googlesource.com/chromiumos/platform/ec/+/master/util/ectool.c#63
 
 -----------
 
-### cbmem
+### SuzyQ Debug Cable
+If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exposes three serial devices:
+1. AP (CR50) console under /dev/ttyUSB0:
+  * `minicom -D /dev/ttyUSB0 -b 115200`
+2. Coreboot/platform serial under /dev/ttyUSB1:
+  * `minicom -D /dev/ttyUSB1 -b 115200`
+3. Embedded Controller console under /dev/ttyUSB2
+  * `minicom -D /dev/ttyUSB2 -b 115200`
 
-cbmem is used to view coreboot logs
+* Platform serial can be used to debug the payload or kernel, but you need to re-compile coreboot with following configuration options enabled:
+`CONSOLE_SERIAL=y`
+`EDK2_SERIAL_SUPPORT=y`
+* To use SuzyQ as platform debugger, you will also need to append the following to your kernel commandline:
+`loglevel=15 console=ttyS0,115200n8`
 
-1. Download the binary
-  * `wget https://mrchromebox.tech/files/util/cbmem.tar.gz`
-2. Unzip the file
-  * `tar xf cbmem.tar.gz`
-3. Remove the tar file 
-  * `rm cbmem.tar.gz`
-4. Run `cbmem`.
-  * `sudo ./cbmem -c > cbmem.log`
+-----------
+
+### ACPI and Linux kernelspace
+
+1. Download elly's debugging script.
+  * `cd ~/Desktop;wget https://elly.rocks/tmp/coreboot-development/debug.sh`
+
+  It will dump:
+  * ACPI tables from sysfs (`/sys/firmware/acpi/*`)
+  * DMI information (`dmidecode`)
+  * Coreboot buffer (`cbmem`)
+  * Linux kernel logs (`dmesg`)
+  * List of PCI devices (`lspci`)
+  * List of USB devices (`lsusb`)
+
+  Into `debug-logs.tar.gz` archive on your desktop.
+
+2. Run it: `chmod +x debug.sh;./debug.sh`
+
+3. Upload this file if you need help with troubleshooting.
+  * Remember to remove WiFi information from dmesg to protect your privacy.
 
 -----------
 
@@ -44,21 +88,6 @@ Run this script to get a log from your audio server
   * `chmod +x audio-debug.sh`
 3. Run the file  
   * `./audio-debug.sh`
-
------------
-
-### minicom
-
-`minicom` is used to get a serial console on your device, this is useful when you have a Suzy-Q cable
-
-To launch a CR50 console:
-  * `sudo minicom -D /dev/ttyUSB0`
-
-To launch a cbmem / OS console:
-  * `sudo minicom -D /dev/ttyUSB1`
-
-To launch an EC console:
-  * `sudo minicom -D /dev/ttyUSB2`
 
 -----------
 
