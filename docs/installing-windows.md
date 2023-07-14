@@ -6,19 +6,16 @@ nav_order: 12
 
 ## Installing Windows
 
-{: .warning }
-**Do not use RW_LEGACY for dualbooting Windows**. Windows will never run on RWL. Dual-booting Windows with RWL is generally buggy and will cause you issues in the long run. **Full ROM (UEFI) is recommended for the best experience.** 
-
 
 ### Installation:
 
 <br>
 
 {: .warning }
-Do not use Windows 8 or older. Only Windows 10 and 11 are supported.
+Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supported.
 
 {: .note }
-If you want to create a Windows installer from ChromeOS, see the [installing Ventoy](https://chrultrabook.github.io/docs/docs/ventoy.html) page.
+If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](https://chrultrabook.github.io/docs/docs/ventoy.html) page.
 
 1. Install Windows from a USB:
     1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
