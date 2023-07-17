@@ -39,7 +39,7 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
     7. Close regedit and command prompt and proceed with installation normally
 
 4. Install drivers:
-   See [Coolstar's Windows install helper](https://coolstar.org/chromebook/windows-install.html) for drivers.
+   See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers.
 
 ---
 
