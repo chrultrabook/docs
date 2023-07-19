@@ -95,14 +95,20 @@ Run this script to get a log from your audio server
 
 Flashrom is used to read and write from the SPI flash
 
+
 Read flash:
   * `sudo flashrom -p <programmer> -r <filename.rom>`
   * Example:
     * `sudo flashrom -p internal -r backup.rom`
 
+{: .warning }
+If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you want to write to the flash or else flashrom will fail.
+
 Write flash:
   * `sudo flashrom -p <programmer> -w <filename.rom>`
-  * Example:
+  * Imtel Example:
+    * `sudo flashrom -p internal --ifd -i bios -w stock.rom`
+  * AMD Example:
     * `sudo flashrom -p internal -w stock.rom`
 
 Write protection:
