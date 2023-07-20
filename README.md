@@ -16,10 +16,11 @@ Centralized project documentation
 - [x] Differences between RWL/Full ROM, advantages & disadvantages between them
 - [x] Add correct information to `installing-linux.md`, `installing-windows.md`, `altos.md`
 - [x] How to clone, build own ROMs
+- [x] SuzyQ / WP Jumper / WP Screw
+- [x] Centralised docs for cbfstool, flashrom, cbmem etc etc
+- [x] Basics on how to debug and troubleshoot issues
 - [ ] OS configuration (Keyboard Mapping, Audio, etc)
-- [ ] Centralised docs for cbfstool, flashrom, cbmem etc etc
-- [ ] Basics on how to debug and troubleshoot issues (Template for reporting issues with devices, perhaps?)
-- [ ] SuzyQ / WP Jumper / WP Screw
+- [ ] Template for reporting issues with devices, perhaps?
 - [ ] Fix the broken table in supported-devices.md
 
 
