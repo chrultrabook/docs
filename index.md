@@ -8,7 +8,7 @@ nav_order: 1
 
 ### What is a Chrultrabook and who is this guide for?
 
-A chrultrabook is a modified Chromebook designed to run Windows, Linux, or even macOS by utilizing MrChromebox coreboot firmware. The purpose of this site is to provide comprehensive and user-friendly documentation on hardware, firmware, and operating systems in the chrultrabook scene.
+A chrultrabook is a modified Chromebook designed to run Windows, Linux, or even macOS by utilizing MrChromebox coreboot firmware. The purpose of this site is to provide comprehensive and user-friendly documentation on hardware, firmware, and operating systems.
 
 <br>
 
@@ -19,7 +19,7 @@ A chrultrabook is a modified Chromebook designed to run Windows, Linux, or even 
 
 --------------------------------------
 
-**The wiki focuses on two main things:**
+**The docs focuses on two main things:**
 
 *   Installing altOS on your Chromebook.
 *   Learning in-depth information about your Chromebook.
