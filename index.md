@@ -17,8 +17,6 @@ A chrultrabook is a modified Chromebook designed to run Windows, Linux, or even 
 [Getting Started →](docs/getting-started.html){: .btn }
 </span>
 
-<br>
-
 --------------------------------------
 
 **The wiki focuses on two main things:**
