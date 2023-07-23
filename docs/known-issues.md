@@ -57,6 +57,3 @@ You should avoid buying any devices in this list.
 * No PCIe SD card reader support
 * No fingerprint reader support
 * Continuity features (AirDrop, Sidecar, etc)
-
-
------
