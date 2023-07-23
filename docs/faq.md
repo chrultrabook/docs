@@ -18,7 +18,7 @@ Please read this page before asking a question in the Discord. Your help request
 * See [here](https://chrultrabook.github.io/docs/docs/csdriver.html)
 
 **Can I get AVS or SOF drivers for free?**
-* No.
+* Only the Linux drivers are free.
  
 **How come audio isn't working on Ubuntu / Ubuntu forks?**
 * Because their packages are broken. Please switch to another distro that isn't based off of Ubuntu, like Arch Linux or Fedora.
