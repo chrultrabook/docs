@@ -70,10 +70,9 @@ So let's get to it:
 4. Install flashrom via apt:
     * `sudo apt update`
     * `sudo apt install flashrom`
-5. Assemble ch341a programmer, 1.8v adapter (if needed), and chip clip/wiring. Ensure that pin 1 is correct and consistent.
+5. Assemble ch341a programmer, 1.8v adapter (if needed), and chip clip/wiring. Ensure that pin 1 is correct and consistent.  
     <img src="https://wiki.mrchromebox.tech/images/thumb/1/16/Ch341a_annotated.png/500px-Ch341a_annotated.png" width="500" height="205">
-6. Connect the chip clip to the SPI flash chip, or get ready to hold down your WSON-8 probe, rubber bands can be used to hold it down while flashing, then connect the CH341a to the Linux host machine. Note the dot/depression indicating pin 1.
-
+6. Connect the chip clip to the SPI flash chip, or get ready to hold down your WSON-8 probe, rubber bands can be used to hold it down while flashing, then connect the CH341a to the Linux host machine. Note the dot/depression indicating pin 1.  
     <img src="https://wiki.mrchromebox.tech/images/thumb/e/e5/SOIC-8_chip.jpg/500px-SOIC-8_chip.jpg" width="500" height="444">
 7. Test connectivity and ensure the flash chip is properly identified:
     * `sudo flashrom -p ch341a_spi`
@@ -167,7 +166,7 @@ Reassembly is the reverse of disassembly. Reconnect the internal battery and rep
   {: .warning }
   These instructions do not apply to any device which is locked/managed. Enterprise and/or EDU enrollment locks out CCD functionality completely.
 
-* A USB-C debug cable [(aka Suzy-Q cable)](https://www.sparkfun.com/products/retired/14746)
+* A USB-C debug cable ([aka Suzy-Q cable](https://www.sparkfun.com/products/retired/14746))
 * The device must have the CCD flags factory reset (as per instructions to disable firmware write protection), or the battery must be unplugged/disconnected from the mainboard.
 * Another device running Linux, preferably a current Debian/Ubuntu-based distro
 
