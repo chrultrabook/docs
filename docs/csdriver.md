@@ -96,4 +96,5 @@ Reboot.
 <td width="50%" style="text-align: right">
 <a href="signedlicense.html">License Activation →</a> 
 </td>
+</tr>
 </table>
