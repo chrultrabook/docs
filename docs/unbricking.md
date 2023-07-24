@@ -93,7 +93,7 @@ Flashrom will produce output identifying the flash chip. If it doesn't, double c
             * Don't forget to get the SHA1 file for verification:
             * `wget https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
             * Then verify the download:
-            * 1sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
+            * `sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
     * The shellball firmware for the device
         * As with the UEFI firmware above, the shellball ROM can be downloaded by concatenating the shellball base path with the device-specific filename:
             * `wget <shellball base path>/shellball.<device name>.bin`

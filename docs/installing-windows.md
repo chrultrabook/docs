@@ -76,10 +76,10 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="altos.html">← Installing altOS</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="post-install.html">Post Install →</a> 
 </td>
 </tr>

@@ -17181,3 +17181,19 @@ html.dark-mode .highlight .fm {
 html.dark-mode .highlight .sb {
 	color: #8aecec;
 }
+
+.navtable-r {
+  width: 50%;
+  text-align: right;
+}
+
+.navtable-l {
+  width: 50%;
+  text-align: left;
+}
+
+.navtable {
+  width: 100%;
+  text-align: left;
+}
+

@@ -69,10 +69,10 @@ Thats it! If you followed all the steps correctly, your drivers should be workin
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="csdriver.html">← Purchasing CoolStar Drivers</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="post-install.html">Post Install →</a> 
 </td>
 </tr>

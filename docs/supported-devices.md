@@ -3335,13 +3335,15 @@ If your device isn't listed, it doesn't have custom firmware support.
 
 <br>
 
+--------------
+
 <table>
-<tr>
-<td width="100%" style="text-align: left">
-<a href="terminology.html">← Terminology</a> 
-</td>
-<td width="50%" style="text-align: right">
-<a href="allaboutfirmware.html">All About Firmware →</a> 
-</td>
-</tr>
+  <tr>
+    <td class="navtable-l">
+      <a href="terminology.html">← Terminology</a>
+    </td>
+    <td class="navtable-r">
+      <a href="allaboutfirmware.html">All About Firmware →</a>
+    </td>
+  </tr>
 </table>
