@@ -19,9 +19,10 @@ Centralized project documentation
 - [x] SuzyQ / WP Jumper / WP Screw
 - [x] Centralised docs for cbfstool, flashrom, cbmem etc etc
 - [x] Basics on how to debug and troubleshoot issues
+- [x] Fix the broken table in supported-devices.md
 - [ ] OS configuration (Keyboard Mapping, Audio, etc)
 - [ ] Template for reporting issues with devices, perhaps?
-- [ ] Fix the broken table in supported-devices.md
+
 
 
 **PRs are welcome ;)**
