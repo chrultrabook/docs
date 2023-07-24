@@ -1,5 +1,5 @@
 ---
-title: Linux distro-specific configuration
+title: Distro Secific Configuration
 layout: default
 ---
 
