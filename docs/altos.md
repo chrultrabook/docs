@@ -75,7 +75,7 @@ Any Chromebook with a ARM, Celeron or Pentium CPU is not supported.
 
 <table>
 <tr>
-<td width="100%" style="text-align: left">
+<td class="navtable">
 <a href="firmware.html">← Flashing Coreboot Firmware</a> 
 </td>
 </tr>

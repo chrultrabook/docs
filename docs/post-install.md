@@ -39,7 +39,7 @@ nav_order: 15
 <br>
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="altos.html">← Installing altOS</a> 
 </td>
 </tr>

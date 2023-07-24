@@ -57,10 +57,10 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="allaboutfirmware.html">← All About Firmware</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="altos.html">Installing altOS →</a> 
 </td>
 </tr>

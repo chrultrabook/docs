@@ -42,10 +42,10 @@ nav_order: 5
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="getting-started.html">← Getting Started</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="supported-devices.html">Supported Devices →</a> 
 </td>
 </tr>

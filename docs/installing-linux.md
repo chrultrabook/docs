@@ -53,10 +53,10 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsuppor
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="altos.html">← Installing altOS</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="post-install.html">Post Install →</a> 
 </td>
 </tr>
