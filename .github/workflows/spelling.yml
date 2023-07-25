@@ -47,7 +47,7 @@ jobs:
         post_comment: 0
         use_magic_file: 1
         experimental_apply_changes_via_bot: 1
-        use_sarif: 1
+        use_sarif: 0
         extra_dictionary_limit: 10
 
   comment-push:
