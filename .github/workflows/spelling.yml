@@ -46,7 +46,7 @@ jobs:
         spell_check_this: check-spelling/spell-check-this@prerelease
         post_comment: 0
         use_magic_file: 1
-        experimental_apply_changes_via_bot: 1
+        experimental_apply_changes_via_bot: 0
         use_sarif: 0
         extra_dictionary_limit: 10
 
