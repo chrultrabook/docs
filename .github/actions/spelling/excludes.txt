@@ -61,5 +61,5 @@ ignore$
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
-/docs/supported-devices.md
-/docs/terminology.md
+docs/supported-devices.md
+docs/terminology.md
