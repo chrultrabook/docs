@@ -61,4 +61,6 @@ ignore$
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
-
+Gemfile
+Gemfile.lock
+_includes/nav_footer_custom.html
