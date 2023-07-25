@@ -19,8 +19,8 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ### Supported Platforms
 
-| Intel            | AMD           |                              ARM            |
-| ---------------- | --------------------------------------------| ------------- |
+| Intel | AMD | ARM |
+| - | - | - |
 | Intel platforms have good support for both Linux and Windows.  | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in Windows at all, and has a few issues when running Linux.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
@@ -355,11 +355,11 @@ If your device isn't listed, it doesn't have custom firmware support.
 <th scope="col"> Device Name
 </th>
 <th scope="col"> Board Name
-</td>
+</th>
 <th scope="col"> RW_LEGACY <br> Firmware
 </th>
 <th scope="col"> UEFI Firmware <br>(Full ROM)
-</td>
+</th>
 <th scope="col"> WP Method
 </th></tr>
 <tr>
@@ -3329,18 +3329,21 @@ If your device isn't listed, it doesn't have custom firmware support.
 <tr>
 <td colspan="5">
 </td></tr>
+</tbody>
 </table>
 
 
 <br>
 
+--------------
+
 <table>
-<tr>
-<td width="100%" style="text-align: left">
-<a href="terminology.html">← Terminology</a> 
-</td>
-<td width="50%" style="text-align: right">
-<a href="allaboutfirmware.html">All About Firmware →</a> 
-</td>
-</tr>
+  <tr>
+    <td class="navtable-l">
+      <a href="terminology.html">← Terminology</a>
+    </td>
+    <td class="navtable-r">
+      <a href="allaboutfirmware.html">All About Firmware →</a>
+    </td>
+  </tr>
 </table>

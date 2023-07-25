@@ -90,10 +90,11 @@ Reboot.
 
 <table>
 <tr>
-<td width="100%" style="text-align: left">
+<td class="navtable">
 <a href="installing-windows.html">← Installing Windows</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="signedlicense.html">License Activation →</a> 
 </td>
+</tr>
 </table>

@@ -46,12 +46,12 @@ The (UEFI) Full ROM firmware is the best option for all users who no longer need
 --------------
 
 <table>
-<tr>
-<td width="50%" style="text-align: left">
-<a href="getting-started.html">← Getting Started</a> 
-</td>
-<td width="50%" style="text-align: right">
-<a href="firmware.html">Flashing Firmware →</a> 
-</td>
-</tr>
+  <tr>
+    <td class="navtable-l">
+      <a href="getting-started.html">← Getting Started</a>
+    </td>
+    <td class="navtable-r">
+      <a href="firmware.html">Flashing Firmware →</a>
+    </td>
+  </tr>
 </table>

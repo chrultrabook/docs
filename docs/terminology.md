@@ -6,12 +6,12 @@ nav_order: 5
 
 ## Terminology
 
-| **Term**     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| chrultrabook | A modified Chromebook/box designed to run Windows, Linux, or even macOS                                                                                                                                                                                                                                                                                                                                                                                                                                             |   
-| coreboot     | UEFI firmware firmware replacement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |  
-| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) |  
-| EC           | Embedded Controller. Communicates between the main board and embedded peripherals such as hotkeys, ports, or battery.                                                                                                                                                                                                                                                                                                                                                               
+| **Term** | **Description** |  
+| - | - |
+| chrultrabook | A modified Chromebook/box designed to run Windows, Linux, or even macOS |   
+| coreboot     | UEFI firmware firmware replacement |  
+| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) 
+| EC           | Embedded Controller. Communicates between the main board and embedded peripherals such as hotkeys, ports, or battery.  
 | SKL          | Abbreviation for Skylake, a Intel CPU generation (6xxx)
 | KBL          | Abbreviation for Kaby Lake, a Intel CPU generation (7xxx)
 | APL          | Abbreviation for Apollo Lake, a Intel CPU generation (7xxx)
@@ -42,10 +42,10 @@ nav_order: 5
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="getting-started.html">← Getting Started</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="supported-devices.html">Supported Devices →</a> 
 </td>
 </tr>

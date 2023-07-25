@@ -54,10 +54,10 @@ With that out the way, let's move on to the fun stuff:
 
 <table>
 <tr>
-<td width="50%" style="text-align: left">
+<td class="navtable-l">
 <a href="https://chrultrabook.github.io/docs/">← Home</a> 
 </td>
-<td width="50%" style="text-align: right">
+<td class="navtable-r">
 <a href="terminology.html">Terminology →</a> 
 </td>
 </tr>
