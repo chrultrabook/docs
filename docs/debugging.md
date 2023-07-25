@@ -10,6 +10,8 @@ This page has instructions on using multiple different utilities to debug issues
 
 -----------
 
+thier
+
 ### Firmware
 
 To debug firmware, you will need the following tools:
