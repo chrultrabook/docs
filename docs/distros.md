@@ -1,14 +1,15 @@
 ---
 title: Distro Secific Configuration
 layout: default
+nav_order: 22
 ---
 
 
-# Linux distro-specific configuration
+## Linux distro-specific Configuration
 
 ---------
 
-## NixOS
+### NixOS
 
 - Enable and configure keyd (Example is cros-standard. Adjust as you need!)  
 ```nixos
