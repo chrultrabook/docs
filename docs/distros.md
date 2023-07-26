@@ -1,5 +1,5 @@
 ---
-title: Distro Secific Configuration
+title: Distro Specific Configuration
 layout: default
 nav_order: 22
 ---
