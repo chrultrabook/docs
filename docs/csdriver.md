@@ -38,6 +38,101 @@ After signing in, you should have been redirected to the screen below. Follow th
 ### Step 5:
 
 Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then select the driver your Chromebook needs.
+
+<details><summary>What drivers do I need to buy?</summary>
+<br>
+<table>
+    <tr>
+        <td>CPU Generation</td>
+        <td>Paid Drivers</td>
+        <td>Notes</td>
+    </tr>
+    <tr>
+        <td> Sandybridge </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Ivybridge </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Haswell </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Broadwell </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Baytrail </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Braswell </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Skylake </td>
+        <td>AVS</td>
+        <td>Models with a Celeron, Pentium, i3 or m3 CPU are eligible for a AUE discount.</td>
+    </tr>
+    <tr>
+        <td> Apollo Lake </td>
+        <td>AVS or SOF</td>
+        <td>Can use either SOF or AVS</td>
+    </tr>
+    <tr>
+        <td> Kaby Lake </td>
+        <td>AVS</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Amber Lake </td>
+        <td>AVS</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Gemini Lake </td>
+        <td>SOF</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Comet Lake </td>
+        <td>SOF</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Picasso / Dali </td>
+        <td>n/a</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Tiger Lake </td>
+        <td>SOF, TB4</td>
+        <td>TB4 and SOF can be purchased as a bundle.</td>
+    </tr>
+    <tr>
+        <td> Jasper Lake </td>
+        <td>SOF</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Alder Lake </td>
+        <td>SOF, TB4</td>
+        <td>TB4 and SOF can be purchased as a bundle.</td>
+    </tr>
+</table>
+<br>
+</details>
+<br>
+
+
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step5.png">
 
 {: .note }
@@ -61,7 +156,7 @@ Go back to the [CoolStar driver portal](https://coolstar.org/chromebook/driverli
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step8.png">
 
 {: .note }
-It may take up to **two** (2) hours for the funds to show up. Do not panic, you **did not get scammed.**
+It may take up to  two  (2) hours for the funds to show up. Do not panic, you  did not get scammed. 
 
 --------
 
@@ -73,7 +168,7 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
 
 ### Step 9:
 
-**Unsubscribe from the Patreon** so you **don't get charged double.**
+ Unsubscribe from the Patreon  so you  don't get charged double. 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step7.png">
 
 {: .warning }
