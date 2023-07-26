@@ -100,8 +100,8 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
           hash = "sha256-N09oM7/XfQpGdeSqK/t53v6FDlpGpdRUKkWWL0ueJyo=";
         })
         (fetchurl {
-          url = "https://github.com/WeirdTreeThing/chromebook-ucm-conf/archive/refs/heads/main.tar.gz";
-          hash = "sha256-vXFixh2HZD5zs0wARxAHmwtvk1R8/7gBs2y+delCnGc=";
+          url = "https://github.com/WeirdTreeThing/chromebook-ucm-conf/archive/792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1.tar.gz";
+          hash = "sha256-Ae/k9vA5lWiomSa6WCfp+ROqEij11FPwlHAIG6L19JI=";
         })
       ];
       unpackPhase = ''
@@ -110,6 +110,8 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
         for _src in $srcs; do
           tar xf "$_src"
         done
+
+        ls
 
         runHook postUnpack
       '';
@@ -120,7 +122,10 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
         cp -r alsa-ucm-conf-1.2.9/ucm alsa-ucm-conf-1.2.9/ucm2 $out/share/alsa
 
         mkdir -p $out/share/alsa/ucm2/conf.d
-        cp -r chromebook-ucm-conf-main/hdmi-common chromebook-ucm-conf-main/dmic-common chromebook-ucm-conf-main/CHANGEME/* $out/share/alsa/ucm2/conf.d
+        cp -r chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/hdmi-common \
+        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/dmic-common \
+        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/CHANGEME/* \
+        $out/share/alsa/ucm2/conf.d
 
         runHook postInstall
       '';
