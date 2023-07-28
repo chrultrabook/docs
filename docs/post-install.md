@@ -24,7 +24,7 @@ nav_order: 15
 ### Linux
 * Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
 * Install [keyd](https://github.com/rvaiya/keyd) with the instructions in the README to remap top row FX keys.
-  * Pick the relevant [keyboard layout](https://github.com/eupnea-linux/eupnea-utils/tree/main/configs/keyboard-layouts) and copy to `/etc/keyd/default.conf`
+  * Pick the relevant [keyboard layout](https://github.com/chrultrabook/keydconfig) and copy to `/etc/keyd/default.conf`
 
 
 -----------------------
