@@ -503,6 +503,7 @@ Zyrex
 Chromebooks
 Chrultrabooks
 configs
+keydconfig
 distros
 kexts
 SSDTs

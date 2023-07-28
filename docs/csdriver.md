@@ -43,9 +43,9 @@ Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then sele
 <br>
 <table>
     <tr>
-        <td>CPU Generation</td>
-        <td>Paid Drivers</td>
-        <td>Notes</td>
+        <th>CPU Generation</th>
+        <th>Paid Drivers</th>
+        <th>Notes</th>
     </tr>
     <tr>
         <td> Sandybridge </td>
@@ -185,7 +185,7 @@ Reboot.
 
 <table>
 <tr>
-<td class="navtable">
+<td class="navtable-l">
 <a href="installing-windows.html">← Installing Windows</a> 
 </td>
 <td class="navtable-r">
