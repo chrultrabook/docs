@@ -3210,6 +3210,19 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
 </td></tr>
 <tr>
+<td>HP Chromebook x360 14c-cd0
+</td>
+<td style="text-align:center;"> GIMBLE
+</td>
+
+<td style="text-align:center;"> ✅
+</td>
+<td style="text-align:center;"> ✅
+</td>
+
+<td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>
+</td></tr>
+<tr>
 <td>Acer Chromebook Spin 714 (CP714-1WN)
 </td>
 <td style="text-align:center;"> KANO
