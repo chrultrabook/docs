@@ -46,9 +46,9 @@ You should now see your CPU model repeated a few times, we only have to look at 
 Example output: `model name      : Intel(R) Celeron(R) CPU N3350 @ 1.10GHz`
 
 **How to find your CPU generation**
-1. Take the CPU model from the previous steps (ex: `Intel(R) Celeron(R) CPU N3350`)
-2. Copy and paste that into a search engine and look for either Intel Ark or AMD Product specifications.
-3. Look for Code Name or Product Generation
+1. Find your board name using the steps above (ex: `SNAPPY`).
+2. Go to the [Supported Devices Page](supported-devices.html).
+3. The Supported Devices Page has sections for each generation that has a list of boards for that specific generation. Use Ctrl + F to locate your board and find which generation it is under.
 
 {: .fs-5 }
 
