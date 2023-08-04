@@ -86,9 +86,10 @@ services.keyd = {
 ```
 
 - Audio setup (Does the same as the audio script)  
-**Change the `CHANGEME` to your board generation!**  
-Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | `cezanne` | `picasso` | `stoney` 
-If your generationisnt liosted above you dont need this part
+**Change the `GENERATION` to your board generation!**  
+Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | 'avs' | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
+
+If your generation isn't listed above, you can skip this section
 ```nixos
 # configuration.nix
 nixpkgs.overlays = with pkgs; [ (final: prev:
@@ -105,7 +106,7 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
         })
       ];
       unpackPhase = ''
-        runHook preUnpacl
+        runHook preUnpack
 
         for _src in $srcs; do
           tar xf "$_src"
@@ -124,7 +125,7 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
         mkdir -p $out/share/alsa/ucm2/conf.d
         cp -r chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/hdmi-common \
         chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/dmic-common \
-        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/CHANGEME/* \
+        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/GENERATION/* \
         $out/share/alsa/ucm2/conf.d
 
         runHook postInstall
@@ -135,7 +136,27 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
 ```
 
 - Audio setup modprobes 
+  - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
 ```
 # configuration.nix
-#ToDo
+boot.extraModprobeConfig = ''
+  options snd-intel-dspcfg dsp_driver=3
+'';
+```
+
+  - SOF modprobe config for Braswell and Baytrail
+```
+# configuration.nix
+boot.extraModprobeConfig = ''
+  options snd-intel-dspcfg dsp_driver=3
+  options snd-sof sof_debug=1
+'';
+```
+
+  - AVS modprobe config for Skylake, Kabylake, and Apollolake
+```
+# configuration.nix
+boot.extraModprobeConfig = ''
+  options snd-intel-dspcfg dsp_driver=4
+'';
 ```
