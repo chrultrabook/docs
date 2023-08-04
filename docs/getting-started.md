@@ -59,7 +59,7 @@ With that out the way, let's move on to the fun stuff:
 <a href="https://chrultrabook.github.io/docs/">← Home</a> 
 </td>
 <td class="navtable-r">
-<a href="terminology.html">Terminology →</a> 
+<a href="system-info.html">Finding System Info →</a> 
 </td>
 </tr>
 </table>

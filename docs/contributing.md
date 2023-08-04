@@ -1,7 +1,7 @@
 ---
 title: Contributing
 layout: default
-nav_order: 19
+nav_order: 20
 ---
 
 ## Supporting the Docs

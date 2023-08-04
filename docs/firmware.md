@@ -1,7 +1,7 @@
 ---
 title: Firmware
 layout: default
-nav_order: 8
+nav_order: 9
 ---
 
 **Flashing Custom Firmware**
