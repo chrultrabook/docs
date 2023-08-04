@@ -13,7 +13,7 @@ Your system architecture is very important as it determines if your device has a
 2. Type `shell` and press enter
 3. Type `uname -m` and press enter
 
-You show now see one of three possible outputs:
+You should now see one of three possible outputs:
 1. `x86_64`
 2. `aarch64`
 3. `armv7l`
