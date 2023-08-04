@@ -1,7 +1,7 @@
 ---
 title: Installing macOS
 layout: default
-nav_order: 12
+nav_order: 13
 ---
 
 ## Installing macOS
