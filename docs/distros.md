@@ -137,7 +137,7 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
 
 - Audio setup modprobes 
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
-```
+```nixos
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=3
@@ -145,7 +145,7 @@ boot.extraModprobeConfig = ''
 ```
 
   - SOF modprobe config for Braswell and Baytrail
-```
+```nixos
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=3
@@ -154,7 +154,7 @@ boot.extraModprobeConfig = ''
 ```
 
   - AVS modprobe config for Skylake, Kabylake, and Apollolake
-```
+```nixos
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=4
