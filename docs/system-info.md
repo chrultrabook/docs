@@ -4,7 +4,7 @@ layout: default
 nav_order: 5
 ---
 
-## System Architecture
+### System Architecture
 
 Your system architecture is very important as it determines if your device has any support at all. ARM devices are not currently supported by the project, but support for them in the future is planned.
 
@@ -20,7 +20,9 @@ You should now see one of three possible outputs:
 
 If you see `x86_64`, your device is very likely to be supported, you will need to find your board name next to see if your device is supported. If you see `armv7l`, `aarch64`, or anything with `arm`, you have an ARM device which isn't currently supported.
 
-## Board Name
+-------------------
+
+### Board Name
 
 The board name is the special name for your device which determines if it is supported by the custom firmware.
 
@@ -33,7 +35,9 @@ You should now see your board name and some extra characters.
 Example: `SNAPPY E25-A7C-J2L-I74-A47`
 In this example, `SNAPPY` is the board name and you can ignore the extra characters.
 
-## CPU Model and generation
+-------------------
+
+### CPU Model and generation
 
 The CPU model and generation is used to determine OS support and any extra steps you have to take after installing the OS.
 
