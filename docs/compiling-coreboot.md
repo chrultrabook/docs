@@ -1,7 +1,7 @@
 ---
 title: Compiling Custom Firmware
 layout: default
-nav_order: 17
+nav_order: 18
 ---
 
 ### Cloning & Building ROMs
