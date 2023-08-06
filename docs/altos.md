@@ -66,7 +66,7 @@ Cons:
 * Limited support
 
 {: .note }
-Any Chromebook with a ARM, Celeron or Pentium CPU is not supported.
+Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
 
 ### [Installing macOS →](installing-macos.html)
 
