@@ -24,6 +24,17 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 -------
 
+### Known Issues
+
+- Broken NVRAM on Comet Lake Devices
+- Waking from sleep causes:
+   - Blank Electron / Chromium apps
+   - Buggy video playback in web browsers like Firefox or Safari
+   - Display/Wallpaper settings in SysPref/SysSettings
+   - Logging out freezes your system
+
+-------
+
 ### Tested Devices:
 
 {: .note }
@@ -55,6 +66,10 @@ This list is incomplete. Feel free to improve it.
 
 * [macOS-Dragonair](https://github.com/mine-man3000/macOS-Dragonair):
    * HP Chromebook x360 14c (DRAGONAIR)
+
+* [LuluMacOS](https://isi95010.github.io/LuluMacOS/)
+  * Dell Chromebook 13 7310 (LULU)
+
 
 -------
 
