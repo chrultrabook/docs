@@ -568,3 +568,5 @@ volumeup
 WCfp
 Wiom
 WWL
+apps
+isi
