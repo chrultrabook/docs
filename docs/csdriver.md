@@ -4,6 +4,10 @@ layout: default
 nav_order: 14
 ---
 
+{: .warning }
+If your device is older than Skylake (6th gen), you do **not need to buy any drivers as they are free.** 
+
+
 
 ## Purchasing CoolStar Drivers
 
