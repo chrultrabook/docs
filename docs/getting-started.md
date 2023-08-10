@@ -9,6 +9,14 @@ Before we begin, we need to go over a few things.
 
 -------------
 
+### Warning:
+
+{: .warning}
+You are about to make **unofficial** changes to your device! This will likely **void any warranty.** We provide **zero warranty** if you encounter bugs, brick your device, you loose your job because the alarm clock didnt go off or if a thermonuclear war starts. You are doing all changes **at your own risk**!
+
+
+-------------
+
 ### Supported Devices:
 
 Please refer to [this chart](supported-devices.html) for a full list of supported devices.
