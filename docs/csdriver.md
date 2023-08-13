@@ -139,11 +139,14 @@ Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then sele
 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step5.png">
 
+{: .important }
+**The drivers are a one time purchase.**  
+
 {: .note }
 You may need to select "See all 5 levels" if you don't see the driver you want.
 
-{: .important }
-The drivers are a one time purchase. 
+{: .note }
+To purchase more than one driver, you can change the "Choose what you pay" field at checkout.
 
 --------
 
