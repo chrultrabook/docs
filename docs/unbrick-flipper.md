@@ -21,7 +21,7 @@ Yes, this is possible.
 
 ----------------
 
-### Preperations
+### Preparations 
 1. Locate the SPI flash chip (See [Unbricking Page](unbricking.html), under "Hardware Disassembly")
 2. A understanding that this may not work on your system
 
@@ -44,7 +44,7 @@ Locate the `spi_mem_manager` folder under the path `SD Card/apps_data/spi_mem_ma
 <br>
 
 {: .note }
-You might see a file size warning. It is safe to ignore it, only files that are 4GB+ will have issues transfering.
+You might see a file size warning. It is safe to ignore it, only files that are 4GB+ will have issues transferring.
 
 Your `spi_mem_manager/` folder should now look like this:
 <br>
