@@ -34,7 +34,7 @@ Yes, this is possible.
 
 
 ### Step 1
-Obtain your stock ROM and rename it to `.bin`. For this guide, I will be usibg qFlipper. Your rom file should now look like this:
+Obtain your stock ROM and rename it to `.bin`. For this guide, I will be using qFlipper. Your rom file should now look like this:
 <br>
 ![binexample](https://github.com/chrultrabook/docs/assets/77316348/0973c451-00c5-424b-96cc-23e0d66f1960)
 
