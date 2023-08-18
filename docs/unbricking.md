@@ -28,7 +28,7 @@ If you've found your way here, it's likely because you updated your firmware and
 
 * Either a SOIC-8 chip clip or a WSON-8 probe
 
-A ch341a programmer, 1.8v adapter, and a SOIC-8 clip  are often bundled together at a lower cost, and if you're unsure if your device uses a 1.8v flash chip or a 3.3v one, it makes sense to have the adapter on hand if needed. You can look up the part number of your flash chip to determine which voltage it needs
+A ch341a programmer, 1.8v adapter, and a SOIC-8 clip  are often bundled together at a lower cost, and if you're unsure if your device uses a 1.8v flash chip or a 3.3v one, it makes sense to have the adapter on hand if needed. You can look up the part number of your flash chip to determine which voltage it needs.
 
 
 --------------------------
@@ -63,7 +63,7 @@ Once you have your device disassembled and flash chip located, time to boot up t
 
 So let's get to it:
 
-1. Boot your Linux environment (Ubuntu 2304 live USB or later recommended)
+1. Boot your Linux environment (Ubuntu 23.04 live USB or later recommended)
 2. Connect to WiFi/internet
 3.  Open a (non-root) terminal/shell window, change to home directory
     * `cd;`
@@ -184,7 +184,7 @@ As above, this is only needed if you failed to factory reset the CCD flags as pa
 
 **Prepping to Flash**
 
-Most any 64-bit Debian/Ubuntu based distro should work here, but this guide will use a Ubuntu 2304 live session booted from USB (since its version of flashrom supports Suzy-Q flashing).
+Most any 64-bit Debian/Ubuntu based distro should work here, but this guide will use a Ubuntu 23.04 live session booted from USB (since its version of flashrom supports Suzy-Q flashing).
 
 
 Let's get to it:
