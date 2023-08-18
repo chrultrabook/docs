@@ -4,6 +4,9 @@ layout: default
 nav_order: 15
 ---
 
+{: .warning }
+Make sure to unsubscribe from CoolStar's Patreon after installing the drivers. **You WILL be charged the following month if you don't.**
+
 ## License Activation
 
 
@@ -64,6 +67,10 @@ Reboot.
 ![image](https://github.com/chrultrabook/docs/assets/77316348/7202cae6-ac59-493b-b488-880ff313dd8b)
 
 Thats it! If you followed all the steps correctly, your drivers should be working.
+
+{: .warning }
+**If you do not unsubscribe from CoolStar's Patreon after installing the audio drivers, you WILL be charged the following month.** This is your final warning. 
+
 
 ------
 
