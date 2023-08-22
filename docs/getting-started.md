@@ -7,11 +7,12 @@ nav_order: 4
 ## Getting Started
 
 ### Terminology to know
- | **Term** | **Description** |  
+
+| **Term** | **Description** |  
 | - | - |
 | chrultrabook | A modified Chromebook/box designed to run Windows, Linux, or even macOS |   
 | coreboot     | UEFI firmware firmware replacement |  
-| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) 
+| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) |  
 
 -------------
 
