@@ -2,6 +2,7 @@
 title: Debugging
 layout: default
 nav_order: 17
+parent: Advanced
 ---
 
 ## Debugging
