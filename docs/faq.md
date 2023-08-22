@@ -44,7 +44,7 @@ Please read this page before asking a question in the Discord. Your help request
 **Will the audio driver still work when re-installing Windows?**
 * Yes, on the device the license was created. If the internal drive was replaced, see below.
 
-**I upgraded my Chromebooks' internal drive and my license is not working, what do I do?**
+**I upgraded my Chromebooks' internal drive and my audio/Thunderbolt 4 license is not working, what do I do?**
 * The license is tied to the serial number of your internal drive. **You do not need to buy another license**. Send CoolStar a message through Patreon, and wait for about a week.
 
 **How do I buy Windows audio drivers in bulk?**
