@@ -41,7 +41,7 @@ Please read this page before asking a question in the Discord. Your help request
 **Should I use Windows 10 or 11?**
 * Windows 11 is required for TB4 users. If you don't have Thunderbolt 4, you may use both 10 or 11.
 
-**Will the audio driver still work when reinstalling windows?**
+**Will the audio driver still work when re-installing windows?**
 * Yes.
 
 **How do I buy Windows audio drivers in bulk?**
