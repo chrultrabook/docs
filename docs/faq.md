@@ -35,11 +35,14 @@ Please read this page before asking a question in the Discord. Your help request
 **What OS should I use?**
 * This depends on your use case. Only you can answer this question.
 
-**My internal keyboard doesnt work, can I use an external keyboard to get into developer mode?**
+**My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?**
 * No. The hotkeys will only work on the internal keyboard.
 
 **Should I use Windows 10 or 11?**
 * Windows 11 is required for TB4 users. If you don't have Thunderbolt 4, you may use both 10 or 11.
+
+**Will the audio driver still work when reinstalling windows?**
+* Yes.
 
 **How do I buy Windows audio drivers in bulk?**
 * A discount is only available for Chromebooks containing an `Intel 6th gen processor (up to Core i5)`, `N3350`, `N4000`, or, `N4020` processor, otherwise you must pay full price. You must purchase 10 or more licenses to be eligible for a discount. If you are eligible for a discount, you can ping CoolStar in the [Chrultrabook Discord Server](https://discord.com/invite/ranFKmUeXc).
