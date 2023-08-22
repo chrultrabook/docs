@@ -45,7 +45,7 @@ Please read this page before asking a question in the Discord. Your help request
 * Yes, on the device the license was created. If the internal drive was replaced, see below.
 
 **I upgraded my Chromebooks' internal drive and my license is not working, what do I do?**
-* The license is tied to the serial number of your internal drive. **You do not need to buy another license**. Send CoolStar a message through pateron, and wait for about a week.
+* The license is tied to the serial number of your internal drive. **You do not need to buy another license**. Send CoolStar a message through Patreon, and wait for about a week.
 
 **How do I buy Windows audio drivers in bulk?**
 * A discount is only available for Chromebooks containing an `Intel 6th gen processor (up to Core i5)`, `N3350`, `N4000`, or, `N4020` processor, otherwise you must pay full price. You must purchase 10 or more licenses to be eligible for a discount. If you are eligible for a discount, you can ping CoolStar in the [Chrultrabook Discord Server](https://discord.com/invite/ranFKmUeXc).
