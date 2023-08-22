@@ -10,6 +10,15 @@ This page has instructions on using multiple different utilities to debug issues
 
 -----------
 
+### Grabbing Logs
+
+* If you're experiencing firmware bugs, provide output from `cbmem` console.
+* If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
+* Ift you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
+* If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, in the #hackintosh channel. 
+
+-----------
+
 ### Firmware
 
 To debug firmware, you will need the following tools:
