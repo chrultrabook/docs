@@ -10,7 +10,7 @@ nav_order: 25
 1. Another PC or laptop with at least 8GB storage
 2. A internet connection
 3. A USB drive or SD card thats at least 8 gigabytes.
-  - You will be erasing this drive, backup anything if you need to do so.
+      - You will be erasing this drive, backup anything if you need to do so.
 
 
 ### Downloading a ISO
