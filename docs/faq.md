@@ -12,7 +12,7 @@ Please read this page before asking a question in the Discord. Your help request
 -----
 
 **Can I pay for Windows drivers using PayPal?**
-* You can pay via PayPal in Patreon. 
+* You can pay via PayPal in Patreon.
 
 **How do I buy the Windows audio/Thunderbolt drivers?**
 * See [here](https://chrultrabook.github.io/docs/docs/csdriver.html)
@@ -35,11 +35,14 @@ Please read this page before asking a question in the Discord. Your help request
 **What OS should I use?**
 * This depends on your use case. Only you can answer this question.
 
+**My internal keyboard doesnt work, can I use an external keyboard to get into developer mode?**
+* No. The hotkeys will only work on the internal keyboard.
+
 **Should I use Windows 10 or 11?**
 * Windows 11 is required for TB4 users. If you don't have Thunderbolt 4, you may use both 10 or 11.
 
 **How do I buy Windows audio drivers in bulk?**
-* Please ping CoolStar in the [Chrultrabook Discord](https://discord.com/invite/ranFKmUeXc).
+* A discount is only available for Chromebooks containing an `Intel 6th gen processor (up to Core i5)`, `N3350`, `N4000`, or, `N4020` processor, otherwise you must pay full price. You must purchase 10 or more licenses to be eligible for a discount. If you are eligible for a discount, you can ping CoolStar in the [Chrultrabook Discord Server](https://discord.com/invite/ranFKmUeXc).
 
 **Can I use one driver license across multiple devices?**
 * No. One license per device.
@@ -71,6 +74,12 @@ Please read this page before asking a question in the Discord. Your help request
 
 **I'm running Legacy boot firmware now - can I switch to the UEFI firmware?**
 * You can, but your existing OS install won't boot. You'll need to either reinstall the OS (often the easiest course of action), or you can attempt to migrate your existing install, but this isn't ideal and should be considered unsupported.
+
+**Can I modify the fan speed?**
+* Yes, using ectool. On windows this is installed along with the [`crosec` driver](https://github.com/coolstar/driverinstallers/raw/master/crosec/crosec.2.0.2-installer.exe) (will be located at `C:\Program Files\crosec\ectool.exe`), on linux you can grab it from [here](https://gitlab.howett.net/DHowett/ectool/-/pipelines), by downloading the latest pipeline. To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`
+
+**Can I overclock the fan?**
+* No.
 
 
 <table>
