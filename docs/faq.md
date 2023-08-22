@@ -76,7 +76,7 @@ Please read this page before asking a question in the Discord. Your help request
 * You can, but your existing OS install won't boot. You'll need to either reinstall the OS (often the easiest course of action), or you can attempt to migrate your existing install, but this isn't ideal and should be considered unsupported.
 
 **Can I modify the fan speed?**
-* Yes, using ectool. On windows this is installed along with the [`crosec` driver](https://github.com/coolstar/driverinstallers/raw/master/crosec/crosec.2.0.2-installer.exe) (will be located at `C:\Program Files\crosec\ectool.exe`), on linux you can grab it from [here](https://gitlab.howett.net/DHowett/ectool/-/pipelines), by downloading the latest pipeline. To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`
+* Yes, using ectool. On windows this is installed along with the [`crosec` driver](https://github.com/coolstar/driverinstallers/raw/master/crosec/crosec.2.0.2-installer.exe) (will be located at `C:\Program Files\crosec\ectool.exe`), on linux you can grab it from [here](https://tree123.org/files/utils/ectool). To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`.
 
 **Can I overclock the fan?**
 * No.
