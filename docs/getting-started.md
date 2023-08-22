@@ -6,7 +6,7 @@ nav_order: 4
 
 ## Getting Started
 
-### Terminology to know
+### Terminology 
 
 | **Term** | **Description** |  
 | - | - |
