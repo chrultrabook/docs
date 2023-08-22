@@ -4,6 +4,14 @@ layout: default
 nav_order: 9
 ---
 
+### Terminology
+
+| **Term** | **Description** |  
+| - | - |
+| SuzyQable    | A cable that enables CCD (Closed Case Debug). Used to disable WP.
+
+
+
 **Flashing Custom Firmware**
 
 Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
