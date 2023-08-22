@@ -2,6 +2,7 @@
 title: Unbricking with a Flipper Zero
 layout: default
 nav_order: 24
+parent: Advanced
 ---
 
 ## Unbricking with a Flipper Zero 
