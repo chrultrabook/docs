@@ -8,7 +8,7 @@ nav_order: 9
 
 | **Term** | **Description** |  
 | - | - |
-| SuzyQable    | A cable that enables CCD (Closed Case Debug). Used to disable WP.
+| SuzyQable    | A cable that enables CCD (Closed Case Debug). Used to disable WP. | 
 
 
 
