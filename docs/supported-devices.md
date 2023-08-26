@@ -1929,272 +1929,1065 @@ If your device isn't listed, it doesn't have custom firmware support.
 
 ### Linux Support
 
-|Sandybridge/Ivybridge                                                                                                                                                                                                                                                                                                                     |Board Name     |Supported?    | Known Issues                                                                                                                                                                                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Device Name                                                                                                                                                                                                                                                                                                                               ||                                                                                                                                                                                                                                            |
-|HP Pavilion Chromebook 14                                                                                                                                                                                                                                                                                                                 |BUTTERFLY  |Yes       |-                                                                                                                                                                                                                                                       |
-|Google Chromebook Pixel (2013)                                                                                                                                                                                                                                                                                                            |LINK       |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebook Series 5 550                                                                                                                                                                                                                                                                                                           |LUMPY      |          |                                                                                                                                                                                                                                                        |
-|Acer C7/C710 Chromebook                                                                                                                                                                                                                                                                                                                   |PARROT     |          |                                                                                                                                                                                                                                                        |
-|Lenovo Thinkpad X131e Chromebook                                                                                                                                                                                                                                                                                                          |STOUT      |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebox Series 3                                                                                                                                                                                                                                                                                                                |STUMPY     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Haswell                                                                                                                                                                                                                                                                                                                                   |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|HP Chromebook 14                                                                                                                                                                                                                                                                                                                          |FALCO      |Yes       |-                                                                                                                                                                                                                                                       |
-|Toshiba Chromebook 13 (CB30)                                                                                                                                                                                                                                                                                                              |LEON       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebox CXI                                                                                                                                                                                                                                                                                                                        |McCLOUD    |          |                                                                                                                                                                                                                                                        |
-|LG Chromebase 22                                                                                                                                                                                                                                                                                                                          |MONROE     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebox CN60                                                                                                                                                                                                                                                                                                                       |PANTHER    |          |                                                                                                                                                                                                                                                        |
-|Acer C720/C720P Chromebook                                                                                                                                                                                                                                                                                                                |PEPPY      |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebox 3010                                                                                                                                                                                                                                                                                                                       |TRICKY     |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 11 (CB1C13)                                                                                                                                                                                                                                                                                                               |WOLF       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebox CB1 / G1                                                                                                                                                                                                                                                                                                                     |ZAKO       |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Broadwell                                                                                                                                                                                                                                                                                                                                 |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer C740 Chromebook                                                                                                                                                                                                                                                                                                                      |AURON_PAINE|Yes       |-                                                                                                                                                                                                                                                       |
-|Acer C910 Chromebook (CB5-571)                                                                                                                                                                                                                                                                                                            |AURON_YUNA |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebase 24                                                                                                                                                                                                                                                                                                                        |BUDDY      |          |                                                                                                                                                                                                                                                        |
-|Toshiba Chromebook2 (2015)                                                                                                                                                                                                                                                                                                                |GANDOF     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebox 2 (CN62)                                                                                                                                                                                                                                                                                                                   |GUADO      |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 13 7310                                                                                                                                                                                                                                                                                                                   |LULU       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebox CXI2                                                                                                                                                                                                                                                                                                                       |RIKKU      |          |                                                                                                                                                                                                                                                        |
-|Google Chromebook Pixel (2015)                                                                                                                                                                                                                                                                                                            |SAMUS      |          |                                                                                                                                                                                                                                                        |
-|Lenovo ThinkCentre Chromebox                                                                                                                                                                                                                                                                                                              |TIDUS      |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Baytrail                                                                                                                                                                                                                                                                                                                                  |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer Chromebook 15 (CB3-531)                                                                                                                                                                                                                                                                                                              |BANJO      |Yes       |-                                                                                                                                                                                                                                                       |
-|Dell Chromebook 11 (3120)                                                                                                                                                                                                                                                                                                                 |CANDY      |          |                                                                                                                                                                                                                                                        |
-|Lenovo N20/N20P Chromebook                                                                                                                                                                                                                                                                                                                |CLAPPER    |          |                                                                                                                                                                                                                                                        |
-|Lenovo N21 Chromebook                                                                                                                                                                                                                                                                                                                     |ENGUARDE   |          |                                                                                                                                                                                                                                                        |
-|Lenovo ThinkPad 11e/Yoga Chromebook                                                                                                                                                                                                                                                                                                       |GLIMMER    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 11 (CB3-111/131, C730, C730E, C735)                                                                                                                                                                                                                                                                                       |GNAWTY     |          |                                                                                                                                                                                                                                                        |
-|Haier Chromebook G2                                                                                                                                                                                                                                                                                                                       |HELI       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 11 G3/G4 HP Chromebook 14 G4                                                                                                                                                                                                                                                                                                |KIP        |          |                                                                                                                                                                                                                                                        |
-|AOpen Chromebox Commercial                                                                                                                                                                                                                                                                                                                |NINJA      |          |                                                                                                                                                                                                                                                        |
-|Lenovo Ideapad 100S Chromebook                                                                                                                                                                                                                                                                                                            |ORCO       |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C300                                                                                                                                                                                                                                                                                                                      |QUAWKS     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C200                                                                                                                                                                                                                                                                                                                      |SQUAWKS    |          |                                                                                                                                                                                                                                                        |
-|AOpen Chromebase Commercial                                                                                                                                                                                                                                                                                                               |SUMO       |          |                                                                                                                                                                                                                                                        |
-|Toshiba Chromebook 2 (2014)                                                                                                                                                                                                                                                                                                               |SWANKY     |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebook 2 (XE500C12)                                                                                                                                                                                                                                                                                                           |WINKY      |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Braswell                                                                                                                                                                                                                                                                                                                                  |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer Chromebook 15 (CB3-532)                                                                                                                                                                                                                                                                                                              |BANON      |Yes       |-                                                                                                                                                                                                                                                       |
-|Samsung Chromebook 3                                                                                                                                                                                                                                                                                                                      |CELES      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook R11 (C738T, CB5-132T)                                                                                                                                                                                                                                                                                                     |CYAN       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 14 (CB3-431)                                                                                                                                                                                                                                                                                                              |EDGAR      |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 11 3180/3189                                                                                                                                                                                                                                                                                                              |KEFKA      |          |                                                                                                                                                                                                                                                        |
-|Lenovo N22/N42 Chromebook                                                                                                                                                                                                                                                                                                                 |REKS       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 11 N7 (C731) CTL NL61 Chromebook Edxis Education Chromebook (NL6D) HP Chromebook 11 G5 EE Mecer V2 Chromebook Positivo Chromebook C216B                                                                                                                                                                                   |RELM       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 11 G5                                                                                                                                                                                                                                                                                                                       |SETZER     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C202S/C202SA                                                                                                                                                                                                                                                                                                              |TERRA      |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C300SA/C301SA                                                                                                                                                                                                                                                                                                             |TERRA13    |          |                                                                                                                                                                                                                                                        |
-|Lenovo ThinkPad 11e/Yoga Chromebook (G3)                                                                                                                                                                                                                                                                                                  |ULTIMA     |          |                                                                                                                                                                                                                                                        |
-|CTL J5 Chromebook Edugear CMT Chromebook Haier Chromebook 11 C Multilaser Chromebook M11C PCMerge Chromebook PCM-116T-432B Prowise Chromebook Proline Viglen Chromebook 360                                                                                                                                                               |WIZPIG     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Skylake                                                                                                                                                                                                                                                                                                                                   |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Dell Chromebook 13 3380                                                                                                                                                                                                                                                                                                                   |ASUKA      |Yes       |max98357a doesn't have a volume limiter so speakers could get fried                                                                                                                                                                                     |
-|Samsung Chromebook Pro                                                                                                                                                                                                                                                                                                                    |CAROLINE   |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C302CA                                                                                                                                                                                                                                                                                                                    |CAVE       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 13 G1                                                                                                                                                                                                                                                                                                                       |CHELL      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 14 for Work Acer Chromebook 11 (C771/C771T)                                                                                                                                                                                                                                                                               |LARS       |          |                                                                                                                                                                                                                                                        |
-|Lenovo Thinkpad 13 Chromebook                                                                                                                                                                                                                                                                                                             |SENTRY     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Apollolake                                                                                                                                                                                                                                                                                                                                |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer Chromebook 11 (C732)                                                                                                                                                                                                                                                                                                                 |ASTRONAUT  |Yes       |MicroSD detection issues                                                       No headphone jack on SOF                                                 max98357a on AVS doesn't have a volume limiter so speakers could get fried                      |
-|Asus Chromebook C223NA                                                                                                                                                                                                                                                                                                                    |BABYMEGA   |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C523NA                                                                                                                                                                                                                                                                                                                    |BABYTIGER  |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebook NL7/NL7T Edxis Chromebook 11/X11 Positivo Chromebook N2110/N2112 Viglen Chromebook 360C                                                                                                                                                                                                                                    |BLACKTIP   |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 15 (CB315)                                                                                                                                                                                                                                                                                                                |BLUE       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 15 (CP315)                                                                                                                                                                                                                                                                                                           |BRUCE      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 11 (R751T)                                                                                                                                                                                                                                                                                                           |ELECTRO    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 514                                                                                                                                                                                                                                                                                                                       |EPAULETTE  |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 11 CP311                                                                                                                                                                                                                                                                                                             |LAVA       |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 11 5190                                                                                                                                                                                                                                                                                                                   |NASHER     |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 11 5190 2-in-1                                                                                                                                                                                                                                                                                                            |NASHER360  |          |                                                                                                                                                                                                                                                        |
-|Lenovo Thinkpad 11e/Yoga 11e (G4)                                                                                                                                                                                                                                                                                                         |PYRO       |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C423                                                                                                                                                                                                                                                                                                                      |RABBID     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip C213SA                                                                                                                                                                                                                                                                                                               |REEF       |          |                                                                                                                                                                                                                                                        |
-|Lenovo 100e Chromebook                                                                                                                                                                                                                                                                                                                    |ROBO       |          |                                                                                                                                                                                                                                                        |
-|Lenovo 500e Chromebook                                                                                                                                                                                                                                                                                                                    |ROBO360    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 15 (CB515-1HT)                                                                                                                                                                                                                                                                                                            |SAND       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 11 (CB311-8H)                                                                                                                                                                                                                                                                                                             |SANTA      |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 11 G1 EE HP Chromebook 11 G6 HP Chromebook 14 G5                                                                                                                                                                                                                                                                       |SNAPPY     |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebook J41/J41T PCmerge Chromebook AL116 Prowise Chromebook Eduline Sector 5 E3 Chromebook Viglen Chromebook 11C                                                                                                                                                                                                                  |WHITETIP   |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Kabylake / Amberlake                                                                                                                                                                                                                                                                                                                      |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer Chromebook 13                                                                                                                                                                                                                                                                                                                        |AKALI      |Yes       |max98357a doesn't have a volume limiter so speakers could get fried                                                                                                                                                                                     |
-|Acer Chromebook Spin 13                                                                                                                                                                                                                                                                                                                   |AKALI360   |          |                                                                                                                                                                                                                                                        |
-|Google Pixelbook Go (2019)                                                                                                                                                                                                                                                                                                                |ATLAS      |          |Cameras don't work                                                                                                                                                                                                                                      |
-|Acer Chromebook 715 (CB715)                                                                                                                                                                                                                                                                                                               |BARD       |          |max98357a doesn't have a volume limiter so speakers could get fried                                                                                                                                                                                     |
-|Acer Chromebook 714 (CB714)                                                                                                                                                                                                                                                                                                               |EKKO       |          |                                                                                                                                                                                                                                                        |
-|Google Pixelbook (2017)                                                                                                                                                                                                                                                                                                                   |EVE        |          |                                                                                                                                                                                                                                                        |
-|AOpen Chromebox Commercial 2 Newline Chromebox A10                                                                                                                                                                                                                                                                                        |JAX        |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebase 24I2                                                                                                                                                                                                                                                                                                                      |KARMA      |          |                                                                                                                                                                                                                                                        |
-|HP Chromebox G2                                                                                                                                                                                                                                                                                                                           |KENCH      |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C425                                                                                                                                                                                                                                                                                                                      |LEONA      |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebook Plus V2                                                                                                                                                                                                                                                                                                                |NAUTILUS   |          |Camera on the keyboard doesn't work                                                                                                                                                                                                                     |
-|Google Pixel Slate                                                                                                                                                                                                                                                                                                                        |NOCTURNE   |          |Cameras don't work                                                                                                                                                                                                                                      |
-|Lenovo Yoga Chromebook C630                                                                                                                                                                                                                                                                                                               |PANTHEON   |          |max98357a doesn't have a volume limiter so speakers could get fried                                                                                                                                                                                     |
-|ASUS Chromebook Flip C433/C434                                                                                                                                                                                                                                                                                                            |SHYVANA    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebox CXI3                                                                                                                                                                                                                                                                                                                       |SION       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 14                                                                                                                                                                                                                                                                                                                     |SONA       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook X2                                                                                                                                                                                                                                                                                                                          |SORAKA     |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 15 G1                                                                                                                                                                                                                                                                                                                       |SYNDRA     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebox 3 (CN65)                                                                                                                                                                                                                                                                                                                   |TEEMO      |          |                                                                                                                                                                                                                                                        |
-|Dell Inspiron Chromebook 14 (7460)                                                                                                                                                                                                                                                                                                        |VAYNE      |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebox CBx1 Promethean Chromebox SMART Chromebox G3 ViewSonic NMP660 Chromebox                                                                                                                                                                                                                                                     |WUKONG     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Geminilake                                                                                                                                                                                                                                                                                                                                |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|ASUS Chromebook Flip C214/C234                                                                                                                                                                                                                                                                                                            |AMPTON     |Yes       |-                                                                                                                                                                                                                                                       |
-|ASUS Chromebook Flip C204                                                                                                                                                                                                                                                                                                                 |APEL       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 12b                                                                                                                                                                                                                                                                                                                    |BLOOG      |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 14a                                                                                                                                                                                                                                                                                                                         |BLOOGLET   |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 14a/14b                                                                                                                                                                                                                                                                                                                |BLOOGUARD  |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 315                                                                                                                                                                                                                                                                                                                       |BLORB      |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebook 4                                                                                                                                                                                                                                                                                                                      |BLUEBIRD   |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 311 (CB311-9H, CB311-9HT, C733, C733U, C733T)                                                                                                                                                                                                                                                                             |BOBBA      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 311 (CP311-2H, CP311-2HN) Acer Chromebook Spin 511 (R752T, R752TN)                                                                                                                                                                                                                                                   |BOBBA360   |          |                                                                                                                                                                                                                                                        |
-|Samsung Chromebook 4+                                                                                                                                                                                                                                                                                                                     |CASTA      |          |                                                                                                                                                                                                                                                        |
-|NEC Chromebook Y2                                                                                                                                                                                                                                                                                                                         |DOOD       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 14 G6                                                                                                                                                                                                                                                                                                                       |DORP       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 314 (CB314) Packard Bell Chromebook 314 (PCB314)                                                                                                                                                                                                                                                                          |DROID      |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 3100                                                                                                                                                                                                                                                                                                                      |FLEEX      |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebook VX11/VX11T Poin2 Chromebook 11P                                                                                                                                                                                                                                                                                            |FOOB       |          |                                                                                                                                                                                                                                                        |
-|Poin2 Chromebook 11P                                                                                                                                                                                                                                                                                                                      |FOOB360    |          |                                                                                                                                                                                                                                                        |
-|ADVAN Chromebook 116 Axioo Chromebook Baicells Chromebook BB01 CTL Chromebook NL71/CT/LTE EVERCOSS Chromebook CB1 Edxis Chromebook 11 (S20-C) JOI Chromebook C100 Multilaser Chromebook M11C-PC914 Pixart Rxart Chromebook Poin2 Chromebook 11A SPC Chromebook X1 Mini Sector 5 E4 LTE Chromebook WS Chromebook A101 Zyrex Chromebook M432|GARG       |Yes       |                                                                                                                                                                                                                                                        |
-|Ascon Chromebook 11A Axioo Chromebook 360 Baicells Chromebook BB01 CTL Chromebook NL71T/TW/TWB EVERCOSS Chromebook CB1A Edxis Chromebook 11 (S20-X) JOI Chromebook C100 Multilaser Chromebook M11HC-PC915 Pixart Rxart Chromebook Poin2 Chromebook 11A SPC Chromebook X1 Mini WS Chromebook A101 Zyrex Chromebook 360                     |GARG360    |Yes       |                                                                                                                                                                                                                                                        |
-|CTL Chromebook NL81/NL81T                                                                                                                                                                                                                                                                                                                 |GARFOUR    |Yes       |-                                                                                                                                                                                                                                                       |
-|Acer Chromebook 311                                                                                                                                                                                                                                                                                                                       |GLK        |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 311                                                                                                                                                                                                                                                                                                                  |GLK360     |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 3100 2-in-1                                                                                                                                                                                                                                                                                                               |GRABBITER  |          |                                                                                                                                                                                                                                                        |
-|Lenovo Chromebook C340                                                                                                                                                                                                                                                                                                                    |LASER      |          |                                                                                                                                                                                                                                                        |
-|Lenovo Chromebook S340/IdeaPad 3                                                                                                                                                                                                                                                                                                          |LASER14    |          |                                                                                                                                                                                                                                                        |
-|Lenovo Ideapad 3 Chromebook                                                                                                                                                                                                                                                                                                               |LICK       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 11 G2 EE                                                                                                                                                                                                                                                                                                               |MEEP       |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 11 G7 EE                                                                                                                                                                                                                                                                                                                    |MIMROCK    |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook C424                                                                                                                                                                                                                                                                                                                      |NOSPIKE    |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 3400                                                                                                                                                                                                                                                                                                                      |ORBATRIX   |          |                                                                                                                                                                                                                                                        |
-|Lenovo 100e Chromebook 2nd Gen                                                                                                                                                                                                                                                                                                            |PHASER     |          |                                                                                                                                                                                                                                                        |
-|Lenovo 300e Chromebook 2nd Gen/IdeaPad Flex 3 NEC Chromebook Y1                                                                                                                                                                                                                                                                           |PHASER360  |          |                                                                                                                                                                                                                                                        |
-|Lenovo 500e Chromebook 2nd Gen                                                                                                                                                                                                                                                                                                            |PHASER360S |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 512 (C851/C851T)                                                                                                                                                                                                                                                                                                          |SPARKY     |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 512 (R851TN)                                                                                                                                                                                                                                                                                                         |SPARKY360  |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 11 G8 EE                                                                                                                                                                                                                                                                                                                    |VORTICON   |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 11 G3 EE                                                                                                                                                                                                                                                                                                               |VORTININJA |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Stoneyridge                                                                                                                                                                                                                                                                                                                               |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Acer Chromebook 315 (CB315-2H)                                                                                                                                                                                                                                                                                                            |ALEENA     |Yes       |Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio  Broken S3 (sleep) on default coreboot build, needs a custom build for working sleep  eMMC is only detected on a cold boot unless you have a patched kernel|
-|HP Chromebook 11A G6 EE HP Chromebook 11A G8 EE                                                                                                                                                                                                                                                                                           |BARLA      |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 14A G5                                                                                                                                                                                                                                                                                                                      |CAREENA    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 311 (C721)                                                                                                                                                                                                                                                                                                                |KASUMI     |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 311 (R721T)                                                                                                                                                                                                                                                                                                          |KASUMI360  |          |                                                                                                                                                                                                                                                        |
-|Lenovo 14e Chromebook (S345)                                                                                                                                                                                                                                                                                                              |LIARA      |          |                                                                                                                                                                                                                                                        |
-|Lenovo 100e Chromebook 2nd Gen AMD                                                                                                                                                                                                                                                                                                        |TREEYA     |          |                                                                                                                                                                                                                                                        |
-|Lenovo 300e Chromebook 2nd Gen AMD                                                                                                                                                                                                                                                                                                        |TREEYA360  |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Whiskeylake                                                                                                                                                                                                                                                                                                                               |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Dell Latitude 5300 2-in-1 Chromebook Enterprise                                                                                                                                                                                                                                                                                           |ARCADA     |?         |?                                                                                                                                                                                                                                                       |
-|Dell Latitude 5400 Chromebook Enterprise                                                                                                                                                                                                                                                                                                  |SARIEN     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Cometlake                                                                                                                                                                                                                                                                                                                                 |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Lenovo Ideapad Flex 5 Chromebook                                                                                                                                                                                                                                                                                                          |AKEMI      |Yes       |-                                                                                                                                                                                                                                                       |
-|HP Chromebook x360 14c                                                                                                                                                                                                                                                                                                                    |DRAGONAIR  |          |Fingerprint reader doesn't work                                                                                                                                                                                                                         |
-|Dell Latitude 7410 Chromebook Enterprise                                                                                                                                                                                                                                                                                                  |DRALLION   |          |-                                                                                                                                                                                                                                                       |
-|HP Pro c640 Chromebook                                                                                                                                                                                                                                                                                                                    |DRATINI    |          |Fingerprint reader doesn't work                                                                                                                                                                                                                         |
-|ASUS Chromebox 4                                                                                                                                                                                                                                                                                                                          |DUFFY      |          |-                                                                                                                                                                                                                                                       |
-|ASUS Fanless Chromebox                                                                                                                                                                                                                                                                                                                    |FAFFY      |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip C436FA                                                                                                                                                                                                                                                                                                               |HELIOS     |          |                                                                                                                                                                                                                                                        |
-|HP Elite c1030 Chromebook HP Chromebook x360 13c                                                                                                                                                                                                                                                                                          |JINLON     |          |Fingerprint reader doesn't work                                                                                                                                                                                                                         |
-|Acer Chromebox CXI4                                                                                                                                                                                                                                                                                                                       |KAISA      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 712 (C871)                                                                                                                                                                                                                                                                                                                |KINDRED    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 713 (CP713-2W)                                                                                                                                                                                                                                                                                                       |KLED       |          |                                                                                                                                                                                                                                                        |
-|Samsung Galaxy Chromebook                                                                                                                                                                                                                                                                                                                 |KOHAKU     |          |Fingerprint reader doesn't work Sleep issues related to EC (wakes up with lid closed)                                                                                                                                                                   |
-|Samsung Galaxy Chromebook 2                                                                                                                                                                                                                                                                                                               |NIGHTFURY  |          |-                                                                                                                                                                                                                                                       |
-|HP Chromebox G3                                                                                                                                                                                                                                                                                                                           |NOIBAT     |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebox CBx2                                                                                                                                                                                                                                                                                                                        |WYVERN     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Picasso/Dali                                                                                                                                                                                                                                                                                                                              |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|HP Pro c645 Chromebook Enterprise                                                                                                                                                                                                                                                                                                         |BERKNIP    |Yes       |Needs to add "iommu=pt" to cmdline                                                        eMMC models need to put /boot/efi and /boot on USB                                                                                                            |
-|HP Chromebook 14a                                                                                                                                                                                                                                                                                                                         |DIRINBOZ   |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 514                                                                                                                                                                                                                                                                                                                  |EZKINIL    |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 14a                                                                                                                                                                                                                                                                                                                    |GUMBOZ     |          |                                                                                                                                                                                                                                                        |
-|Lenovo ThinkPad C13 Yoga Chromebook                                                                                                                                                                                                                                                                                                       |MORPHIUS   |          |                                                                                                                                                                                                                                                        |
-|Lenovo Chromebook 100e Gen3 AMD                                                                                                                                                                                                                                                                                                           |VILBOZ     |          |                                                                                                                                                                                                                                                        |
-|Lenovo Chromebook 300e Gen3 AMD                                                                                                                                                                                                                                                                                                           |VILBOZ360  |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip CM5                                                                                                                                                                                                                                                                                                                  |WOOMAX     |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|JasperLake                                                                                                                                                                                                                                                                                                                                |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|Lenovo 3i-15 Chromebook                                                                                                                                                                                                                                                                                                                   |BLIPPER    |Yes       |Cameras untested.                                                                                                                                                                                                                                       |
-|Lenovo 500e Chromebook 3rd Gen                                                                                                                                                                                                                                                                                                            |BOTEN      |          |                                                                                                                                                                                                                                                        |
-|Samsung Galaxy Chromebook 2 360                                                                                                                                                                                                                                                                                                           |BUGZZY     |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 3110                                                                                                                                                                                                                                                                                                                      |CRET       |          |                                                                                                                                                                                                                                                        |
-|Dell Chromebook 3110 2-in-1                                                                                                                                                                                                                                                                                                               |CRET360    |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 11 G4 EE                                                                                                                                                                                                                                                                                                               |DRAWCIA    |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 11 G9 EE                                                                                                                                                                                                                                                                                                                    |DRAWLAT    |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 14 G7                                                                                                                                                                                                                                                                                                                       |DRAWMAN    |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook CX1500CKA                                                                                                                                                                                                                                                                                                                 |GALITH     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook CX1700CKA                                                                                                                                                                                                                                                                                                                 |GALLOP     |          |                                                                                                                                                                                                                                                        |
-|CTL Chromebook NL72                                                                                                                                                                                                                                                                                                                       |KRACKO     |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook 14a                                                                                                                                                                                                                                                                                                                         |LANTIS     |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 14b                                                                                                                                                                                                                                                                                                                    |MADOO      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 511 [R753T]                                                                                                                                                                                                                                                                                                          |MAGOLOR    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 317 [CB317-1H]                                                                                                                                                                                                                                                                                                            |MAGPIE     |          |                                                                                                                                                                                                                                                        |
-|NEC Chromebook Y3                                                                                                                                                                                                                                                                                                                         |METAKNIGHT |          |                                                                                                                                                                                                                                                        |
-|Samsung Galaxy Chromebook Go                                                                                                                                                                                                                                                                                                              |SASUKE     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook CR1100CKA                                                                                                                                                                                                                                                                                                                 |STORO      |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip CR1100FKA                                                                                                                                                                                                                                                                                                            |STORO360   |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|TigerLake                                                                                                                                                                                                                                                                                                                                 |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|FMV Chromebook 14F                                                                                                                                                                                                                                                                                                                        |CHRONICLER |Yes       |No fingerprint functionality (yet) on models that have it.  USB4 troubleshooting in progress  Workaround: rmmod cros-ec-typec;rmmod intel-pmc-mux; modprobe intel-pmc-mux;modprobe cros-ec-typec  https://bugzilla.redhat.com/show_bug.cgi?id=2192574   |
-|ASUS Chromebook Flip CX3                                                                                                                                                                                                                                                                                                                  |COLLIS     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip CX5 (CX5400)                                                                                                                                                                                                                                                                                                         |COPANO     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip CX55, CX5 (CX5500), C536                                                                                                                                                                                                                                                                                             |DELBIN     |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook CX9400                                                                                                                                                                                                                                                                                                                    |DROBIT     |          |                                                                                                                                                                                                                                                        |
-|HP Chromebook x360 14c                                                                                                                                                                                                                                                                                                                    |ELDRID     |          |                                                                                                                                                                                                                                                        |
-|HP Pro c640 G2 Chromebook                                                                                                                                                                                                                                                                                                                 |ELEMI      |          |                                                                                                                                                                                                                                                        |
-|Lenovo IdeaPad Flex 5i Chromebook                                                                                                                                                                                                                                                                                                         |LILLIPUP   |          |                                                                                                                                                                                                                                                        |
-|Lenovo 5i-14 Chromebook Lenovo Slim 5 Chromebook                                                                                                                                                                                                                                                                                          |LINDAR     |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 514 (CB514-2H)                                                                                                                                                                                                                                                                                                       |VOEMA      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 515 (CB515-1W, CB515-1WT)                                                                                                                                                                                                                                                                                                 |VOLET      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 514 (CB514-1W, CB514-1WT)                                                                                                                                                                                                                                                                                                 |VOLTA      |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Spin 713 (CP713-3W)                                                                                                                                                                                                                                                                                                       |VOXEL      |          |                                                                                                                                                                                                                                                        |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|AlderLake                                                                                                                                                                                                                                                                                                                                 |           |          |                                                                                                                                                                                                                                                        |
-|Device Name                                                                                                                                                                                                                                                                                                                               |Board Name |Supported?|Known issues                                                                                                                                                                                                                                            |
-|HP Elite c640 G3 Chromebook                                                                                                                                                                                                                                                                                                               |ANAHERA    |Yes       |?                                                                                                                                                                                                                                                       |
-|Framework Chromebook Edition                                                                                                                                                                                                                                                                                                              |BANSHEE    |Yes       |No fingerprint functionality (yet) on models that have it.  USB4 troubleshooting in progress  Workaround: rmmod cros-ec-typec;rmmod intel-pmc-mux; modprobe intel-pmc-mux;modprobe cros-ec-typec  https://bugzilla.redhat.com/show_bug.cgi?id=2192574   |
-|                                                                                                                                                                                                                                                                                                                                          |           |          |                                                                                                                                                                                                                                                        |
-|Dell Latitude 5430 Chromebook                                                                                                                                                                                                                                                                                                             |CROTA      |          |                                                                                                                                                                                                                                                        |
-|Dell Latitude 5430 2-in-1 Chromebook                                                                                                                                                                                                                                                                                                      |CROTA360   |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook Flip CX5601                                                                                                                                                                                                                                                                                                               |FELWINTER  |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Entreprise Spin 714 (CP714-1WN)                                                                                                                                                                                                                                                                                           |KANO       |          |                                                                                                                                                                                                                                                        |
-|ASUS Chromebook CX34 Flip ASUS Chromebook Vibe CX34 Flip                                                                                                                                                                                                                                                                                  |MITHRAX    |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook 516 GE (CBG516-1H)                                                                                                                                                                                                                                                                                                        |OSIRIS     |          |                                                                                                                                                                                                                                                        |
-|Lenovo Thinkpad C14 Gen 1                                                                                                                                                                                                                                                                                                                 |PRIMUS     |          |                                                                                                                                                                                                                                                        |
-|HP Elite Dragonfly Chromebook                                                                                                                                                                                                                                                                                                             |REDRIX     |          |                                                                                                                                                                                                                                                        |
-|Lenovo Ideapad Flex 5i Chromebook                                                                                                                                                                                                                                                                                                         |TAEKO      |          |                                                                                                                                                                                                                                                        |
-|Lenovo Slim 5 Chromebook Lenovo IdeaPad 5i Chromebook                                                                                                                                                                                                                                                                                     |TARLO      |          |                                                                                                                                                                                                                                                        |
-|Lenovo Ideapad Gaming Chromebook 16                                                                                                                                                                                                                                                                                                       |TANIKS     |          |                                                                                                                                                                                                                                                        |
-|HP Elite Dragonfly Pro Chromebook                                                                                                                                                                                                                                                                                                         |VELL       |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Vero 514                                                                                                                                                                                                                                                                                                                  |VOLMAR     |          |                                                                                                                                                                                                                                                        |
-|Acer Chromebook Vero 712                                                                                                                                                                                                                                                                                                                  |ZAVALA     |          |                                                                                                                                                                                                                                                        |
-
-
+<table>
+    <colgroup>
+       <col span="1" style="width: 55%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 20%;">
+    </colgroup>
+    <tbody>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Sandybridge/Ivybridge</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>HP Pavilion Chromebook 14</td>
+            <td style="text-align:center;"> BUTTERFLY</td>
+            <td rowspan=6 style="text-align:center;">Yes</td>
+            <td rowspan=6 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>Google Chromebook Pixel (2013)</td>
+            <td style="text-align:center;"> LINK</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook Series 5 550</td>
+            <td style="text-align:center;"> LUMPY</td>
+        </tr>
+        <tr>
+            <td>Acer C7/C710 Chromebook</td>
+            <td style="text-align:center;"> PARROT</td>
+        </tr>
+        <tr>
+            <td>Lenovo Thinkpad X131e Chromebook</td>
+            <td style="text-align:center;"> STOUT</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebox Series 3</td>
+            <td style="text-align:center;"> STUMPY</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Haswell</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14</td>
+            <td style="text-align:center;"> FALCO</td>
+            <td rowspan=9 style="text-align:center;">Yes</td>
+            <td rowspan=9 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>Toshiba Chromebook 13 (CB30)</td>
+            <td style="text-align:center;"> LEON</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebox CXI</td>
+            <td style="text-align:center;"> McCLOUD</td>
+        </tr>
+        <tr>
+            <td>LG Chromebase 22</td>
+            <td style="text-align:center;"> MONROE</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebox CN60</td>
+            <td style="text-align:center;"> PANTHER</td>
+        </tr>
+        <tr>
+            <td>Acer C720/C720P Chromebook</td>
+            <td style="text-align:center;"> PEPPY</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebox 3010</td>
+            <td style="text-align:center;"> TRICKY</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 11 (CB1C13)</td>
+            <td style="text-align:center;"> WOLF</td>
+        </tr>
+        <tr>
+            <td>HP Chromebox CB1 / G1</td>
+            <td style="text-align:center;"> ZAKO</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Broadwell</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer C740 Chromebook</td>
+            <td style="text-align:center;"> AURON_PAINE</td>
+            <td rowspan=9 style="text-align:center;">Yes</td>
+            <td rowspan=9 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>Acer C910 Chromebook (CB5-571)</td>
+            <td style="text-align:center;"> AURON_YUNA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebase 24</td>
+            <td style="text-align:center;"> BUDDY</td>
+        </tr>
+        <tr>
+            <td>Toshiba Chromebook2 (2015)</td>
+            <td style="text-align:center;"> GANDOF</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebox 2 (CN62)</td>
+            <td style="text-align:center;"> GUADO</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 13 7310</td>
+            <td style="text-align:center;"> LULU</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebox CXI2</td>
+            <td style="text-align:center;"> RIKKU</td>
+        </tr>
+        <tr>
+            <td>Google Chromebook Pixel (2015)</td>
+            <td style="text-align:center;"> SAMUS</td>
+        </tr>
+        <tr>
+            <td>Lenovo ThinkCentre Chromebox</td>
+            <td style="text-align:center;"> TIDUS</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Baytrail</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 15 (CB3-531)</td>
+            <td style="text-align:center;"> BANJO</td>
+            <td rowspan=15 style="text-align:center;">Yes</td>
+            <td rowspan=15 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 11 (3120)</td>
+            <td style="text-align:center;"> CANDY</td>
+        </tr>
+        <tr>
+            <td>Lenovo N20/N20P Chromebook</td>
+            <td style="text-align:center;"> CLAPPER</td>
+        </tr>
+        <tr>
+            <td>Lenovo N21 Chromebook</td>
+            <td style="text-align:center;"> ENGUARDE</td>
+        </tr>
+        <tr>
+            <td>Lenovo ThinkPad 11e/Yoga Chromebook</td>
+            <td style="text-align:center;"> GLIMMER</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 11 (CB3-111/131, C730, C730E, C735)</td>
+            <td style="text-align:center;"> GNAWTY</td>
+        </tr>
+        <tr>
+            <td>Haier Chromebook G2</td>
+            <td style="text-align:center;"> HELI</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 11 G3/G4<br>HP Chromebook 14 G4</td>
+            <td style="text-align:center;"> KIP</td>
+        </tr>
+        <tr>
+            <td>AOpen Chromebox Commercial</td>
+            <td style="text-align:center;"> NINJA</td>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad 100S Chromebook</td>
+            <td style="text-align:center;"> ORCO</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C300</td>
+            <td style="text-align:center;"> QUAWKS</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C200</td>
+            <td style="text-align:center;"> SQUAWKS</td>
+        </tr>
+        <tr>
+            <td>AOpen Chromebase Commercial</td>
+            <td style="text-align:center;"> SUMO</td>
+        </tr>
+        <tr>
+            <td>Toshiba Chromebook 2 (2014)</td>
+            <td style="text-align:center;"> SWANKY</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook 2 (XE500C12)</td>
+            <td style="text-align:center;"> WINKY</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Braswell</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 15 (CB3-532)</td>
+            <td style="text-align:center;"> BANON</td>
+            <td rowspan=12 style="text-align:center;">Yes</td>
+            <td rowspan=12 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook 3</td>
+            <td style="text-align:center;"> CELES</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook R11 (C738T, CB5-132T)</td>
+            <td style="text-align:center;"> CYAN</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 14 (CB3-431)</td>
+            <td style="text-align:center;"> EDGAR</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 11 3180/3189</td>
+            <td style="text-align:center;"> KEFKA</td>
+        </tr>
+        <tr>
+            <td>Lenovo N22/N42 Chromebook</td>
+            <td style="text-align:center;"> REKS</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 11 N7 (C731)<br>CTL NL61 Chromebook<br>Edxis Education Chromebook (NL6D)<br>HP Chromebook 11 G5 EE<br>Mecer V2 Chromebook<br>Positivo Chromebook C216B</td>
+            <td style="text-align:center;"> RELM</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 11 G5</td>
+            <td style="text-align:center;"> SETZER</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C202S/C202SA</td>
+            <td style="text-align:center;"> TERRA</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C300SA/C301SA</td>
+            <td style="text-align:center;"> TERRA13</td>
+        </tr>
+        <tr>
+            <td>Lenovo ThinkPad 11e/Yoga Chromebook (G3)</td>
+            <td style="text-align:center;"> ULTIMA</td>
+        </tr>
+        <tr>
+            <td>CTL J5 Chromebook<br>Edugear CMT Chromebook<br>Haier Chromebook 11 C<br>Multilaser Chromebook M11C<br>PCMerge Chromebook PCM-116T-432B<br>Prowise Chromebook Proline<br>Viglen Chromebook 360</td>
+            <td style="text-align:center;"> WIZPIG</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Skylake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 13 3380</td>
+            <td style="text-align:center;"> ASUKA</td>
+            <td rowspan=6 style="text-align:center;">Yes</td>
+            <td rowspan=6 style="text-align:center;"> max98357a doesn't have a volume limiter so speakers could get fried</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook Pro</td>
+            <td style="text-align:center;"> CAROLINE</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C302CA</td>
+            <td style="text-align:center;"> CAVE</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 13 G1</td>
+            <td style="text-align:center;"> CHELL</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 14 for Work<br>Acer Chromebook 11 (C771/C771T)</td>
+            <td style="text-align:center;"> LARS</td>
+        </tr>
+        <tr>
+            <td>Lenovo Thinkpad 13 Chromebook</td>
+            <td style="text-align:center;"> SENTRY</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Apollolake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 11 (C732)</td>
+            <td style="text-align:center;"> ASTRONAUT</td>
+            <td rowspan=20 style="text-align:center;">Yes</td>
+            <td rowspan=20 style="text-align:center;"> MicroSD detection issues<br>No headphone jack on SOF<br>max98357a on AVS doesn't have a volume limiter so speakers could get fried</td>
+        </tr>
+        <tr>
+            <td>Asus Chromebook C223NA</td>
+            <td style="text-align:center;"> BABYMEGA</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C523NA</td>
+            <td style="text-align:center;"> BABYTIGER</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebook NL7/NL7T<br>Edxis Chromebook 11/X11<br>Positivo Chromebook N2110/N2112<br>Viglen Chromebook 360C</td>
+            <td style="text-align:center;"> BLACKTIP</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 15 (CB315)</td>
+            <td style="text-align:center;"> BLUE</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 15 (CP315)</td>
+            <td style="text-align:center;"> BRUCE</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 11 (R751T)</td>
+            <td style="text-align:center;"> ELECTRO</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 514</td>
+            <td style="text-align:center;"> EPAULETTE</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 11 CP311</td>
+            <td style="text-align:center;"> LAVA</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 11 5190</td>
+            <td style="text-align:center;"> NASHER</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 11 5190 2-in-1</td>
+            <td style="text-align:center;"> NASHER360</td>
+        </tr>
+        <tr>
+            <td>Lenovo Thinkpad 11e/Yoga 11e (G4)</td>
+            <td style="text-align:center;"> PYRO</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C423</td>
+            <td style="text-align:center;"> RABBID</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip C213SA</td>
+            <td style="text-align:center;"> REEF</td>
+        </tr>
+        <tr>
+            <td>Lenovo 100e Chromebook</td>
+            <td style="text-align:center;"> ROBO</td>
+        </tr>
+        <tr>
+            <td>Lenovo 500e Chromebook</td>
+            <td style="text-align:center;"> ROBO360</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 15 (CB515-1HT)</td>
+            <td style="text-align:center;"> SAND</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 11 (CB311-8H)</td>
+            <td style="text-align:center;"> SANTA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 11 G1 EE<br>HP Chromebook 11 G6<br>HP Chromebook 14 G5</td>
+            <td style="text-align:center;"> SNAPPY</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebook J41/J41T<br>PCmerge Chromebook AL116<br>Prowise Chromebook Eduline<br>Sector 5 E3 Chromebook<br>Viglen Chromebook 11C</td>
+            <td style="text-align:center;"> WHITETIP</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Kabylake / Amberlake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 13</td>
+            <td style="text-align:center;"> AKALI</td>
+            <td rowspan=21 style="text-align:center;">Yes</td>
+            <td rowspan=2 style="text-align:center;"> max98357a doesn't have a volume limiter so speakers could get fried</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 13</td>
+            <td style="text-align:center;"> AKALI360</td>
+        </tr>
+        <tr>
+            <td>Google Pixelbook Go (2019)</td>
+            <td style="text-align:center;"> ATLAS</td>
+            <td style="text-align:center;"> Cameras don't work</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 715 (CB715)</td>
+            <td style="text-align:center;"> BARD</td>
+            <td rowspan=7 style="text-align:center;"> max98357a doesn't have a volume limiter so speakers could get fried</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 714 (CB714)</td>
+            <td style="text-align:center;"> EKKO</td>
+        </tr>
+        <tr>
+            <td>Google Pixelbook (2017)</td>
+            <td style="text-align:center;"> EVE</td>
+        </tr>
+        <tr>
+            <td>AOpen Chromebox Commercial 2<br>Newline Chromebox A10</td>
+            <td style="text-align:center;"> JAX</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebase 24I2</td>
+            <td style="text-align:center;"> KARMA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebox G2</td>
+            <td style="text-align:center;"> KENCH</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C425</td>
+            <td style="text-align:center;"> LEONA</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook Plus V2</td>
+            <td style="text-align:center;"> NAUTILUS</td>
+            <td style="text-align:center;"> Camera on the keyboard doesn't work</td>
+        </tr>
+        <tr>
+            <td>Google Pixel Slate</td>
+            <td style="text-align:center;"> NOCTURNE</td>
+            <td style="text-align:center;"> Cameras don't work</td>
+        </tr>
+        <tr>
+            <td>Lenovo Yoga Chromebook C630</td>
+            <td style="text-align:center;"> PANTHEON</td>
+            <td rowspan=9 style="text-align:center;"> max98357a doesn't have a volume limiter so speakers could get fried</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip C433/C434</td>
+            <td style="text-align:center;"> SHYVANA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebox CXI3</td>
+            <td style="text-align:center;"> SION</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14</td>
+            <td style="text-align:center;"> SONA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook X2</td>
+            <td style="text-align:center;"> SORAKA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 15 G1</td>
+            <td style="text-align:center;"> SYNDRA</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebox 3 (CN65)</td>
+            <td style="text-align:center;"> TEEMO</td>
+        </tr>
+        <tr>
+            <td>Dell Inspiron Chromebook 14 (7460)</td>
+            <td style="text-align:center;"> VAYNE</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebox CBx1<br>Promethean Chromebox<br>SMART Chromebox G3<br>ViewSonic NMP660 Chromebox</td>
+            <td style="text-align:center;"> WUKONG</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Geminilake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip C214/C234</td>
+            <td style="text-align:center;"> AMPTON</td>
+            <td rowspan=36 style="text-align:center;">Yes</td>
+            <td rowspan=36 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip C204</td>
+            <td style="text-align:center;"> APEL</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 12b</td>
+            <td style="text-align:center;"> BLOOG</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14a</td>
+            <td style="text-align:center;"> BLOOGLET</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14a/14b</td>
+            <td style="text-align:center;"> BLOOGUARD</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 315</td>
+            <td style="text-align:center;"> BLORB</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook 4</td>
+            <td style="text-align:center;"> BLUEBIRD</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 311<br>(CB311-9H, CB311-9HT, C733, C733U, C733T)</td>
+            <td style="text-align:center;"> BOBBA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)<br>Acer Chromebook Spin 511 (R752T, R752TN)</td>
+            <td style="text-align:center;"> BOBBA360</td>
+        </tr>
+        <tr>
+            <td>Samsung Chromebook 4+</td>
+            <td style="text-align:center;"> CASTA</td>
+        </tr>
+        <tr>
+            <td>NEC Chromebook Y2</td>
+            <td style="text-align:center;"> DOOD</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14 G6</td>
+            <td style="text-align:center;"> DORP</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 314 (CB314)<br>Packard Bell Chromebook 314 (PCB314)</td>
+            <td style="text-align:center;"> DROID</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 3100</td>
+            <td style="text-align:center;"> FLEEX</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebook VX11/VX11T<br>Poin2 Chromebook 11P</td>
+            <td style="text-align:center;"> FOOB</td>
+        </tr>
+        <tr>
+            <td>Poin2 Chromebook 11P</td>
+            <td style="text-align:center;"> FOOB360</td>
+        </tr>
+        <tr>
+            <td>ADVAN Chromebook 116<br>Axioo Chromebook<br>Baicells Chromebook BB01<br>CTL Chromebook NL71/CT/LTE<br>EVERCOSS Chromebook CB1<br>Edxis Chromebook 11 (S20-C)<br>JOI Chromebook C100<br>Multilaser Chromebook M11C-PC914<br>Pixart Rxart Chromebook<br>Poin2 Chromebook 11A<br>SPC Chromebook X1 Mini<br>Sector 5 E4 LTE Chromebook<br>WS Chromebook A101<br>Zyrex Chromebook M432</td>
+            <td style="text-align:center;"> GARG</td>
+        </tr>
+        <tr>
+            <td>Ascon Chromebook 11A<br>Axioo Chromebook 360<br>Baicells Chromebook BB01<br>CTL Chromebook NL71T/TW/TWB<br>EVERCOSS Chromebook CB1A<br>Edxis Chromebook 11 (S20-X)<br>JOI Chromebook C100<br>Multilaser Chromebook M11HC-PC915<br>Pixart Rxart Chromebook<br>Poin2 Chromebook 11A<br>SPC Chromebook X1 Mini<br>WS Chromebook A101<br>Zyrex Chromebook 360</td>
+            <td style="text-align:center;"> GARG360</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebook NL81/NL81T</td>
+            <td style="text-align:center;"> GARFOUR</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 311</td>
+            <td style="text-align:center;"> GLK</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 311</td>
+            <td style="text-align:center;"> GLK360</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 3100 2-in-1</td>
+            <td style="text-align:center;"> GRABBITER</td>
+        </tr>
+        <tr>
+            <td>Lenovo Chromebook C340</td>
+            <td style="text-align:center;"> LASER</td>
+        </tr>
+        <tr>
+            <td>Lenovo Chromebook S340/IdeaPad 3</td>
+            <td style="text-align:center;"> LASER14</td>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad 3 Chromebook</td>
+            <td style="text-align:center;"> LICK</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 11 G2 EE</td>
+            <td style="text-align:center;"> MEEP</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 11 G7 EE</td>
+            <td style="text-align:center;"> MIMROCK</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook C424</td>
+            <td style="text-align:center;"> NOSPIKE</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 3400</td>
+            <td style="text-align:center;"> ORBATRIX</td>
+        </tr>
+        <tr>
+            <td>Lenovo 100e Chromebook 2nd Gen</td>
+            <td style="text-align:center;"> PHASER</td>
+        </tr>
+        <tr>
+            <td>Lenovo 300e Chromebook 2nd Gen/IdeaPad Flex 3<br>NEC Chromebook Y1</td>
+            <td style="text-align:center;"> PHASER360</td>
+        </tr>
+        <tr>
+            <td>Lenovo 500e Chromebook 2nd Gen</td>
+            <td style="text-align:center;"> PHASER360S</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 512 (C851/C851T)</td>
+            <td style="text-align:center;"> SPARKY</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 512 (R851TN)</td>
+            <td style="text-align:center;"> SPARKY360</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 11 G8 EE</td>
+            <td style="text-align:center;"> VORTICON</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 11 G3 EE</td>
+            <td style="text-align:center;"> VORTININJA</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Stoneyridge</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 315 (CB315-2H)</td>
+            <td style="text-align:center;"> ALEENA</td>
+            <td rowspan=8 style="text-align:center;">Yes</td>
+            <td rowspan=8 style="text-align:center;"> Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>Broken S3 (sleep) on default coreboot build, needs a custom build for working sleep<br><br>eMMC is only detected on a cold boot unless you have a patched kernel</td>
+        </tr>
+        <tr>
+            <td>"HP Chromebook 11A G6 EE<br>HP Chromebook 11A G8 EE"</td>
+            <td style="text-align:center;"> BARLA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14A G5</td>
+            <td style="text-align:center;"> CAREENA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 311 (C721)</td>
+            <td style="text-align:center;"> KASUMI</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 311 (R721T)</td>
+            <td style="text-align:center;"> KASUMI360</td>
+        </tr>
+        <tr>
+            <td>Lenovo 14e Chromebook (S345)</td>
+            <td style="text-align:center;"> LIARA</td>
+        </tr>
+        <tr>
+            <td>Lenovo 100e Chromebook 2nd Gen AMD</td>
+            <td style="text-align:center;"> TREEYA</td>
+        </tr>
+        <tr>
+            <td>Lenovo 300e Chromebook 2nd Gen AMD</td>
+            <td style="text-align:center;"> TREEYA360</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Whiskeylake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Dell Latitude 5300 2-in-1 Chromebook Enterprise</td>
+            <td style="text-align:center;"> ARCADA</td>
+            <td rowspan=2 style="text-align:center;">?</td>
+            <td rowspan=2 style="text-align:center;"> ?</td>
+        </tr>
+        <tr>
+            <td>Dell Latitude 5400 Chromebook Enterprise</td>
+            <td style="text-align:center;"> SARIEN</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Cometlake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad Flex 5 Chromebook</td>
+            <td style="text-align:center;"> AKEMI</td>
+            <td rowspan=15 style="text-align:center;">Yes</td>
+            <td style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14c</td>
+            <td style="text-align:center;"> DRAGONAIR</td>
+            <td style="text-align:center;"> Fingerprint reader doesn't work</td>
+        </tr>
+        <tr>
+            <td>Dell Latitude 7410 Chromebook Enterprise</td>
+            <td style="text-align:center;"> DRALLION</td>
+            <td style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>HP Pro c640 Chromebook</td>
+            <td style="text-align:center;"> DRATINI</td>
+            <td style="text-align:center;"> Fingerprint reader doesn't work</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebox 4</td>
+            <td style="text-align:center;"> DUFFY</td>
+            <td rowspan=3 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>ASUS Fanless Chromebox</td>
+            <td style="text-align:center;"> FAFFY</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip C436FA</td>
+            <td style="text-align:center;"> HELIOS</td>
+        </tr>
+        <tr>
+            <td>HP Elite c1030 Chromebook<br>HP Chromebook x360 13c</td>
+            <td style="text-align:center;"> JINLON</td>
+            <td style="text-align:center;"> Fingerprint reader doesn't work</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebox CXI4</td>
+            <td style="text-align:center;"> KAISA</td>
+            <td rowspan=3 style="text-align:center;"> </td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 712 (C871)</td>
+            <td style="text-align:center;"> KINDRED</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 713 (CP713-2W)</td>
+            <td style="text-align:center;"> KLED</td>
+        </tr>
+        <tr>
+            <td>Samsung Galaxy Chromebook</td>
+            <td style="text-align:center;"> KOHAKU</td>
+            <td style="text-align:center;"> Fingerprint reader doesn't work<br>Sleep issues related to EC (wakes up with lid closed)</td>
+        </tr>
+        <tr>
+            <td>Samsung Galaxy Chromebook 2</td>
+            <td style="text-align:center;"> NIGHTFURY</td>
+            <td rowspan=3 style="text-align:center;"> -</td>
+        </tr>
+        <tr>
+            <td>HP Chromebox G3</td>
+            <td style="text-align:center;"> NOIBAT</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebox CBx2</td>
+            <td style="text-align:center;"> WYVERN</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>Picasso/Dali</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>HP Pro c645 Chromebook Enterprise</td>
+            <td style="text-align:center;"> BERKNIP</td>
+            <td rowspan=8 style="text-align:center;">Yes</td>
+            <td rowspan=8 style="text-align:center;"> Needs to add "iommu=pt" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14a</td>
+            <td style="text-align:center;"> DIRINBOZ</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 514</td>
+            <td style="text-align:center;"> EZKINIL</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14a</td>
+            <td style="text-align:center;"> GUMBOZ</td>
+        </tr>
+        <tr>
+            <td>Lenovo ThinkPad C13 Yoga Chromebook</td>
+            <td style="text-align:center;"> MORPHIUS</td>
+        </tr>
+        <tr>
+            <td>Lenovo Chromebook 100e Gen3 AMD</td>
+            <td style="text-align:center;"> VILBOZ</td>
+        </tr>
+        <tr>
+            <td>Lenovo Chromebook 300e Gen3 AMD</td>
+            <td style="text-align:center;"> VILBOZ360</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CM5</td>
+            <td style="text-align:center;"> WOOMAX</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>JasperLake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>Lenovo 3i-15 Chromebook</td>
+            <td style="text-align:center;"> BLIPPER</td>
+            <td rowspan=19 style="text-align:center;">Yes</td>
+            <td rowspan=19 style="text-align:center;"> Cameras untested.</td>
+        </tr>
+        <tr>
+            <td>Lenovo 500e Chromebook 3rd Gen</td>
+            <td style="text-align:center;"> BOTEN</td>
+        </tr>
+        <tr>
+            <td>Samsung Galaxy Chromebook 2 360</td>
+            <td style="text-align:center;"> BUGZZY</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 3110</td>
+            <td style="text-align:center;"> CRET</td>
+        </tr>
+        <tr>
+            <td>Dell Chromebook 3110 2-in-1</td>
+            <td style="text-align:center;"> CRET360</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 11 G4 EE</td>
+            <td style="text-align:center;"> DRAWCIA</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 11 G9 EE</td>
+            <td style="text-align:center;"> DRAWLAT</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14 G7</td>
+            <td style="text-align:center;"> DRAWMAN</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CX1500CKA</td>
+            <td style="text-align:center;"> GALITH</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CX1700CKA</td>
+            <td style="text-align:center;"> GALLOP</td>
+        </tr>
+        <tr>
+            <td>CTL Chromebook NL72</td>
+            <td style="text-align:center;"> KRACKO</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 14a</td>
+            <td style="text-align:center;"> LANTIS</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14b</td>
+            <td style="text-align:center;"> MADOO</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 511 [R753T]</td>
+            <td style="text-align:center;"> MAGOLOR</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 317 [CB317-1H]</td>
+            <td style="text-align:center;"> MAGPIE</td>
+        </tr>
+        <tr>
+            <td>NEC Chromebook Y3</td>
+            <td style="text-align:center;"> METAKNIGHT</td>
+        </tr>
+        <tr>
+            <td>Samsung Galaxy Chromebook Go</td>
+            <td style="text-align:center;"> SASUKE</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CR1100CKA</td>
+            <td style="text-align:center;"> STORO</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CR1100FKA</td>
+            <td style="text-align:center;"> STORO360</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>TigerLake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>FMV Chromebook 14F</td>
+            <td style="text-align:center;"> CHRONICLER</td>
+            <td rowspan=13 style="text-align:center;">Yes</td>
+            <td rowspan=13 style="text-align:center;"> No fingerprint functionality (yet) on models that have it.<br><br>USB4 troubleshooting in progress<br><br>Workaround:<br>rmmod cros-ec-typec;rmmod intel-pmc-mux;<br>modprobe intel-pmc-mux;modprobe cros-ec-typec<br><br>https://bugzilla.redhat.com/show_bug.cgi?id=2192574</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CX3</td>
+            <td style="text-align:center;"> COLLIS</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CX5 (CX5400)</td>
+            <td style="text-align:center;"> COPANO</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CX55, CX5 (CX5500), C536</td>
+            <td style="text-align:center;"> DELBIN</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CX9400</td>
+            <td style="text-align:center;"> DROBIT</td>
+        </tr>
+        <tr>
+            <td>HP Chromebook x360 14c</td>
+            <td style="text-align:center;"> ELDRID</td>
+        </tr>
+        <tr>
+            <td>HP Pro c640 G2 Chromebook</td>
+            <td style="text-align:center;"> ELEMI</td>
+        </tr>
+        <tr>
+            <td>Lenovo IdeaPad Flex 5i Chromebook</td>
+            <td style="text-align:center;"> LILLIPUP</td>
+        </tr>
+        <tr>
+            <td>Lenovo 5i-14 Chromebook<br>Lenovo Slim 5 Chromebook</td>
+            <td style="text-align:center;"> LINDAR</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 514 (CB514-2H)        </td>
+            <td style="text-align:center;"> VOEMA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 515 (CB515-1W, CB515-1WT)</td>
+            <td style="text-align:center;"> VOLET</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 514 (CB514-1W, CB514-1WT)</td>
+            <td style="text-align:center;"> VOLTA</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 713 (CP713-3W)</td>
+            <td style="text-align:center;"> VOXEL</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align:left;"> <i>AlderLake</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> Supported?</th>
+            <th scope="col"> Known Issues</th>
+        </tr>
+        <tr>
+            <td>HP Elite c640 G3 Chromebook</td>
+            <td style="text-align:center;"> ANAHERA</td>
+            <td rowspan=16 style="text-align:center;">Yes</td>
+            <td rowspan=16 style="text-align:center;"> No fingerprint functionality (yet) on models that have it.<br><br>USB4 troubleshooting in progress<br><br>Workaround:<br>rmmod cros-ec-typec;rmmod intel-pmc-mux;<br>modprobe intel-pmc-mux;modprobe cros-ec-typec<br><br>https://bugzilla.redhat.com/show_bug.cgi?id=2192574</td>
+        </tr>
+        <tr>
+            <td>Framework Chromebook Edition</td>
+            <td style="text-align:center;"> BANSHEE</td>
+        </tr>
+        <tr>
+            <td>Dell Latitude 5430 Chromebook</td>
+            <td style="text-align:center;"> CROTA</td>
+        </tr>
+        <tr>
+            <td>Dell Latitude 5430 2-in-1 Chromebook</td>
+            <td style="text-align:center;"> CROTA360</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook Flip CX5601</td>
+            <td style="text-align:center;"> FELWINTER</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Entreprise Spin 714 (CP714-1WN)</td>
+            <td style="text-align:center;"> KANO</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CX34 Flip<br>ASUS Chromebook Vibe CX34 Flip</td>
+            <td style="text-align:center;"> MITHRAX</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 516 GE (CBG516-1H)</td>
+            <td style="text-align:center;"> OSIRIS</td>
+        </tr>
+        <tr>
+            <td>Lenovo Thinkpad C14 Gen 1</td>
+            <td style="text-align:center;"> PRIMUS</td>
+        </tr>
+        <tr>
+            <td>HP Elite Dragonfly Chromebook</td>
+            <td style="text-align:center;"> REDRIX</td>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad Flex 5i Chromebook</td>
+            <td style="text-align:center;"> TAEKO</td>
+        </tr>
+        <tr>
+            <td>Lenovo Slim 5 Chromebook<br>Lenovo IdeaPad 5i Chromebook</td>
+            <td style="text-align:center;"> TARLO</td>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad Gaming Chromebook 16</td>
+            <td style="text-align:center;"> TANIKS</td>
+        </tr>
+        <tr>
+            <td>HP Elite Dragonfly Pro Chromebook</td>
+            <td style="text-align:center;"> VELL</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Vero 514</td>
+            <td style="text-align:center;"> VOLMAR</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Vero 712</td>
+            <td style="text-align:center;"> ZAVALA</td>
+        </tr>
+    </tbody>
+</table>
 
 <table>
   <tr>

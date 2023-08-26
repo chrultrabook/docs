@@ -44,7 +44,7 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsuppor
  Using AVS on a device with max98357a will blow your speakers. You have been warned. 
 
 **Prerequisites**
-- Python 3.10 or newner
+- Python 3.10 or newer
 - Git
 
 **Installation**

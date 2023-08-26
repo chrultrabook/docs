@@ -49,7 +49,7 @@ nav_order: 16
    [Install]
    WantedBy=multi-user.target
    ```
-3. Enable the systemd service by typing `systemctl enable  --now chromebook-usbc.service`, then reboot.
+3. Enable the systemd service by typing `systemctl enable  --now chromebook-usbc.service`, then it should work.
 
 -----------------------
 
