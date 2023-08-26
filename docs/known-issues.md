@@ -40,6 +40,7 @@ You should avoid buying any devices in this list.
 * No fingerprint reader support
 * No TPM support
 * No IPU camera support
+* OS will BSOD with AVS/SOF driver installer when transitioning from sleep 
 
 
 ### Linux
