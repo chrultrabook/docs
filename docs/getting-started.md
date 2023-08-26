@@ -5,7 +5,14 @@ nav_order: 4
 ---
 
 ## Getting Started
-Before we begin, we need to go over a few things.
+
+### Terminology 
+
+| **Term** | **Description** |  
+| - | - |
+| chrultrabook | A modified Chromebook/box designed to run Windows, Linux, or even macOS |   
+| coreboot     | UEFI firmware firmware replacement |  
+| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) |  
 
 -------------
 
@@ -45,14 +52,6 @@ If you are facing a issue, please read the [FAQ](faq.html) first.
 **Do not use manufacturer's model name or serial number when asking for help** (i.e: HP Chromebook 14a), it doesn't help with identifying the machine. Provide the boardname, otherwise your support request will be ignored. If you don't know where to find your boardname, take a look [here.](system-info.html)
 
 
-### Provide logs.
-
-* If you're experiencing firmware bugs, provide output from `cbmem` console.
-* If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
-* Ift you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
-* If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, in the #hackintosh channel. 
-
-See the [Debugging Page](debugging.html) for instructions on how to get these logs.
 
 --------------
 

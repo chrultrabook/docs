@@ -2,6 +2,7 @@
 title: Compiling Custom Firmware
 layout: default
 nav_order: 18
+parent: Advanced
 ---
 
 ### Cloning & Building ROMs

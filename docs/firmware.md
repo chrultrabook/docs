@@ -4,6 +4,14 @@ layout: default
 nav_order: 9
 ---
 
+### Terminology
+
+| **Term** | **Description** |  
+| - | - |
+| SuzyQable    | A cable that enables CCD (Closed Case Debug). Used to disable WP. | 
+
+
+
 **Flashing Custom Firmware**
 
 Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
@@ -29,6 +37,7 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
         * Undo a WP screw
         * Unplug your battery
         * Bridge two jumpers
+        * Plug in a SuzyQable  
         
 3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
     * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
@@ -41,15 +50,19 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
 
 **Updating coreboot**
 
-1. Boot a Linux live USB (Ubuntu 22.04 recommended)
+1. Boot a live Linux USB. See [here](bootableusb.html) for a guide on making a bootable USB. 
 
   {: .note }
   curl is not installed by default for Ubuntu / Ubuntu distros. To install it, run: `sudo apt update;sudo apt install curl -y`
 
-2. Run the same firmware utility script you used to install coreboot
+2. Once you have booted the live USB, **do not install the OS. Some distros may have the option to "try now" click that.**
+
+3. Connect to the internet. Then open a terminal.
+   
+4. Run the same firmware utility script you used to install coreboot
    * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
 
-3. Pick option 1; "Install/Update UEFI (Full ROM) Firmware" and reboot if successful
+5. Pick option 1; "Install/Update UEFI (Full ROM) Firmware" and reboot if successful
 
 -------
 
