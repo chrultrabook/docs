@@ -2,21 +2,11 @@
 title: Debugging
 layout: default
 nav_order: 17
-parent: Advanced
 ---
 
 ## Debugging
 
 This page has instructions on using multiple different utilities to debug issues and modify parts of your system.
-
------------
-
-### Grabbing Logs
-
-* If you're experiencing firmware bugs, provide output from `cbmem` console.
-* If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
-* Ift you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
-* If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, in the #hackintosh channel. 
 
 -----------
 

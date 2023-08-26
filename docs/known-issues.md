@@ -40,15 +40,14 @@ You should avoid buying any devices in this list.
 * No fingerprint reader support
 * No TPM support
 * No IPU camera support
-* OS will BSOD with AVS/SOF driver installer when transitioning from sleep 
 
 
 ### Linux
 
-* Broken USB-C on TigerLake and AlderLake. See Post Install -> Linux for fix.
+* Broken USB-C on TigerLake and AlderLake (although there is a workaround)
 * No fingerprint reader support
 * Sandybridge/Ivybridge need a [workaround](https://github.com/MrChromebox/scripts/issues/277) to flash firmware from linux.
-* PopOS and Debian 12 Bookworm need a custom kernel 
+
 
 ### macOS
 

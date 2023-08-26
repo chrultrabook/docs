@@ -27,11 +27,6 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 ### Known Issues
 
 - Broken NVRAM on Comet Lake Devices
-   - To fix this, **DISABLE** `DevirtualizeMimo`.
-   {: .warning}
-   If your device has a Comet Lake CPU, this MUST be disabled.
-    
-   
 - Waking from sleep causes:
    - Blank Electron / Chromium apps
    - Buggy video playback in web browsers like Firefox or Safari
