@@ -52,7 +52,7 @@ Example output: `model name      : Intel(R) Celeron(R) CPU N3350 @ 1.10GHz`
 **How to find your CPU generation**
 1. Find your board name using the steps above (ex: `SNAPPY`).
 2. Go to the [Supported Devices Page](supported-devices.html).
-3. The Supported Devices Page has sections for each generation that has a list of boards for that specific generation. Use Ctrl + F to locate your board and find which generation it is under.
+3. The Supported Devices Page has sections for each generation that has a list of boards for that specific generation. Use Ctrl + F to locate your board and find which generation it's listed under.
 
 {: .fs-5 }
 
