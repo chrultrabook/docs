@@ -17,8 +17,8 @@ Pros:
 * Better game support
 
 Cons: 
-* Audio driver is paid (10 USD)
-* Thunderbolt driver is paid (20 USD)
+* Audio driver is paid (10 USD) for Skylake (6th generation) and newer devices
+* Thunderbolt driver is paid (20 USD) for certain generations
 * Requires the user to install many drivers
 * AVS and SOF users experience instability at times
 
