@@ -1,13 +1,1 @@
-1. Fix broken Jumper links
-2. Update macOS Post-Install to include fixing NVRAM on 10th gen devices
-3. Organize guide by sections, i.e firmware pages go together in a group and whatnot
-4. Make some FAQ questions (the long ones) easier to comprehend 
-5. Known Issues -> OS -> Linux add workaround for Broken USB-C on TigerLake and AlderLake
-6. Update Terminology page to include newer CPU generations 
-7. Flashing Custom Firmware -> Step 2, include SuzyQ CCD as one of the possible methods
-8. Flashing Custom Firmware -> Updating coreboot, make instructions more instructionaly
-9. altOS -> Windows, specify that drivers are paid for SKL and newer only
-10. Add SOF/AVS sleep wake crash to known issues
-11. Update discounted CPUs in Windows and CSDriver page
-12. Note that PopOS and Debian 12 need custom kernel 
-13. Post Instal, add custom kernel reference (see #12)
+See https://github.com/chrultrabook/docs/pull/55
