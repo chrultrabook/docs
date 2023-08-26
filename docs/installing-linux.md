@@ -17,11 +17,12 @@ Only Linux kernel 6.1 LTS or newer is supported.
 {: .warning } 
 Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsupported.
 
-**Recommended distros as of August 2023 (in no particular order) are:**
+**Recommended distros as of June 2023 (in no particular order) are:**
 
 * Arch Linux
 * Fedora
 * OpenSUSE Tumbleweed
+* Pop!_OS
 * Debian 12 (Bookworm)
 
 ----------------
@@ -29,9 +30,9 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsuppor
 
 ### Installation:
 
-1. Create a bootable Linux USB. See [here](bootableusb.html) for a guide.
+1. Create a bootable Linux USB. Ubuntu and Ubuntu based distros have outdated packages and thus are not supported.
 2. Plug the USB Drive into the Chromebook.
-3. Turn on the Chromebook, press `ESC` at the POST screen (when the boot logo appears), and select your USB to boot from. 
+3. Turn on the Chromebook, press `ESC` at the POST screen, and select the USB to boot from. 
 4. Install as you would on any other computer.
 
 
@@ -43,17 +44,9 @@ Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsuppor
  {: .warning }
  Using AVS on a device with max98357a will blow your speakers. You have been warned. 
 
-**Prerequisites**
-- Python 3.10 or newner
-- Git
+<br>
 
-**Installation**
-0. Open a terminal.
-1. `git clone https://github.com/WeirdTreeThing/chromebook-linux-audio`
-2. `cd chromebook-linux-audio`
-3. `./setup-audio`
-
-For more information please see [WeirdTreeThing's repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
+1. Run WeirdTreeThing's [audio script.](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
 {: .fs-5 }
 
