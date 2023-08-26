@@ -107,7 +107,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 </td>
 <td style="text-align:center;">
 </td>
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stumpy_1-1" class="reference"><a href="#cite_note-stumpy-1">[1]</a></sup>
+<td style="text-align:center;"> ✅ 
 </td>
 <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/" target="_blank">jumper</a>
 </td></tr>
@@ -564,7 +564,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 
 <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span>
 </td>
-<td style="text-align:center;"> ✅ <sup id="cite_ref-celes_2-1" class="reference"><a href="#cite_note-celes-2">[2]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 
 <td style="text-align:center;"> screw
@@ -1899,7 +1899,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> ALEENA
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-1" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅ 
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1912,7 +1912,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> BARLA
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-2" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1925,7 +1925,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> CAREENA
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-3" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1938,7 +1938,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> KASUMI
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-4" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1951,7 +1951,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> KASUMI360
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-5" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1964,7 +1964,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> LIARA
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-6" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1977,7 +1977,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> TREEYA
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-7" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅ 
 </td>
 <td style="text-align:center;"> ✅
 </td>
@@ -1990,7 +1990,7 @@ If your device isn't listed, it doesn't have custom firmware support.
 <td style="text-align:center;"> TREEYA360
 </td>
 
-<td style="text-align:center;"> ✅ <sup id="cite_ref-stoney_3-8" class="reference"><a href="#cite_note-stoney-3">[3]</a></sup>
+<td style="text-align:center;"> ✅
 </td>
 <td style="text-align:center;"> ✅
 </td>
