@@ -37,6 +37,7 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
         * Undo a WP screw
         * Unplug your battery
         * Bridge two jumpers
+        * Plug in a SuzyQable  
         
 3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
     * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
