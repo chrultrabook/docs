@@ -45,10 +45,10 @@ You should avoid buying any devices in this list.
 
 ### Linux
 
-* Broken USB-C on TigerLake and AlderLake (although there is a workaround)
+* Broken USB-C on TigerLake and AlderLake. See Post Install -> Linux for fix.
 * No fingerprint reader support
 * Sandybridge/Ivybridge need a [workaround](https://github.com/MrChromebox/scripts/issues/277) to flash firmware from linux.
-
+* PopOS and Debian 12 Bookworm need a custom kernel 
 
 ### macOS
 
