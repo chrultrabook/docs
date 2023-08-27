@@ -56,6 +56,7 @@ This list is incomplete. Feel free to improve it.
 - Dell Latitude 7410 Chromebook Enterprise (DRALLION)
 - Asus Chromebox 2 (CN62)	(GUADO)
 - HP Chromebook x360 14c (DRAGONAIR)
+- Acer Chromebook Spin 713 (CP713-2W) (KLED)
 
 **The following devices have dedicated guides written for them:**
 
