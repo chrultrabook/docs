@@ -22,7 +22,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel | AMD | ARM |
 | - | - | - |
-| Intel platforms have good support for both Linux and Windows. Some have support for macOS | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in Windows at all, and has a few issues when running Linux.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
+| Intel platforms have good support for both Linux and Windows. Some have support for macOS | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in Windows at all, and has a few issues when running Linux. MacOS is unsupported.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
@@ -288,7 +288,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> screw</td>
             <td rowspan="15" style="text-align:center;">Supported</td>
             <td rowspan="15" style="text-align:center;">Supported</td>
-            <td rowspan="15" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="15" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Dell Chromebook 11 (3120)</td>
@@ -413,7 +413,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="/images/b/bb/Banon_wp.jpg" class="internal" title="Banon wp.jpg">screw</a></td>
             <td rowspan="12" style="text-align:center;">Supported</td>
             <td rowspan="12" style="text-align:center;">Supported</td>
-            <td rowspan="12" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="12" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Samsung Chromebook 3</td>
@@ -579,7 +579,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="20" style="text-align:center;">Audio driver is paid. Buggy SD card.</td>
             <td rowspan="20" style="text-align:center;">MicroSD detection issues<br><br>No headphone jack on SOF<br><br>max98357a on AVS doesn't have a volume limiter so speakers could get fried</td>
-            <td rowspan="20" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="20" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Asus Chromebook C223NA</td>
@@ -932,7 +932,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="36" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="36" style="text-align:center;">Supported</td>
-            <td rowspan="36" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="36" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Asus Chromebook Flip C204</td>
@@ -1453,7 +1453,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="9" style="text-align:center;">Supported</td>
             <td rowspan="9" style="text-align:center;">Needs to add "iommu=pt" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB</td>
-            <td rowspan="9" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="9" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>HP Chromebook 14a</td>
@@ -1536,7 +1536,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="13" style="text-align:center;">Audio and ThunderBolt drivers are paid.</td>
             <td rowspan="13" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="post-install.html">post install</a>)</td>
-            <td rowspan="13" style="text-align:center;">Not supported.</td>
+            <td rowspan="13" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Asus Chromebook Flip CX3</td>
@@ -1647,7 +1647,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="40" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="40" style="text-align:center;">Cameras untested.</td>
-            <td rowspan="40" style="text-align:center;">Not Supported.</td>
+            <td rowspan="40" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Lenovo 3i-15 Chromebook</td>
@@ -1947,7 +1947,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
             <td rowspan="15" style="text-align:center;">Audio and ThunderBolt drivers are paid.</td>
             <td rowspan="15" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="post-install.html">post install</a>)</td>
-            <td rowspan="15" style="text-align:center;">Not supported.</td>
+            <td rowspan="15" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
             <td>Framework Laptop Chromebook Edition</td>
