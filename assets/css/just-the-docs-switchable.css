@@ -711,7 +711,7 @@ blockquote {
 }
 @media (min-width: 66.5rem) {
   .side-bar {
-    width: calc((100% - 1064px) / 2 + 264px);
+    width: calc((100% - 1064px) / 2 - 150px);
     min-width: 264px;
   }
 }
@@ -719,15 +719,14 @@ blockquote {
 @media (min-width: 50rem) {
   .main {
     position: relative;
-    max-width: 800px;
-    margin-left: 248px;
+    max-width: 100%;
   }
 }
 @media (min-width: 66.5rem) {
   .main {
     margin-left: max(
       264px,
-      calc((100% - 1064px) / 2 + 264px)
+      calc((100% - 1064px) / 2 - 150px)
     );
   }
 }
@@ -8711,14 +8710,14 @@ html.dark-mode .side-bar {
   html.dark-mode .main {
     margin-left: max(
       264px,
-      calc((100% - 1064px) / 2 + 264px)
+      calc((100% - 1064px) / 2 - 150px)
     );
   }
 }
 
 @media (min-width: 66.5rem) {
 	html.dark-mode .side-bar {
-		width: calc((100% - 1064px) / 2 + 264px);
+		width: calc((100% - 1064px) / 2 - 150px);
 		min-width: 264px;
 	}
 }
@@ -8726,15 +8725,14 @@ html.dark-mode .side-bar {
 @media (min-width: 50rem) {
 	html.dark-mode .main {
 		position: relative;
-		max-width: 800px;
-		margin-left: 248px;
+		max-width: 100%;
 	}
 }
 @media (min-width: 66.5rem) {
   html.dark-mode .main {
     margin-left: max(
       264px,
-      calc((100% - 1064px) / 2 + 264px)
+      calc((100% - 1064px) / 2 - 150px)
     );
   }
 }
