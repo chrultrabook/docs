@@ -57,7 +57,7 @@ nav_order: 16
 ### macOS 
 * [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
 * [OpenCore GUI](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
-* Disable `DevirtualizeMimo` if you're on CML (CometLake, 10th generation)
+* Disable `DevirtualiseMmio` if you're on CML (CometLake, 10th generation)
 
 
 <br>

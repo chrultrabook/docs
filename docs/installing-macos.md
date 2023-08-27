@@ -27,7 +27,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 ### Known Issues
 
 - Broken NVRAM on Comet Lake Devices
-   - To fix this, **DISABLE** `DevirtualizeMimo`.
+   - To fix this, **DISABLE** `DevirtualiseMmio`.
    {: .warning}
    If your device has a Comet Lake CPU, this MUST be disabled.
     

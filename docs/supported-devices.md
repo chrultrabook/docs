@@ -1323,7 +1323,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td style="text-align:center;">Fingerprint reader doesn't work</td>
-            <td rowspan="2" style="text-align:center;">Tested, Supported.<br><br>Requires `DevirtualizeMimo` to be disabled.</td>
+            <td rowspan="2" style="text-align:center;">Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled.</td>
         </tr>
         <tr>
             <td>Dell Latitude 7410 Chromebook Enterprise</td>
