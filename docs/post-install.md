@@ -9,7 +9,7 @@ nav_order: 16
 
 ### Windows
 
-** Drivers and QOL improvements**
+**Drivers and QOL improvements**
 * Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
 * Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
 * Buy audio drivers (if needed), see [the guide](csdriver.html) 
