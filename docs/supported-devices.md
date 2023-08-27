@@ -1647,7 +1647,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="40" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="40" style="text-align:center;">Cameras untested.</td>
-            <td rowspan="40" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="40" style="text-align:center;">Not Supported.</td>
         </tr>
         <tr>
             <td>Lenovo 3i-15 Chromebook</td>
