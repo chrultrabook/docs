@@ -4,6 +4,8 @@ layout: default
 nav_order: 5
 ---
 
+{: .note } The following commands require [Developer mode](firmware.md).
+
 ### System Architecture
 
 Your system architecture is very important as it determines if your device has any support at all. ARM devices are not currently supported by the project, but support for them in the future is planned.
