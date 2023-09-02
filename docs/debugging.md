@@ -68,8 +68,8 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 
 ### ACPI and Linux kernelspace
 
-1. Download elly's debugging script.
-  * `cd ~/Desktop;wget https://elly.rocks/tmp/coreboot-development/debug.sh`
+1. Download our debugging script.
+  * `cd ~/Desktop;wget https://raw.githubusercontent.com/chrultrabook/linux-tools/main/debugging.sh`
 
   It will dump:
   * ACPI tables from sysfs (`/sys/firmware/acpi/*`)
@@ -78,26 +78,14 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
   * Linux kernel logs (`dmesg`)
   * List of PCI devices (`lspci`)
   * List of USB devices (`lsusb`)
+  * Information about soundcards present in the system and their configuration
 
   Into `debug-logs.tar.gz` archive on your desktop.
 
-2. Run it: `chmod +x debug.sh;./debug.sh`
+2. Run it: `chmod +x debugging.sh;./debugging.sh`
 
 3. Upload this file if you need help with troubleshooting.
   * Remember to remove WiFi information from dmesg to protect your privacy.
-
------------
-
-### Linux Audio Server
-
-Run this script to get a log from your audio server
-
-1. Download the script
-  * `wget https://cdn.discordapp.com/attachments/1121994891950559283/1126689828063412234/audio-debug.sh`
-2. Give it execute permissions
-  * `chmod +x audio-debug.sh`
-3. Run the file  
-  * `./audio-debug.sh`
 
 -----------
 
