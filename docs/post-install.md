@@ -9,7 +9,7 @@ nav_order: 16
 
 ### Windows
 
-** Drivers and QOL improvements**
+**Drivers and QOL improvements**
 * Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
 * Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
 * Buy audio drivers (if needed), see [the guide](csdriver.html) 
@@ -57,7 +57,7 @@ nav_order: 16
 ### macOS 
 * [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
 * [OpenCore GUI](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
-* Disable `DevirtualizeMimo` if you're on CML (CometLake, 10th generation)
+* Disable `DevirtualiseMmio` if you're on CML (CometLake, 10th generation)
 
 
 <br>
