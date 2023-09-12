@@ -1536,7 +1536,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td rowspan="13" style="text-align:center;">Audio and ThunderBolt drivers are paid.</td>
+            <td rowspan="13" style="text-align:center;">Audio and Thunderbolt drivers are paid.</td>
             <td rowspan="13" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="post-install.html">post install</a>)</td>
             <td rowspan="13" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -1947,7 +1947,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
-            <td rowspan="15" style="text-align:center;">Audio and ThunderBolt drivers are paid.</td>
+            <td rowspan="15" style="text-align:center;">Audio and Thunderbolt drivers are paid.</td>
             <td rowspan="10" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="post-install.html">post install</a>)</td>
             <td rowspan="15" style="text-align:center;">No MacOS support.</td>
         </tr>
