@@ -4,7 +4,7 @@ layout: default
 nav_order: 5
 ---
 
-{: .note } The following commands require [Developer mode](firmware.md).
+{: .note } Some of the following commands require [Developer mode](firmware.md).
 
 ### System Architecture
 
