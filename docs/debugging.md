@@ -62,7 +62,7 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 `CONSOLE_SERIAL=y`
 `EDK2_SERIAL_SUPPORT=y`
 * To use SuzyQ as platform debugger, you will also need to append the following to your kernel commandline:
-`loglevel=15 console=ttyS0,115200n8`
+`loglevel=15 console=ttyS4,115200n8`
 
 -----------
 
