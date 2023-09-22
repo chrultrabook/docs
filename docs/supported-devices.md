@@ -2020,7 +2020,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
-            <td style="text-align:center;"> Bad touchpad and no cameras OOTB, see <a href="https://github.com/chrultrabook/docs/issues/72">#72</a></td>
+            <td style="text-align:center;"> Touchpad needs fix, no camera, see <a href="https://github.com/chrultrabook/docs/issues/72">#72</a></td>
         </tr>
         <tr>
             <td>Lenovo IdeaPad Gaming Chromebook 16</td>
