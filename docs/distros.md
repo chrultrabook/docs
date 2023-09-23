@@ -13,7 +13,7 @@ parent: Advanced
 ### NixOS
 
 - Enable and configure keyd (Example is cros-standard. Adjust as you need!)  
-```nixos
+```nix
 # configuration.nix
 services.keyd = {
     enable = true;
@@ -91,7 +91,7 @@ services.keyd = {
 Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | 'avs' | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
 
 If your generation isn't listed above, you can skip this section
-```nixos
+```nix
 # configuration.nix
 nixpkgs.overlays = with pkgs; [ (final: prev:
   {
@@ -136,9 +136,22 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
   )];
 ```
 
+- Install and export the ucm config as a session variable
+```nix
+#configuration.nix
+environment = {
+  systemPackages = with pkgs; [\
+    alsa-ucm-conf
+  ];
+  sessionVariables = {
+    ALSA_CONFIG_UCM2 = "${pkgs.alsa-ucm-conf}/share/alsa/ucm2";
+  };
+};
+```
+
 - Audio setup modprobes 
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
-```nixos
+```nix
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=3
@@ -146,7 +159,7 @@ boot.extraModprobeConfig = ''
 ```
 
   - SOF modprobe config for Braswell and Baytrail
-```nixos
+```nix
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=3
@@ -155,7 +168,7 @@ boot.extraModprobeConfig = ''
 ```
 
   - AVS modprobe config for Skylake, Kabylake, and Apollolake
-```nixos
+```nix
 # configuration.nix
 boot.extraModprobeConfig = ''
   options snd-intel-dspcfg dsp_driver=4
