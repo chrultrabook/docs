@@ -138,7 +138,7 @@ nixpkgs.overlays = with pkgs; [ (final: prev:
 
 - Install and export the ucm config as a session variable
 ```nix
-#configuration.nix
+# configuration.nix
 environment = {
   systemPackages = with pkgs; [\
     alsa-ucm-conf
