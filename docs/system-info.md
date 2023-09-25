@@ -5,7 +5,7 @@ nav_order: 5
 ---
 
 {: .note } 
-Some of the following commands require [Developer mode](firmware.md).
+Some of the following commands require [Developer mode](firmware.html).
 
 ### System Architecture
 
