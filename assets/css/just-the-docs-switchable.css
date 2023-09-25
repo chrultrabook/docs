@@ -606,6 +606,7 @@ body {
   line-height: 1.4;
   color: #5c5962;
   background-color: #fff;
+  transition: background-color 100ms linear;
   overflow-wrap: break-word;
 }
 
@@ -698,6 +699,8 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   background-color: #f5f6fa;
+  transition: background-color 100ms linear;
+
 }
 @media (min-width: 50rem) {
   .side-bar {
@@ -754,6 +757,8 @@ blockquote {
   z-index: 0;
   display: none;
   background-color: #f5f6fa;
+  transition: background-color 100ms linear;
+
 }
 @media (min-width: 50rem) {
   .main-header {
@@ -1659,6 +1664,8 @@ h6,
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   transition: height linear 200ms;
+  transition: background-color 100ms linear;
+
 }
 @media (min-width: 50rem) {
   .search-input-wrap {
@@ -1680,6 +1687,7 @@ h6,
   font-size: 16px;
   color: #5c5962;
   background-color: #fff;
+  transition: background-color 100ms linear;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
