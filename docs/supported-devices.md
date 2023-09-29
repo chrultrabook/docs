@@ -1897,6 +1897,100 @@ If on on a smaller screen, scroll sideways to see whole table.
         </tr>
 
         <tr>
+            <th colspan="8" style="text-align:left;"> <i>Intel Alderlake-N</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> RW_LEGACY <br> Firmware</th>
+            <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
+            <th scope="col"> WP Method</th>
+            <th scope="col"> Windows Notes</th>
+            <th scope="col"> Linux Notes</th>
+            <th scope="col"> MacOS Notes</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 512</td>
+            <td style="text-align:center;"> CRAASK</td>
+            <td style="text-align:center;"> ✅ </td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
+            <td rowspan="8" style="text-align:center;">WIP Windows support.</td>
+            <td rowspan="8" style="text-align:center;">Audio may not work.</td>
+            <td rowspan="8" style="text-align:center;">No MacOS support.</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 511</td>
+            <td style="text-align:center;"> CRAASKBOWL</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 511</td>
+            <td style="text-align:center;"> CRAASKVIN</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook 314</td>
+            <td style="text-align:center;"> CRAASNETO</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Lenovo 500e Yoga Chromebook Gen 4</td>
+            <td style="text-align:center;"> PUJJO</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Lenovo IdeaPad Flex 3i Chromebook</td>
+            <td style="text-align:center;"> PUJJOFLEX</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Lenovo 14e Chromebook Gen 3</td>
+            <td style="text-align:center;"> PUJJOTEEN</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Lenovo Ideapad Slim 3i Chromebook</td>
+            <td style="text-align:center;"> PUJJOTEEN15W</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Asus Chromebook CR11 [CR1102C]</td>
+            <td style="text-align:center;"> XIVU</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>Asus Chromebook CR11 [CR1102F]</td>
+            <td style="text-align:center;"> XIVU360</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+        <tr>
+            <td>HP Chromebook 15.6"</td>
+            <td style="text-align:center;"> YAVIKS</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
+        </tr>
+s
+        <tr>
             <th colspan="8" style="text-align:left;"> <i>Stoneyridge</i></th>
         </tr>
         <tr>
