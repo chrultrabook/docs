@@ -51,6 +51,14 @@ nav_order: 16
    ```
 3. Enable the systemd service by typing `systemctl enable  --now chromebook-usbc.service`, then it should work.
 
+**CELES Post Install Workaround**
+
+If you experience issues in applications such as Parsec, or encounter disruptive freezes, adding the kernel parameters `clocksource=hpet hpet=force` may fix your problem. The following instructions assume you're using GRUB, and will be different for other bootloaders. Do your own research on how to set kernel parameters in your bootloader if these do not apply.
+1. Edit `/etc/default/grub` with your preferred text editor (e.g. nano).
+2. Add `clocksource=hpet hpet=force` inside of GRUB_CMDLINE_LINUX_DEFAULT and save your changes. If you exclude either parameter, this will not work. Use sudo, su, or doas if necessary.
+3. Type `grub-mkconfig -o /boot/grub/grub.cfg` or `update-grub` into a terminal and press Enter. Use sudo, su, or doas if necessary.
+4. Reboot
+
 -----------------------
 
 
