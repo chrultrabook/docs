@@ -1916,7 +1916,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="8" style="text-align:center;">No Windows support.</td>
-            <td rowspan="8" style="text-align:center;">Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br>><br>eMMC is only detected on a cold boot unless you have a patched kernel</td>
+            <td rowspan="8" style="text-align:center;">Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel</td>
             <td rowspan="8" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
