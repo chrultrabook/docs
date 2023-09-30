@@ -59,23 +59,29 @@ For more information please see [WeirdTreeThing's repo](https://github.com/Weird
 
 **Stoneyridge Audio, Sleep support, and more.**
 **for debian**
+**other distros,follow their kernel guide.**
 
 {: .warning }
-please dont do this and main it, fire hazard risk
+Stoneyridge Chromebooks are very prone to overheating, as there are barely any areas for the device to breathe.
+
+{: .warning }
+This guide is not meant for novice linux users.
 
 
 0. run inside a terminal `wget https://tree123.org/chrultrabook/stoney-emmcfix.tar.gz`
 1. `tar -xf stoney-emmcfix.tar.gz`
-2. Shalt be warned, shalt chromebook may explode.
+2. Get dependencies.
 3.`sudo apt-get install build-essential automake autoconf libtool pkg-config libcurl4-openssl-dev intltool libxml2-dev libgtk2.0-dev libnotify-dev libglib2.0-dev libevent-dev checkinstall`
+3b. If you want to use `make`, `make` a `make`file yourself.
 4.`cd stoney-emmcfix`
 5. `sudo checkinstall`
-6. follow le prompts with desired info.
+6. Fill out the prompts with the desired information
+7. Make a GPG key to sign the deb if wanted.
 
 {: .note}
 kernel ver is 6.4.3-dirty
 
-7. have fun with your new fire starter
+9. You can now play as Luigi.
       
 <table>
 <tr>
