@@ -2148,6 +2148,82 @@ s
         <tr>
             <td colspan="8"></td>
         </tr>
+
+        <tr>
+            <th colspan="8" style="text-align:left;"> <i>AMD Cezanne</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> RW_LEGACY <br> Firmware</th>
+            <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
+            <th scope="col"> WP Method</th>
+            <th scope="col"> Windows Notes</th>
+            <th scope="col"> Linux Notes</th>
+            <th scope="col"> MacOS Notes</th>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]</td>
+            <td style="text-align:center;"> DEWATT</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td rowspan="2" style="text-align:center;">Not supported.</td>
+            <td rowspan="2" style="text-align:center;">Audio WIP.</td>
+            <td rowspan="2" style="text-align:center;">No MacOS support.</td>
+        </tr>
+        <tr>
+            <td>HP Elite c645 G2 Chromebook</td>
+            <td style="text-align:center;"> NIPPERKIN</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
+        </tr>
+
+        <tr>
+            <th colspan="8" style="text-align:left;"> <i>AMD Mendocino</i></th>
+        </tr>
+        <tr>
+            <th scope="col"> Device Name</th>
+            <th scope="col"> Board Name</th>
+            <th scope="col"> RW_LEGACY <br> Firmware</th>
+            <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
+            <th scope="col"> WP Method</th>
+            <th scope="col"> Windows Notes</th>
+            <th scope="col"> Linux Notes</th>
+            <th scope="col"> MacOS Notes</th>
+        </tr>
+        <tr>
+            <td>TBD</td>
+            <td style="text-align:center;"> CRYSTALDRIFT</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td rowspan="4" style="text-align:center;">Support WIP.</td>
+            <td rowspan="4" style="text-align:center;">Audio WIP.</td>
+            <td rowspan="4" style="text-align:center;">No MacOS support.</td>
+        </tr>
+        <tr>
+            <td>ASUS Chromebook CM34 Flip</td>
+            <td style="text-align:center;"> FROSTFLOW</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
+        </tr>
+        <tr>
+            <td>Acer Chromebook Plus 514</td>
+            <td style="text-align:center;"> MARKARTH</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
+        </tr>
+        <tr>
+            <td>Dell Latitude 3445 Chromebook</td>
+            <td style="text-align:center;"> WHITERUN</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
+        </tr>
     </tbody>
 </table>
 
