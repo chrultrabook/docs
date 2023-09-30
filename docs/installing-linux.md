@@ -57,7 +57,26 @@ For more information please see [WeirdTreeThing's repo](https://github.com/Weird
 
 {: .fs-5 }
 
+**Stoneyridge Audio, Sleep support, and more.**
+**for debian**
 
+{: .warning }
+please dont do this and main it, fire hazard risk
+
+
+0. run inside a terminal `wget https://tree123.org/chrultrabook/stoney-emmcfix.tar.gz`
+1. `tar -xf stoney-emmcfix.tar.gz`
+2. Shalt be warned, shalt chromebook may explode.
+3.`sudo apt-get install build-essential automake autoconf libtool pkg-config libcurl4-openssl-dev intltool libxml2-dev libgtk2.0-dev libnotify-dev libglib2.0-dev libevent-dev checkinstall`
+4.`cd stoney-emmcfix`
+5. `sudo checkinstall`
+6. follow le prompts with desired info.
+
+{: .note}
+kernel ver is 6.4.3-dirty
+
+7. have fun with your new fire starter
+      
 <table>
 <tr>
 <td class="navtable-l">
