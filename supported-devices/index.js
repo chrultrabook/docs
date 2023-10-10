@@ -2878,7 +2878,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2891,7 +2891,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2903,7 +2903,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2915,7 +2915,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2927,7 +2927,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2939,7 +2939,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2951,7 +2951,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             },
@@ -2963,7 +2963,7 @@ function generateHTML() {
                 "rwLegacy": true,
                 "fullrom": true,
                 "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-                "windows": "No Windows support.",
+                "windows": "Experimental Windows support.",
                 "linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
                 "mac": "No MacOS support."
             }
@@ -3250,7 +3250,5 @@ function generateHTML() {
 
 console.log("Loading...");
 const fs = require("fs");
-let data = fs.readFileSync("template.md", "utf8");
-data = data.replace("${{TABLE}}", generateHTML());
-fs.writeFileSync("../docs/supported-devices.md", data);
+fs.writeFileSync("html.html", generateHTML());
 console.log("File written to ../docs/supported-devices.md")
