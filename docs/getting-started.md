@@ -12,7 +12,7 @@ nav_order: 4
 | - | - |
 | Chrultrabook | A modified Chromebook or Chromebox designed to run Windows, Linux, or even macOS |   
 | Coreboot     | UEFI firmware firmware replacement |  
-| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a new method by which OSes and platform firmware communicate, providing a BIOS alternative that uses only the information needed to launch the OS boot process. (source: Techtarget) |  
+| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a new method by which OSes and platform firmware communicate, providing a BIOS alternative that uses only the information needed to launch the OS boot process. |  
 
 -------------
 
@@ -41,7 +41,7 @@ Please refer to [this chart](supported-devices.html) for a full list of supporte
 *  **A basic knowledge of command lines and how to use a terminal/command prompt.**
   * We can't help you if you don't know how to go to a directory or delete a file from terminal.
 * A minimum of an 8GB USB drive or SD Card for creating a bootable OS installer.
-* A Device to create the bootable OS installer
+* A Chromebook running Ventoy (read [Ventoy](ventoy.html), or another computer running Balena Etcher, or Rufus (read [Making a Bootable USB](bootableusb.html)
 
 ------
 
