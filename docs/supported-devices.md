@@ -2156,7 +2156,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> DEWATT</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> </td>
-            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="2" style="text-align:center;">Not supported.</td>
             <td rowspan="2" style="text-align:center;">Audio WIP.</td>
             <td rowspan="2" style="text-align:center;">No MacOS support.</td>
@@ -2189,7 +2189,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> CRYSTALDRIFT</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> </td>
-            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="4" style="text-align:center;">Support WIP.</td>
             <td rowspan="4" style="text-align:center;">Audio WIP.</td>
             <td rowspan="4" style="text-align:center;">No MacOS support.</td>
