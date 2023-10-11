@@ -26,7 +26,7 @@ Open crosh by pressing `Ctrl` + `Alt` + `T` and run the following commands:
 3. `cd /usr/local`
 4. `mv /home/chronos/user/Downloads/ventoy-<ventoy version>-linux.tar.gz .`
 5. `tar xf ventoy-<ventoy version>-linux.tar.gz`
-6. `cd ventoy-<ventoy version>-linux`
+6. `cd ventoy-<ventoy version>`
 
 {: .note }
 On commands 4, 5, and 6, after typing ventoy, you can press tab to fill in the rest of the file name automatically.
