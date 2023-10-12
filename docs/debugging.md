@@ -104,7 +104,7 @@ If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you wan
 
 Write flash:
   * `sudo flashrom -p <programmer> -w <filename.rom>`
-  * Imtel Example:
+  * Intel Example:
     * `sudo flashrom -p internal --ifd -i bios -w stock.rom`
   * AMD Example:
     * `sudo flashrom -p internal -w stock.rom`
