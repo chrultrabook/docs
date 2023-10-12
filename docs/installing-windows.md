@@ -15,7 +15,7 @@ nav_order: 11
 Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supported.
 
 {: .warning }
-Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. They are not supported and may contain undetectable malware and/or security vulnerabilities.
+Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. They are not supported and may contain **undetectable** malware and/or security vulnerabilities.
 
 {: .note }
 If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](https://chrultrabook.github.io/docs/docs/ventoy.html) page.
