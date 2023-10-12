@@ -3,8 +3,9 @@ title: Supported Devices
 layout: default
 nav_order: 7
 ---
-
-/** NOTE - do not edit the supported-devices.md file, edit the template file in the supported-devices folder */
+<!--
+NOTE - do not edit the supported-devices.md file, edit the template file in the supported-devices folder
+-->
 
 ## Supported Devices and Platforms
 
