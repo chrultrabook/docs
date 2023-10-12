@@ -6,7 +6,7 @@ nav_order: 7
 
 
 ## Supported Devices and Platforms
-Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the Board Name. Use your Chromebook's Boardname to see if it has support. 
+Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the boardname. Use your Chromebook's boardname to see if it has support. 
 
 ### Determining Device Support
 What's in a name? All ChromeOS devices have a board/device name, which determines which firmware, OS build, etc a device uses. The board name is listed at the bottom of both the Recovery Mode and Developer Mode screens, as part of the hardware ID (HWID).
