@@ -44,7 +44,7 @@ For this guide, we will be using Balena Etcher to create our bootable USB on Win
 2. Plug in your USB
 3. Launch Balena Etcher from applications
 4. Click the big blue "Select" button
-5. A File Explorer window should pop up, find the iso of your choice, then click `Open`
+5. A File Explorer window should pop up, find the ISO of your choice, then click `Open`
 6. Select your Flashdrive or Change your Flashdrive
 7. Click On Flash
 8. It may ask for adminstrator privileges, click on `allow`
@@ -58,10 +58,10 @@ For this guide, we will be using Balena Etcher to create our bootable USB on LIn
 2. Plug in your USB
 3. Open Terminal
 4. CD to the directory in where you downloaded the AppImage to
-5. mark it as an executable with chmod a+x name.AppImage (replace name.AppImage with the name of the AppImage file)
-6. Open the appimage using  ./name.AppImage  (replace name.AppImage with the name of the AppImage file)
-7. Click the big blue "Select" button
-8. A File Explorer window should pop up, find the iso of your choice, then click `Open`
-9. Select your Flashdrive or Change your Flashdrive
-10. Click On Flash
-11. Profit
+5. mark it as an executable with (replace name.AppImage with the name of the AppImage file) ```sudo chmod a+x name.AppImage ```
+7. Open the appimage using (replace name.AppImage with the name of the AppImage file) ```./name.AppImage``` 
+9. Click the big blue "Select" button
+10. A File Explorer window should pop up, find the ISO of your choice, then click `Open`
+11. Select your Flashdrive or Change your Flashdrive
+12. Click On Flash
+13. Profit
