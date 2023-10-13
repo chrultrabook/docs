@@ -12,7 +12,7 @@ nav_order: 4
 | - | - |
 | chrultrabook | A modified ChromeOS device designed to run Windows, Linux, or even macOS |   
 | coreboot     | UEFI firmware firmware replacement |  
-| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a new method by which OSes and platform firmware communicate, providing a BIOS alternative that uses only the information needed to launch the OS boot process. |  
+| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a new method by which OSes and platform firmware communicate, providing an alternative that uses only the information needed to launch the OS boot process. |  
 
 -------------
 
