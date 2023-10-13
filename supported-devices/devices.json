@@ -1,0 +1,1865 @@
+{
+    "Sandybridge/Ivybridge": {
+        "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook\" target=\"_blank\">switch</a>",
+        "default_rwLegacy": false,
+        "default_fullrom": true,
+        "default_windows": "Supported",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "HP Pavilion Chromebook 14"
+                ],
+                "boardname": "BUTTERFLY"
+            },
+            {
+                "device": [
+                    "Google Chromebook Pixel (2013)"
+                ],
+                "boardname": "LINK",
+                "rwLegacy": null,
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook Series 5 550"
+                ],
+                "boardname": "LUMPY",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge\" target=\"_blank\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Acer C7/C710 Chromebook"
+                ],
+                "boardname": "PARROT",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook\" target=\"_blank\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Lenovo Thinkpad X131e Chromebook"
+                ],
+                "boardname": "STOUT",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook\" target=\"_blank\">switch</a>"
+            },
+            {
+                "device": [
+                    "Samsung Chromebox Series 3"
+                ],
+                "boardname": "STUMPY",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/\" target=\"_blank\">jumper</a>"
+            }
+        ]
+    },
+    "Haswell": {
+        "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14\" target=\"_blank\">screw</a>",
+        "default_rwLegacy": null,
+        "default_fullrom": true,
+        "default_windows": "Supported",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "HP Chromebook 14"
+                ],
+                "boardname": "FALCO"
+            },
+            {
+                "device": [
+                    "Toshiba Chromebook 13 (CB30)"
+                ],
+                "boardname": "LEON",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/toshiba-cb30-chromebook\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Acer Chromebox CXI"
+                ],
+                "boardname": "McCLOUD",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "LG Chromebase 22"
+                ],
+                "boardname": "MONROE",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Asus Chromebox CN60"
+                ],
+                "boardname": "PANTHER",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Acer C720/C720P Chromebook"
+                ],
+                "boardname": "PEPPY",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook\" target=\"_blank\">screw</a>",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Dell Chromebox 3010"
+                ],
+                "boardname": "TRICKY",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 11 (CB1C13)"
+                ],
+                "boardname": "WOLF",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/dell-chromebook-11\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "HP Chromebox CB1 / G1"
+                ],
+                "boardname": "ZAKO",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            }
+        ]
+    },
+    "Broadwell": {
+        "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook\" target=\"_blank\">screw</a>",
+        "default_rwLegacy": null,
+        "default_fullrom": true,
+        "default_windows": "Supported",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "Acer C740 Chromebook"
+                ],
+                "boardname": "AURON_PAINE"
+            },
+            {
+                "device": [
+                    "Acer C910 Chromebook (CB5-571)"
+                ],
+                "boardname": "AURON_YUNA"
+            },
+            {
+                "device": [
+                    "Acer Chromebase 24"
+                ],
+                "boardname": "BUDDY",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Toshiba Chromebook2 (2015)"
+                ],
+                "boardname": "GANDOF",
+                "fullrom": false,
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Asus Chromebox 2 (CN62)"
+                ],
+                "boardname": "GUADO",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Dell Chromebook 13 7310"
+                ],
+                "boardname": "LULU",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Acer Chromebox CXI2"
+                ],
+                "boardname": "RIKKU",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Google Chromebook Pixel (2015)"
+                ],
+                "boardname": "SAMUS",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel-2015#TOC-Firmware-Write-Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Lenovo ThinkCentre Chromebox"
+                ],
+                "boardname": "TIDUS",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            }
+        ]
+    },
+    "Baytrail": {
+        "default_wpmethod": "screw",
+        "default_rwLegacy": null,
+        "default_fullrom": true,
+        "default_windows": "Supported",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook 15 (CB3-531)"
+                ],
+                "boardname": "BANJO"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 11 (3120)"
+                ],
+                "boardname": "CANDY"
+            },
+            {
+                "device": [
+                    "Lenovo N20/N20P Chromebook"
+                ],
+                "boardname": "CLAPPER"
+            },
+            {
+                "device": [
+                    "Lenovo N21 Chromebook"
+                ],
+                "boardname": "ENGUARDE"
+            },
+            {
+                "device": [
+                    "Lenovo ThinkPad 11e/Yoga Chromebook"
+                ],
+                "boardname": "GLIMMER"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 11 (CB3-111/131, C730, C730E, C735)"
+                ],
+                "boardname": "GNAWTY"
+            },
+            {
+                "device": [
+                    "Haier Chromebook G2"
+                ],
+                "boardname": "HELI"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11 G3/G4",
+                    "HP Chromebook 14 G4"
+                ],
+                "boardname": "KIP"
+            },
+            {
+                "device": [
+                    "AOpen Chromebox Commercial"
+                ],
+                "boardname": "NINJA"
+            },
+            {
+                "device": [
+                    "Lenovo Ideapad 100S Chromebook"
+                ],
+                "boardname": "ORCO"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C300"
+                ],
+                "boardname": "QUAWKS"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C200"
+                ],
+                "boardname": "SQUAWKS"
+            },
+            {
+                "device": [
+                    "AOpen Chromebase Commercial"
+                ],
+                "boardname": "SUMO"
+            },
+            {
+                "device": [
+                    "Toshiba Chromebook 2 (2014)"
+                ],
+                "boardname": "SWANKY"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook 2 (XE500C12)"
+                ],
+                "boardname": "WINKY"
+            }
+        ]
+    },
+    "Braswell": {
+        "default_wpmethod": "<a href=\"/images/b/bb/Banon_wp.jpg\" class=\"internal\" title=\"Banon wp.jpg\">screw</a>",
+        "default_rwLegacy": null,
+        "default_fullrom": true,
+        "default_windows": "Supported",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook 15 (CB3-532)"
+                ],
+                "boardname": "BANON"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook 3"
+                ],
+                "boardname": "CELES",
+                "wpMethod": "screw",
+                "windows": "Requires platform clock workaround. (See <a href=\"post-install.html\">post install</a>)"
+            },
+            {
+                "device": [
+                    "Acer Chromebook R11 (C738T, CB5-132T)"
+                ],
+                "boardname": "CYAN",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 14 (CB3-431)"
+                ],
+                "boardname": "EDGAR",
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.ifixit.com/Teardown/Acer+Chromebook+14+Teardown/76353\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 11 3180/3189"
+                ],
+                "boardname": "KEFKA",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Lenovo N22/N42 Chromebook"
+                ],
+                "boardname": "REKS",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 11 N7 (C731)",
+                    "CTL NL61 Chromebook",
+                    "Edxis Education Chromebook (NL6D)",
+                    "HP Chromebook 11 G5 EE",
+                    "Mecer V2 Chromebook",
+                    "Positivo Chromebook C216B"
+                ],
+                "boardname": "RELM",
+                "wpMethod": "<a href=\"/images/5/54/C731_wp.jpg\" class=\"internal\" title=\"C731 wp.jpg\">screw</a>"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11 G5"
+                ],
+                "boardname": "SETZER",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C202S/C202SA"
+                ],
+                "boardname": "TERRA",
+                "wpMethod": "<a href=\"/images/0/08/C202sa_wp.jpg\" class=\"internal\" title=\"C202sa wp.jpg\">screw</a>"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C300SA/C301SA"
+                ],
+                "boardname": "TERRA13",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "Lenovo ThinkPad 11e/Yoga Chromebook (G3)"
+                ],
+                "boardname": "ULTIMA",
+                "wpMethod": "screw"
+            },
+            {
+                "device": [
+                    "CTL J5 Chromebook",
+                    "Edugear CMT Chromebook",
+                    "Haier Chromebook 11 C",
+                    "Multilaser Chromebook M11C",
+                    "PCMerge Chromebook PCM-116T-432B",
+                    "Prowise Chromebook Proline",
+                    "Viglen Chromebook 360"
+                ],
+                "boardname": "WIZPIG",
+                "wpMethod": "screw"
+            }
+        ]
+    },
+    "Skylake": {
+        "default_wpmethod": "screw",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid.",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
+        "devices": [
+            {
+                "device": [
+                    "Dell Chromebook 13 3380"
+                ],
+                "boardname": "ASUKA"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook Pro"
+                ],
+                "boardname": "CAROLINE"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C302CA"
+                ],
+                "boardname": "CAVE"
+            },
+            {
+                "device": [
+                    "HP Chromebook 13 G1"
+                ],
+                "boardname": "CHELL"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 14 for Work",
+                    "Acer Chromebook 11 (C771/C771T)"
+                ],
+                "boardname": "LARS"
+            },
+            {
+                "device": [
+                    "Lenovo Thinkpad 13 Chromebook"
+                ],
+                "boardname": "SENTRY"
+            }
+        ]
+    },
+    "Apollolake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid. Buggy SD card.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "MicroSD detection issues<br><br>No headphone jack on SOF<br><br>max98357a on AVS doesn't have a volume limiter so speakers could get fried",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook 11 (C732)"
+                ],
+                "boardname": "ASTRONAUT"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C223NA"
+                ],
+                "boardname": "BABYMEGA"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C523NA"
+                ],
+                "boardname": "BABYTIGER"
+            },
+            {
+                "device": [
+                    "CTL Chromebook NL7/NL7T",
+                    "Edxis Chromebook 11/X11",
+                    "Positivo Chromebook N2110/N2112",
+                    "Viglen Chromebook 360C",
+                    ""
+                ],
+                "boardname": "BLACKTIP"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 15 (CB315)"
+                ],
+                "boardname": "BLUE"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 15 (CP315)"
+                ],
+                "boardname": "BRUCE"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 11 (R751T)"
+                ],
+                "boardname": "ELECTRO"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 514"
+                ],
+                "boardname": "EPAULETTE"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 11 CP311"
+                ],
+                "boardname": "LAVA"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 11 5190"
+                ],
+                "boardname": "NASHER"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 11 5190 2-in-1"
+                ],
+                "boardname": "NASHER360"
+            },
+            {
+                "device": [
+                    "Lenovo Thinkpad 11e/Yoga 11e (G4)"
+                ],
+                "boardname": "PYRO"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C423"
+                ],
+                "boardname": "RABBID"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip C213SA"
+                ],
+                "boardname": "REEF"
+            },
+            {
+                "device": [
+                    "Lenovo 100e Chromebook"
+                ],
+                "boardname": "ROBO"
+            },
+            {
+                "device": [
+                    "Lenovo 500e Chromebook"
+                ],
+                "boardname": "ROBO360"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 15 (CB515-1HT)"
+                ],
+                "boardname": "SAND"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 11 (CB311-8H)"
+                ],
+                "boardname": "SANTA"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 11 G1 EE",
+                    "HP Chromebook 11 G6",
+                    "HP Chromebook 14 G5"
+                ],
+                "boardname": "SNAPPY"
+            },
+            {
+                "device": [
+                    "CTL Chromebook J41/J41T",
+                    "PCmerge Chromebook AL116",
+                    "Prowise Chromebook Eduline",
+                    "Sector 5 E3 Chromebook",
+                    "Viglen Chromebook 11C"
+                ],
+                "boardname": "WHITETIP"
+            }
+        ]
+    },
+    "Kabylake / Amberlake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid.",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook 13"
+                ],
+                "boardname": "AKALI"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 13"
+                ],
+                "boardname": "AKALI360"
+            },
+            {
+                "device": [
+                    "Google Pixelbook Go (2019)"
+                ],
+                "boardname": "ATLAS",
+                "windows": "Audio driver is paid. No webcam support.",
+                "linux": "Cameras don't work.",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Acer Chromebook 715 (CB715)"
+                ],
+                "boardname": "BARD"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 714 (CB714)"
+                ],
+                "boardname": "EKKO"
+            },
+            {
+                "device": [
+                    "Google Pixelbook (2017)"
+                ],
+                "boardname": "EVE",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Asus Google Meet kit (KBL)"
+                ],
+                "boardname": "EXCELSIOR",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/a8/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\">screw</a>"
+            },
+            {
+                "device": [
+                    "AOpen Chromebox Commercial 2",
+                    "Newline Chromebox A10"
+                ],
+                "boardname": "JAX",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, screw"
+            },
+            {
+                "device": [
+                    "Acer Chromebase 24I2"
+                ],
+                "boardname": "KARMA",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, screw"
+            },
+            {
+                "device": [
+                    "HP Chromebox G2"
+                ],
+                "boardname": "KENCH",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C425"
+                ],
+                "boardname": "LEONA",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Samsung Chromebook Plus V2"
+                ],
+                "boardname": "NAUTILUS",
+                "linux": "Camera on the keyboard doesn't work."
+            },
+            {
+                "device": [
+                    "Google Pixel Slate"
+                ],
+                "boardname": "NOCTURNE",
+                "windows": "Audio driver is paid. No webcam support.",
+                "linux": "Cameras don't work.",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Lenovo Yoga Chromebook C630"
+                ],
+                "boardname": "PANTHEON"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip C433/C434"
+                ],
+                "boardname": "SHYVANA",
+                "mac": "Tested, Supported."
+            },
+            {
+                "device": [
+                    "Acer Chromebox CXI3"
+                ],
+                "boardname": "SION",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14"
+                ],
+                "boardname": "SONA"
+            },
+            {
+                "device": [
+                    "HP Chromebook X2"
+                ],
+                "boardname": "SORAKA"
+            },
+            {
+                "device": [
+                    "HP Chromebook 15 G1"
+                ],
+                "boardname": "SYNDRA"
+            },
+            {
+                "device": [
+                    "Asus Chromebox 3 (CN65)"
+                ],
+                "boardname": "TEEMO",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
+                    "Dell Inspiron Chromebook 14 (7460)"
+                ],
+                "boardname": "VAYNE"
+            },
+            {
+                "device": [
+                    "CTL Chromebox CBx1",
+                    "Promethean Chromebox",
+                    "SMART Chromebox G3",
+                    "ViewSonic NMP660 Chromebox"
+                ],
+                "boardname": "WUKONG",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+            }
+        ]
+    },
+    "Geminilake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "Asus Chromebook Flip C214/C234"
+                ],
+                "boardname": "AMPTON"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip C204"
+                ],
+                "boardname": "APEL"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 12b"
+                ],
+                "boardname": "BLOOG"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14a"
+                ],
+                "boardname": "BLOOGLET"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14a/14b"
+                ],
+                "boardname": "BLOOGUARD"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 315"
+                ],
+                "boardname": "BLORB"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook 4"
+                ],
+                "boardname": "BLUEBIRD"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 311",
+                    "(CB311-9H, CB311-9HT, C733, C733U, C733T)"
+                ],
+                "boardname": "BOBBA"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)",
+                    "Acer Chromebook Spin 511 (R752T, R752TN)"
+                ],
+                "boardname": "BOBBA360"
+            },
+            {
+                "device": [
+                    "Samsung Chromebook 4+"
+                ],
+                "boardname": "CASTA"
+            },
+            {
+                "device": [
+                    "NEC Chromebook Y2"
+                ],
+                "boardname": "DOOD"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14 G6"
+                ],
+                "boardname": "DORP"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 314 (CB314)",
+                    "Packard Bell Chromebook 314 (PCB314)"
+                ],
+                "boardname": "DROID"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3100"
+                ],
+                "boardname": "FLEEX"
+            },
+            {
+                "device": [
+                    "CTL Chromebook VX11/VX11T",
+                    "Poin2 Chromebook 11P"
+                ],
+                "boardname": "FOOB"
+            },
+            {
+                "device": [
+                    "Poin2 Chromebook 11P"
+                ],
+                "boardname": "FOOB360"
+            },
+            {
+                "device": [
+                    "ADVAN Chromebook 116",
+                    "Axioo Chromebook",
+                    "Baicells Chromebook BB01",
+                    "CTL Chromebook NL71/CT/LTE",
+                    "EVERCOSS Chromebook CB1",
+                    "Edxis Chromebook 11 (S20-C)",
+                    "JOI Chromebook C100",
+                    "Multilaser Chromebook M11C-PC914",
+                    "Pixart Rxart Chromebook",
+                    "Poin2 Chromebook 11A",
+                    "SPC Chromebook X1 Mini",
+                    "Sector 5 E4 LTE Chromebook",
+                    "WS Chromebook A101",
+                    "Zyrex Chromebook M432"
+                ],
+                "boardname": "GARG"
+            },
+            {
+                "device": [
+                    "Ascon Chromebook 11A",
+                    "Axioo Chromebook 360",
+                    "Baicells Chromebook BB01",
+                    "CTL Chromebook NL71T/TW/TWB",
+                    "EVERCOSS Chromebook CB1A",
+                    "Edxis Chromebook 11 (S20-X)",
+                    "JOI Chromebook C100",
+                    "Multilaser Chromebook M11HC-PC915",
+                    "Pixart Rxart Chromebook",
+                    "Poin2 Chromebook 11A",
+                    "SPC Chromebook X1 Mini",
+                    "WS Chromebook A101",
+                    "Zyrex Chromebook 360"
+                ],
+                "boardname": "GARG360"
+            },
+            {
+                "device": [
+                    "CTL Chromebook NL81/NL81T"
+                ],
+                "boardname": "GARFOUR"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 311"
+                ],
+                "boardname": "GLK"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 311"
+                ],
+                "boardname": "GLK360"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3100 2-in-1"
+                ],
+                "boardname": "GRABBITER"
+            },
+            {
+                "device": [
+                    "Lenovo Chromebook C340"
+                ],
+                "boardname": "LASER"
+            },
+            {
+                "device": [
+                    "Lenovo Chromebook S340/IdeaPad 3"
+                ],
+                "boardname": "LASER14"
+            },
+            {
+                "device": [
+                    "Lenovo Ideapad 3 Chromebook"
+                ],
+                "boardname": "LICK"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 11 G2 EE"
+                ],
+                "boardname": "MEEP"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11 G7 EE"
+                ],
+                "boardname": "MIMROCK"
+            },
+            {
+                "device": [
+                    "Asus Chromebook C424"
+                ],
+                "boardname": "NOSPIKE"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3400"
+                ],
+                "boardname": "ORBATRIX"
+            },
+            {
+                "device": [
+                    "Lenovo 100e Chromebook Gen 2"
+                ],
+                "boardname": "PHASER"
+            },
+            {
+                "device": [
+                    "Lenovo 300e Chromebook Gen 2/IdeaPad Flex 3",
+                    "NEC Chromebook Y1"
+                ],
+                "boardname": "PHASER360"
+            },
+            {
+                "device": [
+                    "Lenovo 500e Chromebook Gen 2"
+                ],
+                "boardname": "PHASER360S"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 512 (C851/C851T)"
+                ],
+                "boardname": "SPARKY"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 512 (R851TN)"
+                ],
+                "boardname": "SPARKY360"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11 G8 EE"
+                ],
+                "boardname": "VORTICON"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 11 G3 EE"
+                ],
+                "boardname": "VORTININJA"
+            }
+        ]
+    },
+    "Whiskeylake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">battery</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": false,
+        "default_windows": "?",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "?",
+        "devices": [
+            {
+                "device": [
+                    "Dell Latitude 5300 2-in-1 Chromebook Enterprise"
+                ],
+                "boardname": "ARCADA"
+            },
+            {
+                "device": [
+                    "Dell Latitude 5400 Chromebook Enterprise"
+                ],
+                "boardname": "SARIEN"
+            }
+        ]
+    },
+    "Cometlake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": false,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid.",
+        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+        "default_linux": "Supported",
+        "devices": [
+            {
+                "device": [
+                    "Lenovo Ideapad Flex 5 Chromebook"
+                ],
+                "boardname": "AKEMI"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14c"
+                ],
+                "boardname": "DRAGONAIR",
+                "linux": "Fingerprint reader doesn't work",
+                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+            },
+            {
+                "device": [
+                    "Dell Latitude 7410 Chromebook Enterprise"
+                ],
+                "boardname": "DRALLION",
+                "rwLegacy": true,
+                "windows": "Supported",
+                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+            },
+            {
+                "device": [
+                    "HP Pro c640 Chromebook"
+                ],
+                "boardname": "DRATINI",
+                "linux": "Fingerprint reader doesn't work"
+            },
+            {
+                "device": [
+                    "Asus Chromebox 4"
+                ],
+                "boardname": "DUFFY",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/ab/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Asus Fanless Chromebox"
+                ],
+                "boardname": "FAFFY",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip C436FA"
+                ],
+                "boardname": "HELIOS"
+            },
+            {
+                "device": [
+                    "HP Elite c1030 Chromebook",
+                    "HP Chromebook x360 13c"
+                ],
+                "boardname": "JINLON",
+                "linux": "Fingerprint reader doesn't work"
+            },
+            {
+                "device": [
+                    "Acer Chromebox CXI4"
+                ],
+                "boardname": "KAISA",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 712 (C871)"
+                ],
+                "boardname": "KINDRED"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 713 (CP713-2W)"
+                ],
+                "boardname": "KLED",
+                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+            },
+            {
+                "device": [
+                    "Samsung Galaxy Chromebook"
+                ],
+                "boardname": "KOHAKU",
+                "linux": "Fingerprint reader doesn't work.<br><br>Sleep issues related to EC (wakes up with lid closed)"
+            },
+            {
+                "device": [
+                    "Samsung Galaxy Chromebook 2"
+                ],
+                "boardname": "NIGHTFURY"
+            },
+            {
+                "device": [
+                    "HP Chromebox G3"
+                ],
+                "boardname": "NOIBAT",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/9/9d/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\">jumper</a>"
+            },
+            {
+                "device": [
+                    "CTL Chromebox CBx2"
+                ],
+                "boardname": "WYVERN",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b0/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\">jumper</a>"
+            }
+        ]
+    },
+    "TigerLake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio and Thunderbolt drivers are paid.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"post-install.html\">post install</a>)",
+        "devices": [
+            {
+                "device": [
+                    "FMV Chromebook 14F"
+                ],
+                "boardname": "CHRONICLER"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CX3"
+                ],
+                "boardname": "COLLIS"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CX5 (CX5400)"
+                ],
+                "boardname": "COPANO"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CX55, CX5 (CX5500), C536"
+                ],
+                "boardname": "DELBIN"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX9 (CX9400)"
+                ],
+                "boardname": "DROBIT"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14c"
+                ],
+                "boardname": "ELDRID"
+            },
+            {
+                "device": [
+                    "HP Pro c640 G2 Chromebook"
+                ],
+                "boardname": "ELEMI"
+            },
+            {
+                "device": [
+                    "Lenovo IdeaPad Flex 5i Chromebook"
+                ],
+                "boardname": "LILLIPUP"
+            },
+            {
+                "device": [
+                    "Lenovo 5i-14 Chromebook",
+                    "Lenovo Slim 5 Chromebook"
+                ],
+                "boardname": "LINDAR"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 514 (CB514-2H)"
+                ],
+                "boardname": "VOEMA"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 515 (CB515-1W, CB515-1WT)"
+                ],
+                "boardname": "VOLET"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 514 (CB514-1W, CB514-1WT)"
+                ],
+                "boardname": "VOLTA"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 713 (CP713-3W)"
+                ],
+                "boardname": "VOXEL"
+            }
+        ]
+    },
+    "JasperLake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio driver is paid.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Cameras untested.",
+        "devices": [
+            {
+                "device": [
+                    "Lenovo Flex 3i 15 / Ideapad Flex 3i Chromebook"
+                ],
+                "boardname": "BEETLEY"
+            },
+            {
+                "device": [
+                    "Lenovo 3i-15 Chromebook"
+                ],
+                "boardname": "BLIPPER"
+            },
+            {
+                "device": [
+                    "Lenovo 100e Chromebook Gen 3"
+                ],
+                "boardname": "BOOKEM",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Lenovo 500e Chromebook Gen 3"
+                ],
+                "boardname": "BOTEN",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Lenovo Flex 3i-11 / IdeaPad Flex 3i Chromebook"
+                ],
+                "boardname": "BOTENFLEX",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Samsung Galaxy Chromebook 2 360"
+                ],
+                "boardname": "BUGZZY"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3110"
+                ],
+                "boardname": "CRET"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3110 2-in-1"
+                ],
+                "boardname": "CRET360"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 11 G4 EE"
+                ],
+                "boardname": "DRAWCIA",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/50/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11 G9 EE"
+                ],
+                "boardname": "DRAWLAT",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/1/17/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14 G7"
+                ],
+                "boardname": "DRAWMAN",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "HP Fortis 14 G10 Chromebook"
+                ],
+                "boardname": "DRAWPER",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1500CKA"
+                ],
+                "boardname": "GALITH"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1500FKA"
+                ],
+                "boardname": "GALITH360"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1700CKA"
+                ],
+                "boardname": "GALLOP"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1 CX1102"
+                ],
+                "boardname": "GALNAT"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CX1 CX1102"
+                ],
+                "boardname": "GALNAT360"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1"
+                ],
+                "boardname": "GALTIC"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX1400FKA"
+                ],
+                "boardname": "GALTIC360"
+            },
+            {
+                "device": [
+                    "CTL Chromebook NL72"
+                ],
+                "boardname": "KRACKO"
+            },
+            {
+                "device": [
+                    "CTL Chromebook NL72T",
+                    "LG Chromebook 11TC50Q/11TQ50Q"
+                ],
+                "boardname": "KRACKO360"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14a-ca1"
+                ],
+                "boardname": "LANDIA"
+            },
+            {
+                "device": [
+                    "HP Chromebook 15a-na0"
+                ],
+                "boardname": "LANDRID"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14a"
+                ],
+                "boardname": "LANTIS"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14b"
+                ],
+                "boardname": "MADOO"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 314"
+                ],
+                "boardname": "MAGISTER"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 512 [C852]"
+                ],
+                "boardname": "MAGLET"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 512 [R853TA/R853TNA]"
+                ],
+                "boardname": "MAGLIA",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b6/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 511 [C733/C734]"
+                ],
+                "boardname": "MAGLITH"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 315 [CB315-4H/4HT]"
+                ],
+                "boardname": "MAGMA"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 314 [CB314-3H/3HT, C934/C934T]"
+                ],
+                "boardname": "MAGNETO"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 511 [R753T]"
+                ],
+                "boardname": "MAGOLOR"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 317 [CB317-1H]"
+                ],
+                "boardname": "MAGPIE",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+            },
+            {
+                "device": [
+                    "NEC Chromebook Y3"
+                ],
+                "boardname": "METAKNIGHT",
+                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Gateway Chromebook 15"
+                ],
+                "boardname": "PASARA"
+            },
+            {
+                "device": [
+                    "Axioo Chromebook P11",
+                    "CTL Chromebook PX11E",
+                    "SPC Chromebook Z1 Mini",
+                    "Zyrex Chromebook M432-2"
+                ],
+                "boardname": "PIRETTE"
+            },
+            {
+                "device": [
+                    "Axioo Chromebook P14",
+                    "Gateway Chromebook 14"
+                ],
+                "boardname": "PIRIKA"
+            },
+            {
+                "device": [
+                    "Samsung Galaxy Chromebook Go"
+                ],
+                "boardname": "SASUKE"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CR1100CKA"
+                ],
+                "boardname": "STORO"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CR1100FKA"
+                ],
+                "boardname": "STORO360"
+            }
+        ]
+    },
+    "Alderlake": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Audio and Thunderbolt drivers are paid.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"post-install.html\">post install</a>)",
+        "devices": [
+            {
+                "device": [
+                    "HP Elite c640 14 inch G3 Chromebook"
+                ],
+                "boardname": "ANAHERA"
+            },
+            {
+                "device": [
+                    "Framework Laptop Chromebook Edition"
+                ],
+                "boardname": "BANSHEE"
+            },
+            {
+                "device": [
+                    "Dell Latitude 5430 Chromebook"
+                ],
+                "boardname": "CROTA"
+            },
+            {
+                "device": [
+                    "Dell Latitude 5430 2-in-1 Chromebook"
+                ],
+                "boardname": "CROTA360"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CX5 (CX5601)"
+                ],
+                "boardname": "FELWINTER"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14c-cd0"
+                ],
+                "boardname": "GIMBLE"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 714 (CP714-1WN)"
+                ],
+                "boardname": "KANO"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CX34 Flip",
+                    "Asus Chromebook Vibe CX34 Flip"
+                ],
+                "boardname": "MITHRAX"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 516 GE (CBG516-1H)"
+                ],
+                "boardname": "OSIRIS"
+            },
+            {
+                "device": [
+                    "Lenovo ThinkPad C14 Gen 1 Chromebook"
+                ],
+                "boardname": "PRIMUS"
+            },
+            {
+                "device": [
+                    "HP Elite Dragonfly Chromebook"
+                ],
+                "boardname": "REDRIX",
+                "linux": "Touchpad needs fix, no camera, see <a href=\"https://github.com/chrultrabook/docs/issues/72\">#72</a>"
+            },
+            {
+                "device": [
+                    "Lenovo IdeaPad Gaming Chromebook 16"
+                ],
+                "boardname": "TANIKS"
+            },
+            {
+                "device": [
+                    "Lenovo Flex 5i Chromebook / IdeaPad Flex 5i Chromebook"
+                ],
+                "boardname": "TAEKO"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Vero 514"
+                ],
+                "boardname": "VOLMAR"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Vero 712 (CV872, CV872T)"
+                ],
+                "boardname": "ZAVALA"
+            }
+        ]
+    },
+    "Intel Alderlake-N": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": false,
+        "default_windows": "WIP Windows support.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Audio may not work.",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook Spin 512"
+                ],
+                "boardname": "CRAASK"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 511"
+                ],
+                "boardname": "CRAASKBOWL"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 511"
+                ],
+                "boardname": "CRAASKVIN"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 314"
+                ],
+                "boardname": "CRAASNETO"
+            },
+            {
+                "device": [
+                    "Lenovo 500e Yoga Chromebook Gen 4"
+                ],
+                "boardname": "PUJJO"
+            },
+            {
+                "device": [
+                    "Lenovo IdeaPad Flex 3i Chromebook"
+                ],
+                "boardname": "PUJJOFLEX"
+            },
+            {
+                "device": [
+                    "Lenovo 14e Chromebook Gen 3"
+                ],
+                "boardname": "PUJJOTEEN"
+            },
+            {
+                "device": [
+                    "Lenovo Ideapad Slim 3i Chromebook"
+                ],
+                "boardname": "PUJJOTEEN15W"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CR11 [CR1102C]"
+                ],
+                "boardname": "XIVU"
+            },
+            {
+                "device": [
+                    "Asus Chromebook CR11 [CR1102F]"
+                ],
+                "boardname": "XIVU360"
+            },
+            {
+                "device": [
+                    "HP Chromebook 15.6\""
+                ],
+                "boardname": "YAVIKS"
+            }
+        ]
+    },
+    "Stoneyridge": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": true,
+        "default_windows": "Experimental Windows support.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook 315 (CB315-2H)"
+                ],
+                "boardname": "ALEENA"
+            },
+            {
+                "device": [
+                    "HP Chromebook 11A G6 EE",
+                    "HP Chromebook 11A G8 EE"
+                ],
+                "boardname": "BARLA"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14A G5"
+                ],
+                "boardname": "CAREENA"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 311 (C721)"
+                ],
+                "boardname": "KASUMI"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 311 (R721T)"
+                ],
+                "boardname": "KASUMI360"
+            },
+            {
+                "device": [
+                    "Lenovo 14e Chromebook (S345)"
+                ],
+                "boardname": "LIARA"
+            },
+            {
+                "device": [
+                    "Lenovo 100e Chromebook Gen 2 AMD"
+                ],
+                "boardname": "TREEYA"
+            },
+            {
+                "device": [
+                    "Lenovo 300e Chromebook Gen 2 AMD"
+                ],
+                "boardname": "TREEYA360"
+            }
+        ]
+    },
+    "Picasso/Dali": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_rwLegacy": true,
+        "default_fullrom": false,
+        "default_windows": "Supported",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Needs to add \"iommu=pt\" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB",
+        "devices": [
+            {
+                "device": [
+                    "HP Pro c645 Chromebook Enterprise"
+                ],
+                "boardname": "BERKNIP"
+            },
+            {
+                "device": [
+                    "HP Chromebook 14a"
+                ],
+                "boardname": "DIRINBOZ"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 514"
+                ],
+                "boardname": "EZKINIL"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 14a"
+                ],
+                "boardname": "GUMBOZ"
+            },
+            {
+                "device": [
+                    "Lenovo ThinkPad C13 Yoga Chromebook"
+                ],
+                "boardname": "MORPHIUS"
+            },
+            {
+                "device": [
+                    "Lenovo 100e Chromebook Gen 3"
+                ],
+                "boardname": "VILBOZ"
+            },
+            {
+                "device": [
+                    "Lenovo 14e Chromebook Gen 2"
+                ],
+                "boardname": "VILBOZ14"
+            },
+            {
+                "device": [
+                    "Lenovo 300e Chromebook Gen 3"
+                ],
+                "boardname": "VILBOZ360"
+            },
+            {
+                "device": [
+                    "Asus Chromebook Flip CM5"
+                ],
+                "boardname": "WOOMAX"
+            }
+        ]
+    },
+    "AMD Cezanne": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_rwLegacy": true,
+        "default_fullrom": false,
+        "default_windows": "Not supported.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Audio WIP.",
+        "devices": [
+            {
+                "device": [
+                    "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]"
+                ],
+                "boardname": "DEWATT"
+            },
+            {
+                "device": [
+                    "HP Elite c645 G2 Chromebook"
+                ],
+                "boardname": "NIPPERKIN"
+            }
+        ]
+    },
+    "AMD Mendocino": {
+        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_rwLegacy": true,
+        "default_fullrom": false,
+        "default_windows": "Support WIP.",
+        "default_mac": "No MacOS support.",
+        "default_linux": "Audio WIP.",
+        "devices": [
+            {
+                "device": [
+                    "TBD"
+                ],
+                "boardname": "CRYSTALDRIFT"
+            },
+            {
+                "device": [
+                    "ASUS Chromebook CM34 Flip"
+                ],
+                "boardname": "FROSTFLOW"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Plus 514"
+                ],
+                "boardname": "MARKARTH"
+            },
+            {
+                "device": [
+                    "Dell Latitude 3445 Chromebook"
+                ],
+                "boardname": "WHITERUN"
+            }
+        ]
+    }
+}

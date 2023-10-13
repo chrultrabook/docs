@@ -3,7 +3,9 @@ title: Supported Devices
 layout: default
 nav_order: 7
 ---
-
+<!--
+NOTE - do not edit the supported-devices.md file, edit the template file in the supported-devices folder
+-->
 
 ## Supported Devices and Platforms
 Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the boardname. Use your Chromebook's boardname to see if it has support. 
@@ -18,6 +20,7 @@ In most cases, all of the devices in a given platform/family are supported, but 
 Be aware that EOL (End Of Life) devices **Do Not** have RW_Legacy avaliable
 
 ### OS Support
+
 A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not imply any level of functionality when running an OS other than ChromeOS. Some devices/platforms are better supported in some Linux distros vs others. Some devices/platforms are better supported under Windows than others.
 
 ---------
@@ -26,7 +29,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel | AMD | ARM |
 | - | - | - |
-| Intel platforms have good support for both Linux and Windows. Some have support for macOS | Ryzen needs RWL hack in order to install Windows. Stoney is not supported in Windows at all, and has a few issues when running Linux. MacOS is unsupported.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
+| Intel platforms have good support for both Linux and Windows. Some have support for macOS | Ryzen needs RWL hack in order to install Windows. Stoney support in Windows is questionable, and has a few issues when running Linux. MacOS is unsupported.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
@@ -37,6 +40,7 @@ If your device isn't listed, it doesn't have support.
 
 {: .highlight }
 If on on a smaller screen, scroll sideways to see whole table.
+
 
 <table>
     <tbody>
@@ -56,7 +60,7 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>HP Pavilion Chromebook 14</td>
             <td style="text-align:center;"> BUTTERFLY</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook" target="_blank">switch</a></td>
             <td rowspan="6" style="text-align:center;">Supported</td>
@@ -73,34 +77,34 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>Samsung Chromebook Series 5 550</td>
             <td style="text-align:center;"> LUMPY</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge" target="_blank">jumper</a></td>        </tr>
+            <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge" target="_blank">jumper</a></td>
+        </tr>
         <tr>
             <td>Acer C7/C710 Chromebook</td>
             <td style="text-align:center;"> PARROT</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook" target="_blank">jumper</a></td>
         </tr>
         <tr>
             <td>Lenovo Thinkpad X131e Chromebook</td>
             <td style="text-align:center;"> STOUT</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook" target="_blank">switch</a></td>
         </tr>
         <tr>
             <td>Samsung Chromebox Series 3</td>
             <td style="text-align:center;"> STUMPY</td>
-            <td style="text-align:center;"></td>
-            <td style="text-align:center;"> ✅ </td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/" target="_blank">jumper</a></td>
         </tr>
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Haswell</i></th>
         </tr>
@@ -158,7 +162,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a></td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Dell Chromebox 3010</td>
@@ -185,7 +189,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Broadwell</i></th>
         </tr>
@@ -205,8 +208,8 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook" target="_blank">screw</a></td>
-            <td rowspan="10" style="text-align:center;">Supported</td>
-            <td rowspan="10" style="text-align:center;">Supported</td>
+            <td rowspan="9" style="text-align:center;">Supported</td>
+            <td rowspan="9" style="text-align:center;">Supported</td>
             <td rowspan="4" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
@@ -251,7 +254,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a rel="nofollow noopener noreferrer" class="external text" href="https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect" target="_blank">screw</a></td>
-            <td rowspan="4" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="3" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
             <td>Google Chromebook Pixel (2015)</td>
@@ -270,7 +273,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Baytrail</i></th>
         </tr>
@@ -395,7 +397,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Braswell</i></th>
         </tr>
@@ -415,7 +416,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="/images/b/bb/Banon_wp.jpg" class="internal" title="Banon wp.jpg">screw</a></td>
-            <td style="text-align:center;">Supported</td>
+            <td rowspan="1" style="text-align:center;">Supported</td>
             <td rowspan="12" style="text-align:center;">Supported</td>
             <td rowspan="12" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -425,7 +426,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> screw</td>
-            <td style="text-align:center;">Requires platform clock workaround. (See <a href="post-install.html">post install</a>)</td>
+            <td rowspan="1" style="text-align:center;">Requires platform clock workaround. (See <a href="post-install.html">post install</a>)</td>
         </tr>
         <tr>
             <td>Acer Chromebook R11 (C738T, CB5-132T)</td>
@@ -501,7 +502,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Skylake</i></th>
         </tr>
@@ -563,7 +563,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Apollolake</i></th>
         </tr>
@@ -723,7 +722,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Kabylake / Amberlake</i></th>
         </tr>
@@ -760,9 +758,9 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Audio driver is paid. No webcam support.</td>
-            <td style="text-align:center;">Cameras don't work.</td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Audio driver is paid. No webcam support.</td>
+            <td rowspan="1" style="text-align:center;">Cameras don't work.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Acer Chromebook 715 (CB715)</td>
@@ -787,7 +785,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Asus Google Meet kit (KBL)</td>
@@ -824,7 +822,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Samsung Chromebook Plus V2</td>
@@ -832,8 +830,8 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Camera on the keyboard doesn't work.</td>
-            <td style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="1" style="text-align:center;">Camera on the keyboard doesn't work.</td>
+            <td rowspan="1" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
             <td>Google Pixel Slate</td>
@@ -841,9 +839,9 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Audio driver is paid. No webcam support.</td>
-            <td style="text-align:center;">Cameras don't work.</td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Audio driver is paid. No webcam support.</td>
+            <td rowspan="1" style="text-align:center;">Cameras don't work.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Lenovo Yoga Chromebook C630</td>
@@ -853,7 +851,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="9" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="9" style="text-align:center;">max98357a doesn't have a volume limiter so speakers could get fried.</td>
-            <td style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="1" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
             <td>Asus Chromebook Flip C433/C434</td>
@@ -861,7 +859,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Tested, Supported.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.</td>
         </tr>
         <tr>
             <td>Acer Chromebox CXI3</td>
@@ -916,7 +914,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Geminilake</i></th>
         </tr>
@@ -1188,7 +1185,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Whiskeylake</i></th>
         </tr>
@@ -1206,7 +1202,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td>Dell Latitude 5300 2-in-1 Chromebook Enterprise</td>
             <td style="text-align:center;"> ARCADA</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a></td>
             <td rowspan="2" style="text-align:center;">?</td>
             <td rowspan="2" style="text-align:center;">?</td>
@@ -1216,13 +1212,12 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td>Dell Latitude 5400 Chromebook Enterprise</td>
             <td style="text-align:center;"> SARIEN</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">battery</a></td>
         </tr>
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Cometlake</i></th>
         </tr>
@@ -1239,39 +1234,39 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>Lenovo Ideapad Flex 5 Chromebook</td>
             <td style="text-align:center;"> AKEMI</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="2" style="text-align:center;">Audio driver is paid.</td>
-            <td style="text-align:center;">Supported</td>
-            <td style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
+            <td rowspan="1" style="text-align:center;">Supported</td>
+            <td rowspan="1" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
             <td>HP Chromebook x360 14c</td>
             <td style="text-align:center;"> DRAGONAIR</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Fingerprint reader doesn't work</td>
+            <td rowspan="1" style="text-align:center;">Fingerprint reader doesn't work</td>
             <td rowspan="2" style="text-align:center;">Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled.</td>
         </tr>
         <tr>
             <td>Dell Latitude 7410 Chromebook Enterprise</td>
             <td style="text-align:center;"> DRALLION</td>
-            <td style="text-align:center;">  ✅</td>
-            <td style="text-align:center;">  ✅</td>
+            <td style="text-align:center;"> ✅</td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Supported</td>
-            <td style="text-align:center;">Supported</td>
+            <td rowspan="1" style="text-align:center;">Supported</td>
+            <td rowspan="1" style="text-align:center;">Supported</td>
         </tr>
         <tr>
             <td>HP Pro c640 Chromebook</td>
             <td style="text-align:center;"> DRATINI</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="12" style="text-align:center;">Audio driver is paid.</td>
-            <td style="text-align:center;">Fingerprint reader doesn't work</td>
+            <td rowspan="1" style="text-align:center;">Fingerprint reader doesn't work</td>
             <td rowspan="7" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
@@ -1292,17 +1287,17 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>Asus Chromebook Flip C436FA</td>
             <td style="text-align:center;"> HELIOS</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>HP Elite c1030 Chromebook<br>HP Chromebook x360 13c</td>
             <td style="text-align:center;"> JINLON</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Fingerprint reader doesn't work</td>
+            <td rowspan="1" style="text-align:center;">Fingerprint reader doesn't work</td>
         </tr>
         <tr>
             <td>Acer Chromebox CXI4</td>
@@ -1315,31 +1310,31 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>Acer Chromebook 712 (C871)</td>
             <td style="text-align:center;"> KINDRED</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Acer Chromebook Spin 713 (CP713-2W)</td>
             <td style="text-align:center;"> KLED</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled.</td>
+            <td rowspan="1" style="text-align:center;">Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled.</td>
         </tr>
         <tr>
             <td>Samsung Galaxy Chromebook</td>
             <td style="text-align:center;"> KOHAKU</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td style="text-align:center;">Fingerprint reader doesn't work.<br><br>Sleep issues related to EC (wakes up with lid closed)</td>
+            <td rowspan="1" style="text-align:center;">Fingerprint reader doesn't work.<br><br>Sleep issues related to EC (wakes up with lid closed)</td>
             <td rowspan="4" style="text-align:center;">Not tested. Celeron/Pentium devices unsupported.</td>
         </tr>
         <tr>
             <td>Samsung Galaxy Chromebook 2</td>
             <td style="text-align:center;"> NIGHTFURY</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="3" style="text-align:center;">Supported</td>
@@ -1361,7 +1356,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>TigerLake</i></th>
         </tr>
@@ -1472,7 +1466,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>JasperLake</i></th>
         </tr>
@@ -1630,7 +1623,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
         </tr>
         <tr>
-            <td>CTL Chromebook NL72T <br>LG Chromebook 11TC50Q/11TQ50Q</td>
+            <td>CTL Chromebook NL72T<br>LG Chromebook 11TC50Q/11TQ50Q</td>
             <td style="text-align:center;"> KRACKO360</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
@@ -1772,7 +1765,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Alderlake</i></th>
         </tr>
@@ -1865,7 +1857,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
-            <td style="text-align:center;"> Touchpad needs fix, no camera, see <a href="https://github.com/chrultrabook/docs/issues/72">#72</a></td>
+            <td rowspan="1" style="text-align:center;">Touchpad needs fix, no camera, see <a href="https://github.com/chrultrabook/docs/issues/72">#72</a></td>
         </tr>
         <tr>
             <td>Lenovo IdeaPad Gaming Chromebook 16</td>
@@ -1899,7 +1891,6 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Intel Alderlake-N</i></th>
         </tr>
@@ -1916,7 +1907,7 @@ If on on a smaller screen, scroll sideways to see whole table.
         <tr>
             <td>Acer Chromebook Spin 512</td>
             <td style="text-align:center;"> CRAASK</td>
-            <td style="text-align:center;"> ✅ </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
             <td rowspan="11" style="text-align:center;">WIP Windows support.</td>
@@ -1993,7 +1984,9 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
-s
+        <tr>
+            <td colspan="8"></td>
+        </tr>
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Stoneyridge</i></th>
         </tr>
@@ -2010,10 +2003,10 @@ s
         <tr>
             <td>Acer Chromebook 315 (CB315-2H)</td>
             <td style="text-align:center;"> ALEENA</td>
-            <td style="text-align:center;"> ✅ </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td rowspan="8" style="text-align:center;">No Windows support.</td>
+            <td rowspan="8" style="text-align:center;">Experimental Windows support.</td>
             <td rowspan="8" style="text-align:center;">Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel</td>
             <td rowspan="8" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -2055,7 +2048,7 @@ s
         <tr>
             <td>Lenovo 100e Chromebook Gen 2 AMD</td>
             <td style="text-align:center;"> TREEYA</td>
-            <td style="text-align:center;"> ✅ </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
@@ -2069,7 +2062,6 @@ s
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Picasso/Dali</i></th>
         </tr>
@@ -2087,7 +2079,7 @@ s
             <td>HP Pro c645 Chromebook Enterprise</td>
             <td style="text-align:center;"> BERKNIP</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="9" style="text-align:center;">Supported</td>
             <td rowspan="9" style="text-align:center;">Needs to add "iommu=pt" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB</td>
@@ -2097,62 +2089,61 @@ s
             <td>HP Chromebook 14a</td>
             <td style="text-align:center;"> DIRINBOZ</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Acer Chromebook Spin 514</td>
             <td style="text-align:center;"> EZKINIL</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>HP Chromebook x360 14a</td>
             <td style="text-align:center;"> GUMBOZ</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Lenovo ThinkPad C13 Yoga Chromebook</td>
             <td style="text-align:center;"> MORPHIUS</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Lenovo 100e Chromebook Gen 3</td>
             <td style="text-align:center;"> VILBOZ</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Lenovo 14e Chromebook Gen 2</td>
             <td style="text-align:center;"> VILBOZ14</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Lenovo 300e Chromebook Gen 3</td>
             <td style="text-align:center;"> VILBOZ360</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td>Asus Chromebook Flip CM5</td>
             <td style="text-align:center;"> WOOMAX</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
         </tr>
         <tr>
             <td colspan="8"></td>
         </tr>
-
         <tr>
             <th colspan="8" style="text-align:left;"> <i>AMD Cezanne</i></th>
         </tr>
@@ -2170,8 +2161,8 @@ s
             <td>Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]</td>
             <td style="text-align:center;"> DEWATT</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
-            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="2" style="text-align:center;">Not supported.</td>
             <td rowspan="2" style="text-align:center;">Audio WIP.</td>
             <td rowspan="2" style="text-align:center;">No MacOS support.</td>
@@ -2180,10 +2171,12 @@ s
             <td>HP Elite c645 G2 Chromebook</td>
             <td style="text-align:center;"> NIPPERKIN</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
         </tr>
-
+        <tr>
+            <td colspan="8"></td>
+        </tr>
         <tr>
             <th colspan="8" style="text-align:left;"> <i>AMD Mendocino</i></th>
         </tr>
@@ -2201,8 +2194,8 @@ s
             <td>TBD</td>
             <td style="text-align:center;"> CRYSTALDRIFT</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
-            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>,jumper</td>
+            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
             <td rowspan="4" style="text-align:center;">Support WIP.</td>
             <td rowspan="4" style="text-align:center;">Audio WIP.</td>
             <td rowspan="4" style="text-align:center;">No MacOS support.</td>
@@ -2211,26 +2204,25 @@ s
             <td>ASUS Chromebook CM34 Flip</td>
             <td style="text-align:center;"> FROSTFLOW</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
         </tr>
         <tr>
             <td>Acer Chromebook Plus 514</td>
             <td style="text-align:center;"> MARKARTH</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
         </tr>
         <tr>
             <td>Dell Latitude 3445 Chromebook</td>
             <td style="text-align:center;"> WHITERUN</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"></td>
+            <td style="text-align:center;"> </td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
         </tr>
     </tbody>
 </table>
-
 
 <table>
   <tr>
