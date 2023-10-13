@@ -60,7 +60,7 @@ Googling should locate a disassembly guide for most models. If you can't find on
 
 **Prepping to Flash**
 
-Once you have your device disassembled and flash chip located, time to boot up the flashing environment. Most any Linux setup should do as long as either flashrom is available from the distro's software repositories, or it's 64-bit x86 (in which case you can download a statically compiled build of flashrom from mrchromebox.tech). This guide will use a Ubuntu 23.04 live session booted from USB.
+Once you have your device disassembled and flash chip located, boot up the flashing environment. Most any Linux setup should do as long as either flashrom is available from the distro's software repositories, or it's 64-bit x86 (in which case you can download a statically compiled build of flashrom from mrchromebox.tech). This guide will use a Ubuntu 23.04 live session booted from USB.
 
 So let's get to it:
 
