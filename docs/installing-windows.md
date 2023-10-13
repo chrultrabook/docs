@@ -32,7 +32,7 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
    {: .warning }
     **Do NOT** unplug the install USB until the installation has completed. If you do so, the installation will fail as the Windows install file won't exist anymore.
 
-3. Bypassing Windows 11 installation checks:
+2. Bypassing Windows 11 installation checks:
     1. At the Windows installer, press Shift + F10 (Volume Up) to open command prompt  
     2. Type in "regedit" and press enter
     3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\Setup
@@ -41,8 +41,11 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
     6. Right click LabConfig and create new DWORD (32 bit) called "BypassTPMCheck" and set it to 1
     7. Close regedit and command prompt and proceed with installation normally
 
-4. Install drivers:
+3. Install drivers:
    See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers.
+
+4. (Optional) Install Chultrabook Tools for fan controls, backlight controls, System Information and more
+   See [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Controller)
 
 ---
 
