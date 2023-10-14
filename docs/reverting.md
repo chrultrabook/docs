@@ -13,6 +13,9 @@ If your device hit AUE (Auto Update Expiration), you will not be able to revert 
 {: .warning }
 Reverting to stock without your backup ROM is somewhat difficult and will not be covered in this guide currently.
 
+{: .note }
+If recovery fails, unplug the battery since recovery also attempts to update the firmware.
+
 --------
 
 **Requirements**
@@ -46,14 +49,10 @@ Reverting to stock without your backup ROM is somewhat difficult and will not be
 
 
 **Booting the Recovery USB**
-1. Boot into chromeOS
+1. Press `esc` + `refresh` + `power`
 2. Plug in your recovery USB drive
-3. Press `esc` + `refresh` + `power`
-4. Begin the recovery process
-
+3. Begin the recovery process
+   
 -------------
-
-
-
 
 
