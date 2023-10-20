@@ -421,7 +421,8 @@
                 "device": [
                     "Samsung Chromebook Pro"
                 ],
-                "boardname": "CAROLINE"
+                "boardname": "CAROLINE",
+                "mac": "Tested, unsupported. HD 515 broken, artifacts in recovery. EmeraldSDHC kernel panics."
             },
             {
                 "device": [
@@ -679,7 +680,8 @@
                     "Samsung Chromebook Plus V2"
                 ],
                 "boardname": "NAUTILUS",
-                "linux": "Camera on the keyboard doesn't work."
+                "linux": "Camera on the keyboard doesn't work.",
+                "mac": "Tested, unsupported. HD 615 broken, will not boot without Ivy Bridge CPUID spoof and -igfxvesa. No acceleration."
             },
             {
                 "device": [
