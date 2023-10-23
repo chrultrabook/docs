@@ -24,7 +24,7 @@ A chrultrabook is a modified Chromebook that is able to run Windows, Linux, or e
 *   Installing an altOS on your Chromebook.
 *   Learning in-depth information about your Chromebook.
 
-Because of this, you **are** expected to read, learn, and use Google. This is not a one click procedure.
+Because of this, you **are** expected to read, learn, and use Google. This is **NOT** a one click procedure.
 
 --------------------------------------
 
