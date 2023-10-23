@@ -18,7 +18,7 @@ Pros:
 
 Cons: 
 * Audio driver is paid (10 USD) for Skylake (6th generation) and newer devices
-* **Certain** devices with Thunderbolt ports will need to purchase an additional driver ($20 USD)
+* USB4/Thunderbolt driver is paid (20 USD) for **TigerLake** (Intel Core ix-11xxx ) and **newer** generations on devices that require them
 * Requires the user to install many drivers
 * AVS and SOF users may experience instability at times
 
