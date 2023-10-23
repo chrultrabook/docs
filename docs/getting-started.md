@@ -53,7 +53,7 @@ If you are facing a issue, please read the [FAQ](faq.html) first.
 
 **Do not use manufacturer's model name or serial number when asking for help** (i.e: HP Chromebook 14a), it doesn't help with identifying the machine. Provide the boardname, otherwise your support request will be ignored. 
 
-If you don't know where to find your boardname, take a look [here.](system-info.html)
+If you don't know where to find your boardname, take a look [here](system-info.html)
 
 
 
