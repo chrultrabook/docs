@@ -36,7 +36,7 @@ Please refer to [this chart](supported-devices.html) for a full list of supporte
   * Your iGPU
   * Your storage devices (HDD/SSD, eMMC, NVMe, etc.)
   * **Your boardname**
-       * For example, the boardname for Asus Chromebook C302CA is Cave
+       * For example, the boardname for Asus Chromebook C302CA is ```Cave```
   * If you don't know where to find this info, take a look at the [System Info Page.](system-info.html)
 *  **A basic knowledge of command lines and how to use a terminal/command prompt.**
   * We cannot help you if you do not know how to go to a directory or delete a file from a terminal.
