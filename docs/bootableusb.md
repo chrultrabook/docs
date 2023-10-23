@@ -36,32 +36,5 @@ For this guide, we will be using Rufus to create our bootable USB.
 7. Wait for the green bar to say `READY`, then click `Close` and eject your newly made USB
 8. Profit
 
-### Flashing using Balena Etcher (Windows and macOS)
-
-For this guide, we will be using Balena Etcher to create our bootable USB on Windows and macOS
-
-1. Download Balena Etcher from [here](https://etcher.balena.io/)
-2. Plug in your USB
-3. Launch Balena Etcher from applications
-4. Click the big blue "Select" button
-5. A File Explorer window should pop up, find the ISO of your choice, then click `Open`
-6. Select your Flashdrive or Change your Flashdrive
-7. Click On Flash
-8. It may ask for adminstrator privileges, click on `allow`
-9. Profit
-
-### Flashing using Balena Etcher (Linux)
-
-For this guide, we will be using Balena Etcher to create our bootable USB on LInux using an AppImage
-
-1. Download the Balena Etcher AppImage from [here](https://etcher.balena.io/)
-2. Plug in your USB
-3. Open Terminal
-4. CD to the directory in where you downloaded the AppImage to
-5. mark it as an executable with (replace name.AppImage with the name of the AppImage file) ```sudo chmod a+x name.AppImage ```
-7. Open the appimage using (replace name.AppImage with the name of the AppImage file) ```./name.AppImage``` 
-9. Click the big blue "Select" button
-10. A File Explorer window should pop up, find the ISO of your choice, then click `Open`
-11. Select your Flashdrive or Change your Flashdrive
-12. Click On Flash
-13. Profit
+### Flashing on other opperating systems
+1. Due to dd only able to flash unix-based opperating systems, we reccomend using [Ventoy](https://www.ventoy.net/en/index.html)
