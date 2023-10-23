@@ -17,7 +17,7 @@ The chart below provides a full list of all ChromeOS devices currently supported
 
 In most cases, all of the devices in a given platform/family are supported, but sometimes there are exceptions (especially with older or newer devices). The goal is to offer both RW_LEGACY and UEFI Full ROM firmware for all devices, so you may have the option of dual booting ChromeOS, or liberating your device completely :)
 
-Be aware that EOL (End Of Life) devices **Do Not** have RW_Legacy avaliable
+Be aware that EOL (End Of Life) devices **DO NOT** have RW_Legacy avaliable
 
 ### OS Support
 
