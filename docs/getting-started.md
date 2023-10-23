@@ -41,7 +41,7 @@ Please refer to [this chart](supported-devices.html) for a full list of supporte
 *  **A basic knowledge of command lines and how to use a terminal/command prompt.**
   * We cannot help you if you do not know how to go to a directory or delete a file from a terminal.
 * A minimum of an 8GB USB drive or SD Card for creating a bootable OS installer.
-* A Chromebook running Ventoy (read [Ventoy](ventoy.html), or another computer running Balena Etcher, or Rufus (read [Making a Bootable USB](bootableusb.html)
+* A Chromebook running Ventoy (read [Ventoy](ventoy.html), or another computer running Rufus (read [Making a Bootable USB](bootableusb.html)
 
 ------
 
