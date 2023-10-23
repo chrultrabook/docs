@@ -44,7 +44,7 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 3. Install drivers:
    See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers.
 
-4. (Optional) Install Chultrabook Tools for fan controls, backlight controls, System Information and more
+4. (Optional) Install Chultrabook Tools for fan controls, backlight controls, system information and more
    See [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Controller)
 
 ---
