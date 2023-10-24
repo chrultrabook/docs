@@ -32,7 +32,15 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
    {: .warning }
     **Do NOT** unplug the install USB until the installation has completed. If you do so, the installation will fail as the Windows install file won't exist anymore.
 
-3. Bypassing Windows 11 installation checks:
+2.  Bypassing Windows 11 installation checks using Rufus (Windows on an another computer):
+    1. Select your Flashdrive
+    2. Select your Windows 11 iso in rufus
+    3. Change Partition Scheme from MBR to GPT
+    4. Click on ```Start```
+    5. On the Window named ```Windows User Experience``` click on the option labed ```Remove Requirement for 4GB+ Ram, Secure Boot, and TPM 2.0```
+    6. Click on ```ok```
+    7. You can now install Windows 11 normally without extra steps
+4.  Bypassing Windows 11 installation checks:
     1. At the Windows installer, press Shift + F10 (Volume Up) to open command prompt  
     2. Type in "regedit" and press enter
     3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\Setup
@@ -41,8 +49,11 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
     6. Right click LabConfig and create new DWORD (32 bit) called "BypassTPMCheck" and set it to 1
     7. Close regedit and command prompt and proceed with installation normally
 
-4. Install drivers:
+5. Install drivers:
    See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers.
+
+6. (Optional) Install Chultrabook Tools for fan controls, backlight controls, system information and more
+   see [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Controller)
 
 ---
 
