@@ -421,7 +421,8 @@
                 "device": [
                     "Samsung Chromebook Pro"
                 ],
-                "boardname": "CAROLINE"
+                "boardname": "CAROLINE",
+                "mac": "Tested, unsupported. HD 515 broken, artifacts in recovery. EmeraldSDHC kernel panics."
             },
             {
                 "device": [
@@ -679,7 +680,8 @@
                     "Samsung Chromebook Plus V2"
                 ],
                 "boardname": "NAUTILUS",
-                "linux": "Camera on the keyboard doesn't work."
+                "linux": "Camera on the keyboard doesn't work.",
+                "mac": "Tested, unsupported. HD 615 broken, will not boot without Ivy Bridge CPUID spoof and -igfxvesa. No acceleration."
             },
             {
                 "device": [
@@ -1687,9 +1689,9 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Experimental Windows support.",
+        "default_windows": "Experimental Windows support. Requires patched drivers with testsigning enabled.",
         "default_mac": "No MacOS support.",
-        "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio<br><br>eMMC is only detected on a cold boot unless you have a patched kernel",
+        "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio",
         "devices": [
             {
                 "device": [
@@ -1745,7 +1747,7 @@
     "Picasso/Dali": {
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
-        "default_fullrom": false,
+        "default_fullrom": true,
         "default_windows": "Supported",
         "default_mac": "No MacOS support.",
         "default_linux": "Needs to add \"iommu=pt\" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB",
@@ -1809,10 +1811,10 @@
     "AMD Cezanne": {
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
-        "default_fullrom": false,
+        "default_fullrom": true,
         "default_windows": "Not supported.",
         "default_mac": "No MacOS support.",
-        "default_linux": "Audio WIP.",
+        "default_linux": "Speakers are not working currently.",
         "devices": [
             {
                 "device": [
@@ -1831,10 +1833,10 @@
     "AMD Mendocino": {
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
-        "default_fullrom": false,
-        "default_windows": "Support WIP.",
+        "default_fullrom": true,
+        "default_windows": "Waiting on drivers to be signed.",
         "default_mac": "No MacOS support.",
-        "default_linux": "Audio WIP.",
+        "default_linux": "Headphones are not working on the mainline kernel.",
         "devices": [
             {
                 "device": [
