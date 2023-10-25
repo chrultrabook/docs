@@ -1612,7 +1612,7 @@
     "Intel Alderlake-N": {
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
         "default_rwLegacy": true,
-        "default_fullrom": false,
+        "default_fullrom": true,
         "default_windows": "WIP Windows support.",
         "default_mac": "No MacOS support.",
         "default_linux": "Audio may not work.",
@@ -1679,7 +1679,7 @@
             },
             {
                 "device": [
-                    "HP Chromebook 15.6\""
+                    "HP Chromebook 15a-nb0"
                 ],
                 "boardname": "YAVIKS"
             }
