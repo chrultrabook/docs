@@ -24,9 +24,11 @@ You should avoid buying any devices in this list.
 ----
 
 ## Firmware
-* **All** AMD Chromebooks: AMD PSP blobs are broken, and some StoneyRidge devices do not have working Legacy Boot.
 * **All** ARM Chromebooks: No support, though development is slowly starting.
 * GeminiLake: Legacy boot mode/alternative firmware menu works but does not show payload list
+* AMD Stoneyridge: Some StoneyRidge devices may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.
+* AMD Picasso: Booting from eMMC is not currently supported (edk2 limitation), only from NVMe and USB/SD.
+* AMD Cezanne: legacy boot mode/alternative firmware menu works, edk2 boots, but screen backlight is off. Will be fixed in next Google fw update (fingers crossed).
 
 
 
@@ -47,8 +49,7 @@ You should avoid buying any devices in this list.
 
 * Broken USB-C on TigerLake and AlderLake. See Post Install -> Linux for fix.
 * No fingerprint reader support
-* Sandybridge/Ivybridge need a [workaround](https://github.com/MrChromebox/scripts/issues/277) to flash firmware from linux.
-* PopOS and Debian 12 Bookworm need a custom kernel 
+* Debian 12 Bookworm needs a custom kernel 
 
 ### macOS
 
