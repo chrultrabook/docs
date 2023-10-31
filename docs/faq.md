@@ -19,9 +19,6 @@ Please read this page before asking a question in the Discord. Your help request
 
 **Can I get AVS or SOF drivers for free?**
 * Only the Linux drivers are free.
- 
-**How come audio isn't working on Ubuntu / Ubuntu forks?**
-* Because their packages are broken. Please switch to another distro that isn't based off of Ubuntu, like Arch Linux or Fedora.
 
 **What Linux distros are recommended?**
 * See [here](https://chrultrabook.github.io/docs/docs/installing-linux.html)
