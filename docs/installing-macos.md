@@ -79,36 +79,35 @@ This list is incomplete. Feel free to improve it.
 
 -------
 
-**Installing macOS**
-
+### Installing macOS
 
 **Getting Started:**
 
 1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
 2. Follow the laptop guide for your CPU generation
-   * Amber Lake Chromebooks should follow the Kaby Lake config.plist setup   
+  * Amber Lake Chromebooks should follow the Kaby Lake config.plist setup
+3. As necessary, add the following Kexts and SSDTs to your EFI:
 
+Firmware Fixes:
+  * [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer
 
-**Chromebook Specific Modifications**
+Keyboard:
+* [VoodooPS2.kext](https://github.com/1Revenger1/VoodooPS2/releases): Fork of Acidanthera's VoodooPS2 which allows mapping keyboard brightness and other useful keys
+* [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
 
-1. [ChromebookPS2](https://github.com/meghan06/ChromebookPS2/): Remaps top row FX keys to their intended purpose for Chromebook keyboards
-2. [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze on booting with coreboot 4.20 and up.
-3. [crossdxcdisable](https://github.com/meghan06/crossdxcdisable): Disables SD card reader as it is unsupported.
-4. [croshdasdisable](https://github.com/meghan06/croshdasdisable): Disables the `HDAS` device in ACPI as there is no support for it in macOS.
+Chrome EC:
+* [CrosEC.kext](https://github.com/1Revenger1/CrosEC/releases): Adds keyboard brightness, tablet mode, and other functionality
+* [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
+  * This is only needed if your device does not come with a light sensor.
 
-   {: .warning }
-   croshdasdisable will break HDMI audio!
-   
-6. [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
-7. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
-8. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
+Storage:
+  * [EmeraldSDHC.kext](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
 
-
-{: .note }
-`croshdasdisable` and `crossdxcdisable` disable unsupported devices in macOS, such as speakers. Disabling unsupported devices in macOS saves battery life and increases stability.
+1. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
+1. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
 {: .warning }
-If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. A `OSI_` check is not present in these SSDTs.
+If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. An `OSI_` check is not present in these SSDTs.
 
 {: .fs-5 }
 
