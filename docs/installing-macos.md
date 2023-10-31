@@ -94,11 +94,13 @@ Firmware Fixes:
 Keyboard:
 * [VoodooPS2.kext](https://github.com/1Revenger1/VoodooPS2/releases): Fork of Acidanthera's VoodooPS2 which allows mapping keyboard brightness and other useful keys
 * [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
+  * Will need to be compiled with either `iASL` or `MaciASL`.
 
 Chrome EC:
 * [CrosEC.kext](https://github.com/1Revenger1/CrosEC/releases): Adds keyboard brightness, tablet mode, and other functionality
 * [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
   * This is only needed if your device does not come with a light sensor.
+  * Needs to be compiled with either `iASL` or `MaciASl`. A pre-compiled version also comes with OpenCore in it's release zip under `Docs/AcpiSamples/Binaries/SSDT-ASL0.aml`
 
 Storage:
   * [EmeraldSDHC.kext](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
