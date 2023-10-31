@@ -16,7 +16,7 @@ Flashing Ventoy or ISO's to an external drive will **wipe all data** on said dri
 
 ### Downloading a ISO
 1. Determine what OS you want.
-   - For Linux, keep in mind Ubuntu and any derivatives will not work.
+   - For Linux, keep in mind Ubuntu and any derivatives not based on 23.10 or higher **may have issues**.
    - For Windows, keep in mind only Windows 10 and newer are supported.
 2. Place the ISO in a safe place.
 
