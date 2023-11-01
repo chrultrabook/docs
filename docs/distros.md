@@ -93,47 +93,29 @@ Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | 'avs' | `bsw` 
 If your generation isn't listed above, you can skip this section
 ```nix
 # configuration.nix
-nixpkgs.overlays = with pkgs; [ (final: prev:
-  {
-    alsa-ucm-conf = prev.alsa-ucm-conf.overrideAttrs (old: {
-      srcs = [
-        (fetchurl {
-          url = "mirror://alsa/lib/alsa-ucm-conf-1.2.9.tar.bz2";
-          hash = "sha256-N09oM7/XfQpGdeSqK/t53v6FDlpGpdRUKkWWL0ueJyo=";
-        })
-        (fetchurl {
-          url = "https://github.com/WeirdTreeThing/chromebook-ucm-conf/archive/792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1.tar.gz";
-          hash = "sha256-Ae/k9vA5lWiomSa6WCfp+ROqEij11FPwlHAIG6L19JI=";
-        })
-      ];
-      unpackPhase = ''
-        runHook preUnpack
-
-        for _src in $srcs; do
-          tar xf "$_src"
-        done
-
-        ls
-
-        runHook postUnpack
-      '';
+  nixpkgs.overlays = with pkgs; [ (final: prev:
+    {
+      alsa-ucm-conf = prev.alsa-ucm-conf.overrideAttrs (old: {
+      wttsrc = (fetchFromGitHub {
+        owner = "WeirdTreeThing";
+        repo = "chromebook-ucm-conf";
+        rev = "484f5c581ac45c4ee6cfaf62bdecedfa44353424";
+        hash = "sha256-Jal+VfxrPSAPg9ZR+e3QCy4jgSWT4sSShxICKTGJvAI=";
+      });
       installPhase = ''
         runHook preInstall
 
         mkdir -p $out/share/alsa
-        cp -r alsa-ucm-conf-1.2.9/ucm alsa-ucm-conf-1.2.9/ucm2 $out/share/alsa
+        cp -r ucm ucm2 $out/share/alsa
 
         mkdir -p $out/share/alsa/ucm2/conf.d
-        cp -r chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/hdmi-common \
-        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/dmic-common \
-        chromebook-ucm-conf-792a6d5ef0d70ac1f0b4861f3d29da4fe9acaed1/GENERATION/* \
-        $out/share/alsa/ucm2/conf.d
+        cp -r $wttsrc/{hdmi,dmic}-common $wttsrc/GENERATION/* $out/share/alsa/ucm2/conf.d
 
         runHook postInstall
-      '';
-    });
-  }
-  )];
+        '';
+      });
+    })
+  ];
 ```
 
 - Install and export the ucm config as a session variable
