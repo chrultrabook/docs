@@ -59,6 +59,9 @@ Please read this page before asking a question in the Discord. Your help request
 **How can I get audio working under Linux?**
 * Please see [here](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
+**How do I get my top row keys on Linux to act like how they did on chromeOS?**
+* Follow the instructions [here](https://github.com/WeirdTreeThing/cros-keyboard-map).
+
 **I just want to boot Linux from USB on my Chromebook, what do I need to do?**
 * Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, flash RWL and use that.
 
