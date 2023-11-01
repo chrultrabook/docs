@@ -54,7 +54,7 @@ Please read this page before asking a question in the Discord. Your help request
 * No. One license per device.
 
 **I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?**
-* Buying any Chromebook with the intention of running macOS, Windows or Linux is not a great idea.s -- DO NOT EXPECT EVERYTHING TO WORK OUT OF THE BOX. Older models may fair better compatibility wise, but there are still lots of caveats, and it's not recommended to buy a Chromebook as a cheap Linux device.
+* Buying any Chromebook with the intention of running macOS, Windows or Linux is not a great idea. -- DO NOT EXPECT EVERYTHING TO WORK OUT OF THE BOX. Older models may fair better compatibility wise, but there are still lots of caveats, and it's not recommended to buy a Chromebook as a cheap Linux device.
 
 **How can I get audio working under Linux?**
 * Please see [here](https://github.com/WeirdTreeThing/chromebook-linux-audio)
