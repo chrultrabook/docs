@@ -1,5 +1,5 @@
 ---
-title: Firmware
+title: Flashing Custom Firmware
 layout: default
 nav_order: 9
 ---
