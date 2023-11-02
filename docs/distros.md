@@ -88,7 +88,7 @@ services.keyd = {
 
 - Audio setup (Does the same as the audio script)  
 **Change the `GENERATION` to your board generation!**  
-Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | 'avs' | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
+Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | `avs` | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
 
 If your generation isn't listed above, you can skip this section
 ```nix
