@@ -12,10 +12,16 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 ### Recommended Distributions
 
 {: .note } 
-Only Linux kernel 6.1 LTS or newer is supported.
+Only Linux kernel 6.4 or newer is supported.
 
 {: .warning } 
-Ubuntu and Ubuntu-based distributions, such as Mint or ElementaryOS are unsupported.
+Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
+
+{: .warning } 
+Debian versions older than Debian 12 (Bookworm) are **not supported**.
+
+{: .warning } 
+Debian 12 (Bookworm) requires a custom kernel, the [audio script](https://chrultrabook.github.io/docs/docs/installing-linux.html#fixing-audio) will automatically install it for you.
 
 **Recommended distros as of August 2023 (in no particular order) are:**
 
