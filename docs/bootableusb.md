@@ -24,7 +24,7 @@ Flashing Ventoy or ISO's to an external drive will **wipe all data** on said dri
 ### Flashing using Rufus (Windows)
 
 For this guide, we will be using Rufus to create our bootable USB. 
-
+Rufus is a useful tool that allows you to flash ISO's to an external drive.
 1. Download Rufus from [here](https://rufus.ie/en/). The standard Windows x64 version will do.
 
     ![image](https://github.com/meghan06/docs/assets/77316348/9d9be52c-8e32-4b2f-ae17-8b3917f64032)
@@ -40,7 +40,7 @@ For this guide, we will be using Rufus to create our bootable USB.
 ### Flashing using Ventoy (Windows/Linux)
 
 For this guide, we will be using Ventoy to create our bootable USB. 
-
+Ventoy allows you to boot multiple ISO's from a single drive.
 1. Download and extract the latest version from [Github](https://www.ventoy.net/en/download.html). 
    - Download the respective file for your platform.
    
