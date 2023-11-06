@@ -1613,7 +1613,7 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "WIP Windows support.",
+        "default_windows": "Audio and USB4 drivers are paid.",
         "default_mac": "No MacOS support.",
         "default_linux": "Audio may not work.",
         "devices": [
@@ -1748,7 +1748,7 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Supported",
+        "default_windows": "Supported, but eMMC models can boot only from external drive",
         "default_mac": "No MacOS support.",
         "default_linux": "Needs to add \"iommu=pt\" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB",
         "devices": [
@@ -1812,7 +1812,7 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Not supported.",
+        "default_windows": "Waiting on drivers to be signed.",
         "default_mac": "No MacOS support.",
         "default_linux": "Speakers are not working currently.",
         "devices": [
