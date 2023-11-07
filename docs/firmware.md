@@ -1,5 +1,5 @@
 ---
-title: Firmware
+title: Flashing Custom Firmware
 layout: default
 nav_order: 9
 ---
@@ -22,16 +22,8 @@ Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEF
 
 To convert your machine from Google's firmware and chromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
-1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
+1. [Enable developer mode](developer-mode.html)
 
-   {: .warning }
-   Doing this will wipe **all** user data! Make backups if needed before proceeding.
-
-    * Press `esc` `refresh` (f3) and `power` at the same time. Doing this should cause your system to reboot into a screen that prompts you to insert a recovery USB or SD card.
-    * Press `ctrl` and `d` at the same time.
-    * Follow the on screen instructions, then once it reboots, you should be in Developer Mode. **Do not enable debugging features.**
-    * Setup the system as you would on any other Chromebook.
-  
 2. Refer to the [supported devices list](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
     * Depending on your device, you will need to do **one** of the following:
         * Undo a WP screw
