@@ -8,14 +8,16 @@ NOTE - do not edit the supported-devices.md file, edit the template file in the 
 -->
 
 ## Supported Devices and Platforms
-
-Supported devices are listed in the table below, grouped by platform/family, roughly in chronological order. To reiterate, support is determined entirely and exclusively by the Board Name. Device Names are just for reference, and may be incomplete as many models/sub-models may use the same Board Name. Figure out the Board Name and then locate it in the table. If it's not listed, it's not supported.
+Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the boardname. Use your Chromebook's boardname to see if it has support. 
 
 ### Determining Device Support
+What's in a name? All ChromeOS devices have a board/device name, which determines which firmware, OS build, etc a device uses. The board name is listed at the bottom of both the Recovery Mode and Developer Mode screens, as part of the hardware ID (HWID).
 
-What's in a name? All ChromeOS devices have a board/device name, which determines which firmware, OS build, etc a device uses. The board name is listed at the bottom of both the Recovery Mode and Developer Mode screens, as part of the hardware ID (HWID). Your device's board name is what determines if it's supported or not -- not the make, model, CPU, or anything else. The only thing that matters is the name, so use that when determining support in the table below (or for anything else really).
+The chart below provides a full list of all ChromeOS devices currently supported by MrChromebox's Firmware Utility Script, the firmware types available for each, the hardware write-protect method used, and notes for Windows, Linux, and macOS operating systems. 
 
-The chart below provides a full, authoritative list of all ChromeOS devices currently supported by MrChromebox's Firmware Utility Script, the firmware types available for each, and the hardware write-protect method used. In most cases, all of the devices in a given platform/family are supported identically, but sometimes there are outliers (esp with older or newer devices). The goal is to offer both RW_LEGACY and UEFI Full ROM firmware for all devices wherever possible, so you have the option of dual booting ChromeOS, or liberating your device completely :)
+In most cases, all of the devices in a given platform/family are supported, but sometimes there are exceptions (especially with older or newer devices). The goal is to offer both RW_LEGACY and UEFI Full ROM firmware for all devices, so you may have the option of dual booting ChromeOS, or liberating your device completely :)
+
+Be aware that EOL (End Of Life) devices **DO NOT** have RW_Legacy avaliable
 
 ### OS Support
 
@@ -27,7 +29,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel | AMD | ARM |
 | - | - | - |
-| Intel platforms have good support for both Linux and Windows. Some have support for macOS | Ryzen needs RWL hack in order to install Windows. Stoney support in Windows is questionable, and has a few issues when running Linux. MacOS is unsupported.  | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
+| Intel platforms have good support for both Linux and Windows. Some have support for macOS. | Stoneyridge support in Windows is questionable, and installing a custom kernel is required to get working audio in Linux. Ryzen has support for both Linux and Windows. MacOS is unsupported on all AMD platforms. | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
@@ -1908,9 +1910,9 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td>Acer Chromebook Spin 512</td>
             <td style="text-align:center;"> CRAASK</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
-            <td rowspan="11" style="text-align:center;">WIP Windows support.</td>
+            <td rowspan="11" style="text-align:center;">Audio and USB4 drivers are paid.</td>
             <td rowspan="11" style="text-align:center;">Audio may not work.</td>
             <td rowspan="11" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -1918,70 +1920,70 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td>Acer Chromebook Spin 511</td>
             <td style="text-align:center;"> CRAASKBOWL</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Acer Chromebook 511</td>
             <td style="text-align:center;"> CRAASKVIN</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Acer Chromebook 314</td>
             <td style="text-align:center;"> CRAASNETO</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Lenovo 500e Yoga Chromebook Gen 4</td>
             <td style="text-align:center;"> PUJJO</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Lenovo IdeaPad Flex 3i Chromebook</td>
             <td style="text-align:center;"> PUJJOFLEX</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Lenovo 14e Chromebook Gen 3</td>
             <td style="text-align:center;"> PUJJOTEEN</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Lenovo Ideapad Slim 3i Chromebook</td>
             <td style="text-align:center;"> PUJJOTEEN15W</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Asus Chromebook CR11 [CR1102C]</td>
             <td style="text-align:center;"> XIVU</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
             <td>Asus Chromebook CR11 [CR1102F]</td>
             <td style="text-align:center;"> XIVU360</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
-            <td>HP Chromebook 15.6"</td>
+            <td>HP Chromebook 15a-nb0</td>
             <td style="text-align:center;"> YAVIKS</td>
             <td style="text-align:center;"> ✅</td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
         </tr>
         <tr>
@@ -2081,7 +2083,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
-            <td rowspan="9" style="text-align:center;">Supported</td>
+            <td rowspan="9" style="text-align:center;">Supported, but eMMC models can boot only from external drive</td>
             <td rowspan="9" style="text-align:center;">Needs to add "iommu=pt" to cmdline<br><br>eMMC models need to put /boot/efi and /boot on USB</td>
             <td rowspan="9" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -2163,7 +2165,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
-            <td rowspan="2" style="text-align:center;">Not supported.</td>
+            <td rowspan="2" style="text-align:center;">Waiting on drivers to be signed.</td>
             <td rowspan="2" style="text-align:center;">Speakers are not working currently.</td>
             <td rowspan="2" style="text-align:center;">No MacOS support.</td>
         </tr>
