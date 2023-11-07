@@ -32,7 +32,7 @@ Building and flashing your own firmware has the potential to brick your device. 
 6. **Download flashrom, then give it execute permission.**
     * `cd; curl -LO https://tree123.org/chrultrabook/utils/flashrom-libpci38; chmod +x flashrom-libpci38`
 7. **Flash your custom ROM**
-    * Note: Intel Chromebooks should be flashed with `--ifd -i bios`
+    * Note: Intel Chromebooks should be flashed with `--ifd -i bios` ex: `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom`
     * Backup your current rom, just in case things go wrong: `./flashrom-libpci38 -p internal -r current.rom`
     * Flash your custom firmware: `sudo ./flashrom-libpci38 -p internal -w ~/dev/firmware/coreboot_edk2-<boardname>-mrchromebox_<yearmonthdate>.rom` 
 8. **Reboot**
