@@ -1,19 +1,18 @@
-## Debugging
-
+# Debugging
 This page has instructions on using multiple different utilities to debug issues and modify parts of your system.
 
------------
+<br>
 
-### Grabbing Logs
+## Grabbing Logs
 
 * If you're experiencing firmware bugs, provide output from `cbmem` console.
 * If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
-* Ift you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
+* If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
 * If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, in the #hackintosh channel. 
 
------------
+---
 
-### Firmware
+## Firmware
 
 To debug firmware, you will need the following tools:
 
@@ -40,9 +39,10 @@ To interface with the Embedded Controller:
   * Running `./ectool help` will provide you with a list of available commands, or you can take a look at ectool's source code directly:
 https://chromium.googlesource.com/chromiumos/platform/ec/+/master/util/ectool.c#63
 
------------
+---
 
-### SuzyQ Debug Cable
+## SuzyQ Debug Cable
+
 If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exposes three serial devices:
 1. AP (CR50) console under /dev/ttyUSB0:
   * `minicom -D /dev/ttyUSB0 -b 115200`
@@ -57,9 +57,9 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 * To use SuzyQ as platform debugger, you will also need to append the following to your kernel commandline:
 `loglevel=15 console=ttyS4,115200n8`
 
------------
+---
 
-### ACPI and Linux kernelspace
+## ACPI and Linux kernelspace
 
 1. Download our debugging script.
   * `cd ~/Desktop;wget https://raw.githubusercontent.com/chrultrabook/linux-tools/main/debugging.sh`
@@ -80,14 +80,13 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 3. Upload this file if you need help with troubleshooting.
   * Remember to remove WiFi information from dmesg to protect your privacy.
 
------------
+---
 
-### flashrom
+## flashrom
 
 Flashrom is used to read and write from the SPI flash
 
-
-Read flash:
+### Read flash:
   * `sudo flashrom -p <programmer> -r <filename.rom>`
   * Example:
     * `sudo flashrom -p internal -r backup.rom`
@@ -96,35 +95,35 @@ Read flash:
 If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you want to write to the flash or else flashrom will fail.
 :::
 
-Write flash:
+### Write flash:
   * `sudo flashrom -p <programmer> -w <filename.rom>`
   * Intel Example:
     * `sudo flashrom -p internal --ifd -i bios -w stock.rom`
   * AMD Example:
     * `sudo flashrom -p internal -w stock.rom`
 
-Write protection:
+### Write protection:
 
 View status:
   * `sudo flashrom -p internal --wp-status`
  
 Enable WP:
- * `sudo flashrom -p internal --wp-enable`
+  * `sudo flashrom -p internal --wp-enable`
   
 Disable WP:
- * `sudo flashrom -p internal --wp-disable`
+  * `sudo flashrom -p internal --wp-disable`
   
 Clear WP range:
- * `sudo flashrom -p internal --wp-range 0 0`
+  * `sudo flashrom -p internal --wp-range 0 0`
 
 Common programmers:
 * `internal`: Use this when you run flashrom on the chromebook you want to program.
 * `ch341a_spi`: Use this when you use a ch341a external programmer.
 * `raiden_debug_spi:target=AP`: Use then when you want to flash using a Suzy-Q cable.
 
------------
+---
 
-### gsctool
+## gsctool
 
 gsctool is used to communicate with the GSC (Google Security Chip) from ChromeOS and is usually used to unlock CCD without removing the back of the Chromebook.
 
@@ -134,5 +133,4 @@ View status:
 Unlock CCD:
   * `sudo gsctool -a -o`
   * This will prompt you multiple times to press the power button, on the last time, the device will reboot back into verified mode
-
 

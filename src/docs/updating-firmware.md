@@ -1,4 +1,9 @@
-### Updating Custom Firmware
+ Updating Custom Firmware
+<!-- insert oneline description here -->
+
+<br>
+
+## Steps
 
 1. If you have Windows installed, boot a Linux live ISO and connect to the internet. If you already have Linux installed, move on to step 2.
 

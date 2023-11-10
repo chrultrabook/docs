@@ -1,4 +1,4 @@
-## Bug Reporting
+# Bug Reporting
 
 So you find a bug in one of our projects, and want to report it. It's faily simple,
 

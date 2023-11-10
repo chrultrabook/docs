@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 ### Warning:
 
@@ -8,7 +8,7 @@ You are about to make **unofficial** changes to your device! This will likely **
 
 -------------
 
-### Prerequisites
+## Prerequisites
 * Know your hardware 
   * Your CPU model and generation
   * Your storage devices (HDD/SSD, eMMC, NVMe, etc.)
