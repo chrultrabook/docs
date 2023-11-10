@@ -3,7 +3,8 @@
 const fs = require("fs");
 const path = require('path');
 
-//The path to the file
+//The path to the file.
+//If the file is not listed below, it will not be displayed in the navaigation menu.
 const order = [
     "../index.md",
     "faq.md",
