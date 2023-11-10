@@ -1,20 +1,19 @@
-## Making a Bootable USB
+# Making a Bootable USB
 
 ::: danger
 Flashing Ventoy or ISO's to an external drive will **wipe all data** on said drive. Back up anything if you have to.
 :::
 
-### Prerequisites
+## Prerequisites
 1. Another PC or laptop with at least 8GB storage
 2. A internet connection
-3. A external drive like a USB drive or SD card thats at least 8 gigabytes.
+3. A external drive like a USB drive or SD card thats at least 8GB.
 
-### Downloading a ISO
+## Downloading a ISO
 1. Determine what OS you want.
    - For Linux, keep in mind Ubuntu and any derivatives not based on 23.10 or higher **may have issues**.
    - For Windows, keep in mind only Windows 10 and newer are supported.
 2. Place the ISO in a safe place.
-
 
 ### Flashing using Rufus (Windows)
 

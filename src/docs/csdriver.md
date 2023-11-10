@@ -1,37 +1,38 @@
+# Purchasing CoolStar Drivers
+
 ::: warning
 If your device is older than Skylake (6th gen), you do **not need to buy any drivers as they are free.** 
 :::
 
-
-## Purchasing CoolStar Drivers
+<br>
 
 ### Step 1:
 
 Go to [CoolStar's Driver Portal](https://coolstar.org/chromebook/driverlicense/login.html) and click "Sign Up with Patreon".
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step1.png">
 
---------
+---
 
 ### Step 2:
 
 Click "Sign Up with Patreon" one more time.
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step2.png">
 
---------
+---
 
 ### Step 3:
 
 Sign in to Patreon. If you don't have an account, click "Sign Up" at the bottom of the screen and follow the on screen instructions. 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step3.png">
 
---------
+---
 
 ### Step 4:
 
 After signing in, you should have been redirected to the screen below. Follow the prompts and click "Submit" when you are done.
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step4.png">
 
---------
+---
 
 ### Step 5:
 
@@ -130,7 +131,6 @@ Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then sele
 </details>
 <br>
 
-
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step5.png">
 
 ::: tip
@@ -145,14 +145,14 @@ You may need to select "See all 5 levels" if you don't see the driver you want.
 To purchase more than one driver, you can change the "Choose what you pay" field at checkout.
 :::
 
---------
+---
 
 ### Step 6:
 
 Enter your payment information. You can also pay via PayPal.
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step6.png">
 
---------
+---
 
 ### Step 7:
 
@@ -163,13 +163,13 @@ Go back to the [CoolStar driver portal](https://coolstar.org/chromebook/driverli
 It may take up to  two  (2) hours for the funds to show up. Do not panic, you  did not get scammed. 
 :::
 
---------
+---
 
 ### Step 8:
 Once the funds show up, head back to "Available Drivers", select the driver you want to buy, then click "Buy".
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step9.png">
 
---------
+---
 
 ### Step 9:
 
@@ -180,14 +180,7 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
 If you do not unsubscribe from the Patreon, you will get charged again next month.
 :::
 
---------
-
-### Step 10:
-Reboot.
-
-![image](https://github.com/chrultrabook/docs/assets/77316348/7202cae6-ac59-493b-b488-880ff313dd8b)
-
---------
+---
 
 <table>
 <tr>
