@@ -11,8 +11,23 @@ nav_order: 9
 Entering and exiting Developer mode will **wipe all** user data!
 Backup anything if you have to.
 
-### Disable GGB Flag
-"(placeholder text) insert guide to reset gbb flags to allow exiting developer mode"
+### Reset GBB Flags
+If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or find the "Return to secure mode" button missing, you need to reset your gbb flags. 
+
+1. Boot chromeOS.
+
+2. Press `Control` + `Alt` + `T` to bring up a crosh terminal.
+
+3. Run [MrChromebox's firmware utility script.](https://mrchromebox.tech/#fwscript)
+    * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
+    * If you encounter certificate related errors when downloading the script from ChromeOS, then add `-k` to the `curl` and script command to bypass SSL certificate checking as so:
+        * `cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` 
+
+4. Select option 3: "Set Boot Options (GBB flags)".
+
+5. Select option 5: "Reset to factory default".
+
+6. Your done.
 
 
 ### Exiting Developer Mode
