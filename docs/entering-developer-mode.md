@@ -4,7 +4,7 @@ layout: default
 nav_order: 9
 ---
 
-## Entering Developer Mode
+## Developer Mode
 
 
 {: .warning }
@@ -16,8 +16,7 @@ Do not continue if your device is currently owned or enrolled by a organization,
 
 Developer Mode is a alternate mode that all chromeOS devices have that opens up the ability to make unverified changes to the operating system and hardware.
 ### Entering Developer Mode
-Todo: Add alternate steps for devices with a recovery button/alternate combination.
-1. Press `ESC` + `Refresh` (arrow icon) + `Power` at the same time. This should bring your system into recovery mode.
+1. Enter [recovery mode](recovery-mode.md).
 
 2. Press `CTRL` +  `D` at the same time. This should bring up a warning asking for confirmation for either "Turn OS Verification OFF" or "Enable Developer Mode".
 
