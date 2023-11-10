@@ -12,7 +12,7 @@ Entering and exiting Developer mode will **wipe all** user data!
 Backup anything if you have to.
 
 {: .warning }
-"(placeholder text) insert warning for enrolled (school, buisness) chromebooks"
+Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
 
 Developer Mode is a alternate mode that all chromeOS devices have that opens up the ability to make unverified changes to the operating system and hardware.
 ### Entering Developer Mode
