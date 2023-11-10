@@ -1,5 +1,5 @@
 ---
-title: Firmware
+title: Flashing Custom Firmware
 layout: default
 nav_order: 9
 ---
@@ -45,24 +45,6 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
         * `cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
 4. If you are flashing Full ROM, the firmware script will prompt you to make a backup of your stock firmware. **Store it in a safe place** (Google Drive, another PC, etc), as reverting to stock firmware without a backup is **very difficult**.
 5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. Do **not** interrupt the first boot. 
-
--------
-
-**Updating coreboot**
-
-1. Boot a live Linux USB. See [here](bootableusb.html) for a guide on making a bootable USB. 
-
-  {: .note }
-  curl is not installed by default for Ubuntu / Ubuntu distros. To install it, run: `sudo apt update;sudo apt install curl -y`
-
-2. Once you have booted the live USB, **do not install the OS. Some distros may have the option to "try now" click that.**
-
-3. Connect to the internet. Then open a terminal.
-   
-4. Run the same firmware utility script you used to install coreboot
-   * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
-
-5. Pick option 1; "Install/Update UEFI (Full ROM) Firmware" and reboot if successful
 
 -------
 

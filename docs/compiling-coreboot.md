@@ -1,7 +1,7 @@
 ---
 title: Compiling Custom Firmware
 layout: default
-nav_order: 18
+nav_order: 20
 parent: Advanced
 ---
 

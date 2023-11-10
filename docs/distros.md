@@ -1,7 +1,7 @@
 ---
 title: Distro Specific Configuration
 layout: default
-nav_order: 23
+nav_order: 22
 parent: Advanced
 ---
 

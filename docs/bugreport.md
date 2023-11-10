@@ -1,7 +1,7 @@
 ---
 title: Reporting Bugs
 layout: default
-nav_order: 30
+nav_order: 28
 ---
 
 ## Bug Reporting

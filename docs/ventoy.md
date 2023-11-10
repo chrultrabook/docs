@@ -1,7 +1,7 @@
 ---
 title: Installing Ventoy in chromeOS
 layout: default
-nav_order: 22
+nav_order: 26
 ---
 
 
