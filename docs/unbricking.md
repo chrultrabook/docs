@@ -1,7 +1,7 @@
 ---
 title: Unbricking
 layout: default
-nav_order: 21
+nav_order: 3
 parent: Advanced 
 ---
 

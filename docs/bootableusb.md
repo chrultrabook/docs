@@ -1,7 +1,7 @@
 ---
 title: Making a Bootable USB
 layout: default
-nav_order: 27
+nav_order: 22
 ---
 
 ## Making a Bootable USB
