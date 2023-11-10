@@ -1,7 +1,7 @@
 ---
 title: Unbricking with a Flipper Zero
 layout: default
-nav_order: 23
+nav_order: 5
 parent: Advanced
 ---
 
