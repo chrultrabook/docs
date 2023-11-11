@@ -250,7 +250,7 @@ Now that everything is prepped, time to flash the device.
     * `sudo flashrom -p raiden_debug_spi:target=AP -i SI_BIOS -w <filename>`
   * Otherwise, if using a UEFI Full ROM image or shellball/recovery-extracted image, use
     * `sudo flashrom -p raiden_debug_spi:target=AP -w <filename>`
-  * Where <filename> is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 3-5 mins to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written. The initial CCD setup make take a minute or so and not show any progress.
+  * Where `<filename>` is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 3-5 mins to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written. The initial CCD setup make take a minute or so and not show any progress.
 
 -----------
 
