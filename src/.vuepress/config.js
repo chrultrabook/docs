@@ -11,14 +11,14 @@ export default {
   title: 'Chrultrabook',
   description: description,
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#6a4aec' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { rel: 'icon', href: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64', type: 'image/vnd.microsoft.icon' }],
   ],
   theme: defaultTheme({
     logo: '/favicon.ico',
-    accentColor: '#0098C5',
+    accentColor: '#6a4aec',
     editLink: false,
     navbar: [
       {
