@@ -32,7 +32,7 @@ If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or
 
 ### Exiting Developer Mode
 
-1. Restart your system to go to the "You are in Developer Mode" or "OS Verification is OFF" screen.
+1. Boot your system to the "You are in Developer Mode" or "OS Verification is OFF" screen.
 
 2. Press the `Spacebar`. It should bring up a prompt asking for confirmation about "Return to secure mode" or "Turning on OS Verification".
 
