@@ -33,14 +33,10 @@ export default {
     sidebarDepth: 2,
     sidebar: [
     {
-        text: 'Docs',
+        text: 'Getting Started',
         link: '/docs/',
         collapsible: false,
         children: [
-          {
-            text: 'Getting Started',
-            link: '/docs/getting-started',
-          },
           {
             text: 'Supported Devices',
             link: '/docs/supported-devices',
