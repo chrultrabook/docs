@@ -1,0 +1,52 @@
+//Custom Styles here.
+
+.home .hero img {
+  max-width: 450px !important;
+}
+
+.home_footer {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.home_footer div {
+  font-size: 17px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --back-to-top-z-index: 5;
+  --back-to-top-color: #0098C5;
+  --back-to-top-color-hover: #006888;
+  --c-brand: #0098C5;
+  --c-brand-light: #00afe4;
+  --c-tip: #0098C5;
+}
+
+html.dark {
+  --c-brand: #0098C5;
+  --c-brand-light: #00afe4;
+  --c-tip: #0098C5;
+}
+
+.scrollable-code div[class^="language-"]{
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.scrollable-code div pre{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.scrollable-code div .line-numbers{
+  border-right: 1px solid var(--code-hl-bg-color);
+  border-radius: 6px 0 0 6px;
+  padding-bottom: 1.3rem;
+}
+
+.scrollable-code div[class^="language-"]::after {
+  display: none;
+}

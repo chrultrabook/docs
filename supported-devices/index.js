@@ -148,11 +148,5 @@ let data = fs.readFileSync("template.md", "utf8");
 data = data.replace("${{TABLE}}", generateHTML());
 
 //Putting this in the template file causes the template be be showed in the listing
-data = `---
-title: Supported Devices
-layout: default
-nav_order: 7
----
-`+data
-fs.writeFileSync("../docs/supported-devices.md", data);
-console.log("File written to ../docs/supported-devices.md");
+fs.writeFileSync("../src/docs/supported-devices.md", data);
+console.log("File written to ../src/docs/supported-devices.md");
