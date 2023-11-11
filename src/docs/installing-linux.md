@@ -5,17 +5,21 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 
 ### Recommended Distributions
 
-{: .note } 
+::: tip
 Only Linux kernel 6.4 or newer is supported.
+:::
 
-{: .warning } 
+::: warning
 Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
+:::
 
-{: .warning } 
+::: warning
 Debian versions older than Debian 12 (Bookworm) are **not supported**.
+:::
 
-{: .warning } 
-Debian 12 (Bookworm) requires a custom kernel, the [audio script](https://chrultrabook.github.io/docs/docs/installing-linux.html#fixing-audio) will automatically install it for you.
+::: warning
+Debian 12 (Bookworm) requires a custom kernel, the [audio script](#fixing-audio) will automatically install it for you.
+:::
 
 **Recommended distros as of August 2023 (in no particular order) are:**
 
@@ -42,8 +46,9 @@ Debian 12 (Bookworm) requires a custom kernel, the [audio script](https://chrult
 
 ### Fixing Audio
 
- {: .warning }
+ ::: danger
  Using AVS on a device with max98357a will blow your speakers. You have been warned. 
+ :::
 
 **Prerequisites**
 - Python 3.10 or newer
@@ -56,8 +61,6 @@ Debian 12 (Bookworm) requires a custom kernel, the [audio script](https://chrult
 3. `./setup-audio`
 
 For more information please see [WeirdTreeThing's repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
-
-{: .fs-5 }
 
 
 <table>

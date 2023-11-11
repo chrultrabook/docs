@@ -22,11 +22,13 @@
 * On many models, includes bugfixes and enables additional functionality
 * Required to boot windows on Zen2 devices (Ryzen 3000)
 
-{: .warning }
+::: warning
 Touchscreen and microphones that rely on the AVS driver **WILL NOT** work on RW_LEGACY!
+:::
 
-{: .highlight }
+::: warning
 Do not run Windows on RW_LEGACY unless you have a AMD Ryzen device. The RW_LEGACY firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are OK with the accompanying limitations). Or for Ryzen users that require booting from stock firmware for Windows to function properly.
+:::
 
 
 **(UEFI) Full ROM**
@@ -40,8 +42,9 @@ Do not run Windows on RW_LEGACY unless you have a AMD Ryzen device. The RW_LEGAC
 * Requires installation of a UEFI-compatible OS after flashing
 * Essentially turns your ChromeOS device into a "regular" PC / laptop
 
-{: .highlight }
+::: tip
 The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/macOS exclusively), and who don't mind disabling write-protection on their device
+:::
 
 <br>
 

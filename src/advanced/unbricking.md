@@ -10,15 +10,17 @@ If you've found your way here, it's likely because you updated your firmware and
 
 * A ChromeOS device
   
-  {: .note }
+  ::: tip
   Most Skylake and older models (with a few exceptions) use a SOIC-8 flash chip which is easily clipable. Most if not all Kabylake/Apollolake and newer devices use a WSON-8 flash chip which can't be clipped, instead you need a WSON-8 probe. Check the part number of your flash chip to find the correct size needed.
+  :::
 
 * A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu 23.04 live USB.
 * A ch341a USB flash programmer
 * A 1.8v adapter
 
-  {: .note }
+  ::: tip
   The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
+  :::
 
 * Either a SOIC-8 chip clip or a WSON-8 probe
 
@@ -36,14 +38,16 @@ While this is somewhat device-specific, the main points are the same:
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
-   {: .warning }
+   ::: danger
    Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB, 16MB, or 32MB chip, with the identifier W25Q64[xx] (8MB),  W25Q128[xx] (16MB), or W25Q256[xx] (32MB) where [xx] is usually FV or DV. We do **not** want to touch the EC firmware chip, which is identified by W25X40[xx].
 
-   {: .note }
+   ::: tip
    Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash.
- 
-   {: .note }
+   :::
+
+   ::: tip
    Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
+   :::
 
 
 Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover removal tends to be very similar.
@@ -94,8 +98,9 @@ Flashrom will produce output identifying the flash chip. If it doesn't, double c
             * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
             * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
-{: .note }
+::: tip
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
+:::
 
 ----------
 
@@ -103,8 +108,9 @@ If you're not sure which file to use for your device / don't know your device's 
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
-{: .note }
+::: tip
 You don't need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
+:::
 
 1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary, so let's download/extract that:
     * `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`
@@ -157,8 +163,9 @@ Reassembly is the reverse of disassembly. Reconnect the internal battery and rep
 **Requirements**
 * A ChromeOS device with CCD (closed-case debugging) enabled on one of the USB-C ports. If your device uses CR50 for the firmware write protection, then it has CCD capability.
 
-  {: .warning }
+  ::: danger
   These instructions do not apply to any device which is locked/managed. Enterprise and/or EDU enrollment locks out CCD functionality completely.
+  :::
 
 * A USB-C debug cable ([aka Suzy-Q cable](https://www.sparkfun.com/products/retired/14746))
 * The device must have the CCD flags factory reset (as per instructions to disable firmware write protection), or the battery must be unplugged/disconnected from the mainboard.
@@ -215,8 +222,9 @@ Let's get to it:
             * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
             * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
-{: .note }
+::: tip
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
+:::
 
 -----------
 
@@ -224,8 +232,9 @@ If you're not sure which file to use for your device / don't know your device's 
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
-{: .note }
+::: tip
 You don't need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
+:::
 
 1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary, so let's download/extract that:
     * `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`

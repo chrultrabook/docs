@@ -22,9 +22,9 @@ Yes, this is possible.
 ----------------
 <br>
 
-{: .warning }
+::: danger
 **You will NOT be able to preserve the VPD using this method! This will not apply to you if flashing via your backup ROM.** Read the [Unbricking Page](unbricking.html) for more information.
-
+:::
 
 
 ### Step 1
@@ -37,8 +37,9 @@ Obtain your stock ROM and rename it to `.bin`. For this guide, I will be using q
 Locate the `spi_mem_manager` folder under the path `SD Card/apps_data/spi_mem_manager/`. Copy the .bin file to this newly made folder. 
 <br>
 
-{: .note }
+::: tip
 You might see a file size warning. It is safe to ignore it, only files that are 4GB+ will have issues transferring.
+:::
 
 Your `spi_mem_manager/` folder should now look like this:
 <br>
@@ -69,21 +70,3 @@ Assuming all went well, you should no longer have a unbricked system.
 
 #### Got Questions?
 Please ask in the Chrultrabook Discord, or email me (meghan6) at (meghann6@proton.me).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
