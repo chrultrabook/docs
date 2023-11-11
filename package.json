@@ -1,0 +1,23 @@
+{
+  "name": "chrultrabook",
+  "version": "0.1.0",
+  "description": "Chrultrabook docs",
+  "main": "index.js",
+  "author": "Chrultrabook",
+  "contributors": [],
+  "repository": "https://github.com/chrultrabook/docs/",
+  "scripts": {
+    "dev_new": "vuepress dev src",
+    "build_new": "vuepress build src",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.66",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.66",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.66",
+    "@vuepress/plugin-search": "^2.0.0-beta.66",
+    "vuepress": "^2.0.0-beta.66"
+  }
+}
