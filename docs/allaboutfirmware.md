@@ -60,7 +60,7 @@ The (UEFI) Full ROM firmware is the best option for all users who no longer need
       <a href="getting-started.html">← Getting Started</a>
     </td>
     <td class="navtable-r">
-      <a href="developer-mode.html">Developer Mode →</a>
+      <a href="entering-developer-mode.html">Developer Mode →</a>
     </td>
   </tr>
 </table>

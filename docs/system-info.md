@@ -5,7 +5,7 @@ nav_order: 5
 ---
 
 {: .note } 
-Some of the following commands require [Developer mode](developer-mode.html).
+Some of the following commands require [Developer mode](entering-developer-mode.html).
 
 ### System Architecture
 

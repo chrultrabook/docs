@@ -22,7 +22,7 @@ Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEF
 
 To convert your machine from Google's firmware and chromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
-1. [Enable developer mode](developer-mode.html)
+1. [Enable developer mode](entering-developer-mode.html).
 
 2. Refer to the [supported devices list](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
     * Depending on your device, you will need to do **one** of the following:
