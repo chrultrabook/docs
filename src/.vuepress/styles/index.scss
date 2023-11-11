@@ -18,17 +18,17 @@
 :root {
   scroll-behavior: smooth;
   --back-to-top-z-index: 5;
-  --back-to-top-color: #6a4aec;
-  --back-to-top-color-hover: #6a4aec;
-  --c-brand: #6a4aec;
-  --c-brand-light: #6a4aec;
-  --c-tip: #6a4aec;
+  --back-to-top-color: #0098C5;
+  --back-to-top-color-hover: #006888;
+  --c-brand: #0098C5;
+  --c-brand-light: #00afe4;
+  --c-tip: #0098C5;
 }
 
 html.dark {
-  --c-brand: #6a4aec;
-  --c-brand-light: #6a4aec;
-  --c-tip: #6a4aec;
+  --c-brand: #0098C5;
+  --c-brand-light: #00afe4;
+  --c-tip: #0098C5;
 }
 
 .scrollable-code div[class^="language-"]{
@@ -49,8 +49,4 @@ html.dark {
 
 .scrollable-code div[class^="language-"]::after {
   display: none;
-}
-
-div.theme-default-content:not(.custom) {
-  max-width: 100%;
 }

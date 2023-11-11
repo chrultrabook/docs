@@ -1,6 +1,6 @@
-::: warning
+{: .warning }
 If your device is older than Skylake (6th gen), you do **not need to buy any drivers as they are free.** 
-:::
+
 
 
 ## Purchasing CoolStar Drivers
@@ -133,17 +133,14 @@ Visit [CoolStar's Patreon](https://www.patreon.com/coolstar), sign in, then sele
 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step5.png">
 
-::: tip
+{: .important }
 **The drivers are a one time purchase.**  
-:::
 
-::: tip
+{: .note }
 You may need to select "See all 5 levels" if you don't see the driver you want.
-:::
 
-::: tip
+{: .note }
 To purchase more than one driver, you can change the "Choose what you pay" field at checkout.
-:::
 
 --------
 
@@ -159,9 +156,8 @@ Enter your payment information. You can also pay via PayPal.
 Go back to the [CoolStar driver portal](https://coolstar.org/chromebook/driverlicense/login.html), and sign in with the username and password you chose in Step 3. After you sign in, head to the "Account" tab, then click "Refresh" under the word "Patreon".
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step8.png">
 
-::: tip
+{: .note }
 It may take up to  two  (2) hours for the funds to show up. Do not panic, you  did not get scammed. 
-:::
 
 --------
 
@@ -176,9 +172,8 @@ Once the funds show up, head back to "Available Drivers", select the driver you 
  Unsubscribe from the Patreon  so you  don't get charged double. 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/step7.png">
 
-::: danger
+{: .warning }
 If you do not unsubscribe from the Patreon, you will get charged again next month.
-:::
 
 --------
 
