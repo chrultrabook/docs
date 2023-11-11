@@ -49,7 +49,7 @@ If recovery fails, unplug the battery since recovery also attempts to update the
 
 
 **Booting the Recovery USB**
-1. Press `esc` + `refresh` + `power`
+1. Enter [recovery mode](recovery-mode.html).
 2. Plug in your recovery USB drive
 3. Begin the recovery process
    
