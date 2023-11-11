@@ -5,14 +5,18 @@
 
 <br>
 
-{: .warning }
+::: warning
 Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supported.
+:::
 
-{: .warning }
+
+::: warning
 Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. They are not supported and may contain **undetectable** malware and/or security vulnerabilities.
+:::
 
-{: .note }
-If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](https://chrultrabook.github.io/docs/docs/ventoy.html) page.
+::: tip
+If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](/docs/ventoy) page.
+:::
 
 1. Install Windows from a USB:
     1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
@@ -20,11 +24,13 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
     3. Plug a USB mouse in for installation (If you only have one USB port, use tab, enter, and space to navigate the menu)
     4. Turn on the Chromebook, press ESC at the POST screen, and select the USB to boot from.
 
-    {: .note }
+    ::: tip
     If you need to select a different boot device, press any key in "Select Boot Option". Then select "Boot Manager" to select your boot drive.
+    :::
 
-   {: .warning }
+    ::: warning
     **Do NOT** unplug the install USB until the installation has completed. If you do so, the installation will fail as the Windows install file won't exist anymore.
+    :::
 
 2.  Bypassing Windows 11 installation checks using Rufus (Windows on an another computer):
     1. Select your Flashdrive
@@ -79,16 +85,13 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 | **Alder Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
 
 
-{: .fs-5 }
-{: .text-right }
-
 <table>
 <tr>
 <td class="navtable-l">
-<a href="altos.html">← Installing altOS</a> 
+<a href="altos">← Installing altOS</a> 
 </td>
 <td class="navtable-r">
-<a href="post-install.html">Post Install →</a> 
+<a href="post-install">Post Install →</a> 
 </td>
 </tr>
 </table>

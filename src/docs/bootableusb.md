@@ -1,7 +1,8 @@
 ## Making a Bootable USB
 
-{: .warning }
+::: danger
 Flashing Ventoy or ISO's to an external drive will **wipe all data** on said drive. Back up anything if you have to.
+:::
 
 ### Prerequisites
 1. Another PC or laptop with at least 8GB storage

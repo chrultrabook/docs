@@ -9,7 +9,7 @@ So you find a bug in one of our projects, and want to report it. It's faily simp
 4. Wait patiently for a contributor to fix the issue.
   - Please keep in mind the majority of us contributors have other things going on in our lives.
 <br>
-{: .note }
 
+::: tip
 Do not submit personal help requests in the bugtracker. 
-
+:::

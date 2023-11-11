@@ -92,8 +92,9 @@ Read flash:
   * Example:
     * `sudo flashrom -p internal -r backup.rom`
 
-{: .warning }
+::: danger
 If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you want to write to the flash or else flashrom will fail.
+:::
 
 Write flash:
   * `sudo flashrom -p <programmer> -w <filename.rom>`

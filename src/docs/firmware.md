@@ -10,16 +10,17 @@
 
 Refer to [here](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
 
-{: .warning }
+::: danger
 **Flashing the firmware has the potential to brick your device**, requiring relatively inexpensive hardware and some technical knowledge to recover. Not all boards can be tested prior to release, and even then slight differences in hardware can lead to unforeseen failures. If you don't have the ability to recover from a bad flash, you're taking a risk. Flashing Full ROM firmware will remove your ability to run ChromeOS. 
-
+:::
 
 To convert your machine from Google's firmware and chromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
 1. [Enable developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
 
-   {: .warning }
+   ::: danger
    Doing this will wipe **all** user data! Make backups if needed before proceeding.
+   :::
 
     * Press `esc` `refresh` (f3) and `power` at the same time. Doing this should cause your system to reboot into a screen that prompts you to insert a recovery USB or SD card.
     * Press `ctrl` and `d` at the same time.
@@ -41,8 +42,6 @@ To convert your machine from Google's firmware and chromeOS to Coreboot and AltO
 5. Power the machine down and boot it back up. It can take up to a minute for display to come up on first POST. Do **not** interrupt the first boot. 
 
 -------
-
-{: .fs-5 }
 
 <table>
 <tr>

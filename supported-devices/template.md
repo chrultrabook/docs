@@ -30,11 +30,13 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 ### Firmware and OS Support
 
-{: .highlight }
+::: tip
 If your device isn't listed, it doesn't have support.
+:::
 
-{: .highlight }
+::: tip
 If on on a smaller screen, scroll sideways to see whole table.
+:::
 
 ${{TABLE}}
 
