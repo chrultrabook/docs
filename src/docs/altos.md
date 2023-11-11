@@ -36,8 +36,9 @@ Cons:
 * Requires some work on the end user (running audio script, configuring keyboard mapping)
 * AVS and SOF users experience instability at times
 
-   {: .note }
+   ::: warning
    Anything Ubuntu based will **not** work, with the exception of PopOS. Linux Mint, Ubuntu, and ElementaryOS are some examples. 
+   :::
 
 <br>
 
@@ -59,8 +60,9 @@ Cons:
 * Often takes up to a week or longer to set up.
 * Limited support
 
-{: .note }
+::: tip
 Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
+:::
 
 ### [Installing macOS →](installing-macos.html)
 

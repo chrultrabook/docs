@@ -1,5 +1,6 @@
-{: .warning }
+::: danger
 Make sure to unsubscribe from CoolStar's Patreon after installing the drivers. **You WILL be charged the following month if you don't.**
+:::
 
 ## License Activation
 
@@ -32,8 +33,9 @@ You might get a message like this when opening it for the first time. Click "Mor
 Click the install button. 
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/driveractivation/step4.png">
 
-{: .note }
+::: tip
 Leave all of the boxes checked. Ones not for your system simply won't be installed.
+:::
 
 ------
 
@@ -41,8 +43,9 @@ Leave all of the boxes checked. Ones not for your system simply won't be install
 Once the driver install has finished, head to the `gui` folder. Then open `GenLicense.exe`.
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/driveractivation/step5.png">
 
-{: .note }
+::: tip
 Make sure you allow it to run as administrator. You may get another SmartScreen warning, simply click "More Info", then "Run anyway".
+:::
 
 ------
 
@@ -50,8 +53,9 @@ Make sure you allow it to run as administrator. You may get another SmartScreen 
 Follow the on screen instructions to generate a license.
 <img src="https://raw.githubusercontent.com/chrultrabook/docs/main/assets/csdriver/driveractivation/step6.png">
 
-{: .warning }
+::: danger
 This step is crucial. The drivers will not work without a valid license.
+:::
 
 ------
 
@@ -62,9 +66,9 @@ Reboot.
 
 Thats it! If you followed all the steps correctly, your drivers should be working.
 
-{: .warning }
+::: danger
 **If you do not unsubscribe from CoolStar's Patreon after installing the audio drivers, you WILL be charged the following month.** This is your final warning. 
-
+:::
 
 ------
 

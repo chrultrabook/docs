@@ -18,8 +18,9 @@ Open VT-2 by pressing `Ctrl` + `Alt` + `F2` (Right arrow/Refresh) and run the fo
 2. `tar xf /home/chronos/user/Downloads/ventoy-<ventoy version>-linux.tar.gz`
 3. `cd ventoy-<ventoy version>`
 
-{: .note }
+::: tip
 On commands 2 and 3, after typing `ventoy`, you can press tab to fill in the rest of the filename automatically.
+:::
 
 You can then run `ls` to verify you have the correct files, it should look something like this
 

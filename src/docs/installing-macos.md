@@ -22,9 +22,9 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 - Broken NVRAM on Comet Lake Devices
    - To fix this, **DISABLE** `DevirtualiseMmio`.
-   {: .warning}
+   ::: warning
    If your device has a Comet Lake CPU, this MUST be disabled.
-    
+   :::
    
 - Waking from sleep causes:
    - Blank Electron / Chromium apps
@@ -36,8 +36,9 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 ### Tested Devices:
 
-{: .note }
+::: tip
 This list is incomplete. Feel free to improve it.
+:::
 
 - Asus C425 (LEONA)
 - Asus C434 (SHYVANA)
@@ -102,10 +103,9 @@ Storage:
 1. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
 1. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
 
-{: .warning }
+::: danger
 If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. An `OSI_` check is not present in these SSDTs.
-
-{: .fs-5 }
+:::
 
 <table>
 <tr>

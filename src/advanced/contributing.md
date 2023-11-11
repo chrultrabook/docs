@@ -39,9 +39,9 @@ The best way to test your commits and ensure proper formatting is by forking the
 * Run the `bundle` command, then `bundle exec jekyll serve`
 * Visit `localhost:4000` in your web browser and preview your changes.
 
-{: .note }
+::: tip
 Jekyll will automatically regenerate pages when you make changes.
-
+:::
 
 ------------
 

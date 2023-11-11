@@ -1,13 +1,16 @@
 ## Reverting to Stock chromeOS
 
-{: .note }
+::: tip
 If your device hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS.
+:::
 
-{: .warning }
+::: warning
 Reverting to stock without your backup ROM is somewhat difficult and will not be covered in this guide currently.
+:::
 
-{: .note }
+::: tip
 If recovery fails, unplug the battery since recovery also attempts to update the firmware.
+:::
 
 --------
 
