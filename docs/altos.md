@@ -43,7 +43,7 @@ Cons:
 * AVS and SOF users experience instability at times
 
    {: .note }
-   Anything Ubuntu based will **not** work, with the exception of PopOS. Linux Mint, Ubuntu, and ElementaryOS are some examples. 
+   Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
 
 <br>
 
