@@ -1,7 +1,7 @@
 ---
 title: Reverting to chromeOS
 layout: default
-nav_order: 20
+nav_order: 23
 ---
 
 

@@ -23,6 +23,9 @@ const order = [
     "signedlicense.md",
     "post-install.md",
     "updating-firmware.md",
+    "recovery-mode.md",
+    "entering-developer-mode.md",
+    "exiting-developer-mode.md",
     {
         "file": "advanced.md",
         "children": [
