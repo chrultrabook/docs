@@ -91,4 +91,5 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 <a href="post-install.html">Post Install →</a> 
 </td>
 </tr>
+</table>
 
