@@ -39,16 +39,3 @@ If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or
 3. Press `Enter`. The screen should turn off breifly and say that its returning to "Normal (Verified) Mode...".
 
 4. Once its done, Setup the system like normal.
-
-{: .fs-5 }
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="allaboutfirmware.html">← All About Firmware</a> 
-</td>
-<td class="navtable-r">
-<a href="firmware.html">Flashing Custom Firmware →</a> 
-</td>
-</tr>
-</table>
