@@ -32,7 +32,7 @@ export default {
     ],
     sidebarDepth: 2,
     sidebar: [
-    {
+      {
         text: 'Getting Started',
         link: '/docs/',
         collapsible: false,
