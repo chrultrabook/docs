@@ -14,6 +14,8 @@ const order = [
     "terminology.md",
     "supported-devices.md",
     "allaboutfirmware.md",
+    "recovery-mode.md",
+    "entering-developer-mode.md",
     "firmware.md",
     "altos.md",
     "installing-windows.md",
@@ -23,9 +25,6 @@ const order = [
     "signedlicense.md",
     "post-install.md",
     "updating-firmware.md",
-    "recovery-mode.md",
-    "entering-developer-mode.md",
-    "exiting-developer-mode.md",
     {
         "file": "advanced.md",
         "children": [
@@ -38,6 +37,7 @@ const order = [
     },
     "contributing.md",
     "reverting.md",
+    "exiting-developer-mode.md",
     "ventoy.md",
     "bootableusb.md",
     "bugreport.md"

@@ -1,7 +1,7 @@
 ---
 title: Post Install 
 layout: default
-nav_order: 16
+nav_order: 18
 ---
 
 ## Post Install for altOS

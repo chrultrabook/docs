@@ -1,7 +1,7 @@
 ---
 title: Updating Custom Firmware
 layout: default
-nav_order: 17
+nav_order: 19
 ---
 
 ### Updating Custom Firmware

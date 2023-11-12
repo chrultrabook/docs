@@ -1,7 +1,7 @@
 ---
 title: Flashing Custom Firmware
 layout: default
-nav_order: 9
+nav_order: 11
 ---
 
 ### Terminology

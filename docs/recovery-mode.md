@@ -1,7 +1,7 @@
 ---
 title: Recovery Mode
 layout: default
-nav_order: 18
+nav_order: 9
 ---
 
 ## Recovery Mode

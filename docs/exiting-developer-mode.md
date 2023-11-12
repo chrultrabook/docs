@@ -1,7 +1,7 @@
 ---
 title: Exiting Developer Mode
 layout: default
-nav_order: 20
+nav_order: 23
 ---
 
 ## Exiting Developer Mode

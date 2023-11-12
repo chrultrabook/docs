@@ -1,7 +1,7 @@
 ---
 title: Entering Developer Mode
 layout: default
-nav_order: 19
+nav_order: 10
 ---
 
 ## Developer Mode
