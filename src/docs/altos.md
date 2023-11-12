@@ -72,7 +72,7 @@ Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen mi
 <table>
 <tr>
 <td class="navtable">
-<a href="firmware.html">← Flashing Coreboot Firmware</a> 
+<a href="flashing-firmware.html">← Flashing Firmware</a> 
 </td>
 </tr>
 </table>

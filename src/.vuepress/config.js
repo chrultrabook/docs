@@ -46,6 +46,10 @@ export default {
             link: '/docs/system-info',
           },
           {
+            text: 'Recovery Mode',
+            link: '/docs/recovery-mode',
+          },
+          {
             text: 'Enabling Developer Mode',
             link: '/docs/developer-mode',
           },
@@ -114,6 +118,10 @@ export default {
           {
             text: 'Reverting to ChromeOS',
             link: '/docs/reverting',
+          },
+          {
+            text: 'Exiting Developer Mode',
+            link: '/docs/exiting-developer-mode',
           },
           {
             text: 'Using Ventoy within ChromeOS',
