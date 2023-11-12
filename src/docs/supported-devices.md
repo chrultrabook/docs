@@ -2222,14 +2222,3 @@ If on on a smaller screen, scroll sideways to see whole table.
         </tr>
     </tbody>
 </table>
-
-<table>
-  <tr>
-    <td class="navtable-l">
-      <a href="terminology.html">← Terminology</a>
-    </td>
-    <td class="navtable-r">
-      <a href="allaboutfirmware.html">All About Firmware →</a>
-    </td>
-  </tr>
-</table>
