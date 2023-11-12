@@ -32,15 +32,15 @@ The best way to test your commits and ensure proper formatting is by forking the
 
 **Simple step-by-step guide**
 
-* Install Ruby, Jekyll, and bundle
-  * See [Jekyll's installation guide](https://jekyllrb.com/docs/installation/#guides) for your platform.
+* Install NodeJS
+  * You can download NodeJS from [the NodeJS download page](https://nodejs.org/en/download).
 * [Fork this repo](https://github.com/chrultrabook/docs/fork/)
 * Clone your fork, open a terminal and `cd` to it
-* Run the `bundle` command, then `bundle exec jekyll serve`
-* Visit `localhost:4000` in your web browser and preview your changes.
+* Run the `npm i` command, then `npm run dev`
+* Visit `localhost:8080` in your web browser and preview your changes.
 
 ::: tip
-Jekyll will automatically regenerate pages when you make changes.
+Vuepress will automatically regenerate pages when you make changes.
 :::
 
 ------------
