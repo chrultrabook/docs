@@ -17,4 +17,4 @@ jobs:
         with:
           node-version: '16'
       - name: Build with node
-        run: npm run build
+        run: npm i && npm run build
