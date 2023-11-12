@@ -46,6 +46,10 @@ export default {
             link: '/docs/developer-mode',
           },
           {
+            text: 'Flashing Firmware',
+            link: '/docs/flashing-firmware',
+          },
+          {
             text: 'FAQ',
             link: '/docs/faq',
           },
@@ -64,10 +68,6 @@ export default {
           {
             text: 'All About Firmware',
             link: '/docs/allaboutfirmware',
-          },
-          {//why are there two....
-            text: 'Firmware',
-            link: '/docs/firmware',
           },
           {
             text: 'Alt OS pros/cons',
