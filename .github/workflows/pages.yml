@@ -37,7 +37,7 @@ jobs:
           node-version: '16'
       - name: Build with NodeJS
         # Outputs to the './_site' directory by default
-        run: npm run build
+        run: npm i && npm run build
         env:
           BUILD_DIR: "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
