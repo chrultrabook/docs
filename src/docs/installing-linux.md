@@ -37,8 +37,7 @@ Debian 12 (Bookworm) requires a custom kernel, the [audio script](#fixing-audio)
 2. Plug the USB Drive into the Chromebook.
 3. Turn on the Chromebook, press `ESC` at the POST screen (when the boot logo appears), and select your USB to boot from. 
 4. Install as you would on any other computer.
-5. (Optional) Install Chultrabook Tools for fan controls, backlight controls, system information and more
-   See [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Controller)
+5. (Optional) 
 
 
 --------------
