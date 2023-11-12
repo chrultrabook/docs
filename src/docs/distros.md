@@ -1,6 +1,5 @@
 # Linux distro-specific Configuration
 
-
 <br>
 
 ## NixOS
