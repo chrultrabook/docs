@@ -42,6 +42,10 @@ export default {
             link: '/docs/supported-devices',
           },
           {
+            text: 'Finding System Info',
+            link: '/docs/system-info',
+          },
+          {
             text: 'Enabling Developer Mode',
             link: '/docs/developer-mode',
           },
@@ -56,10 +60,6 @@ export default {
           {
             text: 'Known issues',
             link: '/docs/known-issues',
-          },
-          {
-            text: 'Finding System Info',
-            link: '/docs/system-info',
           },
           {
             text: 'Terminology',
