@@ -1,6 +1,6 @@
 # altOS Pros / Cons
 
----
+<br>
 
 ## Windows
 

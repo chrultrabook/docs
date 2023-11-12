@@ -1,5 +1,7 @@
 # Bug Reporting
 
+<br>
+
 So you find a bug in one of our projects, and want to report it. It's faily simple,
 
 1. Use your brain (please)
@@ -8,6 +10,7 @@ So you find a bug in one of our projects, and want to report it. It's faily simp
   - If you need help, a generic bug report template is available.
 4. Wait patiently for a contributor to fix the issue.
   - Please keep in mind the majority of us contributors have other things going on in our lives.
+
 <br>
 
 ::: tip
