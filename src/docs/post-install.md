@@ -1,5 +1,6 @@
 ## Post Install for altOS
 
+* Install [Chultrabook Tools](https://github.com/death7654/Chrultrabook-Controller) for fan controls, backlight controls, system information and more.
 
 ### Windows
 
@@ -24,7 +25,6 @@
 
 * Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
 * Run the [cros-keyboard-map](https://github.com/WeirdTreeThing/cros-keyboard-map) script to remap top row FX keys.
- 
 **Fixing USB C on TigerLake and AlderLake**
 1. Create a file called `chromebook-usbc.service` file in `/etc/systemd/system/`
 2. Paste the following contents into the file:
