@@ -42,6 +42,10 @@ export default {
             link: '/docs/supported-devices',
           },
           {
+            text: 'Enabling Developer Mode',
+            link: '/docs/developer-mode',
+          },
+          {
             text: 'FAQ',
             link: '/docs/faq',
           },
