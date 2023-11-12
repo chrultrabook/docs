@@ -1,6 +1,7 @@
 ## Post Install for altOS
 
-* Install [Chultrabook Tools](https://github.com/death7654/Chrultrabook-Controller) for fan controls, backlight controls, system information and more.
+**General QOL improvements**
+* Install [Chultrabook Tools](https://github.com/death7654/Chrultrabook-Controller) for manage fan controls, backlight controls, view system information and more.
 
 ### Windows
 
