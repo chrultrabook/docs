@@ -10,7 +10,7 @@ nav_order: 9
 Images sourced from [Google Support](https://support.google.com/chrome/a/answer/1360642?sjid=16957732159917599441-NC#chromebox&zippy=%2Cwipe-a-chromebox) and [Asus Support](https://www.asus.com/support/FAQ/1039185/).
 
 {: .note }
-Your data is unaffected in recovery mode unless you use a recovery image or enter [developer mode](entering-developer-mode.md).
+Your data is unaffected in recovery mode unless you use a recovery image or enter [developer mode](entering-developer-mode.html).
 
 {: .warning }
 Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
@@ -49,7 +49,7 @@ Hold down `Volume Up` + `Volume Down` + `Power` for 10 seconds, then release. Th
 <a href="allaboutfirmware.html">← All About Firmware</a> 
 </td>
 <td class="navtable-r">
-<a href="firmware.html">Flashing Custom Firmware →</a> 
+<a href="entering-developer-mode.html">Entering Developer Mode →</a> 
 </td>
 </tr>
 </table>

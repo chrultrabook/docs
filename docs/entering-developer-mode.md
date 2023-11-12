@@ -34,7 +34,7 @@ Developer Mode is a alternate mode that all chromeOS devices have that opens up 
 <table>
 <tr>
 <td class="navtable-l">
-<a href="allaboutfirmware.html">← All About Firmware</a> 
+<a href="recovery-mode.html">← Recovery Mode</a> 
 </td>
 <td class="navtable-r">
 <a href="firmware.html">Flashing Custom Firmware →</a> 
