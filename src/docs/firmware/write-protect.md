@@ -9,6 +9,6 @@ Refer to the [supported devices list](supported-devices.html) to figure out whic
 
 Depending on your device, you will need to do **one** of the following:
 - Take out a WP screw
-- Unplug your battery
+- [Unplug your battery](battery)
 - Bridge two jumpers
 - [Use a SuzyQable](suzyq) (A cable that enables CCD (Closed Case Debug))

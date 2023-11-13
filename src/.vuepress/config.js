@@ -80,6 +80,10 @@ export default {
               {
                 text: 'Using a SuzyQable',
                 link: '/docs/firmware/suzyq',
+              },
+              {
+                text: 'Unplugging the battery',
+                link: '/docs/firmware/battery',
               }
             ]
           },
