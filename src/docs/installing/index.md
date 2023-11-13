@@ -1,21 +1,21 @@
-# altOS Pros / Cons
+# Installing an OS
 
 <br>
 
 ## Windows
 
-Pros:
+### Pros:
 * Works on most platforms with minimal tweaking¹
 * Generally has better application support
 * Better game support
 
-Cons: 
+### Cons: 
 * Audio driver is paid (10 USD) for Skylake (6th generation) and newer devices
 * USB4/Thunderbolt driver is paid (20 USD) for **TigerLake** (11th generation Intel processors) and **newer** generations on devices that require them
 * Requires the user to install many drivers
 * AVS and SOF users may experience instability at times
 
-### [Installing Windows →](installing-windows.html) 
+### [Installing Windows →](installing-windows) 
 
 <br>
 
@@ -25,12 +25,12 @@ Cons:
 
 ## Linux
 
-Pros:
+### Pros:
 * Free audio support 
 * Lightweight and optimal for Chrultrabooks with low storage / slow CPUs
 * Most hardware (biggest exception is audio) will work out of the box
 
-Cons:
+### Cons:
 * Potentially difficult for a new user (depending on the distro of choice)
 * Requires some work on the end user (running audio script, configuring keyboard mapping)
 * AVS and SOF users experience instability at times
@@ -41,16 +41,16 @@ Cons:
 
 <br>
 
-### [Installing Linux →](installing-linux.html)
+### [Installing Linux →](installing-linux)
 
 ---
 
 ## macOS
 
-Pros:
+### Pros:
 * OS experience is near identical to a Mac
 
-Cons:
+### Cons:
 * Battery life is subpar
 * Hardware based DRM (e.g AppleTV.app) is broken
 * No audio, mic, or 3.5mm support¹
@@ -62,15 +62,4 @@ Cons:
 Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
 :::
 
-### [Installing macOS →](installing-macos.html)
-
-<br>
-
-<table>
-<tr>
-<td class="navtable">
-<a href="flashing-firmware.html">← Flashing Firmware</a> 
-</td>
-</tr>
-</table>
-
+### [Installing macOS →](installing-macos)

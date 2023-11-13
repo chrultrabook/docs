@@ -30,6 +30,10 @@ You are about to make **unofficial** changes to your device! This will likely **
 Only x86_64 devices are currently supported.
 :::
 
+::: tip
+If you only have one device. Please be sure to [setup a usb with your OS to install on it](ventoy) before flashing
+:::
+
 ------
 
 ### Asking for help properly:

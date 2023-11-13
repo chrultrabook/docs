@@ -94,7 +94,19 @@ export default {
           {
             text: 'Updating Firmware',
             link: '/docs/firmware/updating-firmware'
+          },
+          {
+            text: 'Installing Ventoy with chromeOS',
+            link: '/docs/firmware/ventoy'
           }
+        ]
+      },
+      {
+        text: "Installing an OS",
+        link: "/docs/installing/",
+        collapsible: false,
+        children: [
+          
         ]
       },
       {
