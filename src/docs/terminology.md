@@ -1,3 +1,8 @@
+---
+prev: false
+next: firmware/
+---
+
 # Terminology
 
 <br>
@@ -32,16 +37,3 @@
 | .DSL         | The source code for ACPI – this is what you edit and compile for your computer. DO NOT mix this file format up with .ASL.
 | Kext(s)      | Kernel Extensions, also referred to as Kexts, serve as drivers for macOS. They have various functions, such as facilitating device drivers or serving alternative purposes within Hackintoshing, such as OS patching, information injection, or task execution. It is worth noting that while Kexts play a crucial role in a successful Hackintosh setup, they are typically paired with ACPI patches and fixes.
 | ch341a       | A USB programmer used to read/write firmware. You'll need this if you bricked your system
-
----
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="getting-started.html">← Getting Started</a> 
-</td>
-<td class="navtable-r">
-<a href="supported-devices.html">Supported Devices →</a> 
-</td>
-</tr>
-</table>

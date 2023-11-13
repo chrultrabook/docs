@@ -26,7 +26,7 @@ export default {
     navbar: [
       {
         text: 'Documentation',
-        link: '/docs/',
+        link: '/docs/firmware/',
       },
       {
         text: 'Join Discord',
@@ -38,6 +38,10 @@ export default {
       {
         text: 'FAQ',
         link: '/docs/faq',
+      },
+      {
+        text: 'Terminology',
+        link: '/docs/terminology',
       },
       {
         text: 'Flashing Custom Firmware',
@@ -100,10 +104,6 @@ export default {
           {
             text: 'Known issues',
             link: '/docs/known-issues',
-          },
-          {
-            text: 'Terminology',
-            link: '/docs/terminology',
           },
           {
             text: 'All About Firmware',
