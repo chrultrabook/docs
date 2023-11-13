@@ -15,6 +15,7 @@ Do not continue if your device is currently owned or enrolled by a organization,
 Recovery mode is used to restore the OS and RW regions of the firmware. It gets triggered when an issue with the device is detected, or you manually start it.
 ### Entering Recovery Mode
 <br>
+
 **Chromebooks**
 
 Press `ESC` + `Refresh` (arrow icon), + `Power` at the same time. This should bring your system into recovery mode.
