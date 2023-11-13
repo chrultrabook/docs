@@ -22,6 +22,7 @@ export default {
     nextLinks: false,
     prevLinks: false,
     editLink: false,
+    contributors: false,
     navbar: [
       {
         text: 'Documentation',
@@ -52,8 +53,13 @@ export default {
             link: '/docs/firmware/system-info',
           },
           {
+            text: 'Known Issues',
+            link: '/docs/firmware/known-issues',
+          },
+          {
             text: 'Enabling Developer Mode',
             link: '/docs/firmware/developer-mode',
+            collapsible: true,
             children: [
               {
                 text: 'Recovery Mode',
@@ -62,21 +68,27 @@ export default {
             ]
           },
           {
-            text: 'Flashing Firmware',
-            link: '/docs/firmware/flashing-firmware',
+            text: 'Disabling write protect',
+            link: '/docs/firmware/write-protect',
+            collapsible: true,
             children: [
               {
-                text: 'Disabling write protect',
-                link: '/docs/firmware/write-protect',
-                collapsible: true,
-                children: [
-                  {
-                    text: 'Using a SuzyQable',
-                    link: '/docs/firmware/suzyq',
-                  }
-                ]
+                text: 'Using a SuzyQable',
+                link: '/docs/firmware/suzyq',
               }
             ]
+          },
+          {
+            text: 'Types of firmware',
+            link: '/docs/firmware/about'
+          },
+          {
+            text: 'Flashing Firmware',
+            link: '/docs/firmware/flashing-firmware'
+          },
+          {
+            text: 'Updating Firmware',
+            link: '/docs/firmware/updating-firmware'
           }
         ]
       },

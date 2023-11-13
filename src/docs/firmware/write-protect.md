@@ -1,6 +1,6 @@
 ---
-prev: flashing-firmware
-next: false
+prev: developer-mode
+next: about
 ---
 
 # Disabling write protect

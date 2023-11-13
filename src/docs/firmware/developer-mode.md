@@ -1,6 +1,6 @@
 ---
-prev: system-info
-next: flashing-firmware
+prev: known-issues
+next: write-protect
 ---
 
 # Enabling developer mode

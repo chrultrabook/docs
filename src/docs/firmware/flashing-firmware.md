@@ -1,11 +1,11 @@
 ---
-prev: developer-mode
+prev: about
 next: false
 ---
 
 # Flashing Custom Firmware
 
-Refer to [this page](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
+Refer to [this page](about) for an overview of both RW_LEGACY and UEFI.
 
 ::: danger
 **Flashing the firmware has the potential to brick your device**, requiring relatively inexpensive hardware and some technical knowledge to recover. Not all boards can be tested prior to release, and even then slight differences in hardware can lead to unforeseen failures. If you don't have the ability to recover from a bad flash, **you're taking a risk**. Flashing Full ROM firmware will remove your ability to run ChromeOS.

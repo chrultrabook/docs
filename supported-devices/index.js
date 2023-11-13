@@ -40,7 +40,7 @@ function generateHTML() {
     const chromebooks = require('./devices.json');
     
     let html = `
-<table>
+<table style="font-size: 14px !important;">
     <tbody>`;
     let first = true;
     for (const generation in chromebooks) {
