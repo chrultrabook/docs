@@ -106,83 +106,40 @@ export default {
         link: "/docs/installing/",
         collapsible: false,
         children: [
-          
-        ]
-      },
-      {
-        text: 'Getting Started',
-        link: '/docs/',
-        collapsible: false,
-        children: [
           {
-            text: 'Known issues',
-            link: '/docs/known-issues',
+            text: 'Known Issues',
+            link: '/docs/installing/known-issues',
           },
           {
-            text: 'All About Firmware',
-            link: '/docs/allaboutfirmware',
+            text: 'Creating a Bootable USB',
+            link: '/docs/installing/bootableusb',
           },
           {
-            text: 'Alt OS pros/cons',
-            link: '/docs/altos',
-          },
-          {
-            text: 'Installing an OS',
-            link: '/docs/installing',
+            text: 'Installing Windows',
+            link: '/docs/installing/installing-windows',
             collapsible: true,
             children: [
               {
-                text: 'Installing Windows',
-                link: '/docs/installing-windows',
-                collapsible: true,
-                children: [
-                  {
-                    text: 'Purchasing Drivers',
-                    link: '/docs/csdriver',
-                  },
-                  {
-                    text: 'Driver activation',
-                    link: '/docs/signedlicense',
-                  }
-                ]
+                text: 'Purchasing Drivers',
+                link: '/docs/installing/csdriver',
               },
               {
-                text: 'Installing Linux',
-                link: '/docs/installing-linux',
-              },
-              {
-                text: 'Installing MacOS',
-                link: '/docs/installing-macos',
+                text: 'Driver activation',
+                link: '/docs/installing/signedlicense',
               }
             ]
           },
           {
-            text: 'Post-install',
-            link: '/docs/post-install',
+            text: 'Installing Linux',
+            link: '/docs/installing/installing-linux',
           },
           {
-            text: 'Updating Firmware',
-            link: '/docs/updating-firmware',
+            text: 'Installing MacOS',
+            link: '/docs/installing/installing-macos',
           },
           {
-            text: 'Reverting to ChromeOS',
-            link: '/docs/reverting',
-          },
-          {
-            text: 'Exiting Developer Mode',
-            link: '/docs/exiting-developer-mode',
-          },
-          {
-            text: 'Using Ventoy within ChromeOS',
-            link: '/docs/ventoy',
-          },
-          {
-            text: 'Making a bootable USB',
-            link: '/docs/bootableusb',
-          },
-          {
-            text: 'Distro Specific Configuration',
-            link: '/docs/distros',
+            text: 'Post Install',
+            link: '/docs/installing/post-install',
           }
         ]
       },
@@ -218,6 +175,10 @@ export default {
           {
             text: 'Unbricking with a flipper zero',
             link: '/advanced/unbrick-flipper',
+          },
+          {
+            text: 'Linux distro-specific Configuration',
+            link: '/advanced/distro',
           }
         ]
       }

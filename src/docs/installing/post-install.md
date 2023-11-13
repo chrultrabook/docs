@@ -1,4 +1,8 @@
-# Post Install for altOS
+---
+prev: ./
+next: false
+---
+# Post Install
 
 ::: tip
 Install [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Controller/releases) for fan controls, keyboard backlight controls, system information and more.

@@ -1,3 +1,7 @@
+---
+prev: false
+next: false
+---
 # Installing an OS
 
 <br>
@@ -59,7 +63,7 @@
 * Limited support
 
 ::: tip
-Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
+Any Chromebook with an ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
 :::
 
 ### [Installing macOS →](installing-macos)

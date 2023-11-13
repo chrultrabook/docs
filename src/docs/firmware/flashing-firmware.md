@@ -1,6 +1,6 @@
 ---
 prev: about
-next: false
+next: ../installing/
 ---
 
 # Flashing Custom Firmware

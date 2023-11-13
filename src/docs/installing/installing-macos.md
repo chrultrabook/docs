@@ -25,7 +25,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
    	- To fix this, **DISABLE** `DevirtualiseMmio`.
    	::: warning
    	If your device has a Comet Lake CPU, this MUST be disabled.
-      :::
+    :::
     
 - Waking from sleep causes:
    - Blank Electron / Chromium apps
@@ -104,14 +104,3 @@ Storage:
 ::: danger
 If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. An `OSI_` check is not present in these SSDTs.
 :::
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="altos.html">← Installing altOS</a> 
-</td>
-<td class="navtable-r">
-<a href="post-install.html">Post Install →</a> 
-</td>
-</tr>
-</table>
