@@ -1,6 +1,6 @@
 ---
 prev: supported-devices
-next: developer-mode
+next: recovery-mode
 ---
 
 # Finding System Info

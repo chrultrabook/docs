@@ -1,4 +1,9 @@
-## Disabling write protect with a SuzyQable
+---
+prev: write-protect
+next: false
+---
+
+# Disabling write protect with a SuzyQable
 
 ::: tip
 This method is only available on CR50 devices.
@@ -6,7 +11,7 @@ This method is only available on CR50 devices.
 
 <br>
 
-Step 1: Enabling Closed Case Debugging (CCD)
+## Step 1: Enabling Closed Case Debugging (CCD)
 
 1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
 2. Login as `root`.
@@ -14,7 +19,7 @@ Step 1: Enabling Closed Case Debugging (CCD)
 4. You will be prompted to press the `PP` (physical presence) button several times. This is a fancy way of saying to press the power button.
 5. The device will suddenly reboot and exit developer mode. Re-enable developer mode and continue with the instructions.
 
-Step 2: Disable Write Protect.
+## Step 2: Disable Write Protect.
 1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
 2. Login as `root`.
 3. Plug in your cable
