@@ -1,4 +1,11 @@
-## Enabling developer mode
+---
+prev: system-info
+next: flashing-firmware
+---
+
+# Enabling developer mode
+
+<br>
 
 Enabling [developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md) the the first step to running an alternate OS on your chromebook!
 
@@ -35,14 +42,3 @@ Developer Mode is an alternate mode that all chromeOS devices have that opens up
 2. Use the `Volume Up` and `Volume Down` to navigate to  "Confirm Enabling Developer Mode", then press `Power` to select it. The system should reboot and bring you to the OS Verification is OFF" screen.
 
 3. Select "Developer Options", then select "Boot from Internal Disk".
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="recovery-mode.html">← Recovery Mode</a> 
-</td>
-<td class="navtable-r">
-<a href="flashing-firmware.html">Flashing Firmware →</a> 
-</td>
-</tr>
-</table>

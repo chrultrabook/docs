@@ -1,3 +1,8 @@
+---
+prev: false
+next: supported-devices
+---
+
 # Getting Started
 
 ### Warning:

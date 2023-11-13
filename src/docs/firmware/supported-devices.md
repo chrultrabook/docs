@@ -1,8 +1,13 @@
+---
+prev: index.md
+next: system-info
+---
+
 <!--
 NOTE - do not edit the supported-devices.md file, edit the template file in the supported-devices folder
 -->
 
-## Supported Devices and Platforms
+# Supported Devices and Platforms
 Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the boardname. Use your Chromebook's boardname to see if it has support. 
 
 ### Determining Device Support
