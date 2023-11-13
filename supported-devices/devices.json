@@ -156,7 +156,6 @@
                     "Toshiba Chromebook2 (2015)"
                 ],
                 "boardname": "GANDOF",
-                "fullrom": false,
                 "wpMethod": "screw"
             },
             {
@@ -1812,7 +1811,7 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Waiting on drivers to be signed.",
+        "default_windows": "Audio driver is paid.",
         "default_mac": "No MacOS support.",
         "default_linux": "Speakers are not working currently.",
         "devices": [
@@ -1834,7 +1833,7 @@
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Waiting on drivers to be signed.",
+        "default_windows": "Audio driver is paid.",
         "default_mac": "No MacOS support.",
         "default_linux": "Headphones are not working on the mainline kernel.",
         "devices": [

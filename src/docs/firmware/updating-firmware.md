@@ -1,7 +1,4 @@
- Updating Custom Firmware
-<!-- insert oneline description here -->
-
-<br>
+# Updating Custom Firmware
 
 ## Steps
 
@@ -13,7 +10,10 @@
 
 2. Open a terminal.
    
-3. Run the firmware utility script.
-   * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
-
+3. Run [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript).
+    * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
 4. Choose option 1: `Install/Update UEFI (Full ROM) Firmware`, and reboot if successful.
+
+::: danger
+**Do not reboot if flash was not successful**
+:::

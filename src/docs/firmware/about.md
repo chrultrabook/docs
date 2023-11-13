@@ -1,14 +1,9 @@
-# All About Firmware
-
-### Terminology 
-
-| **Term** | **Description** |  
-| - | - |
-| coreboot     | UEFI firmware firmware replacement |  
-| UEFI         | The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) firmware interface originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed. (source: Wikipedia) |  
-| EC           | Embedded Controller. Communicates between the main board and embedded peripherals such as hotkeys, ports, or battery.
-
 ---
+prev: write-protect
+next: flashing-firmware
+---
+
+# Types of Firmware
 
 ## Firmware Types
 
@@ -20,7 +15,7 @@ Touchscreen and microphones that rely on the AVS driver **WILL NOT** work on RW_
 
 * Updates/replaces the stock RW_LEGAGY payload (SeaBIOS or edk2) included on many older models; supplements the ChromeOS / secure boot payload (depthcharge)
 * Leaves all stock functionality intact, including the Developer Mode boot screen and Recovery Mode functionality
-* Allows device to dual-boot another OS alongside ChromeOS
+* Allows device to dual-boot linux alongside ChromeOS
 * Does not require disabling the firmware write-protect
 * Carries zero risk of bricking the device
 * On many models, includes bugfixes and enables additional functionality
@@ -43,16 +38,3 @@ Do not run Windows on RW_LEGACY. The RW_LEGACY firmware is for users who want to
 ::: tip
 The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/macOS exclusively), and who don't mind disabling write-protection on their device
 :::
-
-<br>
-
-<table>
-  <tr>
-    <td class="navtable-l">
-      <a href="getting-started.html">← Getting Started</a>
-    </td>
-    <td class="navtable-r">
-      <a href="flashing-firmware.html">Flashing Firmware →</a>
-    </td>
-  </tr>
-</table>

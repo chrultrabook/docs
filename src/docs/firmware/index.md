@@ -3,7 +3,7 @@ prev: false
 next: supported-devices
 ---
 
-# Getting Started
+# Flashing Custom Firmware
 
 ### Warning:
 
@@ -20,10 +20,10 @@ You are about to make **unofficial** changes to your device! This will likely **
   * **Your boardname**
     * For example, the boardname for Asus Chromebook C302CA is `Cave`
   * If you don't know where to find this info, take a look at the [System Info Page](system-info).
-  * **A basic knowledge of command lines and how to use a terminal/command prompt.**
-    * We cannot help you if you do not know how to go to a directory or delete a file from a terminal.
-  * A minimum of an 8GB USB drive or SD Card for creating a bootable OS installer.
-  * A second device is recommended, and required in some cases.
+* **A basic knowledge of command lines and how to use a terminal/command prompt.**
+  * We cannot help you if you do not know how to go to a directory or delete a file from a terminal.
+* A minimum of an 8GB USB drive or SD Card for creating a bootable OS installer.
+* A second device is recommended, and required in some cases.
 
 
 ::: tip

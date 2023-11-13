@@ -29,7 +29,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel | AMD | ARM |
 | - | - | - |
-| Intel platforms have good support for both Linux and Windows. Some have support for macOS. | Stoneyridge support in Windows is questionable, and installing a custom kernel is required to get working audio in Linux. Ryzen has support for both Linux and Windows. MacOS is unsupported on all AMD platforms. | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
+| Intel platforms have good support for both Linux and Windows. Some have support for macOS. | Stoneyridge support in Windows is questionable, and installing a custom kernel is required to get working audio in Linux. Ryzen has support for both Linux and Windows. MacOS is unsupported on all AMD platforms. | Currently unsupported by the Chrultrabook dev team. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
@@ -44,7 +44,7 @@ If on on a smaller screen, scroll sideways to see whole table.
 :::
 
 
-<table>
+<table style="font-size: 14px !important;">
     <tbody>
         <tr>
             <th colspan="8" style="text-align:left;"> <i>Sandybridge/Ivybridge</i></th>
@@ -232,7 +232,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td>Toshiba Chromebook2 (2015)</td>
             <td style="text-align:center;"> GANDOF</td>
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
-            <td style="text-align:center;"> </td>
+            <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> screw</td>
         </tr>
         <tr>
@@ -2167,7 +2167,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
-            <td rowspan="2" style="text-align:center;">Waiting on drivers to be signed.</td>
+            <td rowspan="2" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="2" style="text-align:center;">Speakers are not working currently.</td>
             <td rowspan="2" style="text-align:center;">No MacOS support.</td>
         </tr>
@@ -2200,7 +2200,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a>, jumper</td>
-            <td rowspan="4" style="text-align:center;">Waiting on drivers to be signed.</td>
+            <td rowspan="4" style="text-align:center;">Audio driver is paid.</td>
             <td rowspan="4" style="text-align:center;">Headphones are not working on the mainline kernel.</td>
             <td rowspan="4" style="text-align:center;">No MacOS support.</td>
         </tr>
