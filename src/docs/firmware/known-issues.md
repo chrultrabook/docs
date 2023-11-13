@@ -23,3 +23,7 @@ You should avoid buying any devices in this list.
 * AMD Stoneyridge: Some Stoney Ridge devices may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.
 * AMD Picasso: Booting from eMMC is not currently supported (edk2 limitation), only from NVMe and USB/SD.
 * AMD Cezanne: legacy boot mode/alternative firmware menu works, edk2 boots, but screen backlight is off. Will be fixed in next Google fw update (fingers crossed).
+
+::: tip
+For issues relating to OS support, see [this page](../installing/known-issues).
+:::

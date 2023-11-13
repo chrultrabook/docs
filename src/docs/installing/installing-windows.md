@@ -1,21 +1,24 @@
+---
+prev: ./
+next: post-install
+---
 # Installing Windows
 
 ::: warning
 Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supported.
 :::
 
-
-::: warning
-Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. They are not supported and may contain **undetectable** malware and/or security vulnerabilities.
+::: danger
+Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. **They are not supported** and may contain **undetectable malware** and/or security vulnerabilities.
 :::
 
 ::: tip
-If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](/docs/ventoy) page.
+If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](../firmware/ventoy) page.
 :::
 
 1. Install Windows from a USB:
 
-  1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI"
+  1. On another computer, create a Windows 10 or 11 installer with Rufus as "GPT for UEFI". **Only Rufus and Ventoy can make a working Windows installer**
   2. Plug the USB drive into the Chromebook
   3. Plug a USB mouse in for installation (If you only have one USB port, use tab, enter, and space to navigate the menu)
   4. Turn on the Chromebook, press ESC at the POST screen, and select the USB to boot from
@@ -33,9 +36,9 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
   1. Select your flash drive
   2. Select your Windows 11 ISO in Rufus
   3. Change Partition Scheme from MBR to GPT
-  4. Click on ```Start```
-  5. On the window named ```Windows User Experience``` click on the option labeled ```Remove Requirement for 4GB+ Ram, Secure Boot, and TPM 2.0```
-  6. Click on ```ok```
+  4. Click on `Start`
+  5. On the window named `Windows User Experience` click on the option labeled `Remove Requirement for 4GB+ Ram, Secure Boot, and TPM 2.0`
+  6. Click on `ok`
   7. You can now install Windows 11 normally without needing to follow step 3
 
 3. Bypassing Windows 11 installation checks:
@@ -49,13 +52,13 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
   7. Close Registry Editor and Command Prompt and proceed with installation normally
 
 4. Install drivers:
-   See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
+    - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
 
 ---
 
 ## Paid Drivers
 
-Please see [here](csdriver.html) for a step by step tutorial on purchasing drivers.
+Please see [this page](csdriver) for a step by step tutorial on purchasing drivers.
 
 ---
 
@@ -81,14 +84,3 @@ Please see [here](csdriver.html) for a step by step tutorial on purchasing drive
 | **Alder Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
 | **Cezanne**        | SOF              |
 | **Mendocino**      | SOF              |
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="altos">← Installing altOS</a> 
-</td>
-<td class="navtable-r">
-<a href="post-install">Post Install →</a> 
-</td>
-</tr>
-</table>

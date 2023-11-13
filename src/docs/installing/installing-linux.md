@@ -1,3 +1,7 @@
+---
+prev: ./
+next: post-install
+---
 # Installing Linux
 Thanks to recent advancements in the chrultrabook community, Linux works really well on most Chromebooks.
 
@@ -45,26 +49,14 @@ You will likely have audio issues after installing Linux. Run the following scri
 Using AVS on a device with max98357a will blow your speakers. You have been warned. 
 :::
 
-**Prerequisites**
+#### Prerequisites
 - Python 3.10 or newer
 - Git
 
-**How to run the script**
+#### How to run the script
 1. Open a terminal.
-2. `git clone https://github.com/WeirdTreeThing/chromebook-linux-audio`
+2. `git clone https://github.com/WeirdTreeThing/chromebook-linux-audio.git`
 3. `cd chromebook-linux-audio`
 4. `./setup-audio`
 
 For more information please see [WeirdTreeThing's repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
-
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="altos.html">← Installing altOS</a> 
-</td>
-<td class="navtable-r">
-<a href="post-install.html">Post Install →</a> 
-</td>
-</tr>
-</table>
