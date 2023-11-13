@@ -4,7 +4,9 @@ next: false
 ---
 # Installing an OS
 
-<br>
+::: tip
+Be sure to check the [supported devices page](../firmware/supported-devices) to see what you can run.
+:::
 
 ## Windows
 

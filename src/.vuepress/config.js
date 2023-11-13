@@ -2,13 +2,12 @@ import { description } from '../../package.json'
 import { defaultTheme } from '@vuepress/theme-default'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 import path from 'path'
 
 export default {
-  title: 'Chrultrabook',
+  title: 'Chrultrabook Docs',
   description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#6a4aec' }],
@@ -23,14 +22,14 @@ export default {
     prevLinks: false,
     editLink: false,
     contributors: false,
-    base: "/docs/",
+    base: "/docz/",
     navbar: [
       {
         text: 'Documentation',
         link: '/docs/firmware/',
       },
       {
-        text: 'Join Discord',
+        text: 'Join the Discord',
         link: 'https://discord.com/invite/ranFKmUeXc'
       }
     ],
@@ -201,11 +200,6 @@ export default {
           placeholder: 'Search',
         }
       }
-    }),
-    registerComponentsPlugin({
-      components: {
-        AddScript: path.resolve(__dirname, './components/AddScript.vue'),
-      },
     })
   ]
 }
