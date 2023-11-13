@@ -37,7 +37,7 @@ Cons:
 * AVS and SOF users experience instability at times
 
    ::: warning
-   Anything Ubuntu based will **not** work, with the exception of PopOS. Linux Mint, Ubuntu, and ElementaryOS are some examples. 
+   Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
    :::
 
 <br>
@@ -72,7 +72,7 @@ Any Chromebook with a ARM, Celeron or Pentium CPU is not supported. AMD Ryzen mi
 <table>
 <tr>
 <td class="navtable">
-<a href="firmware.html">← Flashing Coreboot Firmware</a> 
+<a href="flashing-firmware.html">← Flashing Firmware</a> 
 </td>
 </tr>
 </table>

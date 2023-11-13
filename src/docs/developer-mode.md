@@ -6,14 +6,43 @@ Enabling [developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HE
 Doing this will wipe **all** user data! Make backups if needed before proceeding.
 :::
 
+::: danger
+Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
+:::
+
 ::: tip
 The battery must be plugged in while enabling developer mode.
 :::
 
-1. Press `esc` `refresh` (f3) and `power` at the same time. Doing this should cause your system to reboot into a screen that prompts you to insert a recovery USB or SD card.
-2. Press `ctrl` and `d` at the same time. Your system will reboot to an "unverified" mode.
-3. Use the hotkey `ctrl` + `d` to boot chromeos.
-4. Once it boots, you should be in Developer Mode. **Do not enable debugging features.**
-5. Setup the system as you would on any other Chromebook.
+Developer Mode is an alternate mode that all chromeOS devices have that opens up the ability to make unverified changes to the operating system and hardware.
 
-Congratulations! You've enabled developer mode!
+1. Enter [recovery mode](recovery-mode.html).
+
+**Chromebooks/Chromeboxes**
+
+1. Press `CTRL` +  `D` at the same time. This should bring up a warning asking for confirmation for either "Turn OS Verification OFF" or "Enable Developer Mode".
+
+2. Press `Enter`. The system should reboot and bring you to the "You are in Developer Mode" or "OS Verification is OFF" screen.
+
+3. Press `CTRL` +  `D` to boot from internal disk.
+
+4. Setup the system like normal, but **do not enable debugging features**.
+
+**Tablets**
+
+1. Press `Volume Up` + `Volume Down` to bring up the menu selection screen.
+
+2. Use the `Volume Up` and `Volume Down` to navigate to  "Confirm Enabling Developer Mode", then press `Power` to select it. The system should reboot and bring you to the OS Verification is OFF" screen.
+
+3. Select "Developer Options", then select "Boot from Internal Disk".
+
+<table>
+<tr>
+<td class="navtable-l">
+<a href="recovery-mode.html">← Recovery Mode</a> 
+</td>
+<td class="navtable-r">
+<a href="flashing-firmware.html">Flashing Firmware →</a> 
+</td>
+</tr>
+</table>
