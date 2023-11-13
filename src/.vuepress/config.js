@@ -4,8 +4,6 @@ import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
 
-import path from 'path'
-
 export default {
   title: 'Chrultrabook Docs',
   description: description,
@@ -22,7 +20,6 @@ export default {
     prevLinks: false,
     editLink: false,
     contributors: false,
-    base: "/docz/",
     navbar: [
       {
         text: 'Documentation',
