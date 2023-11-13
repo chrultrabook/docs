@@ -21,13 +21,13 @@ Press `ESC` + `Refresh` (arrow icon), + `Power` at the same time. This should br
 - For some devices the power button is on the side.
 - Some devices may need to hold down the `Fullscreen` button (four corners icon) instead of the `Refresh` button.
 
-<img src="https://kmpic.asus.com/images/2022/11/17/cb40f983-69fe-4176-aced-23940a518d88.png" width=500x500>
+<img src="https://raw.githubusercontent.com/ethanaobrien/docz/3abdc122b7f60046a98bfd26a52d929bac2d31fb/src/.vuepress/public/recovery/recovery-keyboard-hint.png" width=500x500>
 
 **Chromeboxes**
 
 Find the recovery button hole. A reference of what to look for is below.
 
-<img src="https://lh3.googleusercontent.com/Y97tvM9PaKrYPwPI3Y0QxO_t8zKj3xl9vxZbL_Xby6L3wsMhqU3UxseELrhl8wcpjtE=w500">
+<img src="https://raw.githubusercontent.com/ethanaobrien/docz/3abdc122b7f60046a98bfd26a52d929bac2d31fb/src/.vuepress/public/recovery/recovery-chromebox-hint.png">
 
 When you do, use something like a paper clip to hold the button down, then turn on the device. This should bring your system into recovery mode.
 You can stop holding down the button at this point.
@@ -36,7 +36,7 @@ You can stop holding down the button at this point.
 
 Hold down `Volume Up` + `Volume Down` + `Power` for 10 seconds, then release. This should bring your system into recovery mode.
 
-<img src="https://kmpic.asus.com/images/2022/11/17/6bec2799-6ad7-43d5-82a3-f57bfeb795b6.png" width=500x500>
+<img src="https://raw.githubusercontent.com/ethanaobrien/docz/3abdc122b7f60046a98bfd26a52d929bac2d31fb/src/.vuepress/public/recovery/recovery-tablet-hint.png" width=500x500>
 
 
 <table>
