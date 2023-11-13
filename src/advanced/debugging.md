@@ -36,8 +36,7 @@ To interface with the Embedded Controller:
   * `tar -xf ectool.tar.gz;rm ectool.tar.gz;chmod +x ectool`
 3. Issue commands to EC by executing commands, for example setting the fan to 100%:
   * `sudo ./ectool --name=cros_ec fanduty 100`
-  * Running `./ectool help` will provide you with a list of available commands, or you can take a look at ectool's source code directly:
-https://chromium.googlesource.com/chromiumos/platform/ec/+/master/util/ectool.c#63
+  * Running `./ectool help` will provide you with a list of available commands, or you can [take a look at ectool's source code directly](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/util/ectool.c#63)
 
 ---
 

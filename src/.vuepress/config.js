@@ -169,16 +169,12 @@ export default {
             link: '/advanced/contributing',
           },
           {
-            text: 'Unbricking',
-            link: '/advanced/unbricking',
-          },
-          {
             text: 'Unbricking with a flipper zero',
             link: '/advanced/unbrick-flipper',
           },
           {
             text: 'Linux distro-specific Configuration',
-            link: '/advanced/distro',
+            link: '/advanced/distros',
           }
         ]
       }
