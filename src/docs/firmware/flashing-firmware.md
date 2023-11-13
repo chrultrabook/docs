@@ -14,13 +14,7 @@ Refer to [this page](allaboutfirmware.html) for an overview of both RW_LEGACY an
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
 1. [Enable developer mode](developer-mode)
-2. Refer to the [supported devices list](supported-devices.html) to figure out which method you need to use to disable write-protect on your device.
-    * Depending on your device, you will need to do **one** of the following:
-        * Take out a WP screw
-        * Unplug your battery
-        * Bridge two jumpers
-        * [Use a SuzyQable](suzyq) (A cable that enables CCD (Closed Case Debug))
-        
+2. [Disable write protect](write-protect)
 3. Run [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript).
     * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
     * If you encounter certificate related errors when downloading the script from ChromeOS, then add `-k` to the `curl` and script command to bypass SSL certificate checking as so:

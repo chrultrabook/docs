@@ -64,6 +64,19 @@ export default {
           {
             text: 'Flashing Firmware',
             link: '/docs/firmware/flashing-firmware',
+            children: [
+              {
+                text: 'Disabling write protect',
+                link: '/docs/firmware/write-protect',
+                collapsible: true,
+                children: [
+                  {
+                    text: 'Using a SuzyQable',
+                    link: '/docs/firmware/suzyq',
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
