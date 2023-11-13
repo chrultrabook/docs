@@ -37,7 +37,7 @@ jobs:
           node-version: '18'
       - name: Build with NodeJS
         # Outputs to the './_site' directory by default
-        run: npm i && npm run build && mv src/.vuepress/dist/ "${{ steps.pages.outputs.base_path }}"
+        run: npm i && npm run build && mv src/.vuepress/dist/ "./_site"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1

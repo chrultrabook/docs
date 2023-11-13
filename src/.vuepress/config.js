@@ -23,6 +23,7 @@ export default {
     prevLinks: false,
     editLink: false,
     contributors: false,
+    base: "/docs/",
     navbar: [
       {
         text: 'Documentation',
