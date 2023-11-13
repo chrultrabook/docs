@@ -1,3 +1,8 @@
+---
+prev: supported-devices
+next: developer-mode
+---
+
 # Finding System Info
 
 <br>

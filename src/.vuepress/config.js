@@ -19,6 +19,8 @@ export default {
   theme: defaultTheme({
     logo: '/favicon.ico',
     accentColor: '#6a4aec',
+    nextLinks: false,
+    prevLinks: false,
     editLink: false,
     navbar: [
       {
@@ -33,34 +35,43 @@ export default {
     sidebarDepth: 2,
     sidebar: [
       {
-        text: 'Getting Started',
-        link: '/docs/',
+        text: 'FAQ',
+        link: '/docs/faq',
+      },
+      {
+        text: 'Flashing Custom Firmware',
+        link: '/docs/firmware/',
         collapsible: false,
         children: [
           {
             text: 'Supported Devices',
-            link: '/docs/supported-devices',
+            link: '/docs/firmware/supported-devices',
           },
           {
             text: 'Finding System Info',
-            link: '/docs/system-info',
-          },
-          {
-            text: 'Recovery Mode',
-            link: '/docs/recovery-mode',
+            link: '/docs/firmware/system-info',
           },
           {
             text: 'Enabling Developer Mode',
-            link: '/docs/developer-mode',
+            link: '/docs/firmware/developer-mode',
+            children: [
+              {
+                text: 'Recovery Mode',
+                link: '/docs/firmware/recovery-mode',
+              }
+            ]
           },
           {
             text: 'Flashing Firmware',
-            link: '/docs/flashing-firmware',
-          },
-          {
-            text: 'FAQ',
-            link: '/docs/faq',
-          },
+            link: '/docs/firmware/flashing-firmware',
+          }
+        ]
+      },
+      {
+        text: 'Getting Started',
+        link: '/docs/',
+        collapsible: false,
+        children: [
           {
             text: 'Known issues',
             link: '/docs/known-issues',

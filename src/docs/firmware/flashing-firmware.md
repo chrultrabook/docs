@@ -1,4 +1,9 @@
-## Flashing Custom Firmware
+---
+prev: developer-mode
+next: false
+---
+
+# Flashing Custom Firmware
 
 Refer to [this page](allaboutfirmware.html) for an overview of both RW_LEGACY and UEFI.
 

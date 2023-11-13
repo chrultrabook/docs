@@ -148,5 +148,5 @@ let data = fs.readFileSync("template.md", "utf8");
 data = data.replace("${{TABLE}}", generateHTML());
 
 //Putting this in the template file causes the template be be showed in the listing
-fs.writeFileSync("../src/docs/supported-devices.md", data);
-console.log("File written to ../src/docs/supported-devices.md");
+fs.writeFileSync("../src/docs/firmware/supported-devices.md", data);
+console.log("File written to ../src/docs/firmware/supported-devices.md");

@@ -1,4 +1,9 @@
-## Recovery Mode
+---
+prev: developer-mode.md
+next: false
+---
+
+# Recovery Mode
 
 ::: tip
 Images sourced from [Google Support](https://support.google.com/chrome/a/answer/1360642?sjid=16957732159917599441-NC#chromebox&zippy=%2Cwipe-a-chromebox) and [Asus Support](https://www.asus.com/support/FAQ/1039185/).
@@ -38,14 +43,3 @@ You can stop holding down the button at this point.
 Hold down `Volume Up` + `Volume Down` + `Power` for 10 seconds, then release. This should bring your system into recovery mode.
 
 <img src="/recovery/recovery-tablet-hint.png" width=500>
-
-<table>
-<tr>
-<td class="navtable-l">
-<a href="allaboutfirmware.html">← All About Firmware</a> 
-</td>
-<td class="navtable-r">
-<a href="developer-mode.html">Entering Developer Mode →</a> 
-</td>
-</tr>
-</table>
