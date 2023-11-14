@@ -137,6 +137,17 @@ export default {
           {
             text: 'Installing MacOS',
             link: '/docs/installing/installing-macos',
+            collapsible: true,
+            children: [
+              {
+                text: 'Custom macOS firmware',
+                link: '/docs/installing/macos-firmware',
+              },
+              {
+                text: 'Fixing hibernation',
+                link: '/docs/installing/macos-hibernation',
+              }
+            ]
           },
           {
             text: 'Post Install',
