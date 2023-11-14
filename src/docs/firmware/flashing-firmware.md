@@ -20,7 +20,11 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
     * If you encounter certificate related errors when downloading the script from ChromeOS, then add `-k` to the `curl` and script command to bypass SSL certificate checking as so:
         * `cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
 4. If you are flashing Full ROM, the firmware script will prompt you to make a backup of your stock firmware. **Store it in a safe place** (Google Drive, another PC, etc), as reverting to stock firmware without a backup is **very difficult**.
-5. Reboot the device.
+5. Shutdown the device.
+
+::: tip
+If you unplugged the battery to [disable write protect](battery), you can replug it now. All subsequent flashing won't require it from now on.
+:::
 
 **UEFI**
 
