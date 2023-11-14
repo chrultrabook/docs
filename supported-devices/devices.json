@@ -317,7 +317,7 @@
                 ],
                 "boardname": "CELES",
                 "wpMethod": "screw",
-                "windows": "Requires platform clock workaround. (See <a href=\"/docs/installing/post-install\">post install</a>)"
+                "windows": "Requires platform clock workaround. (See <a href=\"../installing/post-install\">post install</a>)"
             },
             {
                 "device": [
@@ -1158,7 +1158,7 @@
         "default_fullrom": true,
         "default_windows": "Audio and Thunderbolt drivers are paid.",
         "default_mac": "No MacOS support.",
-        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"/docs/installing/post-install\">post install</a>)",
+        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
         "devices": [
             {
                 "device": [
@@ -1512,7 +1512,7 @@
         "default_fullrom": true,
         "default_windows": "Audio and Thunderbolt drivers are paid.",
         "default_mac": "No MacOS support.",
-        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"/docs/installing/post-install\">post install</a>)",
+        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
         "devices": [
             {
                 "device": [
