@@ -25,7 +25,7 @@ Many of the [features]({{% relref "/docs/features" %}}) and [configurations]({{%
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../features/syntax-highlighting/">
+  <a class="text-decoration-none text-reset">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">settings</i>
@@ -39,7 +39,7 @@ Many of the [features]({{% relref "/docs/features" %}}) and [configurations]({{%
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../features/docsearch/">
+  <a class="text-decoration-none text-reset">
     <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">search</i>
@@ -53,7 +53,7 @@ Many of the [features]({{% relref "/docs/features" %}}) and [configurations]({{%
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../features/plausible-analytics/">
+  <a class="text-decoration-none text-reset">
     <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">trending_up</i>
@@ -67,7 +67,7 @@ Many of the [features]({{% relref "/docs/features" %}}) and [configurations]({{%
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../shortcodes/">
+  <a class="text-decoration-none text-reset">
     <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">code</i>
