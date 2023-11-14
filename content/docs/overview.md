@@ -20,7 +20,7 @@ The chrultrabook project facilitates the installation of alternative operating s
 
 ### Features
 
-Many of the [features]({{% relref "/docs/features" %}}) and [configurations]({{% relref "configuration" %}}) available in the Lotus Docs theme are on display here in this documentation. You can clone this entire site and edit it to suit your projects, or explore the site, its source and see what Lotus Docs can do. Check out a few of Lotus Docs' features:
+Here are some of the features of the chrultrabook project:
 
 <div class="row flex-xl-wrap pb-4">
 
