@@ -428,7 +428,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> <span style="color:#ff0000"><b>EOL</b></span></td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> screw</td>
-            <td rowspan="1" style="text-align:center;">Requires platform clock workaround. (See <a href="/docs/installing/post-install">post install</a>)</td>
+            <td rowspan="1" style="text-align:center;">Requires platform clock workaround. (See <a href="../installing/post-install">post install</a>)</td>
         </tr>
         <tr>
             <td>Acer Chromebook R11 (C738T, CB5-132T)</td>
@@ -1380,7 +1380,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50 (battery)</a></td>
             <td rowspan="13" style="text-align:center;">Audio and Thunderbolt drivers are paid.</td>
-            <td rowspan="13" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="/docs/installing/post-install">post install</a>)</td>
+            <td rowspan="13" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="../installing/post-install">post install</a>)</td>
             <td rowspan="13" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
@@ -1789,7 +1789,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
             <td rowspan="15" style="text-align:center;">Audio and Thunderbolt drivers are paid.</td>
-            <td rowspan="10" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="/docs/installing/post-install">post install</a>)</td>
+            <td rowspan="10" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="../installing/post-install">post install</a>)</td>
             <td rowspan="15" style="text-align:center;">No MacOS support.</td>
         </tr>
         <tr>
@@ -1869,7 +1869,7 @@ If on on a smaller screen, scroll sideways to see whole table.
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> ✅</td>
             <td style="text-align:center;"> <a href="https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection" title="Firmware Write Protect">CR50</a></td>
-            <td rowspan="4" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="/docs/installing/post-install">post install</a>)</td>
+            <td rowspan="4" style="text-align:center;">No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href="../installing/post-install">post install</a>)</td>
         </tr>
         <tr>
             <td>Lenovo Flex 5i Chromebook / IdeaPad Flex 5i Chromebook</td>
