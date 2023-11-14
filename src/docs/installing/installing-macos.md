@@ -17,23 +17,7 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 * The ability to use a command line
   	* We won't help you if you don't know how to `cd` to a directory.
 
----
-
-## Known Issues
-
-- Broken NVRAM on Comet Lake Devices
-   	- To fix this, **DISABLE** `DevirtualiseMmio`.
-   	::: warning
-   	If your device has a Comet Lake CPU, this MUST be disabled.
-    :::
-    
-- Waking from sleep causes:
-   - Blank Electron / Chromium apps
-   - Buggy video playback in web browsers like Firefox or Safari
-   - Display/Wallpaper settings in SysPref/SysSettings
-   - Logging out freezes your system
-
-### Tested Devices
+## Tested Devices
 
 ::: tip
 This list is incomplete. Feel free to improve it.
@@ -70,36 +54,38 @@ This list is incomplete. Feel free to improve it.
 * [LuluMacOS](https://isi95010.github.io/LuluMacOS/)
   * Dell Chromebook 13 7310 (LULU)
 
----
+## Custom Firmware
+
+It is recommended to [flash Coreboot firmware](macos-firmware) with the Management Engine Interface enabled on Skylake and newer.  
+Without the ME interface enabled, the following bugs can occur after waking from sleep:
+- Blank Electron / Chromium apps
+- Buggy video playback in web browsers like Firefox or Safari
+- Display/Wallpaper settings in SysPref/SysSettings
+- Logging out freezes your system
 
 ## Installation
 
-**Getting Started:**
+Start by following the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide) for your CPU generation.
+Amber Lake Chromebooks should follow config.plist setup for Kaby Lake.  
+Add the following SSDTs, kexts and modifications as needed:
 
-1. Follow the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide).
-2. Follow the laptop guide for your CPU generation
-	* Amber Lake Chromebooks should follow the Kaby Lake config.plist setup
-3. As necessary, add the following Kexts and SSDTs to your EFI:
+#### Config.plist Fixes
+- Disable `Booter->Quirks->DevirtualiseMmio`: Fixes NVRAM and other runtime EFI services
 
-- Firmware Fixes:
-    - [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer
+#### SSDTs and ACPI Fixes:
+- [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer
+- [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
+   - Will need to be compiled with either `iASL` or `MaciASL`.
+- [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
+   - This is only needed if your device does not come with a light sensor.
+   - A pre-compiled version comes in OpenCore's release zip under `Docs/AcpiSamples/Binaries/SSDT-ASL0.aml`
 
-- Keyboard:
-	- [VoodooPS2.kext](https://github.com/1Revenger1/VoodooPS2/releases): Fork of Acidanthera's VoodooPS2 which allows mapping keyboard brightness and other useful keys
-	- [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
-  	- Will need to be compiled with either `iASL` or `MaciASL`.
+#### Kexts
+- [EmeraldSDHC.kext](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
+- [VoodooPS2.kext](https://github.com/1Revenger1/VoodooPS2/releases): Fork of Acidanthera's VoodooPS2 which allows mapping keyboard brightness and other useful keys
+- [CrosEC.kext](https://github.com/1Revenger1/CrosEC/releases): Adds keyboard brightness, tablet mode, and other functionality
 
-- Chrome EC:
-	- [CrosEC.kext](https://github.com/1Revenger1/CrosEC/releases): Adds keyboard brightness, tablet mode, and other functionality
-	- [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
-  	  - This is only needed if your device does not come with a light sensor.
-  	  - A pre-compiled version comes in OpenCore's release zip under `Docs/AcpiSamples/Binaries/SSDT-ASL0.aml`
-
-- Storage:
-  	- [EmeraldSDHC.kext](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver
-
-4. Take those files you downloaded and put the `.aml` files in the ACPI folder, and the `.kexts` into the kexts folder
-5. Snapshot (cmd +r) or (ctrl + r) your `config.plist`. 
+### Snapshot (cmd + r) or (ctrl + r) your `config.plist` after making modifications.
 
 ::: danger
 If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. An `OSI_` check is not present in these SSDTs.
