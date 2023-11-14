@@ -1,6 +1,6 @@
 ---
 weight: 727
-title: "Reference"
+title: "macOS"
 description: "In-Depth information on macOS"
 icon: quick_reference_all
 lead: ""
