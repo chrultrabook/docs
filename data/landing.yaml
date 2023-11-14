@@ -1,0 +1,80 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+
+  title: "Chrultrabook Project"
+  subtitle: The chrultrabook project facilitates the installation of alternative operating systems on Chromebooks, offering users the freedom to customize their devices beyond the limitations of chromeOS.
+
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Chrultrabook Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/"
+  cta2Button:
+    btnText: "Discourse"
+    url: "https://forum.chrultrabook.com"
+
+# Features Grid
+features:
+  enable: true
+  weight: 20
+
+  title: Why us?
+  subtitle: Choose the Chrultrabook project for unparalleled freedom and customization, empowering users to break free from chromeOS constraints and explore a world of alternative operating systems, supported by a vibrant community dedicated to expanding possibilities and pushing the boundaries of Chromebook technology.
+
+  items:
+    - title: Customization
+      icon: settings
+      description: Users can install alternative operating systems, enabling a highly customizable computing experience tailored to individual preferences and needs.
+
+    - title: Versatility
+      icon: translate
+      description: The chrultrabook project broadens the functionality of Chromebooks, allowing users to run a variety of applications and software not natively supported by Chrome OS.
+
+    - title: Secure by default
+      icon: lock
+      description: Users can explore alternative security measures and practices beyond the default settings of Chrome OS, providing a more diverse range of options for those with specific security preferences.
+      
+    - title: Developer Empowerment
+      icon: construction
+      description: The project empowers developers to experiment, test, and optimize software on Chromebook hardware, fostering innovation and expanding the range of applications available for these devices.
+
+    - title: Extended Lifespan
+      icon: change_history
+      description: By providing the ability to install alternative operating systems, the Project can extend the lifespan of older Chromebook models, allowing users to continue using their devices with updated software.
+
+    - title: Open Source Ethos
+      icon: lock
+      description: The ability to run alternative operating systems increases the compatibility of Chromebooks with a wider array of software, enhancing their usefulness for various tasks and industries.
+
+    - title: Expanded Software Compatibility
+      icon: search
+      description: The project aligns with open-source principles, promoting transparency, collaboration, and user empowerment within the computing community.
+
+    - title: Multilingual Support
+      icon: translate
+      description: A fostering and welcome community enables users from all parts of the globe to have support.
+
+    - title: User Freedom
+      icon: trending_up
+      description: The chrultrabook project gives users the freedom to choose and experiment with different operating systems, fostering a sense of ownership and control over their computing experience.
+
+image_compare:
+  enable: false

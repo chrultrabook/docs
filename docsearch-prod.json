@@ -1,0 +1,40 @@
+{
+    "index_name": "prod_lotusdocs.dev",
+    "sitemap_urls": [
+        "https://lotusdocs.dev/sitemap.xml"
+    ],
+    "start_urls": [
+        "https://lotusdocs.dev/docs/"
+    ],
+    "stop_urls": [
+        ".*(?<!/)$"
+    ],
+    "scrape_start_urls": false,
+    "use_anchors": true,
+    "strip_chars": "#",
+    "selectors_exclude": [
+        "i",
+        ".material-icons",
+        "#sidebar",
+        "#toc",
+        "#list-item",
+        "#doc-nav",
+        "#back-to-top",
+        "pre",
+        "svg"
+    ],
+    "selectors": {
+        "lvl0": {
+            "selector": "//li[@class=\"breadcrumb-item text-capitalize active\"]/preceding::li[1]/a",
+            "type": "xpath",
+            "global": true,
+            "default_value": "Documentation"
+        },
+        "lvl1": ".content-title",
+        "lvl2": "#content h2",
+        "lvl3": "#content h3",
+        "lvl4": "#content h4",
+        "lvl5": "#content h5",
+        "text": ".docs-content .lead,#content p,#content ul,#content ol,#content .alert,#content blockquote"
+    }
+}
