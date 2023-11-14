@@ -11,7 +11,7 @@ Without the ME interface enabled, the following bugs can occur after waking from
 
 ### Prebuilt
 
-Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/public/mac_build/)
+Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/)
 
 ### Building Manually
 
