@@ -9,6 +9,10 @@ next: false
 This method is only available on CR50 devices.
 :::
 
+::: tip
+This method requires a SuzyQable, a chromeOS debug cable.
+:::
+
 <br>
 
 ## Step 1: Enabling Closed Case Debugging (CCD)
