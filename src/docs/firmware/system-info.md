@@ -35,9 +35,14 @@ The board name is the special name for your device which determines if it is sup
 
 ### How to find your board name
 
+**Crosh**
 1. Open a crosh terminal by pressing `Control` + `Alt` + `T`
 2. Type `shell` and press enter
 3. Type `sudo crossystem hwid` and press enter
+
+**Recovery Mode**
+1. Enter [Recovery Mode](recovery-mode).
+2. Find the "Model" line.
 
 You should now see your board name and some extra characters.
 Example: `SNAPPY E25-A7C-J2L-I74-A47`
