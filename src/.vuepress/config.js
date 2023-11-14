@@ -141,6 +141,10 @@ export default {
               {
                 text: 'Custom macOS firmware',
                 link: '/docs/installing/macos-firmware',
+              },
+              {
+                text: 'Fixing hibernation',
+                link: '/docs/installing/macos-hibernation',
               }
             ]
           },
