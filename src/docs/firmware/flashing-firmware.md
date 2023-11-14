@@ -23,7 +23,7 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 5. Shutdown the device.
 
 ::: tip
-If you unplugged the battery to [disable write protect](battery), you can replug it now. All subsequent flashing won't require it from now on.
+If you unplugged the battery to [disable write protect](battery), you can plug it back in now. All subsequent flashing won't require it from now on.
 :::
 
 **UEFI**
