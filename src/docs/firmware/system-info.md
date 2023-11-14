@@ -8,7 +8,7 @@ next: known-issues
 <br>
 
 ::: tip
-Some of the following commands require [Developer mode](firmware.html).
+Some of the following commands require [Developer mode](developer-mode).
 :::
 
 ## System Architecture
