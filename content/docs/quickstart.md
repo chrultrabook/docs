@@ -22,16 +22,42 @@ description: "A guide to getting up and running with a altOS."
 
 
 ## Step 2: Disabling Write Protection:
-Check the type of WP you have on the supported devices page. Depending on your device, your steps will vary slightly:
+Check the type of WP you have on the supported devices page. This is only required for Full ROM. Depending on your device, your steps will vary slightly:
 
-**Screw**
-Open up the back of your Chromebook, and look for a write protect screw. Unscrew it and throw it away.
+{{< tabs tabTotal="3">}}
+{{% tab tabName="Screw" %}}
 
-**Battery**
-Open the back of your Chromebook, unplug the battery, then plug in the charger and flash firmware.
+1. Turn off your device.
+2. Open up the back of your Chromebook
+3. Find the WP screw. Usually, it can be denoted quite easily as it is larger than the other screws
+4. Using a screwdriver (usually Phillips head) unscrew the screw and throw it somewhere safe.
+5. Close the Chromebook back up and flash custom firmware.
 
-**Jumper**
-uhhh
+{{% /tab %}}
+{{% tab tabName="Battery" %}}
+
+1. Turn off your device.
+2. Open up your Chromebook 
+3. Find the cable going from the battery to the motherboard
+4. Carefully, unplug that cable
+5. Plug in your AC charger. Make sure it supports USB-PD.
+6. Boot chromeOS.
+7. Flash firmware.
+
+
+{{% /tab %}}
+{{% tab tabName="Jumper" %}}
+
+1. Turn off your device.
+2. Open up your Chromebook
+3. Find 2 jumpers
+4. Bridge them
+5. Flash firmware
+todo
+
+
+{{% /tab %}}
+{{< /tabs >}}
 
 
 ## Step 3: Firmware
