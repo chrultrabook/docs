@@ -7,7 +7,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 export default {
   title: 'Chrultrabook Docs',
   description: description,
-  base: "/docz/",
+  base: "/docs/",
   head: [
     ['meta', { name: 'theme-color', content: '#6a4aec' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
