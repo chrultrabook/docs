@@ -18,17 +18,19 @@
 :root {
   scroll-behavior: smooth;
   --back-to-top-z-index: 5;
-  --back-to-top-color: #6a4aec;
-  --back-to-top-color-hover: #6a4aec;
-  --c-brand: #6a4aec;
-  --c-brand-light: #6a4aec;
-  --c-tip: #6a4aec;
+  --back-to-top-color: #3056d5;
+  --back-to-top-color-hover: #3056d5;
+
+  --c-brand: #3056d5;
+  --c-brand-light: #3056d5;
+  --c-tip: #3056d5;
 }
 
 html.dark {
-  --c-brand: #9a82f7;
-  --c-brand-light: #9a82f7;
-  --c-tip: #9a82f7;
+  --c-brand: #3056d5;
+  --c-brand-light: #3056d5;
+  --c-tip: #3056d5;
+  --c-bg: #1F1F1F;
 }
 
 .scrollable-code div[class^="language-"]{
