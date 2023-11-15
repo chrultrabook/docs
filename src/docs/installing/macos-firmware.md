@@ -15,7 +15,7 @@ Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/
 
 ### Building Manually
 
-1. Follow the steps [here](../../advanced/compiling-coreboot.md) to download the toolchain and build the firmware
+1. Follow the steps [here](../advanced/compiling-coreboot.md) to download the toolchain and build the firmware
     * Continue these steps once `build-uefi.sh <boardname>` has been ran
 1. Run `make menuconfig`. You will be greeted by a menu which looks like the following:
 
@@ -33,4 +33,4 @@ Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/
 
 ## Flashing Firmware
 
-Follow the steps [here](../../advanced/compiling-coreboot.html) to flash the new firmware
+Follow the steps [on this page](../advanced/compiling-coreboot.html) to flash the new firmware.

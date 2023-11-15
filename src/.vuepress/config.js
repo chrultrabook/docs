@@ -157,36 +157,36 @@ export default {
       },
       {
         text: 'Advanced',
-        link: '/advanced/',
+        link: '/docs/advanced/',
         collapsible: false,
         children: [
           {
             text: 'Reporting Bugs',
-            link: '/advanced/bugreport',
+            link: '/docs/advanced/bugreport',
           },
           {
             text: 'Debugging',
-            link: '/advanced/debugging',
+            link: '/docs/advanced/debugging',
           },
           {
             text: 'Compiling Custom Firmware',
-            link: '/advanced/compiling-coreboot',
+            link: '/docs/advanced/compiling-coreboot',
           },
           {
             text: 'Unbricking',
-            link: '/advanced/unbricking',
+            link: '/docs/advanced/unbricking',
           },
           {
             text: 'Contributing',
-            link: '/advanced/contributing',
+            link: '/docs/advanced/contributing',
           },
           {
             text: 'Unbricking with a flipper zero',
-            link: '/advanced/unbrick-flipper',
+            link: '/docs/advanced/unbrick-flipper',
           },
           {
             text: 'Linux distro-specific Configuration',
-            link: '/advanced/distros',
+            link: '/docs/advanced/distros',
           }
         ]
       }
