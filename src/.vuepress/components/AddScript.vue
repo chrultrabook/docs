@@ -18,7 +18,10 @@ export default {
     loadExternalScript() {
       (async() => {
         if (!window.document) {
-          await new Promise(res => window.addEventListener("load", res)); 
+          await new Promise(res => window.addEventListener("load", res));
+        }
+        if (document.readyState !== "loaded") {
+          await new Promise(res => document.addEventListener("load", res));
         }
         const script = document.createElement('script');
         script.src = this.scriptUrl;

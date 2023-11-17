@@ -110,7 +110,7 @@ function generateHTML(chromebooks) {
         devices = JSON.parse(await (await fetch("../../devices.json")).text());
     } catch(e) {
         console.warn(e);
-        searchbox.remove();
+        searchbox.parentElement.remove();
         return;
     }
 

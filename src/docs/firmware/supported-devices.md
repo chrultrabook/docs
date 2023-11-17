@@ -44,7 +44,7 @@ If on on a smaller screen, scroll sideways to see whole table.
 :::
 
 <AddScript script-url="../../supported-devices.js"/>
-<input type="text" class="deviceSearch">
+<p>Search: <input type="text" class="deviceSearch"></p>
 
 <div class="deviceTable">
 
