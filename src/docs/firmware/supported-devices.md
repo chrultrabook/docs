@@ -43,7 +43,7 @@ If your device isn't listed, it doesn't have support.
 If on on a smaller screen, scroll sideways to see whole table.
 :::
 
-<AddScript script-url="/supported-devices.js"/>
+<AddScript script-url="../../supported-devices.js"/>
 <input type="text" class="deviceSearch">
 
 <div class="deviceTable">

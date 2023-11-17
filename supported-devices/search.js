@@ -3,8 +3,9 @@
 (async () => {
     const table = document.querySelector(".deviceTable");
     const searchbox = document.querySelector(".deviceSearch");
+    let devices = [];
     try {
-        const devices = JSON.parse(await (await fetch("/devices.json")).text());
+        devices = JSON.parse(await (await fetch("../../devices.json")).text());
     } catch(e) {
         console.warn(e);
         searchbox.remove();
