@@ -3,6 +3,9 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+
+import path from "path";
 
 export default {
   title: 'Chrultrabook Docs',
@@ -209,6 +212,11 @@ export default {
           placeholder: 'Search',
         }
       }
+    }),
+    registerComponentsPlugin({
+      components: {
+        AddScript: path.resolve(__dirname, './components/AddScript.vue'),
+      },
     })
   ]
 }

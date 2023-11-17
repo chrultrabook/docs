@@ -1,41 +1,3 @@
-//node index.js to run
-
-/**
-  How the formatting in devices.json works
-
-{
-    "cpu generation": {
-        "default_windows": "Default Windows support message.",
-        "default_mac": "Default macos support message.",
-        "default_linux": "Default linux support message.",
-        "default_rwLegacy": false, //null = EOL (display red EOL message), true = supported (display checkbox), false = not supported
-        "default_fullrom": true, //true = supported, false = not supported.
-        "default_wpmethod": ""<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook\" target=\"_blank\">switch</a>", //default wp method link.
-        "devices": [ //This is an array
-            {
-                "device": [
-                    "Array of chromebook models",
-                    "that this boardname",
-                    "is known by."
-                ],
-                "boardname": "BOARDNAME",
-                "linux": "Display linux support message **instead of** the default message."
-            },
-            {
-                "device": [
-                    "Coolio chromebook name"
-                ],
-                "boardname": "BOARDNAME",
-                "rwLegacy": null,
-                "wpMethod": "Different wp method link/method",
-                "windows": "Display Windows support message **instead of** the default message."
-            },
-        ]
-    }
-
-*/
-
-
 function generateHTML(chromebooks) {
     let html = `
 <table style="font-size: 14px !important;">
@@ -140,16 +102,38 @@ function generateHTML(chromebooks) {
     return html;
 }
 
-console.log("Loading...");
-const fs = require("fs");
-let data = fs.readFileSync("template.md", "utf8");
-data = data.replace("${{TABLE}}", generateHTML(require('./devices.json')));
+(async () => {
+    const table = document.querySelector(".deviceTable");
+    const searchbox = document.querySelector(".deviceSearch");
+    try {
+        const devices = JSON.parse(await (await fetch("/devices.json")).text());
+    } catch(e) {
+        console.warn(e);
+        searchbox.remove();
+        return;
+    }
 
-//Putting this in the template file causes the template be be showed in the listing
-fs.writeFileSync("../src/docs/firmware/supported-devices.md", data);
-
-//Dont question the function.toString.... Javascript is funny
-fs.writeFileSync("../src/.vuepress/public/supported-devices.js", fs.readFileSync("search.js", "utf-8").replace("{{script}}", generateHTML.toString()));
-fs.copyFileSync("devices.json", "../src/.vuepress/public/devices.json");
-
-console.log("Done!");
+    function search(keyword) {
+        keyword = keyword.toLowerCase().trim();
+        let dv = JSON.parse(JSON.stringify(devices));
+        if (!keyword) {
+            table.innerHTML = generateHTML(dv);
+            return;
+        }
+        for (const k in dv) {
+            for (let i=0; i<dv[k].devices.length; i++) {
+                let hasTerm = dv[k].devices[i].device.filter(e => e.toLowerCase().includes(keyword)).length !== 0 || dv[k].devices[i].boardname.toLowerCase().includes(keyword);
+                if (!hasTerm) {
+                    dv[k].devices.splice(i, 1);
+                    i--;
+                }
+            }
+            if (dv[k].devices.length === 0) {
+                delete dv[k];
+            }
+        }
+        table.innerHTML = generateHTML(dv);
+    }
+    searchbox.addEventListener("keydown", (e) => search(e.target.value));
+    searchbox.addEventListener("keyup", (e) => search(e.target.value));
+})();

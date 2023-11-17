@@ -43,6 +43,10 @@ If your device isn't listed, it doesn't have support.
 If on on a smaller screen, scroll sideways to see whole table.
 :::
 
+<AddScript script-url="/supported-devices.js"/>
+<input type="text" class="deviceSearch">
+
+<div class="deviceTable">
 
 <table style="font-size: 14px !important;">
     <tbody>
@@ -2227,3 +2231,4 @@ If on on a smaller screen, scroll sideways to see whole table.
         </tr>
     </tbody>
 </table>
+</div>
