@@ -47,7 +47,7 @@ export default {
       {
         text: 'Flashing Custom Firmware',
         link: '/docs/firmware/',
-        collapsible: false,
+        collapsible: true,
         children: [
           {
             text: 'Supported Devices',
@@ -108,7 +108,7 @@ export default {
       {
         text: "Installing an OS",
         link: "/docs/installing/",
-        collapsible: false,
+        collapsible: true,
         children: [
           {
             text: 'Known Issues',
@@ -161,7 +161,7 @@ export default {
       {
         text: 'Advanced',
         link: '/docs/advanced/',
-        collapsible: false,
+        collapsible: true,
         children: [
           {
             text: 'Reporting Bugs',

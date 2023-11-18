@@ -21,18 +21,47 @@
   --back-to-top-color: #3056d5;
   --back-to-top-color-hover: #3056d5;
 
-  --c-brand: #3056d5;
-  --c-brand-light: #3056d5;
-  --c-tip: #3056d5;
+  --c-brand: #3D50F5;
+  --c-brand-light: #4e5ff8;
+  --c-tip: #45d48c;
+  --c-nav: #F6F7F9;
+  --c-header: #000;
+  --c-text: #353841;
 }
+
 
 html.dark {
-  --c-brand: #3056d5;
-  --c-brand-light: #3056d5;
-  --c-tip: #3056d5;
-  --c-bg: #1F1F1F;
+  --c-brand: #B3C7FF; //changes accent color
+  --c-brand-light: #778bc2; //get started button hover
+  --c-tip: #30d56f; //tip bubble color
+  --c-bg:  #17181C;//dark mode background
+  --c-nav:#23262F;
+  --c-header: #fff;
+  --c-text: #BCC0C8;
+}
+.sidebar::-webkit-scrollbar {
+  width: 0%;
+  height: 0%;
+}
+.navbar{
+  background-color: var(--c-nav);
+  border: none;
+}
+.sidebar{
+  background-color: var(--c-nav);
+  font-size: 14px;
+  width: 23%;
+  border: none;
+  margin-top: 1px;
 }
 
+.header-anchor{
+  color: var(--c-header);
+}
+
+.header-anchor p{
+  color: var(--c-text);
+}
 .scrollable-code div[class^="language-"]{
   max-height: 450px;
   overflow-y: auto;

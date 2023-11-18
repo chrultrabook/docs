@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /favicon.png
-heroImageDark: /favicon.png
-heroText: Chrultrabook Docs
-tagline: Install an alternate OS on your chromebook
+heroText: Welcome to the Chrultrabook Docs
+tagline: Convert your Chromebook into an Ultrabook!
+heroImage: /chrome.svg
+heroImageDark: /chrome.svg
 actions:
 - text: Get Started
   link: /docs/firmware/
