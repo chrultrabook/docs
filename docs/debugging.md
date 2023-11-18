@@ -33,8 +33,8 @@ To dump the cbmem buffer, follow these steps:
   * `wget https://mrchromebox.tech/files/util/cbmem.tar.gz`
 2. Unzip the file and give the binary executable permissions:
   * `tar -xf cbmem.tar.gz;rm cbmem.tar.gz;chmod +x cbmem`
-3. Run `cbmem` and pipe it's output to `cbmem.log` file:
-  * `sudo ./cbmem -c > cbmem.log`
+3. Run `cbmem` and pipe its output to `cbmem.log` file:
+  * `sudo ./cbmem -1 > cbmem.log`
 4. Upload `cbmem.log` file for further analysis.
 
 To interface with the Embedded Controller:
