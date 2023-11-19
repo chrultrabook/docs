@@ -190,9 +190,28 @@ export default {
           {
             text: 'Linux distro-specific Configuration',
             link: '/docs/advanced/distros',
-          }
+          },
         ]
-      }
+        },
+        {
+          text: 'Reverting to stock chromeOS',
+          link: '/docs/reverting/',
+          collapsible: true,
+          children: [
+            {
+              text: 'Flashing Stock Firmware',
+              link: '/docs/reverting/flashing-stock',
+            },
+            {
+              text: 'Making a Recovery USB',
+              link: '/docs/reverting/making-recovery-usb',
+            },
+            {
+              text: 'Booting the Recovery USB',
+              link: '/docs/reverting/booting-recovery-usb',
+            }
+          ]
+        }
     ]
   }),
   plugins: [
