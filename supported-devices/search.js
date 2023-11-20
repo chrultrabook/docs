@@ -5,7 +5,7 @@
     const searchbox = document.querySelector(".deviceSearch");
     let devices = [];
     try {
-        devices = JSON.parse(await (await fetch("/docs/devices.json")).text());
+        devices = JSON.parse(await (await fetch("../../devices.json")).text());
     } catch(e) {
         console.warn(e);
         searchbox.parentElement.remove();
