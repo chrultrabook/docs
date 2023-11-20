@@ -28,17 +28,17 @@ There are two methods depending on the Operating System Installed.
 
 3. Extract the file.
 
-**Windows**
+#### Windows
 
 1. You can either:
     - Use [Rufus](../installing/bootableusb.md#flashing-using-rufus-windows) but make sure to flash in "dd" mode.
     - Use the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) but open settings (gear icon) and select "Use local image". 
 
-**MacOS/ChromeOS**
+#### macOS/ChromeOS
 
 1. Use the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) but open settings (gear icon) and select "Use local image". 
 
-**Linux**
+#### Linux
 
 1. Make sure that your USB drive is unmounted (not unplugged).
 
