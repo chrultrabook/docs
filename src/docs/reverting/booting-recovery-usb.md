@@ -6,7 +6,7 @@ next: false
 # Booting the Recovery USB
 
 ::: tip
-If recovery fails, unplug the battery since recovery also attempts to update the firmware.
+If recovery fails, [disable write protect](../firmware/write-protect.html) since recovery also attempts to update the firmware.
 :::
 
 ::: danger
