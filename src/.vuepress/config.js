@@ -190,7 +190,7 @@ export default {
           {
             text: 'Linux distro-specific Configuration',
             link: '/docs/advanced/distros',
-          },
+          }
         ]
         },
         {
