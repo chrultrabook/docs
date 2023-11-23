@@ -15,10 +15,9 @@ Some of the following commands require [Developer mode](developer-mode).
 
 Your system architecture is very important as it determines if your device has any support at all. ARM devices are not currently supported by the project, but support for them in the future is planned.
 
-**How to find your architecture**
+#### How to find your architecture
 1. Open a crosh terminal by pressing `Control` + `Alt` + `T`
-2. Type `shell` and press enter
-3. Type `uname -m` and press enter
+2. Type `uname -m` and press enter
 
 You should now see one of three possible outputs:
 1. `x86_64`
@@ -35,12 +34,12 @@ The board name is the special name for your device which determines if it is sup
 
 ### How to find your board name
 
-**Crosh**
-1. Open a crosh terminal by pressing `Control` + `Alt` + `T`
-2. Type `shell` and press enter
-3. Type `sudo crossystem hwid` and press enter
+#### Developer Mode
+1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
+2. Login as `chronos`.
+3. Type `sudo crossystem hwid` and press enter.
 
-**Recovery Mode**
+#### Recovery Mode
 1. Enter [Recovery Mode](recovery-mode).
 2. Find the "Model" line.
 
