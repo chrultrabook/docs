@@ -93,18 +93,19 @@ export default {
           },
           {
             text: 'Flashing Firmware',
-            link: '/docs/firmware/flashing-firmware',
-            collapsible: true,
-            children: [
-              {
-                text: 'Compiling Custom Firmware',
-                link: '/docs/firmware/compiling-coreboot',
-              }
-            ]
+            link: '/docs/firmware/flashing-firmware'
           },
           {
             text: 'Updating Firmware',
             link: '/docs/firmware/updating-firmware'
+          },
+          {
+            text: 'Compiling Custom Firmware',
+            link: '/docs/firmware/compiling-coreboot',
+          },
+          {
+            text: 'Flashing Manually',
+            link: '/docs/firmware/manually-flashing',
           },
           {
             text: 'Installing Ventoy with chromeOS',

@@ -12,7 +12,7 @@ Building and flashing your own firmware has the potential to brick your device. 
   * Arch based distros: `sudo pacman --needed -S base-devel curl git gcc-ada ncurses zlib nasm imagemagick`
   * Redhat based distros: `sudo dnf install git make gcc-gnat flex bison xz bzip2 gcc g++ ncurses-devel wget zlib-devel patch openssl libuuid-devel nasm texinfo`
 2. **Clone the repository:**
-    * `git clone https://github.com/mrchromebox/coreboot`
+    * `git clone https://github.com/mrchromebox/coreboot.git`
 3. **`cd` to the coreboot folder, then build the coreboot toolchain**
     * `make crossgcc-i386 CPUS=$(nproc)`
 4. **Make changes now, if needed.**
@@ -22,17 +22,6 @@ Building and flashing your own firmware has the potential to brick your device. 
 5. **Build the ROM**
     * create build dir: `mkdir -p ~/dev/firmware`
     * `./build-uefi.sh <boardname>`
-      * For example, `./build-uefi.sh leona`
+      * For example, `./build-uefi.sh careena`
     * Roms will be stored in `~/dev/firmware`
-6. **Download flashrom, then give it execute permission.**
-    * `cd; curl -LO https://tree123.org/chrultrabook/utils/flashrom-libpci38; chmod +x flashrom-libpci38`
-7. **Flash your custom ROM**
-    * Note: Intel Chromebooks should be flashed with `--ifd -i bios` ex: `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom`
-    * Backup your current rom, just in case things go wrong: `./flashrom-libpci38 -p internal -r current.rom`
-    * Flash your custom firmware: `sudo ./flashrom-libpci38 -p internal -w ~/dev/firmware/coreboot_edk2-<boardname>-mrchromebox_<yearmonthdate>.rom` 
-8. **Reboot**
-    * Assuming it said `success` on all checks, reboot.
-
-    ::: danger
-    Do not reboot if any of the checks failed. 
-    :::
+6. **Continue onto [Flashing Manually](manually-flashing.html) to flash**
