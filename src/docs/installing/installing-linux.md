@@ -9,8 +9,6 @@ Thanks to recent advancements in the chrultrabook community, Linux works really 
 Only Linux kernel 6.4 or newer is supported.
 :::
 
----
-
 ## Recommended Distributions
 
 ::: warning

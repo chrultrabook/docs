@@ -73,7 +73,7 @@ Add the following SSDTs, kexts and modifications as needed:
 - Disable `Booter->Quirks->DevirtualiseMmio`: Fixes NVRAM and other runtime EFI services
 
 #### SSDTs and ACPI Fixes:
-- [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer
+- [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer. Not needed when custom rom is used.
 - [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
    - Will need to be compiled with either `iASL` or `MaciASL`.
 - [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
