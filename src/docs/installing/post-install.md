@@ -10,12 +10,12 @@ Install [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Cont
 
 ## Windows
 
-**Drivers and QOL improvements**
+#### Drivers and QOL improvements
 * Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
 * Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
-* Buy audio and Thunderbolt/USB4 drivers (if needed), see [Purchasing Drivers](csdriver.html) 
+* Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
 
-**CELES Post Install Workaround**
+#### CELES Post Install Workaround
 
 1. Boot the Windows install media you used to install Windows.
 2. Click "Repair my computer" and select the Command Prompt option.
@@ -26,12 +26,12 @@ Install [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Cont
 
 ## Linux
 
-**General QOL Fixes**
+#### General QOL Fixes
 
 * Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
 * Run the [cros-keyboard-map](https://github.com/WeirdTreeThing/cros-keyboard-map) script to remap top row FX keys.
 
-**Fixing USB C on TigerLake and AlderLake**
+#### Fixing USB C on TigerLake and AlderLake
 
 1. Create a file called `chromebook-usbc.service` file in `/etc/systemd/system/`
 2. Paste the following contents into the file:
@@ -50,9 +50,9 @@ Install [Chrultrabook Controller](https://github.com/death7654/Chrultrabook-Cont
    WantedBy=multi-user.target
    ```
 
-3. Enable the systemd service by typing `systemctl enable  --now chromebook-usbc.service`, then it should work.
+3. Enable the systemd service by typing `systemctl enable --now chromebook-usbc.service`, then it should work.
 
-**CELES Post Install Workaround**
+#### CELES Post Install Workaround
 
 If you experience issues in applications such as Parsec, or encounter disruptive freezes, adding the kernel parameters `clocksource=hpet hpet=force` may fix your problem. The following instructions assume you're using GRUB, and will be different for other bootloaders. Do your own research on how to set kernel parameters in your bootloader if these do not apply.
 

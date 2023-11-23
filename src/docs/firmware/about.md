@@ -12,7 +12,7 @@ next: flashing-firmware
 * Updates/replaces the stock RW_LEGAGY payload (SeaBIOS or edk2) included on many older models; supplements the ChromeOS / secure boot payload (depthcharge)
 * Leaves all stock functionality intact, including the Developer Mode boot screen and Recovery Mode functionality
 * Allows device to dual-boot linux alongside ChromeOS
-* Does not require disabling the firmware write-protect
+* Does not require disabling write-protect
 * Carries zero risk of bricking the device
 * On many models, includes bugfixes and enables additional functionality
 
@@ -32,5 +32,5 @@ Do not run Windows on RW_LEGACY. The RW_LEGACY firmware is for users who want to
 * Essentially turns your ChromeOS device into a "regular" PC / laptop
 
 ::: tip
-The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/macOS exclusively), and who don't mind disabling write-protection on their device
+The (UEFI) Full ROM firmware is the best option for all users who no longer need/want to run ChromeOS (ie, want to run Linux/Windows/macOS exclusively), and who don't mind disabling write-protection on their device.
 :::

@@ -23,9 +23,9 @@ The battery must be plugged in while enabling developer mode.
 
 Developer Mode is an alternate mode that all chromeOS devices have that opens up the ability to make unverified changes to the operating system and hardware.
 
-1. Enter [recovery mode](recovery-mode.html).
+1. Enter [recovery mode](recovery-mode.md).
 
-**Chromebooks/Chromeboxes**
+#### Chromebooks/Chromeboxes
 
 1. Press `CTRL` +  `D` at the same time. This should bring up a warning asking for confirmation for either "Turn OS Verification OFF" or "Enable Developer Mode".
 
@@ -35,7 +35,7 @@ Developer Mode is an alternate mode that all chromeOS devices have that opens up
 
 4. Setup the system like normal, but **do not enable debugging features**.
 
-**Tablets**
+#### Tablets
 
 1. Press `Volume Up` + `Volume Down` to bring up the menu selection screen.
 

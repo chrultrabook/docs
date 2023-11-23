@@ -32,4 +32,4 @@ There is a 15V USB-C PD requirement for booting without the battery.
 :::
 
 2. Boot the chromebook up
-3. Continue to [Flashing Firmware](flashing-firmware)
+3. Continue to [Flashing Firmware](flashing-firmware.md)

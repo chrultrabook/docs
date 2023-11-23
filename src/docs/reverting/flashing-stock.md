@@ -9,7 +9,7 @@ next: making-recovery-usb
 If your device has hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS.
 :::
 
-1. If you already have Linux installed, move on to step 5. Otherwise, make a [bootable Linux live USB](../installing/bootableusb).
+1. If you already have Linux installed, move on to step 5. Otherwise, make a [bootable Linux live USB](../installing/bootableusb.md).
 
 2. Connect to WiFi.
 
@@ -26,7 +26,7 @@ If your device has hit AUE (Auto Update Expiration), you will not be able to rev
 
 
 ::: tip
-If, for whatever reason, lost your stock firmware backup, Use an additional drive to flash a [recovery image](making-recovery-usb).
+If, for whatever reason, lost your stock firmware backup, Use an additional drive to flash a [recovery image](making-recovery-usb.md).
 :::
 
 7. Follow on-screen instructions

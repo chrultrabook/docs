@@ -6,14 +6,14 @@ next: false
 # Booting the Recovery USB
 
 ::: tip
-If recovery fails, [disable write protect](../firmware/write-protect.html) since recovery also attempts to update the firmware.
+If recovery fails, [disable write protect](../firmware/write-protect.md) since recovery also attempts to update the firmware.
 :::
 
 ::: danger
-Going through the recovery proccess will **wipe all data** in the internal drive.
+Going through the recovery proccess will wipe **all** data on the internal drive.
 :::
 
-1. Enter [recovery mode](../firmware/recovery-mode.html).
+1. Enter [recovery mode](../firmware/recovery-mode.md).
 
 2. Plug in your recovery USB drive.
 

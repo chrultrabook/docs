@@ -8,7 +8,7 @@ Please read this page before asking a question in the Discord. Your help request
 * You can pay via PayPal in Patreon.
 
 #### How do I buy the Windows audio/Thunderbolt drivers?
-* See [this page](/docs/installing/csdriver).
+* Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
 
 #### Can I get AVS or SOF drivers for free?
 * No. Only the Linux drivers are free.
@@ -17,10 +17,10 @@ Please read this page before asking a question in the Discord. Your help request
 * Ubuntu distros that are not based on 23.10 or higher may have some issues, try swtiching to a non lts version.
 
 #### What Linux distros are recommended?
-* See [this page](/docs/installing/installing-linux).
+* See [this page](installing/installing-linux.md).
 
 #### Why is there a license error in Device Manager after installing audio drivers?
-* You messed up the license setup. Please refer to the [licensing guide](/docs/installing/signedlicense) and try again.
+* You messed up the license setup. Please refer to [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html).
 
 #### Can I hackintosh my Celeron/Pentium CPU?
 * No.

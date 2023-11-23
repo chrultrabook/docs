@@ -25,5 +25,5 @@
 * Continuity features (AirDrop, Sidecar, etc).
 
 ::: tip
-For issues relating to hardware/firmware, see [this page](../firmware/known-issues).
+For issues relating to hardware/firmware, see [this page](../firmware/known-issues.md).
 :::

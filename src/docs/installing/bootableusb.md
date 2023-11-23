@@ -31,7 +31,7 @@ Rufus is a useful tool that allows you to flash ISO's to an external drive.
 7. Wait for the green bar to say `READY`, then click `Close` and eject your newly made external drive.
 8. Profit
 
-### Flashing using Ventoy (Windows/Linux)
+### Flashing using Ventoy (Windows/Linux/macOS)
 
 For this guide, we will be using Ventoy to create our bootable USB. 
 Ventoy allows you to boot multiple ISO's from a single drive.

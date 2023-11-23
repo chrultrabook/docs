@@ -16,7 +16,7 @@ Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **ma
 :::
 
 ::: warning
-Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12 (Bookworm) requires a custom kernel, the [audio script](https://chrultrabook.github.io/docs/docs/installing-linux.html#fixing-audio) will automatically install it for you.
+Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12 (Bookworm) requires a custom kernel, the [audio script](#fixing-audio) will automatically install it for you.
 :::
 
 **Recommended distros as of October 2023 (in no particular order) are:**
@@ -30,7 +30,7 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 
 ## Installation
 
-1. Create a bootable Linux USB. See [here](bootableusb.html) for a guide.
+1. Create a bootable Linux USB. See [here](bootableusb.md) for a guide.
 2. Plug the USB Drive into the Chromebook.
 3. Turn on the Chromebook, press `ESC` at the POST screen (when the coreboot logo appears), and select your USB to boot from. 
 4. Install as you would on any other computer.

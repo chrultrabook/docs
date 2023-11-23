@@ -21,7 +21,7 @@ Recovery mode is used to restore the OS and RW regions of the firmware. It gets 
 ### Entering Recovery Mode
 <br>
 
-**Chromebooks**
+#### Chromebooks
 
 Press `ESC` + `Refresh` (arrow icon), + `Power` at the same time. This should bring your system into recovery mode.
 - For some devices the power button is on the side.
@@ -29,7 +29,7 @@ Press `ESC` + `Refresh` (arrow icon), + `Power` at the same time. This should br
 
 <img src="/recovery/recovery-keyboard-hint.png" width=500>
 
-**Chromeboxes**
+#### Chromeboxes
 
 Find the recovery button hole. A reference of what to look for is below.
 
@@ -38,7 +38,7 @@ Find the recovery button hole. A reference of what to look for is below.
 When you do, use something like a paper clip to hold the button down, then turn on the device. This should bring your system into recovery mode.
 You can stop holding down the button at this point.
 
-**Tablets**
+#### Tablets
 
 Hold down `Volume Up` + `Volume Down` + `Power` for 10 seconds, then release. This should bring your system into recovery mode.
 

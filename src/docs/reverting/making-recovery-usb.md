@@ -32,7 +32,8 @@ There are two methods depending on the Operating System Installed.
 
 1. You can either:
     - Use [Rufus](../installing/bootableusb.md#flashing-using-rufus-windows) but make sure to flash in "dd" mode.
-    - Use the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) but open settings (gear icon) and select "Use local image". 
+    - Use the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) but open settings (gear icon) and select "Use local image".
+    - Use [dd](../installing/bootableusb.md#flashing-with-dd-linux-macos)
 
 #### macOS/ChromeOS
 

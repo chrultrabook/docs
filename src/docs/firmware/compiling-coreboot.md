@@ -24,4 +24,4 @@ Building and flashing your own firmware has the potential to brick your device. 
     * `./build-uefi.sh <boardname>`
       * For example, `./build-uefi.sh careena`
     * Roms will be stored in `~/dev/firmware`
-6. **Continue onto [Flashing Manually](manually-flashing.html) to flash**
+6. **Continue onto [Flashing Manually](manually-flashing.md) to flash**

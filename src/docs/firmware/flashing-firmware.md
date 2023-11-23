@@ -13,8 +13,8 @@ Refer to [this page](about) for an overview of both RW_LEGACY and UEFI.
 
 To convert your machine from Google's firmware and ChromeOS to Coreboot and AltOS (Linux/Windows/macOS), you will need to first perform the following steps:
 
-1. [Enable developer mode](developer-mode).
-2. [Disable write protect](write-protect) (If flashing UEFI).
+1. [Enable developer mode](developer-mode.md).
+2. [Disable write protect](write-protect.md) (If flashing UEFI).
 3. Run [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) within VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
     * Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
     * If you encounter certificate related errors when downloading the script from ChromeOS, then add `-k` to the `curl` and script command to bypass SSL certificate checking as so:
@@ -28,7 +28,7 @@ Otherwise, shutdown without worry.
 :::
 
 ::: tip
-If you unplugged the battery to [disable write protect](battery), you can plug it back in now. All subsequent flashing won't require it from now on.
+If you unplugged the battery to [disable write protect](battery.md), you can plug it back in now. All subsequent flashing won't require it from now on.
 :::
 
 **UEFI**

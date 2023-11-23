@@ -13,7 +13,7 @@ Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. *
 :::
 
 ::: tip
-If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](../firmware/ventoy.html) page.
+If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](../firmware/ventoy.md) page.
 :::
 
 1. Get a USB containing a Windows image. Ventoy, Rufus, and the official Windows media creation tool are the only methods that can be used to create a Windows USB.

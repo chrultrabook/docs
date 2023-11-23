@@ -28,7 +28,7 @@ If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or
 
 1. Boot your system to the "You are in Developer Mode" or "OS Verification is OFF" screen.
 
-**Chromebooks/Chromeboxes**
+#### Chromebooks/Chromeboxes
 
 1. Press the `Spacebar`. If it brings up a warning asking for confirmation, Press `Enter`.
 
@@ -36,7 +36,7 @@ If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or
 
 3. Once its done, Setup the system like normal.
 
-**Tablets**
+#### Tablets
 
 1. Select "Enable OS Verification".
 
