@@ -6,3 +6,8 @@ node_modules
 .temp
 .cache
 .DS_Store
+
+# Will be initilized on run/build time
+src/docs/firmware/supported-devices.md
+src/.vuepress/public/supported-devices.js
+src/.vuepress/public/devices.json
