@@ -49,3 +49,13 @@ Ventoy allows you to boot multiple ISO's from a single drive.
 6. Open your Files App and find a drive thats labed as `Ventoy`.
 7. Copy the ISO you downloaded into that drive, after that eject it.
 8. Profit
+
+## Flashing with dd (Linux/macOS)
+
+1. Plug in your external drive
+2. Run `lsblk` to help determine the drive to be flashed. If the device is mounted you will need to use `umount` to unmount it.
+3. Flash with `dd if=myfile.iso of=/dev/<device name (as shown by lsblk)> bs=16M status=progress`.
+
+::: tip
+Be sure to target the drive itself and not a partition.
+:::
