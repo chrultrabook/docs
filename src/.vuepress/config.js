@@ -93,7 +93,14 @@ export default {
           },
           {
             text: 'Flashing Firmware',
-            link: '/docs/firmware/flashing-firmware'
+            link: '/docs/firmware/flashing-firmware',
+            collapsible: true,
+            children: [
+              {
+                text: 'Compiling Custom Firmware',
+                link: '/docs/firmware/compiling-coreboot',
+              }
+            ]
           },
           {
             text: 'Updating Firmware',
@@ -125,6 +132,13 @@ export default {
           {
             text: 'Installing Linux',
             link: '/docs/installing/installing-linux',
+            collapsible: true,
+            children: [
+              {
+                text: 'Linux distro-specific Configuration',
+                link: '/docs/installing/distros',
+              }
+            ]
           },
           {
             text: 'Installing MacOS',
@@ -148,59 +162,50 @@ export default {
         ]
       },
       {
-        text: 'Advanced',
-        link: '/docs/advanced/',
+        text: 'Debugging',
+        link: '/docs/debugging/',
         collapsible: true,
         children: [
           {
             text: 'Reporting Bugs',
-            link: '/docs/advanced/bugreport',
-          },
-          {
-            text: 'Debugging',
-            link: '/docs/advanced/debugging',
-          },
-          {
-            text: 'Compiling Custom Firmware',
-            link: '/docs/advanced/compiling-coreboot',
-          },
-          {
-            text: 'Unbricking',
-            link: '/docs/advanced/unbricking',
+            link: '/docs/debugging/bugreport',
           },
           {
             text: 'Contributing',
-            link: '/docs/advanced/contributing',
-          },
-          {
-            text: 'Unbricking with a flipper zero',
-            link: '/docs/advanced/unbrick-flipper',
-          },
-          {
-            text: 'Linux distro-specific Configuration',
-            link: '/docs/advanced/distros',
+            link: '/docs/debugging/contributing',
           }
         ]
-        },
-        {
-          text: 'Reverting to stock chromeOS',
-          link: '/docs/reverting/',
-          collapsible: true,
-          children: [
-            {
-              text: 'Flashing Stock Firmware',
-              link: '/docs/reverting/flashing-stock',
-            },
-            {
-              text: 'Making a Recovery USB',
-              link: '/docs/reverting/making-recovery-usb',
-            },
-            {
-              text: 'Booting the Recovery USB',
-              link: '/docs/reverting/booting-recovery-usb',
-            }
-          ]
-        }
+      },
+      {
+        text: 'Unbricking',
+        link: '/docs/unbricking/',
+        collapsible: true,
+        children: [
+          {
+            text: 'Unbricking with a flipper zero',
+            link: '/docs/unbricking/unbrick-flipper',
+          }
+        ]
+      },
+      {
+        text: 'Reverting to stock chromeOS',
+        link: '/docs/reverting/',
+        collapsible: true,
+        children: [
+          {
+            text: 'Flashing Stock Firmware',
+            link: '/docs/reverting/flashing-stock',
+          },
+          {
+            text: 'Making a Recovery USB',
+            link: '/docs/reverting/making-recovery-usb',
+          },
+          {
+            text: 'Booting the Recovery USB',
+            link: '/docs/reverting/booting-recovery-usb',
+          }
+        ]
+      }
     ]
   }),
   plugins: [

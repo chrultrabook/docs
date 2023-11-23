@@ -1,3 +1,7 @@
+---
+next: false
+prev: false
+---
 # Debugging
 This page has instructions on using multiple different utilities to debug issues and modify parts of your system.
 
@@ -8,7 +12,7 @@ This page has instructions on using multiple different utilities to debug issues
 * If you're experiencing firmware bugs, provide output from `cbmem` console.
 * If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
 * If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
-* If you're experiencing issues with macOS, please ask for help in the Chrultrabook Discord, in the #hackintosh channel. 
+* If you're experiencing issues with macOS, please ask for help in the [Chrultrabook Discord](https://discord.com/invite/ranFKmUeXc), in the #hackintosh channel. 
 
 ---
 
@@ -132,4 +136,3 @@ View status:
 Unlock CCD:
   * `sudo gsctool -a -o`
   * This will prompt you multiple times to press the power button, on the last time, the device will reboot back into verified mode
-

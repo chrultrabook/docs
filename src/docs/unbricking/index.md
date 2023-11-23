@@ -1,3 +1,8 @@
+---
+next: false
+prev: false
+---
+
 # Unbricking
 
 If you've found your way here, it's likely because you updated your firmware and, despite best efforts to minimize the possibility, something went wrong. Thankfully, most Chromebooks can be easily unbricked using cheap, readily available hardware: older Chromebooks using a ch341a USB programmer from Amazon/eBay/Alibaba (and many other sources), and newer (2017+) Chromebooks using a USB-C debug cable (aka Suzy-Q cable).
@@ -37,6 +42,7 @@ While this is somewhat device-specific, the main points are the same:
 
    ::: danger
    Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB, 16MB, or 32MB chip, with the identifier W25Q64[xx] (8MB),  W25Q128[xx] (16MB), or W25Q256[xx] (32MB) where [xx] is usually FV or DV. We do **not** want to touch the EC firmware chip, which is identified by W25X40[xx].
+   :::
 
    ::: tip
    Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash.

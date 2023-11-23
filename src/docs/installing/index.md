@@ -21,7 +21,7 @@ Be sure to check the [supported devices page](../firmware/supported-devices) to 
 * Requires the user to install many drivers
 * AVS and SOF users may experience instability at times
 
-### [Installing Windows →](installing-windows) 
+### [Installing Windows →](installing-windows.html) 
 
 <br>
 
@@ -47,7 +47,7 @@ Be sure to check the [supported devices page](../firmware/supported-devices) to 
 
 <br>
 
-### [Installing Linux →](installing-linux)
+### [Installing Linux →](installing-linux.html)
 
 ---
 
@@ -68,4 +68,4 @@ Be sure to check the [supported devices page](../firmware/supported-devices) to 
 Any Chromebook with an ARM, Celeron or Pentium CPU is not supported. AMD Ryzen might have support in the future.
 :::
 
-### [Installing macOS →](installing-macos)
+### [Installing macOS →](installing-macos.html)
