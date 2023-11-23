@@ -31,6 +31,11 @@
                 delete dv[k];
             }
         }
+        if (Object.keys(dv).length === 0) {
+            table.innerHTML = "";
+            table.innerText = "Device not found. Did you make a typo?";
+            return;
+        }
         table.innerHTML = generateHTML(dv);
     }
     searchbox.addEventListener("keydown", (e) => search(e.target.value));
