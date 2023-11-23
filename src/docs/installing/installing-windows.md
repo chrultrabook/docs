@@ -38,7 +38,7 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 
 ## Paid Drivers
 
-Please see [this page](csdriver.html) for a step by step tutorial on purchasing drivers.
+Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
 
 ---
 

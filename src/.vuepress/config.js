@@ -120,18 +120,7 @@ export default {
           },
           {
             text: 'Installing Windows',
-            link: '/docs/installing/installing-windows',
-            collapsible: true,
-            children: [
-              {
-                text: 'Purchasing Drivers',
-                link: '/docs/installing/csdriver',
-              },
-              {
-                text: 'Driver activation',
-                link: '/docs/installing/signedlicense',
-              }
-            ]
+            link: '/docs/installing/installing-windows'
           },
           {
             text: 'Installing Linux',
