@@ -58,6 +58,15 @@ If you experience issues in applications such as Parsec, or encounter disruptive
 3. Type `grub-mkconfig -o /boot/grub/grub.cfg` or `update-grub` into a terminal and press Enter. Use sudo, su, or doas if necessary.
 4. Reboot
 
+Some CELES users report fixing stuttering and video acceleration issues by blacklisting the `intel_pstate` CPU power scaling driver to force a fallback to the older `intel_cpufreq` driver meant for older CPUs.
+1. Create a file called `intel-pstate.conf` file in `/etc/modprobe.d/`
+2. Paste the following contents into the file:
+
+    ```
+    blacklist intel_pstate
+    ```
+3. Reboot
+
 -----------------------
 
 
