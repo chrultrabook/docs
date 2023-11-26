@@ -1,11 +1,13 @@
-# Ectool
+# Using Ectool
 
 `ectool` is a utility that is used to interface with the ChromeOS Embedded Controller. It is used to communicate with the embedded controller from userspace and vice versa.
 
 ## Uses
 
 
-:::tip See `ectool help` for a full list of commands. :::
+:::tip
+Run `ectool help` for a full list of commands.
+:::
 
 Some common uses of `ectool` include:
 
