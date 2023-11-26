@@ -2,16 +2,11 @@
 prev: false
 next: supported-devices
 ---
-
 # Flashing Custom Firmware
 
-### Warning:
-
-::: warning
+::: danger
 You are about to make **unofficial** changes to your device! This will likely **void any warranty.** We provide **zero warranty** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **You are doing all changes at your own risk**!
 :::
-
--------------
 
 ## Prerequisites
 * Know your hardware 

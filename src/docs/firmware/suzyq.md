@@ -2,7 +2,6 @@
 prev: write-protect
 next: false
 ---
-
 # Disabling write protect with a SuzyQable
 
 ::: tip

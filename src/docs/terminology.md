@@ -2,10 +2,7 @@
 prev: false
 next: firmware/
 ---
-
 # Terminology
-
-<br>
 
 | **Term** | **Description** |  
 | - | - |

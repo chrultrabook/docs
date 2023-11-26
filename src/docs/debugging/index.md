@@ -3,9 +3,6 @@ next: false
 prev: false
 ---
 # Debugging
-This page has instructions on using multiple different utilities to debug issues and modify parts of your system.
-
-<br>
 
 ## Grabbing Logs
 

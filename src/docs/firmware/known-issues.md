@@ -2,7 +2,6 @@
 prev: system-info
 next: developer-mode
 ---
-
 # Known Issues
 
 ## Devices

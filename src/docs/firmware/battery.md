@@ -2,14 +2,11 @@
 prev: write-protect
 next: false
 ---
-
 # Disabling write protect via Battery
 
 ::: warning
 This method requires opening your device. Be sure to use the correct tools to prevent hardware damange.
 :::
-
-<br>
 
 ## Step 1: Open the device and disconnect the battery
 

@@ -2,7 +2,6 @@
 prev: making-recovery-usb
 next: false
 ---
-
 # Booting the Recovery USB
 
 ::: tip

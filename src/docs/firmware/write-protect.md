@@ -2,7 +2,6 @@
 prev: developer-mode
 next: about
 ---
-
 # Disabling write protect
 
 ::: tip

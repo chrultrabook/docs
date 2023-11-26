@@ -2,7 +2,6 @@
 prev: developer-mode.md
 next: false
 ---
-
 # Recovery Mode
 
 ::: tip

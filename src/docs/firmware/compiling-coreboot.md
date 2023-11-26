@@ -1,4 +1,3 @@
-
 # Compiling Custom Firmware
 
 ## Cloning & Building ROMs

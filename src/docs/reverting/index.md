@@ -2,10 +2,7 @@
 prev: false
 next: flashing-stock
 ---
-
 # Reverting to Stock chromeOS
-
-<br>
 
 ::: warning
 If your device has hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS.

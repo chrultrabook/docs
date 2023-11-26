@@ -2,10 +2,7 @@
 prev: supported-devices
 next: known-issues
 ---
-
 # Finding System Info
-
-<br>
 
 ::: tip
 Some of the following commands require [Developer mode](developer-mode).

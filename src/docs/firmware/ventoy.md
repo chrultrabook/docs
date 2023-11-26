@@ -1,8 +1,6 @@
 # Installing Ventoy to a USB drive with chromeOS
 Ventoy is a useful tool that allows you to have multiple OS installer images on a single drive. It is also the only way to properly create an installer for Windows using chromeOS.
 
-<br>
-
 ## Backing up your drive
 Before we begin, be sure to backup any data that may be on your USB drive as it will be erased during this process.
 
