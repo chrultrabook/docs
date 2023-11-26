@@ -10,10 +10,6 @@ Enabling [developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HE
 Doing this will wipe **all** user data! Make backups if needed before proceeding.
 :::
 
-::: danger
-Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
-:::
-
 ::: tip
 The battery must be plugged in while enabling developer mode.
 :::

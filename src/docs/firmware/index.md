@@ -8,6 +8,10 @@ next: supported-devices
 You are about to make **unofficial** changes to your device! This will likely **void any warranty.** We provide **zero warranty** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **You are doing all changes at your own risk**!
 :::
 
+::: danger
+Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, it is a crime.
+:::
+
 ## Prerequisites
 * Know your hardware 
   * Your CPU model and generation
