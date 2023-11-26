@@ -2,10 +2,7 @@
 prev: write-protect
 next: flashing-firmware
 ---
-
 # Types of Firmware
-
-## Firmware Types
 
 ### RW_LEGACY
 

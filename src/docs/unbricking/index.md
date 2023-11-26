@@ -2,12 +2,8 @@
 next: false
 prev: false
 ---
-
 # Unbricking
-
 If you've found your way here, it's likely because you updated your firmware and, despite best efforts to minimize the possibility, something went wrong. Thankfully, most Chromebooks can be easily unbricked using cheap, readily available hardware: older Chromebooks using a ch341a USB programmer from Amazon/eBay/Alibaba (and many other sources), and newer (2017+) Chromebooks using a USB-C debug cable (aka Suzy-Q cable).
-
-<br>
 
 ## Unbricking/Flashing with a ch341a USB programmer
 

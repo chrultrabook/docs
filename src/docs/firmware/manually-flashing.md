@@ -1,4 +1,3 @@
-
 # Manually flashing roms
 
 ::: danger

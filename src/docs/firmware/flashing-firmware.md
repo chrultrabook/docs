@@ -2,7 +2,6 @@
 prev: about
 next: ../installing/
 ---
-
 # Flashing Custom Firmware
 
 Refer to [this page](about) for an overview of both RW_LEGACY and UEFI.

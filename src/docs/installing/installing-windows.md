@@ -36,6 +36,18 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 
 ---
 
+## Installing `.cab` drivers
+Cab drivers are a little weird, but they're easy to install.
+
+1. Create a new folder.
+2. Open your cab driver using Windows Explorer. 7Zip will not work.
+3. Copy all the files to that empty folder.
+4. Enable the option to show file extensions.
+5. Right click on all the `.inf` files, and select install.
+6. Reboot.
+
+---
+
 ## Paid Drivers
 
 Please see [CoolStar's drier portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.

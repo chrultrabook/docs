@@ -2,7 +2,6 @@
 prev: index.md
 next: making-recovery-usb
 ---
-
 # Flashing Stock Firmware
 
 ::: warning

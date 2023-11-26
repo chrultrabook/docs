@@ -1,7 +1,5 @@
 # Linux distro-specific Configuration
 
-<br>
-
 ## NixOS
 
 - Enable and configure keyd (Example is cros-standard. Adjust as you need!)  

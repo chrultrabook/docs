@@ -1,6 +1,5 @@
 # Known Issues
 
-
 ## Operating Systems
 
 ### Windows

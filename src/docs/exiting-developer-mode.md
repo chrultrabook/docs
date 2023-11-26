@@ -1,4 +1,4 @@
-## Exiting Developer Mode
+# Exiting Developer Mode
 
 ::: danger
 Entering and exiting Developer mode will **wipe all** user data!

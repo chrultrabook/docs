@@ -2,7 +2,6 @@
 prev: flashing-stock
 next: booting-recovery-usb
 ---
-
 # Making a Recovery USB
 
 ::: danger

@@ -1,7 +1,5 @@
 # Installing macOS
 
-<br>
-
 Before we begin, it's important to know whether your Chromebook is even supported:
 - ARM/AMD CPUs are not supported.
 - Intel Celeron / Pentium CPUs are not supported.
