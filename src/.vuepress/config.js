@@ -45,9 +45,9 @@ export default {
         link: '/docs/terminology',
       },
       {
-        text: 'Flashing Custom Firmware',
+        text: 'Firmware',
         link: '/docs/firmware/',
-        collapsible: true,
+        collapsible: false,
         children: [
           {
             text: 'Supported Devices',
@@ -116,7 +116,7 @@ export default {
       {
         text: "Installing an OS",
         link: "/docs/installing/",
-        collapsible: true,
+        collapsible: false,
         children: [
           {
             text: 'Known Issues',
@@ -165,7 +165,7 @@ export default {
       {
         text: 'Debugging',
         link: '/docs/debugging/',
-        collapsible: true,
+        collapsible: false,
         children: [
           {
             text: 'Reporting Bugs',
@@ -180,7 +180,7 @@ export default {
       {
         text: 'Unbricking',
         link: '/docs/unbricking/',
-        collapsible: true,
+        collapsible: false,
         children: [
           {
             text: 'Unbricking with a flipper zero',
@@ -191,7 +191,7 @@ export default {
       {
         text: 'Reverting to stock chromeOS',
         link: '/docs/reverting/',
-        collapsible: true,
+        collapsible: false,
         children: [
           {
             text: 'Flashing Stock Firmware',
