@@ -18,7 +18,7 @@ Screws may be underneath "feet", or the material that keeps the Chromebook from 
 :::
 
 3. Gently pry the back off the Chromebook. If you do not have the proper tools a dull knife would be helpful.
-      - If you can't pry the back off, try prying off the keyboard. Be careful as there's a ribbon wire underneath that needs disconnecting first.
+      - On some Chromebooks, the keyboard needs to be removed instead of the back. Be careful as there's a ribbon wire underneath that needs disconnecting first.
 4. Unplug the battery connector. You do not need to take the entire battery out of the Chromebook.
 
 ## Step 2: Boot using AC power, and flash.
