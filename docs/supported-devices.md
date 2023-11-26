@@ -39,7 +39,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 If your device isn't listed, it doesn't have support.
 
 {: .highlight }
-If on on a smaller screen, scroll sideways to see whole table.
+If on a smaller screen, scroll sideways to see whole table.
 
 
 <table>
