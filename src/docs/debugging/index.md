@@ -12,7 +12,7 @@ This page has instructions on using multiple different utilities to debug issues
 * If you're experiencing firmware bugs, provide output from `cbmem` console.
 * If you're experiencing issues with Linux, provide output from `dmesg`, `dmidecode` and `journalctl` or `/var/log/messages`, respectively
 * If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
-* If you're experiencing issues with macOS, please ask for help in the [Chrultrabook Discord](https://discord.com/invite/ranFKmUeXc), in the #hackintosh channel. 
+* If you're experiencing issues with macOS, please ask for help using the [Chrultrabook Forums](https://forum.chrultrabook.com/). 
 
 ---
 

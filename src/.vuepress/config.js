@@ -30,8 +30,8 @@ export default {
         link: '/docs/firmware/',
       },
       {
-        text: 'Join the Discord',
-        link: 'https://discord.com/invite/ranFKmUeXc'
+        text: 'Join the Community',
+        link: 'https://forum.chrultrabook.com/'
       }
     ],
     sidebarDepth: 2,
