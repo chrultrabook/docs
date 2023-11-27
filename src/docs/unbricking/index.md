@@ -33,7 +33,7 @@ While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
-        - In some Chromebooks, you eill need to remove the keyboard, and as mentioned in [Disabling write protect via Battery](https://chrultrabook.github.io/docs/docs/firmware/battery.html), theres a ribbon wire thats needs to be CAREFULLY removed.
+        - In some Chromebooks, you eill need to remove the keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html), theres a ribbon wire thats needs to be CAREFULLY removed.
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
@@ -49,7 +49,7 @@ While this is somewhat device-specific, the main points are the same:
    Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
    :::
 
-Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover removal tends to be very similar.
+Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover (or keyboard) removal tends to be very similar.
 
 ### Prepping to Flash
 
