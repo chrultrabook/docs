@@ -11,3 +11,6 @@ node_modules
 src/docs/firmware/supported-devices.md
 src/.vuepress/public/supported-devices.js
 src/.vuepress/public/devices.json
+
+# old ignored stuff
+.jekyll-cache
