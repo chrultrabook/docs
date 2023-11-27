@@ -1,8 +1,13 @@
+---
+prev: index.md
+next: system-info
+---
+
 <!--
 NOTE - do not edit the supported-devices.md file, edit the template file in the supported-devices folder
 -->
 
-## Supported Devices and Platforms
+# Supported Devices and Platforms
 Supported devices are listed in the table below, grouped by platform/family. If your device is not listed, it is not supported. Support is determined entirely and exclusively by the boardname. Use your Chromebook's boardname to see if it has support. 
 
 ### Determining Device Support
@@ -24,27 +29,23 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 | Intel | AMD | ARM |
 | - | - | - |
-| Intel platforms have good support for both Linux and Windows. Some have support for macOS. | Stoneyridge support in Windows is questionable, and installing a custom kernel is required to get working audio in Linux. Ryzen has support for both Linux and Windows. MacOS is unsupported on all AMD platforms. | Currently unsupported by Windows. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
+| Intel platforms have good support for both Linux and Windows. Some have support for macOS. | Stoneyridge support in Windows is questionable, and installing a custom kernel is required to get working audio in Linux. Ryzen has support for both Linux and Windows. MacOS is unsupported on all AMD platforms. | Currently unsupported by the Chrultrabook dev team. [PostmarketOS](https://wiki.postmarketos.org/wiki/Chrome_OS_devices) has support for a few ARM Chromebooks. |
 
 ---------
 
 ### Firmware and OS Support
 
-{: .highlight }
+::: tip
 If your device isn't listed, it doesn't have support.
+:::
 
-{: .highlight }
+::: tip
 If on on a smaller screen, scroll sideways to see whole table.
+:::
 
+<AddScript script-url="../../supported-devices.js"/>
+<p>Search: <input type="text" class="deviceSearch"></p>
+
+<div class="deviceTable">
 ${{TABLE}}
-
-<table>
-  <tr>
-    <td class="navtable-l">
-      <a href="terminology.html">← Terminology</a>
-    </td>
-    <td class="navtable-r">
-      <a href="allaboutfirmware.html">All About Firmware →</a>
-    </td>
-  </tr>
-</table>
+</div>

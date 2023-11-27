@@ -36,11 +36,9 @@
 */
 
 
-function generateHTML() {
-    const chromebooks = require('./devices.json');
-    
+function generateHTML(chromebooks) {
     let html = `
-<table>
+<table style="font-size: 14px !important;">
     <tbody>`;
     let first = true;
     for (const generation in chromebooks) {
@@ -142,17 +140,18 @@ function generateHTML() {
     return html;
 }
 
+const path = require("path");
+
 console.log("Loading...");
 const fs = require("fs");
-let data = fs.readFileSync("template.md", "utf8");
-data = data.replace("${{TABLE}}", generateHTML());
+let data = fs.readFileSync(path.join(__dirname, "template.md"), "utf8");
+data = data.replace("${{TABLE}}", generateHTML(require('./devices.json')));
 
 //Putting this in the template file causes the template be be showed in the listing
-data = `---
-title: Supported Devices
-layout: default
-nav_order: 7
----
-`+data
-fs.writeFileSync("../docs/supported-devices.md", data);
-console.log("File written to ../docs/supported-devices.md");
+fs.writeFileSync(path.join(__dirname, "../src/docs/firmware/supported-devices.md"), data);
+
+//Dont question the function.toString.... Javascript is funny
+fs.writeFileSync(path.join(__dirname, "../src/.vuepress/public/supported-devices.js"), fs.readFileSync(path.join(__dirname, "search.js"), "utf-8").replace("{{script}}", generateHTML.toString()));
+fs.copyFileSync(path.join(__dirname, "devices.json"), path.join(__dirname, "../src/.vuepress/public/devices.json"));
+
+console.log("Done!");
