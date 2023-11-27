@@ -144,7 +144,7 @@ Even though flashrom does this as part of the write process, verifying the entir
 
 ### Clean Up
 
-Reassembly is the reverse of disassembly. Reconnect the internal battery and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
+Reassembly is the reverse of disassembly. Reconnect the internal battery and replace the bottom cover/keyboard. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 ---
 
@@ -168,6 +168,7 @@ As above, this is only needed if you failed to factory reset the CCD flags as pa
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
+        - In some Chromebooks, you eill need to remove the keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html), theres a ribbon wire thats needs to be CAREFULLY removed.
 * Disconnect the internal battery
 
 ### Prepping to Flash
@@ -245,7 +246,7 @@ Now that everything is prepped, time to flash the device.
 
 ### Clean Up
 
-Once flashing is complete, disconnect the Suzy-Q cable. If the internal battery was not disconnected, the device will likely reboot as soon as flashing has completed. If the internal battery was disconnected, reconnect it and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
+Once flashing is complete, disconnect the Suzy-Q cable. If the internal battery was not disconnected, the device will likely reboot as soon as flashing has completed. If the internal battery was disconnected, reconnect it and replace the bottom cover/keyboard. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 ---
 
