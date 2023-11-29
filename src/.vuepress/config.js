@@ -7,15 +7,17 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 import path from "path";
 
+const base = "/docs/";
+
 export default {
   title: 'Chrultrabook Docs',
   description: description,
-  base: "/docs/",
+  base,
   head: [
     ['meta', { name: 'theme-color', content: '#6a4aec' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { rel: 'icon', href: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64', type: 'image/vnd.microsoft.icon' }],
+    ['meta', { rel: 'icon', href: base + 'favicon.ico', sizes: '16x16 32x32 48x48 64x64', type: 'image/vnd.microsoft.icon' }],
   ],
   theme: defaultTheme({
     logo: '/favicon.ico',
