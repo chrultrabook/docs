@@ -33,6 +33,8 @@ This list is incomplete. Feel free to improve it.
 - Asus Chromebox 2 (CN62) (GUADO)
 - HP Chromebook x360 14c (DRAGONAIR)
 - Acer Chromebook Spin 713 (CP713-2W) (KLED)
+- Acer Chromebook 14 for Work (LARS)
+- Acer Chromebook 11 (C771/C771T) (LARS)
 
 **The following devices have dedicated guides written for them:**
 
