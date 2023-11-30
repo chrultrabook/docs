@@ -33,7 +33,7 @@ While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
-        - In some Chromebooks, you eill need to remove the keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html), theres a ribbon wire thats needs to be CAREFULLY removed.
+        - Some chromebooks open up via back and some via keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
@@ -168,7 +168,7 @@ As above, this is only needed if you failed to factory reset the CCD flags as pa
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
-        - In some Chromebooks, you eill need to remove the keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html), theres a ribbon wire thats needs to be CAREFULLY removed.
+        - Some chromebooks open up via back and some via keyboard, and as mentioned in [Disabling write protect via Battery](/firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery
 
 ### Prepping to Flash
