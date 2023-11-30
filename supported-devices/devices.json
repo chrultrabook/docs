@@ -440,7 +440,8 @@
                     "Acer Chromebook 14 for Work",
                     "Acer Chromebook 11 (C771/C771T)"
                 ],
-                "boardname": "LARS"
+                "boardname": "LARS",
+                "mac": "Tested, supported. No touchscreen support."
             },
             {
                 "device": [
