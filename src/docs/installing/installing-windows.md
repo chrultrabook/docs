@@ -50,7 +50,7 @@ Cab drivers are a little weird, but they're easy to install.
 
 ## Paid Drivers
 
-Please see [CoolStar's drier portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
+Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
 
 ---
 
