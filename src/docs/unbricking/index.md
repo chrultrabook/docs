@@ -33,6 +33,7 @@ While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
+        - Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](../firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
@@ -48,7 +49,7 @@ While this is somewhat device-specific, the main points are the same:
    Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
    :::
 
-Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover removal tends to be very similar.
+Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover (or keyboard) removal tends to be very similar.
 
 ### Prepping to Flash
 
@@ -143,7 +144,7 @@ Even though flashrom does this as part of the write process, verifying the entir
 
 ### Clean Up
 
-Reassembly is the reverse of disassembly. Reconnect the internal battery and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
+Reassembly is the reverse of disassembly. Reconnect the internal battery and replace the bottom cover/keyboard. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 ---
 
@@ -167,6 +168,7 @@ As above, this is only needed if you failed to factory reset the CCD flags as pa
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
+        - Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](../firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery
 
 ### Prepping to Flash
@@ -244,7 +246,7 @@ Now that everything is prepped, time to flash the device.
 
 ### Clean Up
 
-Once flashing is complete, disconnect the Suzy-Q cable. If the internal battery was not disconnected, the device will likely reboot as soon as flashing has completed. If the internal battery was disconnected, reconnect it and replace the bottom cover. Flip over the device, connect external power, press the power button, and cross your fingers :)
+Once flashing is complete, disconnect the Suzy-Q cable. If the internal battery was not disconnected, the device will likely reboot as soon as flashing has completed. If the internal battery was disconnected, reconnect it and replace the bottom cover/keyboard. Flip over the device, connect external power, press the power button, and cross your fingers :)
 
 ---
 
