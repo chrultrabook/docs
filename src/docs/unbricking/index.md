@@ -233,7 +233,7 @@ You don't need to do this if flashing a stock firmware backup created by the Fir
 
 Now the firmware image is ready to be flashed, and will maintain the device's unique serial, LAN MAC address, etc.
 
-### Flashing Your Device**
+### Flashing Your Device
 
 Now that everything is prepped, time to flash the device.
 
