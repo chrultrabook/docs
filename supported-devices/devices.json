@@ -609,7 +609,8 @@
                 "device": [
                     "Acer Chromebook Spin 13"
                 ],
-                "boardname": "AKALI360"
+                "boardname": "AKALI360",
+                "mac": "Tested, unsupported. EmeraldSDHC does not show eMMC drive. EmeraldSDHC + IRQ Conflict patch causes kernel panic"
             },
             {
                 "device": [
