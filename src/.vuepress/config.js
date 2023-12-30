@@ -7,7 +7,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 import path from "path";
 
-const base = "/";
+const base = "/docs/";
 
 export default {
   title: 'Chrultrabook Docs',
