@@ -189,6 +189,14 @@ export default {
         collapsible: false,
         children: [
           {
+            text: 'Unbricking with a ch341a USB programmer',
+            link: '/docs/unbricking/unbrick-ch341a',
+          },
+          {
+            text: 'Unbricking with a Suzy-Q cable',
+            link: '/docs/unbricking/unbrick-suzyq',
+          },
+          {
             text: 'Unbricking with a flipper zero',
             link: '/docs/unbricking/unbrick-flipper',
           }
