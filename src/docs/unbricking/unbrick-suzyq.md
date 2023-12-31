@@ -10,12 +10,12 @@
   :::
 
 * A USB-C debug cable ([aka Suzy-Q cable](https://www.sparkfun.com/products/retired/14746))
-* The device must have the CCD flags factory reset (as per instructions to disable firmware write protection), or the battery must be unplugged/disconnected from the mainboard.
+* The device must have the CCD flags factory reset (as per instructions to [Disable write protect with a SuzyQable](../firmware/suzyq)), or the battery must be unplugged/disconnected from the mainboard.
 * Another device running Linux, preferably a current Debian/Ubuntu-based distro
 
 ### Hardware Disassembly
 
-As above, this is only needed if you failed to factory reset the CCD flags as part of disabling the device's firmware write-protection. While this is somewhat device-specific, the main points are the same:
+As above, this is only needed if you failed to factory reset the CCD flags if you didnt follow the guide to [Disable write protect with a SuzyQable](../firmware/suzyq). While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
