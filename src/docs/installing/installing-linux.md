@@ -37,6 +37,8 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 
 ::: tip
 If you are using `RW_LEGACY` firmware, and after pressing `CTRL` + `L` you reach the `Additional Firmware Menu` white screen, you will need to press `2` to boot from a USB.
+
+See [this page] (firmware/flashing-firmware.md) for more information about RW_LEGACY booting.
 :::
 
 ---
