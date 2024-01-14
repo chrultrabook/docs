@@ -5,8 +5,7 @@ prev: false
 # Unbricking
 
 ::: tip
-    Try preforming a EC reset beforehand to see if your device can recover.
-
+Try preforming a EC reset beforehand to see if your device can recover.
 :::
 ---
 If your device's firmware got into a bad state (wont POST), you can try unbricking it.
