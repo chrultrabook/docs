@@ -37,3 +37,7 @@ It can take up to a minute for display to come up on first POST. **Do not interr
 **RW_Legacy**
 
 On the developer mode boot screen, press `CTRL` + `L`. If a selection appears, pick "Tianocore".
+
+If you are met with a white `Alternative Firmware Menu` screen (after pressing `CTRL` + `L`), enter `2` to boot from USB or `0` to boot from internal storage (where you installed your Linux OS).
+
+Further boot options can be accessed after you have entered a number, by pressing `ESC` as signified by the booting screen. If you wish to access these options before you've installed an OS, press `0` then `ESC`.

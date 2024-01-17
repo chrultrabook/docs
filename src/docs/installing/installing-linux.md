@@ -35,6 +35,12 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 3. Turn on the Chromebook, press `ESC` at the POST screen (when the coreboot logo appears), and select your USB to boot from. 
 4. Install as you would on any other computer.
 
+::: tip
+If you are using `RW_LEGACY` firmware, if after pressing `CTRL` + `L` you reach the `Additional Firmware Menu` white screen, you will need to press `2` to boot from a USB.
+
+See [this page](../firmware/flashing-firmware.md) for more information about RW_LEGACY booting.
+:::
+
 ---
 
 ## Fixing Audio
