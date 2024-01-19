@@ -2,7 +2,7 @@
 prev: known-issues
 next: write-protect
 ---
-# Enabling developer mode
+# Enabling Developer Mode
 
 Enabling [developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md) is the first step to running an alternate OS on your chromebook!
 
