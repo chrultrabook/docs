@@ -32,7 +32,7 @@ export default {
         link: '/docs/firmware/',
       },
       {
-        text: 'Join the Community',
+        text: 'Join the Community!',
         link: 'https://forum.chrultrabook.com/'
       }
     ],
@@ -75,7 +75,7 @@ export default {
             ]
           },
           {
-            text: 'Disabling write protect',
+            text: 'Disabling Write Protect',
             link: '/docs/firmware/write-protect',
             collapsible: true,
             children: [
@@ -84,13 +84,13 @@ export default {
                 link: '/docs/firmware/suzyq',
               },
               {
-                text: 'Unplugging the battery',
+                text: 'Unplugging the Battery',
                 link: '/docs/firmware/battery',
               }
             ]
           },
           {
-            text: 'Types of firmware',
+            text: 'Types of Firmware',
             link: '/docs/firmware/about'
           },
           {
@@ -110,7 +110,7 @@ export default {
             link: '/docs/firmware/manually-flashing',
           },
           {
-            text: 'Installing Ventoy with chromeOS',
+            text: 'Installing Ventoy With chromeOS',
             link: '/docs/firmware/ventoy'
           }
         ]
@@ -138,7 +138,7 @@ export default {
             collapsible: true,
             children: [
               {
-                text: 'Linux distro-specific Configuration',
+                text: 'Linux Distro Specific Configuration',
                 link: '/docs/installing/distros',
               }
             ]
@@ -153,7 +153,7 @@ export default {
                 link: '/docs/installing/macos-firmware',
               },
               {
-                text: 'Fixing hibernation',
+                text: 'Fixing Hibernation',
                 link: '/docs/installing/macos-hibernation',
               }
             ]
@@ -189,21 +189,21 @@ export default {
         collapsible: false,
         children: [
           {
-            text: 'Unbricking with a ch341a USB programmer',
+            text: 'Unbricking with a ch341a USB Programmer',
             link: '/docs/unbricking/unbrick-ch341a',
           },
           {
-            text: 'Unbricking with a Suzy-Q cable',
+            text: 'Unbricking with a Suzy-Q Cable',
             link: '/docs/unbricking/unbrick-suzyq',
           },
           {
-            text: 'Unbricking with a flipper zero',
+            text: 'Unbricking with a Flipper Zero',
             link: '/docs/unbricking/unbrick-flipper',
           }
         ]
       },
       {
-        text: 'Reverting to stock chromeOS',
+        text: 'Reverting to chromeOS',
         link: '/docs/reverting/',
         collapsible: false,
         children: [
