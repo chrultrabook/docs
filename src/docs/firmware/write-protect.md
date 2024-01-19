@@ -2,7 +2,7 @@
 prev: developer-mode
 next: about
 ---
-# Disabling write protect
+# Disabling Write Protect
 
 ::: tip
 You do not have to disable write protect if flashing [RW_Legacy](about.md#rw_legacy).
