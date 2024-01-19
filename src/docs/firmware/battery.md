@@ -2,7 +2,7 @@
 prev: write-protect
 next: false
 ---
-# Disabling write protect via Battery
+# Disabling Write Protect via Battery
 
 ::: warning
 This method requires opening your device. Be sure to use the correct tools to prevent hardware damage.
