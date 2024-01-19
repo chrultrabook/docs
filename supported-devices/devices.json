@@ -778,19 +778,19 @@
             },
             {
                 "device": [
-                    "HP Chromebook x360 12b"
+                    "HP Chromebook x360 12b-ca0"
                 ],
                 "boardname": "BLOOG"
             },
             {
                 "device": [
-                    "HP Chromebook 14a"
+                    "HP Chromebook 14a-na0"
                 ],
                 "boardname": "BLOOGLET"
             },
             {
                 "device": [
-                    "HP Chromebook x360 14a/14b"
+                    "HP Chromebook x360 14a-ca0/14b-ca0"
                 ],
                 "boardname": "BLOOGUARD"
             },
@@ -1050,7 +1050,7 @@
             },
             {
                 "device": [
-                    "HP Chromebook x360 14c"
+                    "HP Chromebook x360 14c-ca0"
                 ],
                 "boardname": "DRAGONAIR",
                 "linux": "Fingerprint reader doesn't work",
@@ -1097,7 +1097,7 @@
             {
                 "device": [
                     "HP Elite c1030 Chromebook",
-                    "HP Chromebook x360 13c"
+                    "HP Chromebook x360 13c-ca0"
                 ],
                 "boardname": "JINLON",
                 "linux": "Fingerprint reader doesn't work"
@@ -1194,13 +1194,14 @@
             },
             {
                 "device": [
-                    "HP Chromebook x360 14c"
+                    "HP Chromebook x360 14c-cc0"
                 ],
                 "boardname": "ELDRID"
             },
             {
                 "device": [
-                    "HP Pro c640 G2 Chromebook"
+                    "HP Pro c640 G2 Chromebook",
+                    "HP Chromebook 14b-nb0"
                 ],
                 "boardname": "ELEMI"
             },
@@ -1399,13 +1400,13 @@
             },
             {
                 "device": [
-                    "HP Chromebook 14a"
+                    "HP Chromebook 14a-na1"
                 ],
                 "boardname": "LANTIS"
             },
             {
                 "device": [
-                    "HP Chromebook x360 14b"
+                    "HP Chromebook x360 14b-cb0"
                 ],
                 "boardname": "MADOO"
             },
@@ -1755,13 +1756,14 @@
         "devices": [
             {
                 "device": [
-                    "HP Pro c645 Chromebook Enterprise"
+                    "HP Pro c645 Chromebook Enterprise",
+                    "HP Chromebook 14b-na0"
                 ],
                 "boardname": "BERKNIP"
             },
             {
                 "device": [
-                    "HP Chromebook 14a"
+                    "HP Chromebook 14a-nd0"
                 ],
                 "boardname": "DIRINBOZ"
             },
@@ -1773,10 +1775,16 @@
             },
             {
                 "device": [
-                    "HP Chromebook x360 14a"
+                    "HP Chromebook x360 14a-cb0"
                 ],
                 "boardname": "GUMBOZ"
             },
+            {
+            	"device": [
+            		"Asus Chromebook Flip CM1"
+            	],
+            	"boardname": "JELBOZ360"
+            }
             {
                 "device": [
                     "Lenovo ThinkPad C13 Yoga Chromebook"
@@ -1847,7 +1855,7 @@
             },
             {
                 "device": [
-                    "ASUS Chromebook CM34 Flip"
+                    "Asus Chromebook CM34 Flip"
                 ],
                 "boardname": "FROSTFLOW"
             },
