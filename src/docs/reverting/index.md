@@ -5,7 +5,7 @@ next: flashing-stock
 # Reverting to Stock chromeOS
 
 ::: warning
-If your device has hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS.
+If your device has hit AUE (Auto Update Expiration), you will not be able to revert to chromeOS using the mrchromebox script. You will need to [flash manually](../firmware/manually-flashing.md).
 :::
 
 ## Requirements
