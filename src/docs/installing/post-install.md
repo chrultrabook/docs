@@ -68,3 +68,8 @@ If you experience issues in applications such as Parsec, or encounter disruptive
 * [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
 * [OpenCore GUI Setup](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
 * Disable `DevirtualiseMmio` if you're on CometLake (10th gen)
+
+
+
+## Networking
+If you are hosting your own DNS server, make sure to open DNS ports. Your DNS server won't work if the ports are closed. 
