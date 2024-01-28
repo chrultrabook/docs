@@ -56,10 +56,10 @@ Please read this page before asking a question in the Discord. Your help request
 * Follow the instructions [here](https://github.com/WeirdTreeThing/cros-keyboard-map).
 
 #### I just want to boot Linux from USB on my Chromebook, what do I need to do?
-* Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, flash RWL and use that.
+* Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, flash RWL (RW_LEGACY firmware) and use that.
 
 #### I just installed the UEFI firmware, and now my device boots to a black screen that says 'shell' - what do I do?
-* You're in the EFI shell; the firmware boots there when it can't find a valid UEFI boot device, either externally (USB, SD) or internally. Just type 'exit' to get back to the the UEFI settings menu.
+* You're in the EFI shell; the firmware boots there when it can't find a valid UEFI boot device, either externally (USB, SD) or internally. Just type `exit` to get back to the the UEFI settings menu.
 
 #### Should I install 32 or 64-bit OS?
 * The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
