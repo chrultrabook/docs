@@ -77,6 +77,10 @@ Please read this page before asking a question in the Discord. Your help request
 #### I'm running Legacy boot firmware now - can I switch to the UEFI firmware?
 * You can, but your existing OS install won't boot. You'll need to either reinstall the OS (often the easiest course of action), or you can attempt to migrate your existing install, but this isn't ideal and should be considered unsupported.
 
+#### Help! I can't exit Developer Mode
+* If you're trying to exit Developer Mode but get the error `WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON` or find the `Return to secure mode` button missing, you need to reset your GBB flags. You can do that by running [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) and selecting `3) Set Boot Options (GBB flags)`, followed by `5) Reset to factory default`. 
+  * Then exit developer mode by running `sudo crossystem disable_dev_request=1; reboot`
+
 #### Can I modify the fan speed?
 * Yes, using ectool. On windows this is installed along with the [`crosec` driver](https://github.com/coolstar/driverinstallers/raw/master/crosec/crosec.2.0.2-installer.exe) (will be located at `C:\Program Files\crosec\ectool.exe`), on linux you can grab it from [here](https://tree123.org/files/utils/ectool). To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`.
 
