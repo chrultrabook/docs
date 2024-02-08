@@ -75,7 +75,7 @@ You don't need to do this if flashing a stock firmware backup created by the Fir
 1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary, so let's download/extract that:
     * `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`
     * Option 1: Extract VPD from the firmware on device
-        * `sudo flashrom -p ch341a_spi -r badflash.rom`
+        * `sudo flashrom -p raiden_debug_spi:target=AP -r badflash.rom`
         * `./cbfstool badflash.rom read -r RO_VPD -f vpd.bin`
     * Option 2: Extract VPD from stock firmware backup created by Firmware Utility Script (this assumes the file has been copied into working directory)
         * `./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin`
