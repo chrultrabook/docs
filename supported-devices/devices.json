@@ -1030,8 +1030,8 @@
                 "device": [
                     "Dell Latitude 5400 Chromebook Enterprise"
                 ],
-                "boardname": "SARIEN"
-                "linux": "Sim card slot not tested. Everything else (including webcam, mic, speakers, keyboard backlight, brightness control) works with the RW_Legacy firmware."
+                "boardname": "SARIEN",
+                "linux": "Sim card slot was not tested. Everything else (including webcam, mic, speakers, keyboard backlight, brightness control) works with the RW_Legacy firmware. This model has an uncommon keyboard configuration. Use [this](https://github.com/eupnea-project/eupnea-utils/blob/main/configs/keyboard-layouts/cros-sarien.conf) configuration file with [`keyd`](https://github.com/rvaiya/keyd) to enable the brightness, audio, and keyboard-backlight-brightness function keys."
             }
         ]
     },
