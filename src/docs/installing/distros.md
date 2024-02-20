@@ -2,6 +2,14 @@
 
 ## NixOS
 
+::: tip 
+Note that the configurations are applied to `configuration.nix` located in `/etc/nixos`.
+:::
+
+::: tip 
+Running the command `sudo nixos-rebuild switch` will rebuild your installation and apply the changes made.
+:::
+
 - Enable and configure keyd (Example is cros-standard. Adjust as you need!)  
 ```nix
 # configuration.nix
