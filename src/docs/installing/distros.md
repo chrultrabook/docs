@@ -97,7 +97,7 @@ If your generation isn't listed above, you can skip this section
       wttsrc = (fetchFromGitHub {
         owner = "WeirdTreeThing";
         repo = "chromebook-ucm-conf";
-        rev = "484f5c581ac45c4ee6cfaf62bdecedfa44353424";
+        rev = "6d8835f89c7c7e5fac7b6aaea0e36a6b1d1e4be5";
         hash = "sha256-Jal+VfxrPSAPg9ZR+e3QCy4jgSWT4sSShxICKTGJvAI=";
       });
       installPhase = ''
