@@ -42,7 +42,7 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 * AVS and SOF users experience instability at times
 
    ::: warning
-   Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
+   Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
    :::
 
 <br>

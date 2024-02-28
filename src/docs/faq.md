@@ -14,7 +14,7 @@ Please read this page before asking a question in the Discord. Your help request
 * No. Only the Linux drivers are free.
   
 #### How come audio isn't working on Ubuntu / Ubuntu forks?
-* Ubuntu distros that are not based on 23.10 or higher may have some issues, try swtiching to a non lts version.
+* Ubuntu and Ubuntu-based distros may have issues, try swtiching to another distro.
 
 #### What Linux distros are recommended?
 * See [this page](installing/installing-linux.md).
@@ -66,7 +66,7 @@ Please read this page before asking a question in the Discord. Your help request
 
 #### I'm using your UEFI firmware, installed my OS [Linux], and it still boots to the EFI shell - what do I do?
 * Sounds like your Linux distro doesn't install the EFI bootloader in the default location - no worries, it's an easy fix:
-  * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from `/EFI/[distro name]/grubx64.efi` (where [distro name] will be ubuntu, arch, debian, etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
+  * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from `/EFI/[distro name]/grubx64.efi` (where [distro name] will be fedora, arch, debian, etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
 
    * `sudo su`
    * `mkdir -p /boot/efi/EFI/BOOT`

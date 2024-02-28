@@ -12,7 +12,7 @@ Only Linux kernel 6.4 or newer is supported.
 ## Recommended Distributions
 
 ::: warning
-Ubuntu and Ubuntu-based distributions that are not based on 23.10 or higher **may have issues**.
+Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
 :::
 
 ::: warning
@@ -21,8 +21,8 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 
 **Recommended distros as of October 2023 (in no particular order) are:**
 
-* Arch Linux and EndeavourOS
-* Fedora
+* Arch Linux or EndeavourOS
+* Fedora or Ultramarine Linux
 * openSUSE Tumbleweed
 * Debian 12 (Bookworm)
 

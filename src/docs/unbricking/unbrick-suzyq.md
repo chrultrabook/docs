@@ -24,10 +24,10 @@ As above, this is only needed if you failed to factory reset the CCD flags if yo
 
 ### Prepping to Flash
 
-Most any 64-bit Debian/Ubuntu based distro should work here, but this guide will use a Ubuntu 23.04 live session booted from USB (since its version of flashrom supports Suzy-Q flashing).
+Most any 64-bit Debian/Ubuntu based distro should work here, but this guide will use a Ubuntu live session booted from USB (since its version of flashrom supports Suzy-Q flashing).
 
 Let's get to it:
-1. Boot your Linux environment (Ubuntu 23.04 live USB or later recommended)
+1. Boot your Linux environment (Ubuntu live USB or later recommended)
 2. Connect to the internet
 3. Open a (non-root) terminal/shell window, change to home directory
   * `cd;`
