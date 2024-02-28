@@ -13,9 +13,9 @@ prev: false
 Most Skylake and older models (with a few exceptions) use a SOIC-8 flash chip which is easily clippable. Most if not all Kabylake/Apollolake and newer devices use a WSON-8 flash chip which can't be clipped, instead you need a WSON-8 probe. Check the part number of your flash chip to find the correct size needed.
 :::
 
-2. A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu 23.04 live USB.
-3. A ch341a USB flash programmer
-4. A 1.8v adapter
+1. A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu live USB.
+2. A ch341a USB flash programmer
+3. A 1.8v adapter
 
   ::: tip
   The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
@@ -51,11 +51,11 @@ Googling should locate a disassembly guide for most models. If you can't find on
 
 ### Prepping to Flash
 
-Once you have your device disassembled and flash chip located, boot up the flashing environment. Most any Linux setup should do as long as either flashrom is available from the distro's software repositories, or it's 64-bit x86 (in which case you can download a statically compiled build of flashrom from mrchromebox.tech). This guide will use a Ubuntu 23.04 live session booted from USB.
+Once you have your device disassembled and flash chip located, boot up the flashing environment. Most any Linux setup should do as long as either flashrom is available from the distro's software repositories, or it's 64-bit x86 (in which case you can download a statically compiled build of flashrom from mrchromebox.tech). This guide will use a Ubuntu live session booted from USB.
 
 So let's get to it:
 
-1. Boot your Linux environment (Ubuntu 23.04 live USB or later recommended)
+1. Boot your Linux environment (Ubuntu live USB or later recommended)
 2. Connect to WiFi/internet
 3.  Open a (non-root) terminal/shell window, change to home directory
     * `cd;`
