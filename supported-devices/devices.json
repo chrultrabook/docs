@@ -404,7 +404,7 @@
     },
     "Skylake": {
         "default_wpmethod": "screw",
-        "default_rwLegacy": true,
+        "default_rwLegacy": null,
         "default_fullrom": true,
         "default_windows": "Audio driver is paid.",
         "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
