@@ -63,15 +63,15 @@ So let's get to it:
     * `sudo apt update`
     * `sudo apt install flashrom`
 5. Assemble ch341a programmer, 1.8v adapter (if needed), and chip clip/wiring. Ensure that pin 1 is correct and consistent.  
-    <img src="500px-Ch341a_annotated.png" width="500" height="205">
+    ![image](/ch341aunbrick/500px-Ch341a_annotated.png)
 6. Connect the chip clip to the SPI flash chip, or get ready to hold down your WSON-8 probe, rubber bands can be used to hold it down while flashing, then connect the CH341a to the Linux host machine. Note the dot/depression indicating pin 1.  
-    <img src="500px-SOIC-8_chip.jpg" width="500" height="444">
+    ![image](/ch341aunbrick/500px-SOIC-8_chip.jpg)
 7. Test connectivity and ensure the flash chip is properly identified:
     * `sudo flashrom -p ch341a_spi`
 
 Flashrom will produce output identifying the flash chip. If it doesn't, double check your connections to the programmer and the chip clip and retry.
 
-  <img src="500px-Flashrom_chip_detect.png" width="500" height="271">
+  ![image](/ch341aunbrick/500px-Flashrom_chip_detect.png)
 
 8. Determine file to be flashed
     * Depending on your desired use for the device, you have 3 options for flashing:
