@@ -1568,6 +1568,12 @@
             },
             {
                 "device": [
+                    "Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)",
+                ],
+                "boardname": "OMINGUL"
+            },
+            {
+                "device": [
                     "Acer Chromebook 516 GE (CBG516-1H)"
                 ],
                 "boardname": "OSIRIS"
