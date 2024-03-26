@@ -1557,7 +1557,8 @@
                 "device": [
                     "Acer Chromebook Spin 714 (CP714-1WN)"
                 ],
-                "boardname": "KANO"
+                "boardname": "KANO",
+                "windows": "Audio and Thunderbolt drivers are paid. No webcam support."
             },
             {
                 "device": [
@@ -1568,7 +1569,7 @@
             },
             {
                 "device": [
-                    "Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)",
+                    "Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)"
                 ],
                 "boardname": "OMINGUL"
             },
@@ -1589,6 +1590,7 @@
                     "HP Elite Dragonfly Chromebook"
                 ],
                 "boardname": "REDRIX",
+                "windows": "Audio and Thunderbolt drivers are paid. No webcam support.",
                 "linux": "Touchpad needs fix, no camera, see <a href=\"https://github.com/chrultrabook/docs/issues/72\">#72</a>"
             },
             {
