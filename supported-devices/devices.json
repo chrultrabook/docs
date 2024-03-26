@@ -1562,6 +1562,12 @@
             },
             {
                 "device": [
+                    "ASUS Chromebook Plus CX34"
+                ],
+                "boardname": "MARASOV"
+            },
+            {
+                "device": [
                     "Asus Chromebook CX34 Flip",
                     "Asus Chromebook Vibe CX34 Flip"
                 ],
