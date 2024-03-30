@@ -8,7 +8,21 @@
 services.keyd = {
     enable = true;
     keyboards.internal = {
-      ids = [ "0001:0001" ];
+      ids = [
+        "k:0001:0001"
+        "k:18d1:5044"
+        "k:18d1:5052"
+        "k:0000:0000"
+        "k:18d1:5050"
+        "k:18d1:504c"
+        "k:18d1:503c"
+        "k:18d1:5030"
+        "k:18d1:503d"
+        "k:18d1:505b"
+        "k:18d1:5057"
+        "k:18d1:502b"
+        "k:18d1:5061"
+      ];
       settings = {
         main = {
           f1 = "back";
