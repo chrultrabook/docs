@@ -88,69 +88,130 @@ services.keyd = {
 **Change the `GENERATION` to your board generation!**  
 Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | `avs` | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
 
-If your generation isn't listed above, you can skip this section
-```nix
-# configuration.nix
-  nixpkgs.overlays = with pkgs; [ (final: prev:
-    {
-      alsa-ucm-conf = prev.alsa-ucm-conf.overrideAttrs (old: {
-      wttsrc = (fetchFromGitHub {
-        owner = "WeirdTreeThing";
-        repo = "chromebook-ucm-conf";
-        rev = "2b2f3a7c993fd38a24aa81394e29ee530b890658";
-        hash = "sha256-5Eb+7dsU7+uhDCFuhUlx6EHgb/MRj6RfyQk7t1ZtAgw=";
-      });
-      installPhase = ''
-        runHook preInstall
+If your generation isn't listed above, you can skip this section.
 
-        mkdir -p $out/share/alsa
-        cp -r ucm ucm2 $out/share/alsa
-
-        mkdir -p $out/share/alsa/ucm2/conf.d
-        cp -r $wttsrc/{hdmi,dmic}-common $wttsrc/GENERATION/* $out/share/alsa/ucm2/conf.d
-
-        runHook postInstall
-        '';
-      });
-    })
-  ];
+- For audio configuration, we will create `audio.nix`.
+```bash
+sudo touch /etc/nixos/audio.nix
 ```
 
-- Install and export the ucm config as a session variable
+- Then at the top of `configuration.nix` we import `audio.nix`. 
 ```nix
 # configuration.nix
-environment = {
-  systemPackages = with pkgs; [\
-    alsa-ucm-conf
-  ];
-  sessionVariables = {
-    ALSA_CONFIG_UCM2 = "${pkgs.alsa-ucm-conf}/share/alsa/ucm2";
+# Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
+
+{ config, pkgs, ... }:
+
+{
+  imports =
+    [
+      # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+      ./audio.nix
+    ];
+
+    # the rest of your configuration...
+}
+
+```
+
+- Build the package in `audio.nix`
+```nix
+# audio.nix
+{ config, pkgs, lib, ... }:
+
+
+let
+  cb-ucm-conf = pkgs.alsa-ucm-conf.overrideAttrs {
+    wttsrc = pkgs.fetchurl {
+      url =
+        "https://github.com/WeirdTreeThing/chromebook-ucm-conf/archive/1328e46bfca6db2c609df9c68d37bb418e6fe279.tar.gz";
+      hash = "sha256-eTP++vdS7cKtc8Mq4qCzzKtTRM/gsLme4PLkN0ZWveo=";
+    };
+    unpackPhase = ''
+      runHook preUnpack
+      tar xf "$src"
+      tar xf "$wttsrc"
+      runHook postUnpack
+    '';
+    installPhase = ''
+      runHook preInstall
+      mkdir -p $out/share/alsa
+      cp -r alsa-ucm*/{ucm,ucm2} $out/share/alsa
+      cp -r chromebook-ucm*/common $out/share/alsa/ucm2
+      cp -r chromebook-ucm*/GENERATION/* $out/share/alsa/ucm2/conf.d
+      runHook postInstall
+    '';
   };
-};
+in
+{
+  # audio modprobes go here
+
+  environment = {
+    systemPackages = with pkgs; [
+      maliit-keyboard # optional
+      sof-firmware
+    ];
+    sessionVariables.ALSA_CONFIG_UCM2 = "${cb-ucm-conf}/share/alsa/ucm2";
+  };
+
+  system = {
+    replaceRuntimeDependencies = [
+      ({
+        original = pkgs.alsa-ucm-conf;
+        replacement = cb-ucm-conf;
+      })
+    ];
+  };
+}
 ```
 
 - Audio setup modprobes 
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
 ```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=3
-'';
+# audio.nix
+in
+{
+  boot = {
+    extraModprobeConfig = ''
+      options snd-intel-dspcfg dsp_driver=3
+    '';
+  };
+
+  # additonal configuration...
+}
+
 ```
 
   - SOF modprobe config for Braswell and Baytrail
 ```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=3
-  options snd-sof sof_debug=1
-'';
+# audio.nix
+in
+{
+  boot = {
+    extraModprobeConfig = ''
+      options snd-intel-dspcfg dsp_driver=3
+      options snd-sof sof_debug=1
+    '';
+  };
+
+  # additonal configuration...
+}
 ```
 
   - AVS modprobe config for Skylake, Kabylake, and Apollolake
 ```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=4
-'';
+# audio.nix
+in
+{
+  boot = {
+    extraModprobeConfig = ''
+      options snd-intel-dspcfg dsp_driver=4
+    '';
+  };
+
+  # additonal configuration...
+}
 ```
