@@ -323,6 +323,7 @@
                 "device": [
                     "Acer Chromebook R11 (C738T, CB5-132T)"
                 ],
+                "windows": "No microphone support",
                 "boardname": "CYAN",
                 "wpMethod": "screw"
             },
