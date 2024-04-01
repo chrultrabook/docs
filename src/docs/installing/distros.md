@@ -85,10 +85,6 @@ services.keyd = {
 ```
 
 - Audio setup (Does the same as the audio script)  
-**Change the `GENERATION` to your board generation!**  
-Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | `avs` | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
-
-If your generation isn't listed above, you can skip this section.
 
 - For audio configuration, we will create `audio.nix`.
 ```bash
@@ -123,14 +119,16 @@ sudo touch /etc/nixos/audio.nix
 { config, pkgs, lib, ... }:
 
 let
-  cb-ucm-conf = pkgs.alsa-ucm-conf.overrideAttrs {
-    wttsrc = pkgs.fetchurl {
-      url = "https://github.com/WeirdTreeThing/alsa-ucm-conf-cros/archive/refs/tags/0.4.tar.gz";
-      hash = "sha256-3D+wUj8O2y+OEcdvoXzmU1IxSoc44qoV5+I5AO1tl2o=";
+  cb-ucm-conf = with pkgs; alsa-ucm-conf.overrideAttrs {
+    wttsrc = fetchFromGitHub {
+      owner = "WeirdTreeThing";
+      repo = "alsa-ucm-conf-cros";
+      rev = "6b395ae73ac63407d8a9892fe1290f191eb0315b";
+      hash = "sha256-GHrK85DmiYF6FhEJlYJWy6aP9wtHFKkTohqt114TluI=";
     };
     unpackPhase = ''
       runHook preUnpack
-        tar xf "$wttsrc"
+      tar xf "$src"
       runHook postUnpack
     '';
 
@@ -162,9 +160,10 @@ in
     ];
   };
 }
+
 ```
 
-- Audio setup modprobes 
+- Audio setup modprobes
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
 ```nix
 # audio.nix
