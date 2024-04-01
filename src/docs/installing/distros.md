@@ -122,31 +122,28 @@ sudo touch /etc/nixos/audio.nix
 # audio.nix
 { config, pkgs, lib, ... }:
 
-
 let
   cb-ucm-conf = pkgs.alsa-ucm-conf.overrideAttrs {
     wttsrc = pkgs.fetchurl {
-      url = "https://github.com/WeirdTreeThing/chromebook-ucm-conf/archive/1328e46bfca6db2c609df9c68d37bb418e6fe279.tar.gz";
-      hash = "sha256-eTP++vdS7cKtc8Mq4qCzzKtTRM/gsLme4PLkN0ZWveo=";
+      url = "https://github.com/WeirdTreeThing/alsa-ucm-conf-cros/archive/refs/tags/0.4.tar.gz";
+      hash = "sha256-3D+wUj8O2y+OEcdvoXzmU1IxSoc44qoV5+I5AO1tl2o=";
     };
     unpackPhase = ''
       runHook preUnpack
-      tar xf "$src"
-      tar xf "$wttsrc"
+        tar xf "$wttsrc"
       runHook postUnpack
     '';
+
     installPhase = ''
       runHook preInstall
       mkdir -p $out/share/alsa
-      cp -r alsa-ucm*/{ucm,ucm2} $out/share/alsa
-      cp -r chromebook-ucm*/common $out/share/alsa/ucm2
-      cp -r chromebook-ucm*/GENERATION/* $out/share/alsa/ucm2/conf.d
+      cp -r alsa-ucm*/ucm2 $out/share/alsa
       runHook postInstall
     '';
   };
 in
 {
-  # audio modprobes go here
+  # add your audio setup modprobes here
 
   environment = {
     systemPackages = with pkgs; [
