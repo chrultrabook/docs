@@ -138,7 +138,7 @@ let
       cp -r alsa-ucm*/ucm2 $out/share/alsa
       runHook postInstall
     '';
-  };
+  }; 
 in
 {
   # add your audio setup modprobes here
@@ -149,6 +149,23 @@ in
       sof-firmware
     ];
     sessionVariables.ALSA_CONFIG_UCM2 = "${cb-ucm-conf}/share/alsa/ucm2";
+    # for 23.11 and unstable
+    etc = {
+      "wireplumber/main.lua.d/51-increase-headroom.lua".text = ''
+         rule = {
+           matches = {
+             {
+               { "node.name", "matches", "alsa_output.*" },
+             },
+           },
+           apply_properties = {
+             ["api.alsa.headroom"] = 4096,
+           },
+         }
+
+         table.insert(alsa_monitor.rules,rule)
+      '';
+    };
   };
 
   system = {
