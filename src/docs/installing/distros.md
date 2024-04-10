@@ -180,6 +180,62 @@ in
 
 ```
 
+- However, if you're on NixOS 24.05, remove this set of lines in `audio.nix`
+```nix
+# audio.nix
+
+    # additonal configuration...
+
+    # for 23.11 and unstable
+    etc = {
+      "wireplumber/main.lua.d/51-increase-headroom.lua".text = ''
+         rule = {
+           matches = {
+             {
+               { "node.name", "matches", "alsa_output.*" },
+             },
+           },
+           apply_properties = {
+             ["api.alsa.headroom"] = 4096,
+           },
+         }
+
+         table.insert(alsa_monitor.rules,rule)
+      '';
+    };
+
+    # additonal configuration...
+```
+
+- And from here replace it with this at the bottom of the `let...in` expression
+```nix
+# audio.nix
+in 
+{
+  # additonal configuration...
+
+  # for 24.05
+  services.pipewire.wireplumber.configPackages = [
+    (pkgs.writeTextDir "share/wireplumber/main.lua.d/51-increase-headroom.lua" ''
+      rule = {
+        matches = {
+          {
+            { "node.name", "matches", "alsa_output.*" },
+          },
+        },
+        apply_properties = {
+          ["api.alsa.headroom"] = 4096,
+        },
+      }
+
+      table.insert(alsa_monitor.rules,rule)
+    '')
+  ];
+
+  # additonal configuration...
+}
+```
+
 - Audio setup modprobes
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
 ```nix
