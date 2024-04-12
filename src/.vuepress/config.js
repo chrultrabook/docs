@@ -30,7 +30,6 @@ export default {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { rel: 'icon', href: base + 'favicon.ico', sizes: '16x16 32x32 48x48 64x64', type: 'image/vnd.microsoft.icon' }],
-    ['link', { rel: 'preload', fetchpriority: 'high', as: 'image', href: base + 'chrome.svg', type: 'image/svg+xml' }]
   ],
   theme: defaultTheme({
     logo: '/favicon.ico',
