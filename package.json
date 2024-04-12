@@ -8,7 +8,7 @@
   "repository": "https://github.com/chrultrabook/docs/",
   "scripts": {
     "dev": "npm run device-table && vuepress dev src",
-    "dev-opti": "npm run device-table && vuepress dev src",
+    "dev-prod": "npm run device-table && NODE_ENV=production vuepress dev src",
     "build": "npm run device-table && vuepress build src",
     "device-table": "node supported-devices/index.js"
   },
