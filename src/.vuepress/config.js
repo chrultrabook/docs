@@ -1,4 +1,4 @@
-import { viteBundler } from '@vuepress/bundler-vite'
+import { webpackBundler } from '@vuepress/bundler-webpack'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
@@ -11,10 +11,7 @@ import path from "path"
 const base = "/";
 
 export default {
-  bundler: viteBundler({
-    viteOptions: {},
-    vuePluginOptions: {},
-  }),
+  bundler: webpackBundler(),
   title: 'Chrultrabook Docs',
   description: description,
   base,
