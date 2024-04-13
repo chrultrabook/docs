@@ -1860,7 +1860,7 @@
         "default_fullrom": true,
         "default_windows": "Audio driver is paid.",
         "default_mac": "No MacOS support.",
-        "default_linux": "Headphones are not working on the mainline kernel.",
+        "default_linux": "A recent kernel (6.8+) is needed for headphones to work.",
         "devices": [
             {
                 "device": [
