@@ -1,15 +1,27 @@
-import { description } from '../../package.json'
-import { defaultTheme } from '@vuepress/theme-default'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
-import { searchPlugin } from '@vuepress/plugin-search'
+import { webpackBundler } from '@vuepress/bundler-webpack'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default'
+import { description } from '../../package.json'
 
-import path from "path";
+import path from "path"
 
 const base = "/";
 
 export default {
+  bundler: webpackBundler({
+    configureWebpack: (config) => {
+      config.devtool = 'source-map';
+      config.optimization = {
+        usedExports: true,
+        minimize: true
+      }
+      config.performance = {
+        maxAssetSize: 400000,
+        maxEntrypointSize: 400000
+      }
+    },
+  }),
   title: 'Chrultrabook Docs',
   description: description,
   base,
@@ -224,14 +236,12 @@ export default {
     ]
   }),
   plugins: [
-    backToTopPlugin(),
-    mediumZoomPlugin(),
     searchPlugin({
       maxSuggestions: 12,
       isSearchable: (page) => page.path !== '/',
       getExtraFields: (page) => {
         const tags = page.frontmatter.tags ?? [];
-        const title = page.title ?? ''; 
+        const title = page.title ?? '';
         return [...tags, title];
       },
       hotKeys: ['s', '/', { key: 'f', ctrl: true }],
