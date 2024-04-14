@@ -27,8 +27,6 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 
 ¹Some devices such as CELES need workarounds. Refer to the [known issues page](known-issues.html) to check whether you need patches.
 
----
-
 ## Linux
 
 ### Pros:
@@ -48,8 +46,6 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 <br>
 
 ### [Installing Linux →](installing-linux.md)
-
----
 
 ## macOS
 

@@ -14,7 +14,7 @@ Please read this page before asking a question in the Discord. Your help request
 * No. Only the Linux drivers are free.
   
 #### How come audio isn't working on Ubuntu / Ubuntu forks?
-* Ubuntu and Ubuntu-based distros may have issues, try swtiching to another distro.
+* Ubuntu and Ubuntu-based distros may have issues, try switching to another distro.
 
 #### What Linux distros are recommended?
 * See [this page](installing/installing-linux.md).
@@ -82,7 +82,7 @@ Please read this page before asking a question in the Discord. Your help request
   * Then exit developer mode by running `sudo crossystem disable_dev_request=1; reboot`
 
 #### Can I modify the fan speed?
-* Yes, using ectool. On windows this is installed along with the [`crosec` driver](https://github.com/coolstar/driverinstallers/raw/master/crosec/crosec.2.0.2-installer.exe) (will be located at `C:\Program Files\crosec\ectool.exe`), on linux you can grab it from [here](https://tree123.org/files/utils/ectool). To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`.
+* Yes, using ectool. To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`.
 
 #### Can I overclock the fan?
 * No.

@@ -34,8 +34,6 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 4. Install drivers:
     - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
 
----
-
 ## Installing `.cab` drivers
 Cab drivers are a little weird, but they're easy to install.
 
@@ -46,13 +44,9 @@ Cab drivers are a little weird, but they're easy to install.
 5. Right click on all the `.inf` files, and select install.
 6. Reboot.
 
----
-
 ## Paid Drivers
 
 Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
-
----
 
 ### What drivers do I need to buy?
    

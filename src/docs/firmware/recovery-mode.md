@@ -4,21 +4,21 @@ next: false
 ---
 # Recovery Mode
 
-::: tip
-Images sourced from [Google Support](https://support.google.com/chrome/a/answer/1360642?sjid=16957732159917599441-NC#chromebox&zippy=%2Cwipe-a-chromebox) and [Asus Support](https://www.asus.com/support/FAQ/1039185/).
-:::
+Recovery mode is used to restore the OS and RW regions of the firmware. It gets triggered when an issue with the device is detected, or you manually start it.
 
 ::: tip
 Your data is unaffected in recovery mode unless you use a recovery image or enter [developer mode](entering-developer-mode.html).
+:::
+
+::: tip NOTE
+Images sourced from [Google Support](https://support.google.com/chrome/a/answer/1360642?sjid=16957732159917599441-NC#chromebox&zippy=%2Cwipe-a-chromebox) and [Asus Support](https://www.asus.com/support/FAQ/1039185/).
 :::
 
 ::: danger
 Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
 ::: 
 
-Recovery mode is used to restore the OS and RW regions of the firmware. It gets triggered when an issue with the device is detected, or you manually start it.
-### Entering Recovery Mode
-<br>
+## Entering Recovery Mode
 
 #### Chromebooks
 
