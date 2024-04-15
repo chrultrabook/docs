@@ -20,7 +20,6 @@ You should avoid buying any devices in this list.
 * **All ARM Chromebooks**: No support, though development is slowly starting.
 * GeminiLake: Legacy boot mode/alternative firmware menu works but does not show payload list
 * AMD Stoneyridge: Some Stoney Ridge devices may not currently have functional Legacy Boot Mode due to bugs in Google's firmware.
-* AMD Picasso: Booting from eMMC is not currently supported (edk2 limitation), only from NVMe and USB/SD.
 * AMD Cezanne: legacy boot mode/alternative firmware menu works, edk2 boots, but screen backlight is off. Will be fixed in next Google fw update (fingers crossed).
 
 ::: tip
