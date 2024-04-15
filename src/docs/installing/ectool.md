@@ -4,7 +4,7 @@
 
 ## Installing Ectool
 
-You can download `ectool` for Linux from [here](https://tree123.org/files/utils/ectool). For Windows users, `ectool` is installed when you install CoolStar's Chrome EC driver and is located in `C:\Program Files\crosec\ectool.exe`.
+If you use Fedora or Ultramarine Linux, you can install the `chromium-ectool` package from the [Terra repository](https://terra.fyralabs.com). Otherwise, you can download `ectool` for Linux from [here](https://tree123.org/files/utils/ectool). For Windows users, `ectool` is installed when you install CoolStar's Chrome EC driver and is located in `C:\Program Files\crosec\ectool.exe`.
 
 ## Uses
 
