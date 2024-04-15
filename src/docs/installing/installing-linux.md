@@ -25,6 +25,7 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 * Fedora or Ultramarine Linux
 * openSUSE Tumbleweed
 * Debian 12 (Bookworm)
+* Pop!_OS
 
 ---
 
