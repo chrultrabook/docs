@@ -5,51 +5,50 @@ prev: false
 
 # Unbricking/Flashing with a ch341a USB programmer
 
-### Requirements
-
-1. A ChromeOS device
+## Requirements
   
 ::: tip
 Most Skylake and older models (with a few exceptions) use a SOIC-8 flash chip which is easily clippable. Most if not all Kabylake/Apollolake and newer devices use a WSON-8 flash chip which can't be clipped, instead you need a WSON-8 probe. Check the part number of your flash chip to find the correct size needed.
 :::
 
-1. A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu live USB.
-2. A ch341a USB flash programmer
-3. A 1.8v adapter
+1. A ChromeOS device
+2. A device running Linux from which to run flashrom. For this guide, I will use a Ubuntu live USB.
+3. A ch341a USB flash programmer
+4. A 1.8v adapter
 
-  ::: tip
-  The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
-  :::
+::: tip
+The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
+:::
 
 5. Either a SOIC-8 chip clip or a WSON-8 probe
 
 A ch341a programmer, 1.8v adapter, and a SOIC-8 clip  are often bundled together at a lower cost, and if you're unsure if your device uses a 1.8v flash chip or a 3.3v one, it makes sense to have the adapter on hand if needed. You can look up the part number of your flash chip to determine which voltage it needs.
 
-### Hardware Disassembly
+## Hardware Disassembly
 
 While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
-        - Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](../firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
+    * Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](../firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery (for Chromeboxes, disconnect the small CMOS battery)
 * Locate the SPI flash chip
 
-   ::: danger
-   Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB, 16MB, or 32MB chip, with the identifier W25Q64[xx] (8MB),  W25Q128[xx] (16MB), or W25Q256[xx] (32MB) where [xx] is usually FV or DV. We do **not** want to touch the EC firmware chip, which is identified by W25X40[xx].
-   :::
+::: danger
+Most ChromeOS devices use a Winbond flash chip, though some use a compatible chip from another manufacturer, eg Gigadevices. It will be either an 8MB, 16MB, or 32MB chip, with the identifier W25Q64[xx] (8MB),  W25Q128[xx] (16MB), or W25Q256[xx] (32MB) where [xx] is usually FV or DV. We do **not** want to touch the EC firmware chip, which is identified by W25X40[xx].
+:::
 
-   ::: tip
-   Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash.
-   :::
+::: warning
+Unfortunately, many devices have the flash chip located on the top side of the main board, and require fully removing the main board in order to flash.
+:::
 
-   ::: tip
-   Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
-   :::
+::: tip
+Pin 1 of the flash chip will be notated by a dot/depression on the chip; be sure to align this with pin 1 on the chip clip wiring.
+:::
 
 Googling should locate a disassembly guide for most models. If you can't find one for your exact model, try to find one for another model of the same manufacturer as the bottom cover (or keyboard) removal tends to be very similar.
 
-### Prepping to Flash
+## Prepping to Flash
 
 Once you have your device disassembled and flash chip located, boot up the flashing environment. Most any Linux setup should do as long as either flashrom is available from the distro's software repositories, or it's 64-bit x86 (in which case you can download a statically compiled build of flashrom from mrchromebox.tech). This guide will use a Ubuntu live session booted from USB.
 
@@ -57,7 +56,7 @@ So let's get to it:
 
 1. Boot your Linux environment (Ubuntu live USB or later recommended)
 2. Connect to WiFi/internet
-3.  Open a (non-root) terminal/shell window, change to home directory
+3. Open a (non-root) terminal/shell window, change to home directory
     * `cd;`
 4. Install flashrom via apt:
     * `sudo apt update`
@@ -100,7 +99,7 @@ If you're not sure which file to use for your device / don't know your device's 
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
-::: tip
+::: tip NOTE
 You don't need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
 :::
 
@@ -116,9 +115,7 @@ You don't need to do this if flashing a stock firmware backup created by the Fir
 
 Now the firmware image is ready to be flashed, and will maintain the device's unique serial, LAN MAC address, etc.
 
------------------
-
-### Flashing Your Device
+## Flashing Your Device
 
 Now that everything is prepped, time to flash the device. To be thorough, we'll perform a 2nd verification after flashing to ensure the integrity of the flashed firmware.
 
