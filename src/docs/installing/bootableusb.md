@@ -17,7 +17,7 @@ Flashing Ventoy or ISOs to an external drive will **wipe all data** on said driv
    * For Windows, keep in mind only official versions of Windows 10 and newer are supported.
 2. Place the ISO in a safe place.
 
-### Flashing using Rufus (Windows)
+## Flashing using Rufus (Windows)
 
 For this guide, we will be using Rufus to create our bootable USB. Rufus is a useful tool that allows you to flash ISOs to an external drive.
 
@@ -33,7 +33,7 @@ For this guide, we will be using Rufus to create our bootable USB. Rufus is a us
 7. Wait for the green bar to say "READY", then click "Close" and eject your newly made external drive.
 8. Profit
 
-### Flashing using Ventoy (Windows/Linux/macOS)
+## Flashing using Ventoy (Windows/Linux/macOS)
 
 For this guide, we will be using Ventoy to create our bootable USB. 
 Ventoy allows you to boot multiple ISO's from a single drive.

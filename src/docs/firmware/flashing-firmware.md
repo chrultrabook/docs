@@ -30,11 +30,13 @@ Otherwise, shutdown without worry.
 If you unplugged the battery to [disable write protect](battery.md), you can plug it back in now. All subsequent flashing won't require it from now on.
 :::
 
-#### UEFI
+## Booting
+
+### UEFI
 
 It can take up to a minute for display to come up on first POST. **Do not interrupt the first boot.**
 
-#### RW_LEGACY
+### RW_LEGACY
 
 On the developer mode boot screen, press Ctrl+L. If a selection appears, pick "Tianocore".
 

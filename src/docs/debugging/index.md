@@ -11,8 +11,6 @@ prev: false
 * If you're experiencing issues with Windows, provide screenshots from Device Manager, Event Viewer, coredumps etc.
 * If you're experiencing issues with macOS, please ask for help using the [Chrultrabook Forums](https://forum.chrultrabook.com/). 
 
----
-
 ## Firmware
 
 To debug firmware, you will need the following tools:
@@ -39,8 +37,6 @@ To interface with the Embedded Controller:
    - `sudo ./ectool --name=cros_ec fanduty 100`
    - Running `./ectool help` will provide you with a list of available commands, or you can [take a look at ectool's source code directly](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/util/ectool.c#63)
 
----
-
 ## SuzyQ Debug Cable
 
 If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exposes three serial devices:
@@ -56,8 +52,6 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 `EDK2_SERIAL_SUPPORT=y`
 * To use SuzyQ as platform debugger, you will also need to append the following to your kernel commandline:
 `loglevel=15 console=ttyS4,115200n8`
-
----
 
 ## ACPI and Linux kernelspace
 
@@ -79,8 +73,6 @@ It will dump:
 
 3. Upload this file if you need help with troubleshooting.
    * Remember to remove WiFi information from dmesg to protect your privacy.
-
----
 
 ## flashrom
 
@@ -120,8 +112,6 @@ Common programmers:
 * `internal`: Use this when you run flashrom on the chromebook you want to program.
 * `ch341a_spi`: Use this when you use a ch341a external programmer.
 * `raiden_debug_spi:target=AP`: Use then when you want to flash using a Suzy-Q cable.
-
----
 
 ## gsctool
 
