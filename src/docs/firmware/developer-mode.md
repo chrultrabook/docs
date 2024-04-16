@@ -2,7 +2,7 @@
 prev: known-issues
 next: write-protect
 ---
-# Enabling Developer Mode
+# Developer Mode
 
 Enabling [developer mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md) is the first step to running an alternate OS on your chromebook! Developer Mode is an alternate mode that all chromeOS devices have that opens up the ability to make unverified changes to the operating system and hardware.
 
@@ -14,9 +14,11 @@ Doing this will wipe **all** user data! Make backups if needed before proceeding
 The battery must be plugged in while enabling developer mode.
 :::
 
-First, enter [recovery mode](recovery-mode.md).
+## Enabling Developer Mode
 
-#### Chromebooks/Chromeboxes
+First, enter [recovery mode](recovery-mode.md). Then proceed with the following instructions for your device.
+
+### Chromebooks/Chromeboxes
 
 1. Press Ctrl+D. This should bring up a warning asking for confirmation for either "Turn OS Verification OFF" or "Enable Developer Mode".
 
@@ -26,7 +28,7 @@ First, enter [recovery mode](recovery-mode.md).
 
 4. Setup the system like normal, but **do not enable debugging features**.
 
-#### Tablets
+### Tablets
 
 1. Press `Volume Up` + `Volume Down` to bring up the menu selection screen.
 
