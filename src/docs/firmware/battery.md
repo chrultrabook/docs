@@ -18,7 +18,7 @@ Screws may be underneath "feet", or the material that keeps the Chromebook from 
 :::
 
 3. Gently pry the back off the Chromebook. If you do not have the proper tools a dull knife would be helpful.
-    * On some Chromebooks, the keyboard needs to be removed instead of the back. Be careful as there's a ribbon wire underneath that needs disconnecting first.
+  * On some Chromebooks, the keyboard needs to be removed instead of the back. Be careful as there's a ribbon wire underneath that needs disconnecting first.
 4. Unplug the battery connector. You do not need to take the entire battery out of the Chromebook.
 
 ## Step 2: Boot using AC power, and flash.
@@ -30,5 +30,5 @@ There is a 15V USB-C PD requirement for booting without the battery.
 :::
 
 2. Boot the chromebook up
-    * If you removed the keyboard, make sure to reattach it for this step.
-3. Continue to [Flashing Firmware](flashing-firmware.md)
+  * If you removed the keyboard, make sure to reattach it for this step.
+3. Contmnue to [Flashing Firmware](flashing-firmware.md)

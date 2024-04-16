@@ -9,7 +9,7 @@ curl is not installed by default for Ubuntu / Ubuntu distros. To install it, run
 :::
    
 1. Run [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript).
-    * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
+  * In case you forgot, type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
 2. Choose option 1: `Install/Update UEFI (Full ROM) Firmware`, and reboot if successful.
 
 ::: danger

@@ -13,8 +13,8 @@ Flashing Ventoy or ISOs to an external drive will **wipe all data** on said driv
 ## Downloading a ISO
 
 1. Determine what OS you want.
-    * For Linux, keep in mind Ubuntu and Ubuntu-based derivatives **are not supported**.
-    * For Windows, keep in mind only official versions of Windows 10 and newer are supported.
+  * For Linux, keep in mind Ubuntu and Ubuntu-based derivatives **are not supported**.
+  * For Windows, keep in mind only official versions of Windows 10 and newer are supported.
 2. Place the ISO in a safe place.
 
 ### Flashing using Rufus (Windows)
@@ -23,7 +23,7 @@ For this guide, we will be using Rufus to create our bootable USB. Rufus is a us
 
 1. Download Rufus from [here](https://rufus.ie/en/). The standard Windows x64 version will do.
 
-    ![image](/rufus.png)
+  ![image](/rufus.png)
 
 2. Plug in your external drive.
 3. Locate and launch Rufus. It should ask you to launch with administrator privileges, select YES.
@@ -38,12 +38,11 @@ For this guide, we will be using Rufus to create our bootable USB. Rufus is a us
 For this guide, we will be using Ventoy to create our bootable USB. 
 Ventoy allows you to boot multiple ISO's from a single drive.
 1. Download and extract the latest version from [Github](https://www.ventoy.net/en/download.html). 
-    * Download the respective file for your platform.
-   
-    * ![image](/ventoy/download-alt.png)
+  * Download the respective file for your platform. 
+  * ![image](/ventoy/download-alt.png)
 
 2. Run `Ventoy2Disk.exe` for Windows or `VentoyGUI.x86_64` for Linux.
-    * Make sure to allow administrator privilages when prompted.
+  * Make sure to allow administrator privilages when prompted.
 
 3. Plug in your external drive and click the green circle to refresh devices. It should pick up your external drive.
 4. Click Options > Partition Style and select "GPT".

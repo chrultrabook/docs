@@ -15,7 +15,7 @@ Some guidelines when contributing via PRs:
 * Use your brain (please).
 * Proofread your submissions.
 * Pull Requests may be rejected if they do not align with the docs's content or if they contain inaccurate information. Generally, we will provide reasons for rejection or request revisions.
-    * Additionally, it would be appreciated if you can provide sources for significant commits. This helps us verify the validity of the information you provide.
+  * Additionally, it would be appreciated if you can provide sources for significant commits. This helps us verify the validity of the information you provide.
 * Ensure that the pages adhere to the markdown style used in the docs.
 
 ## How to Contribute

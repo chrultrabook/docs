@@ -22,17 +22,17 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 
   1. At the Windows installer, select "Repair my Computer".
   2. Select "Command prompt". (May be hidden under an advanced section)
-  2. Type in `regedit` and press Enter
-  3. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
-  4. Right click `Setup` and create a new `Key` called `LabConfig`
-  5. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassSecureBootCheck` and set its value to 1
-  6. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassTPMCheck` and set its value to 1
-  7. Close Registry Editor.
-  8. Run `setup` in the command prompt.
-  9. Install Windows as you would normally.
+  3. Type in `regedit` and press Enter
+  4. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
+  5. Right click `Setup` and create a new `Key` called `LabConfig`
+  6. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassSecureBootCheck` and set its value to 1
+  7. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassTPMCheck` and set its value to 1
+  8. Close Registry Editor.
+  9. Run `setup` in the command prompt.
+  10. Install Windows as you would normally.
 
-4. Install drivers:
-    - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
+3. Install drivers:
+  - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
 
 ## Installing `.cab` drivers
 Cab drivers are a little weird, but they're easy to install.

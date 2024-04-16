@@ -8,12 +8,12 @@ Before we begin, it's important to know whether your Chromebook is even supporte
 
 **You will also need:**
 * Patience 
-    * This is not a one click setup thing. It usually takes one or more weeks to have a stable hack.
+  * This is not a one click setup thing. It usually takes one or more weeks to have a stable hack.
 * A USB drive 
-  	* 4 gigabytes or more for a online installer.
-  	* 32 gigabytes or more for offline installer.
+  * 4 gigabytes or more for a online installer.
+  * 32 gigabytes or more for offline installer.
 * The ability to use a command line
-  	* We won't help you if you don't know how to `cd` to a directory.
+  * We won't help you if you don't know how to `cd` to a directory.
 
 ## Tested Devices
 
@@ -39,17 +39,17 @@ This list is incomplete. Feel free to improve it.
 **The following devices have dedicated guides written for them:**
 
 * [ChromebookOSX](https://github.com/meghan06/ChromebookOSX):
-   * Asus C425 (LEONA)
-   * Asus C434 (SHYVANA)
-   * Asus C433 (SHYVANA)
+  * Asus C425 (LEONA)
+  * Asus C434 (SHYVANA)
+  * Asus C433 (SHYVANA)
 
 * [PixelbookOSX](https://github.com/olm3ca/PixelbookOSX):
-   * Google Pixelbook (2017) (EVE)
-   * Google Pixel Slate	(NOCTURNE)
-   * Google Pixelbook Go (2019) (ATLAS)
+  * Google Pixelbook (2017) (EVE)
+  * Google Pixel Slate	(NOCTURNE)
+  * Google Pixelbook Go (2019) (ATLAS)
 
 * [macOS-Dragonair](https://github.com/mine-man3000/macOS-Dragonair):
-   * HP Chromebook x360 14c (DRAGONAIR)
+  * HP Chromebook x360 14c (DRAGONAIR)
 
 * [LuluMacOS](https://isi95010.github.io/LuluMacOS/)
   * Dell Chromebook 13 7310 (LULU)
@@ -75,10 +75,10 @@ Add the following SSDTs, kexts and modifications as needed:
 #### SSDTs and ACPI Fixes:
 - [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer. Not needed when custom rom is used.
 - [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
-   - Will need to be compiled with either `iASL` or `MaciASL`.
+  - Will need to be compiled with either `iASL` or `MaciASL`.
 - [Fake Ambient Light Sensor](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-ALS0.dsl): Creates a fake ambient light sensor which is needed by macOS to recognize the keyboard backlight.
-   - This is only needed if your device does not come with a light sensor.
-   - A pre-compiled version comes in OpenCore's release zip under `Docs/AcpiSamples/Binaries/SSDT-ASL0.aml`
+  - This is only needed if your device does not come with a light sensor.
+  - A pre-compiled version comes in OpenCore's release zip under `Docs/AcpiSamples/Binaries/SSDT-ASL0.aml`
 
 #### Kexts
 - [EmeraldSDHC.kext](https://github.com/acidanthera/EmeraldSDHC/releases): eMMC driver

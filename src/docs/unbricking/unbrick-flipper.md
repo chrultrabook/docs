@@ -6,7 +6,7 @@ Yes, this is possible.
 
 * Your brain (please)
 * A Flipper Zero with up-to-date firmware
-    * It doesn't matter if you're using stock or custom FW.
+  * It doesn't matter if you're using stock or custom FW.
 * A SOIC8 clip chip
   * You can buy a cheap Chinese one [here](https://www.amazon.com/Ximimark-SOIC8-Socket-Adpter-Programmer/dp/B07BRSVRXV)
 * A screwdriver / pry tool to open your Chromebook
