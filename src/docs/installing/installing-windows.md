@@ -20,16 +20,16 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
 
 2. Bypassing Windows 11 installation checks:
 
-  1. At the Windows installer, select "Repair my Computer".
-  2. Select "Command prompt". (May be hidden under an advanced section)
-  3. Type in `regedit` and press Enter
-  4. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
-  5. Right click `Setup` and create a new `Key` called `LabConfig`
-  6. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassSecureBootCheck` and set its value to 1
-  7. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassTPMCheck` and set its value to 1
-  8. Close Registry Editor.
-  9. Run `setup` in the command prompt.
-  10. Install Windows as you would normally.
+   1. At the Windows installer, select "Repair my Computer".
+   2. Select "Command prompt". (May be hidden under an advanced section)
+   3. Type in `regedit` and press Enter
+   4. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
+   5. Right click `Setup` and create a new `Key` called `LabConfig`
+   6. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassSecureBootCheck` and set its value to 1
+   7. Right click `LabConfig` and create new `DWORD` (32-bit) called `BypassTPMCheck` and set its value to 1
+   8. Close Registry Editor.
+   9. Run `setup` in the command prompt.
+   10. Install Windows as you would normally.
 
 3. Install drivers:
   - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 

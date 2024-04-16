@@ -16,15 +16,15 @@ Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/
 ### Building Manually
 
 1. Follow the steps [here](../firmware/compiling-coreboot.md) to download the toolchain and build the firmware
-  * Continue these steps once `build-uefi.sh <boardname>` has been ran
+   * Continue these steps once `build-uefi.sh <boardname>` has been ran
 2. Run `make menuconfig`. You will be greeted by a menu which looks like the following:
 
-  ![image](/macos/menuconfig.png)
+   ![image](/macos/menuconfig.png)
 
 3. Select `Chipset`
 4. Select `Disable HECI1 at the end of boot` then press `N` to disable. The asterik should be gone:
 
-  ![image](/macos/heci1.png)
+   ![image](/macos/heci1.png)
 
 5. Use the right arrow keys to select `Save` at the bottom, then press `Ok`
 6. Use the right/left arrow keys to select `Exit` until back at the prompt.
