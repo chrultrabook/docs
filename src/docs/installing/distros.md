@@ -10,13 +10,56 @@ Note that the configurations are applied to `configuration.nix` located in `/etc
 Running the command `sudo nixos-rebuild switch` will rebuild your installation and apply the changes made.
 :::
 
-- Enable and configure keyd (Example is cros-standard. Adjust as you need!)  
+- For Chromebook-related configuration, we will create `chrome-device.nix`.
+```bash
+sudo touch /etc/nixos/chrome-device.nix
+```
+
+- Then at the top of `configuration.nix` we import `chrome-device.nix`. 
 ```nix
 # configuration.nix
+# Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
+
+{ config, pkgs, ... }:
+
+{
+  imports =
+    [
+      # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+      ./chrome-device.nix
+    ];
+
+    # the rest of your configuration...
+}
+
+```
+
+- First, enable and configure keyd (Example is cros-standard. Adjust as you need!)  
+```nix
+# chrome-device.nix
+{ config, pkgs, lib, ... }:
+
 services.keyd = {
     enable = true;
     keyboards.internal = {
-      ids = [ "0001:0001" ];
+      ids = [
+        "k:0001:0001"
+        "k:18d1:5044"
+        "k:18d1:5052"
+        "k:0000:0000"
+        "k:18d1:5050"
+        "k:18d1:504c"
+        "k:18d1:503c"
+        "k:18d1:5030"
+        "k:18d1:503d"
+        "k:18d1:505b"
+        "k:18d1:5057"
+        "k:18d1:502b"
+        "k:18d1:5061"
+      ];
       settings = {
         main = {
           f1 = "back";
@@ -86,37 +129,15 @@ services.keyd = {
 
 - Audio setup (Does the same as the audio script)  
 
-- For audio configuration, we will create `audio.nix`.
-```bash
-sudo touch /etc/nixos/audio.nix
-```
+- Build the package in `chrome-device.nix`
 
-- Then at the top of `configuration.nix` we import `audio.nix`. 
 ```nix
-# configuration.nix
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, ... }:
-
-{
-  imports =
-    [
-      # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./audio.nix
-    ];
-
-    # the rest of your configuration...
-}
-
-```
-
-- Build the package in `audio.nix`
-```nix
-# audio.nix
+# chrome-device.nix
 { config, pkgs, lib, ... }:
+
+services.keyd {
+  # rest of keyd configuration...
+};
 
 let
   cb-ucm-conf = with pkgs; alsa-ucm-conf.overrideAttrs {
@@ -149,23 +170,7 @@ in
       sof-firmware
     ];
     sessionVariables.ALSA_CONFIG_UCM2 = "${cb-ucm-conf}/share/alsa/ucm2";
-    # for 23.11 and unstable
-    etc = {
-      "wireplumber/main.lua.d/51-increase-headroom.lua".text = ''
-         rule = {
-           matches = {
-             {
-               { "node.name", "matches", "alsa_output.*" },
-             },
-           },
-           apply_properties = {
-             ["api.alsa.headroom"] = 4096,
-           },
-         }
-
-         table.insert(alsa_monitor.rules,rule)
-      '';
-    };
+    # AUDIO
   };
 
   system = {
@@ -180,9 +185,57 @@ in
 
 ```
 
-- However, if you're on NixOS 24.05, remove this set of lines in `audio.nix`
+- This process varies between AVS and SOF configuration. Replace `# AUDIO` with the following: 
+
+- For SOF: 
 ```nix
-# audio.nix
+# chrome-device.nix
+# for 23.11 and unstable
+etc = {
+  "wireplumber/main.lua.d/51-increase-headroom.lua".text = ''
+      rule = {
+        matches = {
+          {
+            { "node.name", "matches", "alsa_output.*" },
+          },
+        },
+        apply_properties = {
+          ["api.alsa.headroom"] = 4096,
+        },
+      }
+
+    table.insert(alsa_monitor.rules,rule)
+  '';
+};
+
+```
+
+- For AVS: 
+```nix
+# chrome-device.nix
+# for 23.11 and unstable
+etc = {
+  "wireplumber/main.lua.d/51-avs-dmic.lua".text = ''
+    rule = {
+      matches = {
+        {
+          { "node.nick", "equals", "Internal Microphone" },
+        },
+      },
+      apply_properties = {
+        ["audio.format"] = "S16LE",
+      },
+    }
+
+    table.insert(alsa_monitor.rules, rule)
+  '';
+};
+
+```
+
+- However, if you're on NixOS 24.05, remove this set of lines in `chrome-device.nix`
+```nix
+# chrome-device.nix
 
     # additonal configuration...
 
@@ -205,11 +258,40 @@ in
     };
 
     # additonal configuration...
+
+```
+
+- Or if you're using AVS:
+```nix
+# chrome-device.nix
+
+    # additonal configuration...
+
+    # for 23.11 and unstable
+    etc = {
+      "wireplumber/main.lua.d/51-avs-dmic.lua".text = ''
+        rule = {
+          matches = {
+            {
+              { "node.nick", "equals", "Internal Microphone" },
+            },
+          },
+          apply_properties = {
+            ["audio.format"] = "S16LE",
+          },
+        }
+
+        table.insert(alsa_monitor.rules, rule)
+      '';
+    };
+
+    # additonal configuration...
+
 ```
 
 - And from here replace it with this at the bottom of the `let...in` expression
 ```nix
-# audio.nix
+# chrome-device.nix
 in 
 {
   # additonal configuration...
@@ -236,10 +318,39 @@ in
 }
 ```
 
+- Or if you're using AVS:
+```nix
+# chrome-device.nix
+in 
+{
+  # additonal configuration...
+
+  # for 24.05
+  services.pipewire.wireplumber.configPackages = [
+    (pkgs.writeTextDir "share/wireplumber/main.lua.d/51-avs-dmic.lua" ''
+      rule = {
+        matches = {
+          {
+            { "node.nick", "equals", "Internal Microphone" },
+          },
+        },
+        apply_properties = {
+          ["audio.format"] = "S16LE",
+        },
+      }
+
+      table.insert(alsa_monitor.rules, rule)
+    '')
+  ];
+
+  # additonal configuration...
+}
+```
+
 - Audio setup modprobes
   - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
 ```nix
-# audio.nix
+# chrome-device.nix
 in
 {
   boot = {
@@ -255,7 +366,7 @@ in
 
   - SOF modprobe config for Braswell and Baytrail
 ```nix
-# audio.nix
+# chrome-device.nix
 in
 {
   boot = {
@@ -271,7 +382,7 @@ in
 
   - AVS modprobe config for Skylake, Kabylake, and Apollolake
 ```nix
-# audio.nix
+# chrome-device.nix
 in
 {
   boot = {
