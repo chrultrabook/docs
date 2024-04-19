@@ -37,12 +37,38 @@ sudo touch /etc/nixos/chrome-device.nix
 
 ```
 
-- First, enable and configure keyd (Example is cros-standard. Adjust as you need!)  
+- Audio setup (Does the same as the audio script) and Keyd setup (Configuration is cros-standard)
+
+- Build the package in `chrome-device.nix` and setup Keyd
+
 ```nix
 # chrome-device.nix
 { config, pkgs, lib, ... }:
 
-services.keyd = {
+let
+  cb-ucm-conf = with pkgs; alsa-ucm-conf.overrideAttrs {
+    wttsrc = fetchFromGitHub {
+      owner = "WeirdTreeThing";
+      repo = "alsa-ucm-conf-cros";
+      rev = "6b395ae73ac63407d8a9892fe1290f191eb0315b";
+      hash = "sha256-GHrK85DmiYF6FhEJlYJWy6aP9wtHFKkTohqt114TluI=";
+    };
+    unpackPhase = ''
+      runHook preUnpack
+      tar xf "$src"
+      runHook postUnpack
+    '';
+
+    installPhase = ''
+      runHook preInstall
+      mkdir -p $out/share/alsa
+      cp -r alsa-ucm*/ucm2 $out/share/alsa
+      runHook postInstall
+    '';
+  }; 
+in
+{
+    services.keyd = {
     enable = true;
     keyboards.internal = {
       ids = [
@@ -124,63 +150,24 @@ services.keyd = {
         };
       };
     };
-};
-```
+  };
 
-- Audio setup (Does the same as the audio script)  
-
-- Build the package in `chrome-device.nix`
-
-```nix
-# chrome-device.nix
-{ config, pkgs, lib, ... }:
-
-services.keyd {
-  # rest of keyd configuration...
-};
-
-let
-  cb-ucm-conf = with pkgs; alsa-ucm-conf.overrideAttrs {
-    wttsrc = fetchFromGitHub {
-      owner = "WeirdTreeThing";
-      repo = "alsa-ucm-conf-cros";
-      rev = "6b395ae73ac63407d8a9892fe1290f191eb0315b";
-      hash = "sha256-GHrK85DmiYF6FhEJlYJWy6aP9wtHFKkTohqt114TluI=";
-    };
-    unpackPhase = ''
-      runHook preUnpack
-      tar xf "$src"
-      runHook postUnpack
-    '';
-
-    installPhase = ''
-      runHook preInstall
-      mkdir -p $out/share/alsa
-      cp -r alsa-ucm*/ucm2 $out/share/alsa
-      runHook postInstall
-    '';
-  }; 
-in
-{
   # add your audio setup modprobes here
 
   environment = {
-    systemPackages = with pkgs; [
-      maliit-keyboard # optional
-      sof-firmware
-    ];
+    systemPackages = [ pkgs.sof-firmware ];
     sessionVariables.ALSA_CONFIG_UCM2 = "${cb-ucm-conf}/share/alsa/ucm2";
     # AUDIO
   };
 
-  system = {
-    replaceRuntimeDependencies = [
-      ({
-        original = pkgs.alsa-ucm-conf;
-        replacement = cb-ucm-conf;
-      })
-    ];
-  };
+  # AUDIO FOR > 24.05
+
+  system.replaceRuntimeDependencies = [
+    ({
+      original = pkgs.alsa-ucm-conf;
+      replacement = cb-ucm-conf;
+    })
+  ];
 }
 
 ```
@@ -289,7 +276,7 @@ etc = {
 
 ```
 
-- And from here replace it with this at the bottom of the `let...in` expression
+- And from here replace `# AUDIO FOR > 24.05` with this
 ```nix
 # chrome-device.nix
 in 
