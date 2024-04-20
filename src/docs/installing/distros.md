@@ -2,20 +2,22 @@
 
 ## NixOS
 
-::: tip 
+::: tip
 Note that the configurations are applied to `configuration.nix` located in `/etc/nixos`.
 :::
 
-::: tip 
+::: tip
 Running the command `sudo nixos-rebuild switch` will rebuild your installation and apply the changes made.
 :::
 
 - For Chromebook-related configuration, we will create `chrome-device.nix`.
+
 ```bash
 sudo touch /etc/nixos/chrome-device.nix
 ```
 
-- Then at the top of `configuration.nix` we import `chrome-device.nix`. 
+- Then at the top of `configuration.nix` we import `chrome-device.nix`.
+
 ```nix
 # configuration.nix
 # Edit this configuration file to define what should be installed on
@@ -172,9 +174,10 @@ in
 
 ```
 
-- This process varies between AVS and SOF configuration. Replace `# AUDIO` with the following: 
+- This process varies between AVS and SOF configuration. Replace `# AUDIO` with the following:
 
-- For SOF: 
+- For SOF:
+
 ```nix
 # chrome-device.nix
 # for 23.11 and unstable
@@ -197,7 +200,8 @@ etc = {
 
 ```
 
-- For AVS: 
+- For AVS:
+
 ```nix
 # chrome-device.nix
 # for 23.11 and unstable
@@ -220,7 +224,8 @@ etc = {
 
 ```
 
-- However, if you're on NixOS 24.05, remove this set of lines in `chrome-device.nix`
+- However, if you're on NixOS 24.05, remove this set of lines in `chrome-device.nix`:
+
 ```nix
 # chrome-device.nix
 
@@ -249,6 +254,7 @@ etc = {
 ```
 
 - Or if you're using AVS:
+
 ```nix
 # chrome-device.nix
 
@@ -276,7 +282,8 @@ etc = {
 
 ```
 
-- And from here replace `# AUDIO FOR > 24.05` with this
+- And from here replace `# AUDIO FOR > 24.05` with this:
+
 ```nix
 # chrome-device.nix
 in 
@@ -306,6 +313,7 @@ in
 ```
 
 - Or if you're using AVS:
+
 ```nix
 # chrome-device.nix
 in 
@@ -335,7 +343,8 @@ in
 ```
 
 - Audio setup modprobes
-  - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
+- SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
+
 ```nix
 # chrome-device.nix
 in
@@ -351,7 +360,8 @@ in
 
 ```
 
-  - SOF modprobe config for Braswell and Baytrail
+- SOF modprobe config for Braswell and Baytrail
+
 ```nix
 # chrome-device.nix
 in
@@ -367,7 +377,8 @@ in
 }
 ```
 
-  - AVS modprobe config for Skylake, Kabylake, and Apollolake
+- AVS modprobe config for Skylake, Kabylake, and Apollolake
+
 ```nix
 # chrome-device.nix
 in
