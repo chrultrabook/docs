@@ -150,10 +150,10 @@ export default {
             collapsible: true,
             children: [
               {
-                text: 'Linux Distro Specific Configuration',
+                text: 'Notes for non-standard distros',
                 link: '/docs/installing/distros',
               }
-            ]
+            ] // */
           },
           {
             text: 'Installing MacOS',

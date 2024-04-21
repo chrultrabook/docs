@@ -1,162 +1,29 @@
-# Linux distro-specific Configuration
+# Notes for non-standard Linux distributions
 
-## NixOS
+::: danger
+''We will not help you if you get stuck while using an unsupported distribution!**
+:::
 
-- Enable and configure keyd (Example is cros-standard. Adjust as you need!)  
-```nix
-# configuration.nix
-services.keyd = {
-    enable = true;
-    keyboards.internal = {
-      ids = [
-        "k:0001:0001"
-        "k:18d1:5044"
-        "k:18d1:5052"
-        "k:0000:0000"
-        "k:18d1:5050"
-        "k:18d1:504c"
-        "k:18d1:503c"
-        "k:18d1:5030"
-        "k:18d1:503d"
-        "k:18d1:505b"
-        "k:18d1:5057"
-        "k:18d1:502b"
-        "k:18d1:5061"
-      ];
-      settings = {
-        main = {
-          f1 = "back";
-          f2 = "forward";
-          f3 = "refresh";
-          f4 = "f11";
-          f5 = "scale";
-          f6 = "brightnessdown";
-          f7 = "brightnessup";
-          f8 = "mute";
-          f9 = "volumedown";
-          f10 = "volumeup";
-          back = "back";
-          forward = "forward";
-          refresh = "refresh";
-          zoom = "f11";
-          scale = "scale";
-          brightnessdown = "brightnessdown";
-          brightnessup = "brightnessup";
-          mute = "mute";
-          volumedown = "volumedown";
-          volumeup = "volumeup";
-          sleep = "coffee";
-        };
-        meta = {
-          f1 = "f1";
-          f2 = "f2";
-          f3 = "f3";
-          f4 = "f4";
-          f5 = "f5";
-          f6 = "f6";
-          f7 = "f7";
-          f8 = "f8";
-          f9 = "f9";
-          f10 = "f10";
-          back = "f1";
-          forward = "f2";
-          refresh = "f3";
-          zoom = "f4";
-          scale = "f5";
-          brightnessdown = "f6";
-          brightnessup = "f7";
-          mute = "f8";
-          volumedown = "f9";
-          volumeup = "f10";
-          sleep = "f12";
-        };
-        alt = {
-          backspace = "delete";
-          meta = "capslock";
-          brightnessdown = "kbdillumdown";
-          brightnessup = "kbdillumup";
-          f6 = "kbdillumdown";
-          f7 = "kbdillumup";
-        };
-        control = {
-          f5 = "print";
-          scale = "print";
-        };
-        controlalt = {
-          backspace = "C-A-delete";
-        };
-      };
-    };
-};
+## Audio
+
+### alsa-ucm2 for Chromebooks
+
+You need custon alsa-ucm2 configs that arent available upstream
+
+You can get them [here (Github)](https://github.com/WeirdTreeThing/alsa-ucm-conf-cros)
+
+If your distro isnt FHS-compliant, you can specify the ucm location via an enviromental variable
+
+```bash
+export ALSA_CONFIG_UCM2 = "/share/alsa/ucm2";
 ```
 
-- Audio setup (Does the same as the audio script)  
-**Change the `GENERATION` to your board generation!**  
-Possible options: `adl` | `jsl` | `tgl` | `cml` | `glk` | `apl` | `avs` | `bsw` | `byt` | `mendocino` | `cezanne` | `picasso` | `stoney`
+### Audio setup modprobes
 
-If your generation isn't listed above, you can skip this section
-```nix
-# configuration.nix
-  nixpkgs.overlays = with pkgs; [ (final: prev:
-    {
-      alsa-ucm-conf = prev.alsa-ucm-conf.overrideAttrs (old: {
-      wttsrc = (fetchFromGitHub {
-        owner = "WeirdTreeThing";
-        repo = "chromebook-ucm-conf";
-        rev = "484f5c581ac45c4ee6cfaf62bdecedfa44353424";
-        hash = "sha256-Jal+VfxrPSAPg9ZR+e3QCy4jgSWT4sSShxICKTGJvAI=";
-      });
-      installPhase = ''
-        runHook preInstall
+You can find the right modprobe configs by browsing [the audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio/blob/main/setup-audio)
 
-        mkdir -p $out/share/alsa
-        cp -r ucm ucm2 $out/share/alsa
+## Keyboard mapping
 
-        mkdir -p $out/share/alsa/ucm2/conf.d
-        cp -r $wttsrc/{hdmi,dmic}-common $wttsrc/GENERATION/* $out/share/alsa/ucm2/conf.d
+Install [keyd (Github)](https://github.com/rvaiya/keyd)
 
-        runHook postInstall
-        '';
-      });
-    })
-  ];
-```
-
-- Install and export the ucm config as a session variable
-```nix
-# configuration.nix
-environment = {
-  systemPackages = with pkgs; [\
-    alsa-ucm-conf
-  ];
-  sessionVariables = {
-    ALSA_CONFIG_UCM2 = "${pkgs.alsa-ucm-conf}/share/alsa/ucm2";
-  };
-};
-```
-
-- Audio setup modprobes 
-  - SOF modprobe config for Alderlake, Jasperlake, Tigerlake, Cometlake, and Geminilake
-```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=3
-'';
-```
-
-  - SOF modprobe config for Braswell and Baytrail
-```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=3
-  options snd-sof sof_debug=1
-'';
-```
-
-  - AVS modprobe config for Skylake, Kabylake, and Apollolake
-```nix
-# configuration.nix
-boot.extraModprobeConfig = ''
-  options snd-intel-dspcfg dsp_driver=4
-'';
-```
+A configuration file can be accuired with [cros-keyboard-map (Github)](https://github.com/WeirdTreeThing/cros-keyboard-map). Some special cases have configs in the configs folder. For all other devices use `cros-keyboard-map.py`.
