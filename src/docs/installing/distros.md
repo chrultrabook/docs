@@ -1,7 +1,7 @@
 # Notes for non-standard Linux distributions
 
 ::: danger
-''We will not help you if you get stuck while using an unsupported distribution!**
+**We will not help you if you get stuck while using an unsupported distribution!**
 :::
 
 ## Audio
