@@ -76,7 +76,7 @@ export default {
             link: '/docs/firmware/known-issues',
           },
           {
-            text: 'Enabling Developer Mode',
+            text: 'Developer Mode',
             link: '/docs/firmware/developer-mode',
             collapsible: true,
             children: [

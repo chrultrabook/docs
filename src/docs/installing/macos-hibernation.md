@@ -5,9 +5,9 @@ Some fixes in the `config.plist` are required in order to take advantage of this
 
 - Disable `Booter->Quirks->DevirtualiseMmio`
 - Set `Misc->Boot->HibernateMode` to `Auto`
-    - By default, OpenCore will not look for hibernated images of macOS.
+  - By default, OpenCore will not look for hibernated images of macOS.
 - Set `Misc->Boot->HibernationSkipsPicker` to `True` to skip the picker when resuming from hibernation
-    - While not strictly required, this speeds up resume times and prevents accidently booting another OS and changing hardware state underneath macOS.
+  - While not strictly required, this speeds up resume times and prevents accidently booting another OS and changing hardware state underneath macOS.
 - Create a reserved memory region under `UEFI->ReservedMemory` with the properties:
 
     | Field   | Type    | Value |
@@ -43,7 +43,7 @@ Pmset exposes a few different hibernation modes which can be set through `sudo p
 
 - 0: Disables hibernation
 - 3: Hibernates after either `standbydelaylow` or `standbydelayhigh` seconds of sleep
-    - Which one is used is dependent on the battery percentage. Anything above `highstandbythreshold` will use `standbydelayhigh` instead of `standbydelaylow`.
+  - Which one is used is dependent on the battery percentage. Anything above `highstandbythreshold` will use `standbydelayhigh` instead of `standbydelaylow`.
 - 25: Hibernates instead of S3 sleep
 
 When using hibernate mode 3, macOS may keep sleeping even after the standby time has elapsed.
