@@ -11,7 +11,7 @@ Doing this will wipe **all** user data! Make backups if needed before proceeding
 :::
 
 ::: tip
-The battery must be plugged in while enabling developer mode.
+The battery must be plugged in while enabling developer mode, UNLESS you don't have a write protect screw, in that case, plug your chromebook into the charger.
 :::
 
 ## Enabling Developer Mode
