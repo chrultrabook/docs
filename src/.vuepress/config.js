@@ -188,10 +188,6 @@ export default {
           {
             text: 'Reporting Bugs',
             link: '/docs/debugging/bugreport',
-          },
-          {
-            text: 'Contributing',
-            link: '/docs/debugging/contributing',
           }
         ]
       },
@@ -232,6 +228,10 @@ export default {
             link: '/docs/reverting/booting-recovery-usb',
           }
         ]
+      },
+      {
+	text: 'Contributing',
+	link: '/docs/contributing',
       }
     ]
   }),
