@@ -150,6 +150,10 @@ export default {
             collapsible: true,
             children: [
               {
+	        text: 'Partitioning Instructions for Dualbooting',
+		link: '/docs/installing/dualboot',
+	      },
+	      {
                 text: 'Linux Distro Specific Configuration',
                 link: '/docs/installing/distros',
               }
