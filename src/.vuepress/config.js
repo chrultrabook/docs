@@ -152,7 +152,7 @@ export default {
               {
                 text: 'Partitioning Instructions for Dual Booting',
                 link: '/docs/installing/dualboot'
-              }
+              },
               {
                 text: 'Linux Distro Specific Configuration',
                 link: '/docs/installing/distros',
