@@ -1,8 +1,14 @@
 # Notes for non-standard Linux distributions
 
+::: warning
+This page is not meant to help with fixing issues but instead meant for advanced users
+:::
+
 ::: danger
 **We will not help you if you get stuck while using an unsupported distribution!**
 :::
+
+This page contains informations useful to get non-standard or niche Distros to work.
 
 ## Audio
 
