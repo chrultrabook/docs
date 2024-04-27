@@ -17,7 +17,7 @@ This page contains informations useful to get non-standard or niche Distros to w
 
 You need custon alsa-ucm2 configs that arent available upstream
 
-You can get them [here (Github)](https://github.com/WeirdTreeThing/alsa-ucm-conf-cros)
+You can get them [here](https://github.com/WeirdTreeThing/alsa-ucm-conf-cros)
 
 If your distro isnt FHS-compliant, you can specify the ucm location via an enviromental variable
 
@@ -31,6 +31,19 @@ You can find the right modprobe configs by browsing [the audio script](https://g
 
 ## Keyboard mapping
 
+### libinput configuration
+
+Put this in `/etc/libinput/local-overrides.quirks`: ([Source](https://github.com/WeirdTreeThing/cros-keyboard-map/blob/main/local-overrides.quirks))
+
+```ini
+[keyd virtual keyboard]
+MatchName=keyd virtual keyboard
+AttrKeyboardIntegration=internal
+ModelTabletModeNoSuspend=1
+```
+
+### keyd keymap
+
 Install [keyd (Github)](https://github.com/rvaiya/keyd)
 
-A configuration file can be accuired with [cros-keyboard-map (Github)](https://github.com/WeirdTreeThing/cros-keyboard-map). Some special cases have configs in the configs folder. For all other devices use `cros-keyboard-map.py`.
+A configuration file can be accuired with [cros-keyboard-map](https://github.com/WeirdTreeThing/cros-keyboard-map). Some special cases have configs in the configs folder. For all other devices use `cros-keyboard-map.py`.
