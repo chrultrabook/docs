@@ -1,9 +1,9 @@
-# Partitioning Instructions for Dualbooting
+# Partitioning Instructions for Dual Booting
 
 After using the Firmware Utility Script to install/update RW_LEGACY, before booting a Linux distro ISO, you will need to shrink the stateful partition to create space for your Linux installation. You can do this from ChromeOS using [CRAP](https://github.com/chrultrabook/crap), a partitioning tool developed by the chrultrabook community.
 
 ::: warning
-CRAP is the preferred method for resizing partitions to dualboot because it only resizes the stateful partition. Using `chrx`, which resizes the ROOT-C and KERN-C ChromeOS partitions, and changes the disk layout, can cause unintended effects. 
+CRAP is the preferred method for resizing partitions to dual boot because it only resizes the stateful partition. Using `chrx`, which resizes the ROOT-C and KERN-C ChromeOS partitions, and changes the disk layout, can cause unintended effects. 
 :::
 
 ## Using CRAP
