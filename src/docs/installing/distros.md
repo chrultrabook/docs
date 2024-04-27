@@ -1,7 +1,8 @@
 # Notes for non-standard Linux distributions
 
 ::: warning
-This page is not meant to help with fixing issues but instead meant for advanced users
+**Advanced users only!**  
+This page is not meant for troubleshooting
 :::
 
 ::: danger
