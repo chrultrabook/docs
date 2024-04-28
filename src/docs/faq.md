@@ -26,7 +26,7 @@ Please read this page before asking a question in the Discord. Your help request
 * No.
 
 #### What OS should I use?
-* This depends on your use case. Only you can answer this question. <!--- Not ubuntu plz --->
+* This depends on your use case. Only you can answer this question. <!-- Not ubuntu plz -->
 
 #### My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?
 * No. The hotkeys will only work on the internal keyboard.

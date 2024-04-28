@@ -1031,7 +1031,8 @@
                 "device": [
                     "Dell Latitude 5400 Chromebook Enterprise"
                 ],
-                "boardname": "SARIEN"
+                "boardname": "SARIEN",
+                "linux": "Sim card slot was not tested. Everything else works under RW_LEGACY. This Chromebook has upgradable RAM and SSD."
             }
         ]
     },
