@@ -41,7 +41,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * No.
 
 ### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
-* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a Chromebook with an 10th generation Intel cpu or lower, Celeron/Pentium are not supported. 
+* Any 64 bit chromebook should work in Windows and Linux. Some require paid drivers (Windows only). For information on macOS requirements, see [this page](installing/installing-macos.md).
 
 <br>
 
