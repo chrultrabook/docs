@@ -27,8 +27,6 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 
 ¹Some devices such as CELES need workarounds. Refer to the [known issues page](known-issues.html) to check whether you need patches.
 
----
-
 ## Linux
 
 ### Pros:
@@ -41,15 +39,13 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 * Requires some work on the end user (running audio script, configuring keyboard mapping)
 * AVS and SOF users experience instability at times
 
-   ::: warning
-   Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
-   :::
+  ::: warning
+  Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
+  :::
 
 <br>
 
 ### [Installing Linux →](installing-linux.md)
-
----
 
 ## macOS
 
