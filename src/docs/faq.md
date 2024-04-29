@@ -16,7 +16,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, flash RWL (RW_LEGACY firmware) and use that.
 
 ### Can I disable power-on when I open my Chromebook?
-* No. In what situation would you open your chromebook without the intention of turning it on anyways.
+* No. In what situation would you open your Chromebook without the intention of turning it on anyways.
 
 ### My Chromebook powers back on when I turn it off. How can I fix this?
 * You don't. Specific Chromebooks have this bug which takes too much effort to debug. If you were looking to disable power-on when you open the lid because of this, they are completely unrelated.
@@ -41,7 +41,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * No.
 
 ### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
-* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a chromebook with an 10th generation intel cpu or lower, Celeron/Pentium are not supported. 
+* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a Chromebook with an 10th generation Intel cpu or lower, Celeron/Pentium are not supported. 
 
 <br>
 
@@ -92,16 +92,6 @@ Please read this page before asking a question on the Forum. Your help request w
 
 ### How do I get my top row keys on Linux to act like how they did on chromeOS?
 * Follow the instructions [in this github repo](https://github.com/WeirdTreeThing/cros-keyboard-map).
-
-### I'm using the UEFI firmware, installed my OS [Linux], and it still boots to the EFI shell - what do I do?
-* Sounds like your Linux distro doesn't install the EFI bootloader in the default location - no worries, it's an easy fix:
-  * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from `/EFI/[distro name]/grubx64.efi` (where [distro name] will be fedora, arch, debian, etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
-
-   * `sudo su`
-   * `mkdir -p /boot/efi/EFI/BOOT`
-   * `cp /boot/efi/EFI/[distro name from above]/grubx64.efi /boot/efi/EFI/BOOT/BOOTX64.efi`
-
-   * Then reboot to test. What we're doing is copying the grub EFI boot stub from the OS installed location to the location the firmware is expecting (/EFI/BOOT/BOOTX64.efi) on the EFI system partition (ESP), which most (Debian/Ubuntu-based?) distros will mount at /boot/efi. You may need to adjust slightly for your distro, but these instructions should work in most cases.
 
 <br>
 
