@@ -154,10 +154,10 @@ export default {
                 link: '/docs/installing/dualboot'
               },
               {
-                text: 'Linux Distro Specific Configuration',
+                text: 'Notes for non-standard distros',
                 link: '/docs/installing/distros',
               }
-            ]
+            ] // */
           },
           {
             text: 'Installing MacOS',
