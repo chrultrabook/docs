@@ -10,7 +10,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * This depends on your use case. Only you can answer this question. <!-- Not ubuntu plz -->
 
 ### My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?
-* No. The hotkeys will only work on the internal keyboard.
+* No. The hotkeys will only work on the internal keyboard. Chromeboxes do not have this restriction.
 
 ### I just want to boot Linux from USB on my Chromebook, what do I need to do?
 * Check the Supported Devices page, to ensure your device has functional RW_LEGACY firmware available. If so, flash RWL (RW_LEGACY firmware) and use that.
@@ -28,11 +28,11 @@ Please read this page before asking a question on the Forum. Your help request w
 * The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
 
 ### I'm running Legacy boot firmware now - can I switch to the UEFI firmware?
-* If you're using SeaBIOS, you will likely need to re-install. Otherwise it should work fine.
+* If you're using SeaBIOS, you will likely need to re-install your Operating System. Otherwise it should work fine.
 
 ### Help! I can't exit Developer Mode!
 * If you're trying to exit Developer Mode but get the error `WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON` or find the `Return to secure mode` button missing, you need to reset your GBB flags. You can do that by running [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) and selecting `3) Set Boot Options (GBB flags)`, followed by `5) Reset to factory default`. 
-  * Then exit developer mode by running `sudo crossystem disable_dev_request=1; reboot`
+  * Then exit developer mode by choosing "Return to secure mode" on the bootup screen
 
 ### Can I modify the fan speed?
 * Yes, using ectool. To set the fan to auto, run: `ectool autofanctrl`. To specify a percentage, run `ectool fanduty [0-100]`.
@@ -82,7 +82,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * Ubuntu and Ubuntu-based distros may have issues and are not supported, try switching to another distro. Debian is a great alternative if you are used to ubuntu.
 
 ### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
-* If you're looking to buy for macOS, you will need a chromebook with an 10th generation intel cpu or lower, Celeron/Pentium are not supported. Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only).
+* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a chromebook with an 10th generation intel cpu or lower, Celeron/Pentium are not supported. 
 
 ### What Linux distros are recommended?
 * See [this page](installing/installing-linux.md).
@@ -93,7 +93,7 @@ Please read this page before asking a question on the Forum. Your help request w
 ### How do I get my top row keys on Linux to act like how they did on chromeOS?
 * Follow the instructions [in this github repo](https://github.com/WeirdTreeThing/cros-keyboard-map).
 
-### I'm using your UEFI firmware, installed my OS [Linux], and it still boots to the EFI shell - what do I do?
+### I'm using the UEFI firmware, installed my OS [Linux], and it still boots to the EFI shell - what do I do?
 * Sounds like your Linux distro doesn't install the EFI bootloader in the default location - no worries, it's an easy fix:
   * Type `exit` to return to the UEFI settings menu, then select Boot Maintenance Manager. From there, select Boot From File, then navigate to and boot from `/EFI/[distro name]/grubx64.efi` (where [distro name] will be fedora, arch, debian, etc). Once your OS is booted, open a terminal/shell, and type the following (observing case):
 
