@@ -40,6 +40,9 @@ Please read this page before asking a question on the Forum. Your help request w
 ### Can I overclock the fan?
 * No.
 
+### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
+* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a chromebook with an 10th generation intel cpu or lower, Celeron/Pentium are not supported. 
+
 <br>
 
 ## Windows questions
@@ -59,7 +62,7 @@ Please read this page before asking a question on the Forum. Your help request w
 ### Can I get AVS or SOF drivers for free?
 * No. Only the Linux drivers are free.
 
-#### Why is there a license error in Device Manager after installing audio drivers?
+### Why is there a license error in Device Manager after installing audio drivers?
 * You messed up the license setup. Please refer to [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html).
 
 ### Will the audio driver still work when re-installing Windows?
@@ -71,7 +74,7 @@ Please read this page before asking a question on the Forum. Your help request w
 ### How do I buy Windows audio drivers in bulk?
 * A discount is only available for Chromebooks containing an `Intel 6th gen processor (up to Core i5)`, `N3350`, `N4000`, or, `N4020` processor, otherwise you must pay full price. You must purchase 10 or more licenses to be eligible for a discount. If you are eligible for a discount, you should ask in the [Chrultrabook Forum](https://forum.chrultrabook.com).
 
-#### Can I use one driver license across multiple devices?
+### Can I use one driver license across multiple devices?
 * No. One license per device.
 
 <br>
@@ -80,9 +83,6 @@ Please read this page before asking a question on the Forum. Your help request w
 
 ### How come audio isn't working on Ubuntu / Ubuntu forks?
 * Ubuntu and Ubuntu-based distros may have issues and are not supported, try switching to another distro. Debian is a great alternative if you are used to ubuntu.
-
-### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
-* Any 64 bit chromebook will work in Windows and Linux. Some require paid drivers (Windows only). If you're looking to buy for macOS, you will need a chromebook with an 10th generation intel cpu or lower, Celeron/Pentium are not supported. 
 
 ### What Linux distros are recommended?
 * See [this page](installing/installing-linux.md).
