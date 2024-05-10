@@ -3,7 +3,7 @@
 A limited amount of Chromebooks are supported. The required hardware is:
 - Intel Core i3/i5/i7 (3rd-10th gen)
   - No ARM, AMD, or Intel Celerons/Pentiums CPUs are supported
-- 32GB eMMC/NVMe <!-- isn't this 60gb min now for Cat+? -->
+- 32GB eMMC/NVMe
 - 4GB+ RAM
 
 **You will also need:**
