@@ -1,13 +1,16 @@
 # FAQ
 
 ::: tip
-Please read this page before asking a question on the Forum. Your help request will be pointed to the docs otherwise.
+Please read this page before asking a question on [the forum](https://forum.chrultrabook.com/). Your help request will be pointed to the docs otherwise.
 :::
 
 ## General questions
 
 ### What OS should I use?
 * This depends on your use case. Only you can answer this question. <!-- Not ubuntu plz -->
+
+### Should I use rw-legacy or full rom?
+* This depends on what you're looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. Rw-legacy only supports linux.
 
 ### My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?
 * No. The hotkeys will only work on the internal keyboard. Chromeboxes do not have this restriction.
@@ -28,7 +31,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
 
 ### I'm running Legacy boot firmware now - can I switch to the UEFI firmware?
-* If you're using SeaBIOS, you will likely need to re-install your Operating System. Otherwise it should work fine.
+* If you're using SeaBIOS, you will likely need to re-install your operating system. Otherwise it should work fine.
 
 ### Help! I can't exit Developer Mode!
 * If you're trying to exit Developer Mode but get the error `WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON` or find the `Return to secure mode` button missing, you need to reset your GBB flags. You can do that by running [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) and selecting `3) Set Boot Options (GBB flags)`, followed by `5) Reset to factory default`. 
@@ -41,7 +44,7 @@ Please read this page before asking a question on the Forum. Your help request w
 * No.
 
 ### I want to buy a Chromebook to run Windows or Linux or macOS -- which should I buy?
-* Any 64 bit chromebook should work in Windows and Linux. Some require paid drivers (Windows only). For information on macOS requirements, see [this page](installing/installing-macos.md).
+* Any 64 bit Chromebook should work in Windows and Linux. Some require paid drivers (Windows only). For information on macOS requirements, see [this page](installing/installing-macos.md).
 
 <br>
 
@@ -82,16 +85,23 @@ Please read this page before asking a question on the Forum. Your help request w
 ## Linux Questions
 
 ### How come audio isn't working on Ubuntu / Ubuntu forks?
-* Ubuntu and Ubuntu-based distros may have issues and are not supported, try switching to another distro. Debian is a great alternative if you are used to ubuntu.
+* Ubuntu and Ubuntu-based distros may have issues and are not supported, try switching to another distro. Debian is a great alternative if you are used to Ubuntu.
+
+### Why are Ubuntu/Ubuntu based distros not supported?
+* They consistently break packages.
+* They have started to force snap on their users.
+* They have published an LTS distro with a non-LTS kernel.
+
+Becuse of these things, Ubuntu is unsupported. We will not help you fix issues on Ubuntu.
 
 ### What Linux distros are recommended?
 * See [this page](installing/installing-linux.md).
 
 ### How can I get audio working under Linux?
-* Please see [this github repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
+* Please see [this GitHub repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
 
 ### How do I get my top row keys on Linux to act like how they did on chromeOS?
-* Follow the instructions [in this github repo](https://github.com/WeirdTreeThing/cros-keyboard-map).
+* Follow the instructions [in this GitHub repo](https://github.com/WeirdTreeThing/cros-keyboard-map).
 
 <br>
 
@@ -99,3 +109,6 @@ Please read this page before asking a question on the Forum. Your help request w
 
 ### Can I hackintosh my Celeron/Pentium CPU?
 * No.
+
+### Can I hackintosh an AMD CPU?
+* In theory, it might be possible. It has never been tested, and can be considered unsupported.
