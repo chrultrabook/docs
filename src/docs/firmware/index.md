@@ -5,11 +5,11 @@ next: supported-devices
 # Flashing Custom Firmware
 
 ::: danger
-You are about to make **unofficial** changes to your device! This will likely **void any warranty.** We provide **zero warranty** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **You are doing all changes at your own risk**!
+You are about to make **unofficial** changes to your device! This will **void any warranty** that came with your original purchae. We provide **zero warranty** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **You are doing all changes at your own risk**!
 :::
 
 ::: danger
-Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, it is a crime.
+Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer, unless you were given **direct permission to do so.**
 :::
 
 ## Prerequisites
@@ -30,7 +30,7 @@ Only x86_64 devices are currently supported.
 :::
 
 ::: tip
-If you only have one device, please be sure to [setup a usb with your OS to install](ventoy.md) before flashing.
+If you only have one device, please be sure to [setup a USB with your OS to install](ventoy.md) before flashing.
 :::
 
 ## Asking for help properly
