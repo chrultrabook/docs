@@ -57,7 +57,3 @@ Go back to `Apps -> GPIO -> SPI Mem Manager -> Saved -> Yourfilename.bin`. Open 
 ### Step 6
 
 Assuming all went well, you should no longer have a unbricked system.
-
-## Got Questions?
-
-Please ask in the Chrultrabook Discord, or email me (meghan6) at [meghann6@proton.me](mailto:meghann6@proton.me).
