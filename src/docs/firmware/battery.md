@@ -14,7 +14,7 @@ This method requires opening your device. Be sure to use the correct tools to pr
 2. Take out all of the screws.
 
 ::: tip
-Screws may be underneath "feet", or the material that keeps the Chromebook from sliding.
+Screws may be underneath "feet", or the material (usually rubber) that keeps the Chromebook from sliding.
 :::
 
 3. Gently pry the back off the Chromebook. If you do not have the proper tools a dull knife would be helpful.
