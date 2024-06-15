@@ -1,7 +1,7 @@
 # FAQ
 
 ::: tip
-Please read this page before asking for hel. Your help request will be pointed to the docs otherwise.
+Please read this page before asking for help. Your help request will be pointed to the docs otherwise.
 :::
 
 ## General questions
