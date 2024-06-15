@@ -1,7 +1,7 @@
 # FAQ
 
 ::: tip
-Please read this page before asking a question on [the forum](https://forum.chrultrabook.com/). Your help request will be pointed to the docs otherwise.
+Please read this page before asking for hel. Your help request will be pointed to the docs otherwise.
 :::
 
 ## General questions
@@ -73,9 +73,6 @@ Please read this page before asking a question on [the forum](https://forum.chru
 
 ### I upgraded my Chromebooks' internal drive and my audio/Thunderbolt 4 license is not working, what do I do?
 * The license is tied to the serial number of your internal drive. **You do not need to buy another license**. Send CoolStar a message through Patreon, and wait for about a week.
-
-### How do I buy Windows audio drivers in bulk?
-* A discount is only available for Chromebooks containing an `Intel 6th gen processor (up to Core i5)`, `N3350`, `N4000`, or, `N4020` processor, otherwise you must pay full price. You must purchase 10 or more licenses to be eligible for a discount. If you are eligible for a discount, you should ask in the [Chrultrabook Forum](https://forum.chrultrabook.com).
 
 ### Can I use one driver license across multiple devices?
 * No. One license per device.
