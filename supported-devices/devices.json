@@ -1701,7 +1701,18 @@
                 ],
                 "boardname": "YAVIKS"
             }
-        ]
+            {
+                "device": [
+                    "HP Fortis G10 Chromebook"
+                ],
+                "boardname": "YAVILLA"
+            }
+            {
+                "device": [
+                    "HP Fortis x360 G5 Chromebook"
+                ],
+                "boardname": "YAVILLY"
+            }
     },
     "Stoneyridge": {
         "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
