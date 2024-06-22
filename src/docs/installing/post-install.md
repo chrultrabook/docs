@@ -61,7 +61,99 @@ If you experience issues in applications such as Parsec, or encounter disruptive
 3. Type `grub-mkconfig -o /boot/grub/grub.cfg` or `update-grub` into a terminal and press Enter. Use sudo, su, or doas if necessary.
 4. Reboot
 
-## macOS
+### Fixing Stylus on Rotation Issue
+
+Some Chromebooks come with USI styluses. They work fine in the newest versions of KDE Plasma, but they have a rotation issue in GNOME. The issue is that the stylus does not rotate with the screen, so it is only usable in one orientation. To fix this, we have to add an libinput override.
+
+1. Get the device ID of your stylus by running this script https://github.com/linuxwacom/libwacom/blob/master/tools/show-stylus.py.
+   ``` bash
+   tux@fedora:~/Downloads/libwacom/tools$ sudo python ./show-stylus.py 
+   Using "GDIX0000:00 27C6:0E0C Stylus": /dev/input/event5
+   Using stylus file(s): /usr/share/libwacom/libwacom.stylus
+   Tool id 0x1 serial 0x0 in-proximity: False 
+   ^CTerminating
+   Suggested line for .tablet file:
+   Styli=isdv4-aes
+   ```
+   In this case, the device ID is `GDIX0000:00 27C6:0E0C Stylus`.
+
+2. Create a .tablet file for libwacom
+   ``` bash
+   sudo mkdir -p /etc/libwacom/
+   sudo nano /etc/libwacom/google-{your board name}.tablet
+   ```
+   Add the following content to the file:
+   ``` bash
+   [Device]
+   Name={your device id}
+   ModelName=
+   DeviceMatch=i2c:{the hardware id of your stylus lowercased (in this case 27c6:0e0c)}
+   Class=ISDV4
+   Width=9
+   Height=5
+   IntegratedIn=Display;System
+   #Styli=isdv4-aes
+   Styli=@generic-no-eraser
+
+   [Features]
+   Stylus=true
+   Touch=false
+   ```
+3. Create the libinput override
+   ``` bash
+   sudo mkdir -p /etc/libinput/
+   sudo nano /etc/libinput/local-overrides.quirks
+   ```
+   Add the following content to the file:
+   ``` bash
+   [Google Chromebook {your board name} Stylus Digitizer]
+   MatchUdevType=tablet
+   MatchDeviceTree=*{your board name}*
+   MatchBus=i2c
+   ModelChromebook=1
+   AttrPressureRange=1100:1000
+   ```
+4. Update the libwacom database and restart the system
+   ``` bash
+   sudo libwacom-update-db
+   reboot
+   ```
+
+#### Example Files for Jinlon
+Here are the example files for the Jinlon Chromebook. The device ID is `GDIX0000:00 27C6:0E0C Stylus`.
+
+`/etc/libwacom/google-jinlon.tablet`
+``` bash
+[Device]
+Name=GDIX0000:00 27C6:0E0C Stylus
+ModelName=
+DeviceMatch=i2c:27c6:0e0c
+Class=ISDV4
+Width=9
+Height=5
+IntegratedIn=Display;System
+#Styli=isdv4-aes
+Styli=@generic-no-eraser
+
+[Features]
+Stylus=true
+Touch=false
+```
+
+`/etc/libinput/local-overrides.quirks`
+``` bash
+[Google Chromebook Jinlon Stylus Digitizer]
+MatchUdevType=tablet
+MatchDeviceTree=*jinlon*
+MatchBus=i2c
+ModelChromebook=1
+AttrPressureRange=1100:1000
+```
+#### Consider Upstreaming Your Changes to libwacom
+Please consider upstreaming your changes to [libwacom](https://github.com/linuxwacom/wacom-hid-descriptors) and [wacom-hid-descriptors](https://github.com/linuxwacom/wacom-hid-descriptors). This will help other users with the same device as you. 
+
+
+## macOS 
 
 - [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
 - [OpenCore GUI Setup](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
