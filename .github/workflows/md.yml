@@ -10,4 +10,5 @@ jobs:
         id: linter
         with:
           globs: 'src/**/*.md'
-          config: '.markdownlint.jsonc'      
+          config: '.markdownlint.jsonc'
+          fix: true
