@@ -61,7 +61,7 @@ If you experience issues in applications such as Parsec, or encounter disruptive
 3. Type `grub-mkconfig -o /boot/grub/grub.cfg` or `update-grub` into a terminal and press Enter. Use sudo, su, or doas if necessary.
 4. Reboot
 
-### Fixing Stylus on Rotation Issue
+### Fixing stylus orientation in Gnome
 
 Some Chromebooks come with USI styluses. They work fine in the newest versions of KDE Plasma, but they have a rotation issue in GNOME. The issue is that the stylus does not rotate with the screen, so it is only usable in one orientation. To fix this, we have to add an libinput override.
 
