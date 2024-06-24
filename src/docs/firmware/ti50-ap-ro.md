@@ -27,9 +27,25 @@ If your device has a Ti50 and you don't disable RO verification, flashing full r
 :::
 
 ## Recovering a device bricked due to RO verification.
-1. Press and hold the power button.
-2. Press the refresh button twice.
-3. Release the power button.
+### Chromebooks
+
+1. Press and hold the `Power` button.
+2. Press the `Refresh` (arrow icon) button twice.
+3. Release the `Power` button.
+4. Repeat the above steps a second time.
+
+### Chromeboxes
+
+1. Press and hold the `Power` button.
+2. Press the recovery pinhole button twice.
+3. Release the `Power` button.
+4. Repeat the above steps a second time.
+
+### Tablets
+
+1. Press and hold the `Power` button.
+2. Press and hold `Volume Up` for 10+ seconds. Release and repeat it a second time.
+3. Release the `Power` button.
 4. Repeat the above steps a second time.
 
 This will disable RO verification for 15 minutes, allowing you to permanently disable it.
