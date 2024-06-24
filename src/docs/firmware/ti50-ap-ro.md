@@ -18,7 +18,7 @@ This is only applicable to devices with a Ti50 security chip, which is typically
 4. If that command has any output, your device has a Ti50. If you get no output or an error, your device either has a Cr50 or no GSC at all.
 
 ## Step 2: Disable RO verification.
-1. Unlock the GSC by running `gsctool -a -o`. TODO: explain the unlocking process better (make a GSC unlocking page)
+1. Unlock the GSC by running `gsctool -a -o`.
 2. Run `gsctool -a -I AllowUnverifiedRo:always`.
 3. Press the power button when prompted.
 
@@ -49,3 +49,4 @@ If your device has a Ti50 and you don't disable RO verification, flashing full r
 4. Repeat the above steps a second time.
 
 This will disable RO verification for 15 minutes, allowing you to permanently disable it.
+

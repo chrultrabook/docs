@@ -20,3 +20,4 @@ Depending on your device, you will need to do **one** of the following:
 ::: warning
 On devices with a Ti50 security chip (2023+), you will additionally need to [disable RO verification](ti50-ap-ro.md).
 :::
+
