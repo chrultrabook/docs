@@ -9,7 +9,7 @@ If recovery fails, [disable write protect](../firmware/write-protect.md) since r
 :::
 
 ::: danger
-Going through the recovery proccess will wipe **all** data on the internal drive.
+Going through the recovery process will wipe **all** data on the internal drive.
 :::
 
 1. Enter [recovery mode](../firmware/recovery-mode.md).

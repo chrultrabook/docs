@@ -27,36 +27,30 @@ Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12
 * Debian 12 (Bookworm)
 * Pop!_OS
 
----
-
 ## Installation
 
 1. Create a bootable Linux USB. See [here](bootableusb.md) for a guide.
 2. Plug the USB Drive into the Chromebook.
-3. Turn on the Chromebook, press `ESC` at the POST screen (when the coreboot logo appears), and select your USB to boot from. 
+3. Turn on the Chromebook, press ESC at the POST screen (when the coreboot logo appears), and select your USB to boot from. 
 4. Install as you would on any other computer.
 
-::: tip
-If you are using `RW_LEGACY` firmware, if after pressing `CTRL` + `L` you reach the `Additional Firmware Menu` white screen, you will need to press `2` to boot from a USB.
+::: tip NOTE
+If you are using RW_LEGACY firmware, if after pressing Ctrl+L you reach the "Additional Firmware Menu" screen, you will need to press 2 to boot from a USB.
 
 See [this page](../firmware/flashing-firmware.md) for more information about RW_LEGACY booting.
 :::
-
----
 
 ## Fixing Audio
 
 You will likely have audio issues after installing Linux. Run the following script to fix them. 
 
-### Fixing Audio
+#### Prerequisites
+* Python 3.10 or newer
+* Git
 
 ::: danger
 Using AVS on a device with max98357a will blow your speakers. You have been warned. 
 :::
-
-#### Prerequisites
-- Python 3.10 or newer
-- Git
 
 #### How to run the script
 1. Open a terminal.

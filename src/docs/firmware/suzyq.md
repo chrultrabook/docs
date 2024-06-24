@@ -28,8 +28,8 @@ This method requires a SuzyQable, a chromeOS debug cable.
 3. Plug in your cable
 4. Run `ls /dev/ttyUSB*` to verify your cable is working. This should output 3 items, `ttyUSB0`, `ttyUSB1`, and `ttyUSB2`. If you do not see these items, try flipping the `usb-c` end upside-down, and try another `usb-c` port. If there is still no result, confirm your cable was assembled properly.
 5. Run the following commands. This will disable hardware write protect.
-  - `echo "wp false" > /dev/ttyUSB0`
-  - `echo "wp false atboot" > /dev/ttyUSB0`
+   - `echo "wp false" > /dev/ttyUSB0`
+   - `echo "wp false atboot" > /dev/ttyUSB0`
 6. Run `echo "ccd reset factory" > /dev/ttyUSB0` to be able to unbrick using a suzyqable, if needed.
 7. Run `gsctool -a -I` to verify you have opened all the CCD flags. The current value for all CCD flags should be set to Y/Always.
 8. Verify `crossystem wpsw_cur` returns `0`.

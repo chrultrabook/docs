@@ -76,7 +76,7 @@ export default {
             link: '/docs/firmware/known-issues',
           },
           {
-            text: 'Enabling Developer Mode',
+            text: 'Developer Mode',
             link: '/docs/firmware/developer-mode',
             collapsible: true,
             children: [
@@ -150,10 +150,14 @@ export default {
             collapsible: true,
             children: [
               {
-                text: 'Linux Distro Specific Configuration',
+                text: 'Partitioning Instructions for Dual Booting',
+                link: '/docs/installing/dualboot'
+              },
+              {
+                text: 'Notes for non-standard distros',
                 link: '/docs/installing/distros',
               }
-            ]
+            ] // */
           },
           {
             text: 'Installing MacOS',
@@ -188,10 +192,6 @@ export default {
           {
             text: 'Reporting Bugs',
             link: '/docs/debugging/bugreport',
-          },
-          {
-            text: 'Contributing',
-            link: '/docs/debugging/contributing',
           }
         ]
       },
@@ -232,6 +232,10 @@ export default {
             link: '/docs/reverting/booting-recovery-usb',
           }
         ]
+      },
+      {
+	text: 'Contributing',
+	link: '/docs/contributing',
       }
     ]
   }),

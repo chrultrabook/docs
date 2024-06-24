@@ -4,7 +4,7 @@ next: flashing-firmware
 ---
 # Types of Firmware
 
-### RW_LEGACY
+## RW_LEGACY
 
 * Updates/replaces the stock RW_LEGAGY payload (SeaBIOS or edk2) included on many older models; supplements the ChromeOS / secure boot payload (depthcharge)
 * Leaves all stock functionality intact, including the Developer Mode boot screen and Recovery Mode functionality
@@ -17,7 +17,7 @@ next: flashing-firmware
 Do not run Windows on RW_LEGACY. The RW_LEGACY firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are OK with the accompanying limitations).
 :::
 
-### (UEFI) Full ROM
+## (UEFI) Full ROM
 * A complete firmware image which includes updated/customized versions of the hardware init component (coreboot) and UEFI boot payload (edk2)
 * Removes the developer mode boot ("OS verification is OFF") screen
 * Completely removes the ability to run ChromeOS (and ChromeOS Recovery Mode), creating a small risk of bricking your device
