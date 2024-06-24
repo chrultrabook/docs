@@ -150,7 +150,7 @@ ModelChromebook=1
 AttrPressureRange=1100:1000
 ```
 #### Consider Upstreaming Your Changes to libwacom
-Please consider upstreaming your changes to [libwacom](https://github.com/linuxwacom/wacom-hid-descriptors) and [wacom-hid-descriptors](https://github.com/linuxwacom/wacom-hid-descriptors). This will help other users with the same device as you. 
+Please consider upstreaming your changes to [libwacom](https://github.com/linuxwacom/libwacom) and [wacom-hid-descriptors](https://github.com/linuxwacom/wacom-hid-descriptors). This will help other users with the same device as you. 
 
 
 ## macOS 
