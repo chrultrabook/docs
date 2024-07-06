@@ -22,7 +22,7 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 5. If there's no error, shutdown the device without worry.
 
 ::: danger
-If flashing fails for UEFI, **do not shutdown** and immedietly attempt to restore stock firmware.
+If flashing fails for UEFI, **DO NOT SHUTDOWN** and immediately attempt to restore stock firmware.
 Otherwise, shutdown without worry.
 :::
 
