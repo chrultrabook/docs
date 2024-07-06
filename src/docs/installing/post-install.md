@@ -2,6 +2,7 @@
 prev: ./
 next: false
 ---
+
 # Post Install
 
 ::: tip
@@ -11,9 +12,10 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 ## Windows
 
 ### Drivers and QOL improvements
-* Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
-* Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
-* Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
+
+- Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
+- Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
+- Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
 
 ### CELES Post Install Workaround
 
@@ -26,8 +28,8 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 
 ### General QOL Fixes
 
-* Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
-* Run the [cros-keyboard-map](https://github.com/WeirdTreeThing/cros-keyboard-map) script to remap top row FX keys.
+- Run the [audio script](https://github.com/WeirdTreeThing/chromebook-linux-audio) if you haven't already.
+- Run the [cros-keyboard-map](https://github.com/WeirdTreeThing/cros-keyboard-map) script to remap top row FX keys.
 
 ### Fixing USB C on TigerLake and AlderLake
 
@@ -37,13 +39,13 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
    ```
    [Unit]
    Description=Enable USB-C on chromebook
-   
+
    [Service]
    Type=oneshot
    RemainAfterExit=yes
    ExecStartPre=/sbin/modprobe -r -a cros-ec-typec intel-pmc-mux
    ExecStart=/sbin/modprobe -a intel-pmc-mux cros-ec-typec
-   
+
    [Install]
    WantedBy=multi-user.target
    ```
@@ -52,15 +54,15 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 
 ### CELES Post Install Workaround
 
-If you experience issues in applications such as Parsec, or encounter disruptive freezes, adding the kernel parameters `clocksource=hpet hpet=force` may fix your problem. The following instructions assume you're using GRUB, and will be different for other bootloaders. Do your own research on how to set kernel parameters in your bootloader if these do not apply.
+If you experience issues in applications such as Parsec, or encounter disruptive freezes, adding the kernel parameters `clocksource=hpet hpet=force` may fix your problem. The following instructions assume you are using GRUB, and will be different for other bootloaders. Do your own research on how to set kernel parameters in your bootloader if these do not apply.
 
 1. Edit `/etc/default/grub` with your preferred text editor (e.g. nano).
 2. Add `clocksource=hpet hpet=force` inside of GRUB_CMDLINE_LINUX_DEFAULT and save your changes. If you exclude either parameter, this will not work. Use sudo, su, or doas if necessary.
 3. Type `grub-mkconfig -o /boot/grub/grub.cfg` or `update-grub` into a terminal and press Enter. Use sudo, su, or doas if necessary.
 4. Reboot
 
-## macOS 
+## macOS
 
-* [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
-* [OpenCore GUI Setup](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
-* Disable `DevirtualiseMmio` if you're on CometLake (10th gen)
+- [Remove Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
+- [OpenCore GUI Setup](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
+- Disable `DevirtualiseMmio` if you are on CometLake (10th gen)

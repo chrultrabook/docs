@@ -12,5 +12,5 @@ So you find a bug in one of our projects, and want to report it. It's faily simp
 <br>
 
 ::: tip
-Do not submit personal help requests in the bugtracker. 
+Do not submit personal help requests in the bugtracker.
 :::

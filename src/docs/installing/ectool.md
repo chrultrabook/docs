@@ -14,6 +14,6 @@ Run `ectool help` for a full list of commands.
 
 Some common uses of `ectool` include:
 
-* Accessing the EC console: `ectool console`
-* Controlling the fan with `ectool fanduty <percent>`
-* Set the keyboard backlight in devices that have it: `ectool pwmsetkblight <percent>`
+- Accessing the EC console: `ectool console`
+- Controlling the fan with `ectool fanduty <percent>`
+- Set the keyboard backlight in devices that have it: `ectool pwmsetkblight <percent>`
