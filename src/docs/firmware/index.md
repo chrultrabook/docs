@@ -30,7 +30,7 @@ Only x86_64 devices are currently supported.
 :::
 
 ::: tip
-If you only have one device, please be sure to [setup a USB with your OS to install](ventoy.md) before flashing.
+If you only have one device, please be sure to [set up a USB with your OS to install](ventoy.md) before flashing.
 :::
 
 ## Asking for help properly
