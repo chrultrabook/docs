@@ -13,7 +13,7 @@ curl is not installed by default for Ubuntu or Ubuntu-based distros. To install 
 2. Choose option 1: `Install/Update UEFI (Full ROM) Firmware`, and reboot if successful.
 
 ::: danger
-**DO NOT REBOOT if flash was not successful**
+**Do not reboot if flash was not successful**
 :::
 
 ### Potential Errors (Before Flashing)

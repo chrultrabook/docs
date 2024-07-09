@@ -6,11 +6,11 @@ next: supported-devices
 # Flashing Custom Firmware
 
 ::: danger
-You are about to make **UNOFFICAL** changes to your device! This will **VOID ANY WARRANTY** that came with your original purchase. We provide **ZERO WARRANTY** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **YOU are doing all changes at your own RISK**!
+You are about to make **unofficial** changes to your device! This will **void any warranty** that came with your original purchase. We provide **zero warranty** if you encounter bugs, brick your device, lose your job because the alarm clock didn't go off, or if a thermonuclear war starts. **You are doing all changes at your own risk**!
 :::
 
 ::: danger
-Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer, unless you were given **DIRECT PERMISSION to do so.**
+Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer, unless you were given **direct permission to do so.**
 :::
 
 ## Prerequisites
