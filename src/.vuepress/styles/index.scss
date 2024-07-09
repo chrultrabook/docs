@@ -24,41 +24,38 @@
   --c-brand: #3D50F5;
   --c-brand-light: #4e5ff8;
   --c-tip: #45d48c;
+  --c-nav: #F6F7F9;
   --c-header: #000;
-  --c-text: #1b1d21;
-  --c-tip-bg: rgb(69, 212, 140, 0.4);
-  --c-text-accent:#3D50F5;
-  --border: #EAECEF;
+  --c-text: #353841;
 }
 
 
 html.dark {
-  --c-brand: rgba(129, 129, 215, 0.765); //changes accent color
-  --c-border: #25262c; //track color
+  --c-brand: #B3C7FF; //changes accent color
   --c-brand-light: #778bc2; //get started button hover
   --c-tip: #30d56f; //tip bubble color
   --c-bg:  #17181C;//dark mode background
-  --c-text-accent: #67D6ED; //accent in nav
-  --c-text: #e2e2e2; //text for everything including nav
-  --c-tip-bg: rgb(48, 213, 111, 0.1);
-  --border: #25262C;
+  --c-nav:#23262F;
+  --c-header: #fff;
+  --c-text: #BCC0C8;
 }
-
-::-webkit-scrollbar
-{
-  width: 0;
-  height: 0;
+.sidebar::-webkit-scrollbar {
+  width: 0%;
+  height: 0%;
 }
-
-.sidebar::-webkit-scrollbar
-{
-  background-color: red;
+.navbar{
+  background-color: var(--c-nav);
+  border: none;
 }
-
 .sidebar{
+  background-color: var(--c-nav);
   font-size: 14px;
   border: none;
   margin-top: 1px;
+}
+
+.header-anchor{
+  color: var(--c-header);
 }
 
 .header-anchor p{
