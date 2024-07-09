@@ -2,7 +2,6 @@
 prev: developer-mode.md
 next: false
 ---
-
 # Recovery Mode
 
 Recovery mode is used to restore the OS and RW regions of the firmware. It gets triggered when an issue with the device is detected, or you manually start it.
@@ -17,14 +16,13 @@ Images sourced from [Google Support](https://support.google.com/chrome/a/answer/
 
 ::: danger
 Do not continue if your device is currently owned or enrolled by a organization, such as a school or employer. Unless you were given permission by your organization, its a crime.
-:::
+::: 
 
 ## Entering Recovery Mode
 
 ### Chromebooks
 
 Press `ESC` + `Refresh` (arrow icon), + `Power` at the same time. This should bring your system into recovery mode.
-
 - For some devices the power button is on the side.
 - Some devices may need to hold down the `Fullscreen` button (four corners icon) instead of the `Refresh` button.
 

@@ -33,8 +33,7 @@ You can then run `ls` to verify you have the correct files, it should look somet
 ## Starting Ventoy
 
 Run the following command to start the Ventoy Web GUI:
-
-- `./VentoyWeb.sh`
+* `./VentoyWeb.sh`
 
 Next, switch back to VT-1 by pressing Ctrl + Alt + 🡠 (F1)and open `http://localhost:24680` in Chrome.
 
@@ -58,6 +57,6 @@ Open Files and click on your USB drive, you should then see a device named "Vent
 
 <img src="/ventoy/ventoy-drive.png">
 
-Copy your images from Downloads to the Ventoy drive. Do not touch VTOYEFI. Once you have done that, eject your USB drive and now you are done.
+Copy your images from Downloads to the Ventoy drive. Do not touch VTOYEFI. Once you have done that, eject your USB drive and now you're done.
 
 <img src="/ventoy/isos.png">

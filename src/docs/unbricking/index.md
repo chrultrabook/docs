@@ -2,10 +2,9 @@
 next: false
 prev: false
 ---
-
 # Unbricking
 
-If your device's firmware got into a bad state (will not POST), you can try unbricking it.
+If your device's firmware got into a bad state (won't POST), you can try unbricking it.
 
 ::: tip
 Try performing a EC reset beforehand to see if your device can recover.
@@ -14,9 +13,7 @@ Try performing a EC reset beforehand to see if your device can recover.
 Here is the following ways that you can unbrick your device:
 
 ### [Unbricking with a ch341a USB programmer](unbrick-ch341a)
-
 ### [Unbricking with a Suzy-Q cable](unbrick-suzyq)
-
 ### [Unbricking with a flipper Zero](unbrick-flipper)
 
 ---

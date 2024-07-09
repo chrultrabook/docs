@@ -2,11 +2,10 @@
 
 It is recommended to flash coreboot with the Intel Management Engine interface enabled to prevent bugs after waking from sleep.  
 Without the ME interface enabled, the following bugs can occur after waking from sleep:
-
-- Blank Electron / Chromium apps
-- Buggy video playback in web browsers like Firefox or Safari
-- Display/Wallpaper settings in SysPref/SysSettings
-- Logging out freezes your system
+* Blank Electron / Chromium apps
+* Buggy video playback in web browsers like Firefox or Safari
+* Display/Wallpaper settings in SysPref/SysSettings
+* Logging out freezes your system
 
 ## Custom Firmware
 
@@ -17,7 +16,7 @@ Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/
 ### Building Manually
 
 1. Follow the steps [here](../firmware/compiling-coreboot.md) to download the toolchain and build the firmware
-   - Continue these steps once `build-uefi.sh <boardname>` has been ran
+   * Continue these steps once `build-uefi.sh <boardname>` has been ran
 2. Run `make menuconfig`. You will be greeted by a menu which looks like the following:
 
    ![image](/macos/menuconfig.png)

@@ -2,7 +2,6 @@
 prev: ./
 next: post-install
 ---
-
 # Installing Windows
 
 ::: warning
@@ -33,11 +32,9 @@ If you want to create a Windows installer from ChromeOS, see the [Installing Ven
    10. Install Windows as you would normally.
 
 3. Install drivers:
-
-- See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid.
+  - See [Coolstar's Windows Install Helper](https://coolstar.org/chromebook/windows-install.html) for drivers. Some of the drivers may be paid. 
 
 ## Installing `.cab` drivers
-
 Cab drivers are a little weird, but they're easy to install.
 
 1. Create a new folder.
@@ -52,24 +49,24 @@ Cab drivers are a little weird, but they're easy to install.
 Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
 
 ### What drivers do I need to buy?
-
-| CPU Generation     | Paid Drivers | Notes                                                                         |
-| ------------------ | ------------ | ----------------------------------------------------------------------------- |
-| **Sandybridge**    | n/a          |
-| **Ivybridge**      | n/a          |
-| **Haswell**        | n/a          |
-| **Broadwell**      | n/a          |
-| **Baytrail**       | n/a          |
-| **Braswell**       | n/a          |
-| **Skylake**        | AVS          | Models with a Celeron, Pentium, i3 or m3 CPU are eligible for a AUE discount. |
-| **Apollo Lake**    | AVS or SOF   | Can use either SOF or AVS                                                     |
-| **Kaby Lake**      | AVS          |
-| **Amber Lake**     | AVS          |
-| **Gemini Lake**    | SOF          |
-| **Comet Lake**     | SOF          |
-| **Picasso / Dali** | n/a          |
-| **Tiger Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
-| **Jasper Lake**    | SOF          |
-| **Alder Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
-| **Cezanne**        | SOF          |
-| **Mendocino**      | SOF          |
+   
+| CPU Generation     | Paid Drivers     | Notes         |
+| ----------------   | ---------------- | ------------- |
+| **Sandybridge**    | n/a              |
+| **Ivybridge**      | n/a              |
+| **Haswell**        | n/a              |
+| **Broadwell**      | n/a              | 
+| **Baytrail**       | n/a              |
+| **Braswell**       | n/a              |
+| **Skylake**        | AVS              | Models with a Celeron, Pentium, i3 or m3 CPU are eligible for a AUE discount.
+| **Apollo Lake**    | AVS or SOF       | Can use either SOF or AVS
+| **Kaby Lake**      | AVS              |
+| **Amber Lake**     | AVS              |
+| **Gemini Lake**    | SOF              |
+| **Comet Lake**     | SOF              |
+| **Picasso / Dali** | n/a              | 
+| **Tiger Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
+| **Jasper Lake**    | SOF              |
+| **Alder Lake**     | SOF, TB4         | TB4 and SOF can be purchased as a bundle.
+| **Cezanne**        | SOF              |
+| **Mendocino**      | SOF              |

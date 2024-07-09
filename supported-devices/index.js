@@ -35,35 +35,32 @@
 
 */
 
+
 function generateHTML(chromebooks) {
-  let html = `
+    let html = `
 <table style="font-size: 14px !important;">
     <tbody>`;
-  let first = true;
-  for (const generation in chromebooks) {
-    let devices = chromebooks[generation];
-    devices.devices.forEach((device) => {
-      //set defaults
-      if (device.windows === undefined)
-        device.windows = devices.default_windows;
-      if (device.linux === undefined) device.linux = devices.default_linux;
-      if (device.mac === undefined) device.mac = devices.default_mac;
-      if (device.wpMethod === undefined)
-        device.wpMethod = devices.default_wpmethod;
-      if (device.fullrom === undefined)
-        device.fullrom = devices.default_fullrom;
-      if (device.rwLegacy === undefined)
-        device.rwLegacy = devices.default_rwLegacy;
-    });
-    if (first) {
-      first = false;
-    } else {
-      html += `
+    let first = true;
+    for (const generation in chromebooks) {
+        let devices = chromebooks[generation];
+        devices.devices.forEach(device => {
+            //set defaults
+            if (device.windows === undefined) device.windows = devices.default_windows;
+            if (device.linux === undefined) device.linux = devices.default_linux;
+            if (device.mac === undefined) device.mac = devices.default_mac;
+            if (device.wpMethod === undefined) device.wpMethod = devices.default_wpmethod;
+            if (device.fullrom === undefined) device.fullrom = devices.default_fullrom;
+            if (device.rwLegacy === undefined) device.rwLegacy = devices.default_rwLegacy;
+        })
+        if (first) {
+            first = false;
+        } else {
+            html += `
         <tr>
             <td colspan="8"></td>
         </tr>`;
-    }
-    html += `
+        }
+        html += `
         <tr>
             <th colspan="8" style="text-align:left;"> <i>${generation}</i></th>
         </tr>
@@ -77,55 +74,56 @@ function generateHTML(chromebooks) {
             <th scope="col"> Linux Notes</th>
             <th scope="col"> MacOS Notes</th>
         </tr>`;
-
-    let windows;
-    let linux;
-    let mac;
-
-    devices.devices.forEach((device, index) => {
-      let devicename = device.device.join("<br>");
-      let rw_legacy = "";
-      if (device.rwLegacy === null) {
-        rw_legacy = '<span style="color:#ff0000"><b>EOL</b></span>';
-      } else if (device.rwLegacy === true) {
-        rw_legacy = "✅";
-      }
-      let full_rom = device.fullrom ? "✅" : "";
-
-      let win_out = "";
-      let linux_out = "";
-      let mac_out = "";
-      if (windows !== device.windows) {
-        let length = 0;
-        windows = device.windows;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].windows === windows) length++;
-          else break;
-        }
-        win_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${windows}</td>`;
-      }
-      if (linux !== device.linux) {
-        let length = 0;
-        linux = device.linux;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].linux === linux) length++;
-          else break;
-        }
-        if (!linux) linux = devices.default_linux;
-        linux_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${linux}</td>`;
-      }
-      if (mac !== device.mac) {
-        let length = 0;
-        mac = device.mac;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].mac === mac) length++;
-          else break;
-        }
-        if (!mac) mac = devices.default_mac;
-        mac_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${mac}</td>`;
-      }
-
-      html += `
+        
+        let windows;
+        let linux;
+        let mac;
+        
+        devices.devices.forEach((device, index) => {
+            let devicename = device.device.join("<br>");
+            let rw_legacy = "";
+            if (device.rwLegacy === null) {
+                rw_legacy = "<span style=\"color:#ff0000\"><b>EOL</b></span>";
+            } else if (device.rwLegacy === true) {
+                rw_legacy = "✅";
+            }
+            let full_rom = device.fullrom ? "✅" : "";
+            
+            let win_out = "";
+            let linux_out = "";
+            let mac_out = "";
+            if (windows !== device.windows) {
+                let length = 0;
+                windows = device.windows;
+                for (let i=index; i<devices.devices.length; i++) {
+                    if (devices.devices[i].windows === windows) length++;
+                    else break;
+                }
+                win_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${windows}</td>`;
+            }
+            if (linux !== device.linux) {
+                let length = 0;
+                linux = device.linux;
+                for (let i=index; i<devices.devices.length; i++) {
+                    if (devices.devices[i].linux === linux) length++;
+                    else break;
+                }
+                if (!linux) linux=devices.default_linux;
+                linux_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${linux}</td>`;
+            }
+            if (mac !== device.mac) {
+                let length = 0;
+                mac = device.mac;
+                for (let i=index; i<devices.devices.length; i++) {
+                    if (devices.devices[i].mac === mac) length++;
+                    else break;
+                }
+                if (!mac) mac=devices.default_mac;
+                mac_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${mac}</td>`;
+            }
+            
+            
+            html += `
         <tr>
             <td>${devicename}</td>
             <td style="text-align:center;"> ${device.boardname}</td>
@@ -133,12 +131,13 @@ function generateHTML(chromebooks) {
             <td style="text-align:center;"> ${full_rom}</td>
             <td style="text-align:center;"> ${device.wpMethod}</td>${win_out}${linux_out}${mac_out}
         </tr>`;
-    });
-  }
-  html += `
+        
+        })
+    }
+    html += `
     </tbody>
 </table>`;
-  return html;
+    return html;
 }
 
 const path = require("path");
@@ -146,24 +145,13 @@ const path = require("path");
 console.log("Loading...");
 const fs = require("fs");
 let data = fs.readFileSync(path.join(__dirname, "template.md"), "utf8");
-data = data.replace("${{TABLE}}", generateHTML(require("./devices.json")));
+data = data.replace("${{TABLE}}", generateHTML(require('./devices.json')));
 
 //Putting this in the template file causes the template be be showed in the listing
-fs.writeFileSync(
-  path.join(__dirname, "../src/docs/firmware/supported-devices.md"),
-  data
-);
+fs.writeFileSync(path.join(__dirname, "../src/docs/firmware/supported-devices.md"), data);
 
 //Dont question the function.toString.... Javascript is funny
-fs.writeFileSync(
-  path.join(__dirname, "../src/.vuepress/public/supported-devices.js"),
-  fs
-    .readFileSync(path.join(__dirname, "search.js"), "utf-8")
-    .replace("{{script}}", generateHTML.toString())
-);
-fs.copyFileSync(
-  path.join(__dirname, "devices.json"),
-  path.join(__dirname, "../src/.vuepress/public/devices.json")
-);
+fs.writeFileSync(path.join(__dirname, "../src/.vuepress/public/supported-devices.js"), fs.readFileSync(path.join(__dirname, "search.js"), "utf-8").replace("{{script}}", generateHTML.toString()));
+fs.copyFileSync(path.join(__dirname, "devices.json"), path.join(__dirname, "../src/.vuepress/public/devices.json"));
 
 console.log("Done!");
