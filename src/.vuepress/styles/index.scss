@@ -84,12 +84,3 @@ html.dark {
 div.theme-default-content:not(.custom), footer.page-meta:not(.custom), nav.page-nav:not(.custom) {
   max-width: 1800px;
 }
-
-.deviceSearch
-{
-  all: unset;
-  background-color: var(--c-bg);
-  border-radius: 10px;
-  border: var(--border) solid 1px;
-  padding-left: 10px;
-}
