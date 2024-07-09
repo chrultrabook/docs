@@ -44,7 +44,7 @@ export default {
         link: '/docs/firmware/',
       },
       {
-        text: 'Questions?',
+        text: 'Join the Community!',
         link: 'https://forum.chrultrabook.com/'
       }
     ],
