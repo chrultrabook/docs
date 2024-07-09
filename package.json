@@ -20,7 +20,7 @@
     "@vuepress/plugin-register-components": "^2.0.0-rc.21",
     "@vuepress/plugin-search": "^2.0.0-rc.24",
     "@vuepress/theme-default": "^2.0.0-rc.24",
-    "sass-loader": "^14.2.0",
+    "sass-loader": "^14.2.1",
     "vuepress": "^2.0.0-rc.9"
   }
 }
