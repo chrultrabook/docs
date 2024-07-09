@@ -40,7 +40,7 @@ If you're on a smaller screen, scroll sideways to see whole table.
 :::
 
 <AddScript script-url="../../supported-devices.js"/>
-<p>Search: <input type="text" class="deviceSearch"></p>
+<p><input type="text" class="deviceSearch" placeholder="Enter Your Boardname"></p>
 
 <div class="deviceTable">
 ${{TABLE}}
