@@ -2,6 +2,7 @@
 prev: flashing-stock
 next: booting-recovery-usb
 ---
+
 # Making a Recovery USB
 
 ::: danger
@@ -36,4 +37,3 @@ Use [Rufus](../installing/bootableusb.md#flashing-using-rufus-windows) to flash 
 ### macOS/ChromeOS/Linux
 
 Use [dd](../installing/bootableusb.md#flashing-with-dd-linux-macos) to flash the recovery .bin file to USB.
-

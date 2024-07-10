@@ -2,6 +2,7 @@
 prev: supported-devices
 next: known-issues
 ---
+
 # Finding System Info
 
 ::: tip
@@ -18,6 +19,7 @@ Your system architecture is very important as it determines if your device has a
 2. Type `uname -m` and press enter
 
 You should now see one of three possible outputs:
+
 1. `x86_64`
 2. `aarch64`
 3. `armv7l`
@@ -31,10 +33,12 @@ The board name is the special name for your device which determines if it is sup
 ### How to find your board name
 
 #### Developer Mode
+
 1. Open VT-2 by pressing Ctrl + Alt + 🡢 (F2) and login as `chronos`
 2. Type `sudo crossystem hwid` and press Enter
 
 #### Recovery Mode
+
 1. Enter [Recovery Mode](recovery-mode.md)
 2. Find the "Model" line
 
