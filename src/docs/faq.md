@@ -38,7 +38,7 @@ Please read this page before asking for help. Your help request will be pointed 
 
 - The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
 
-### I'm running Legacy boot firmware now - can I switch to the UEFI firmware?
+### I'm running Legacy boot firmware now - Can I switch to the UEFI firmware?
 
 - If you are using SeaBIOS, you will likely need to re-install your operating system. Otherwise it should work fine.
 
