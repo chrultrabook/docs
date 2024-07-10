@@ -55,21 +55,21 @@ Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlice
 
 | CPU Generation     | Paid Drivers | Notes                                                                         |
 | ------------------ | ------------ | ----------------------------------------------------------------------------- |
-| **Sandybridge**    | n/a          |
-| **Ivybridge**      | n/a          |
-| **Haswell**        | n/a          |
-| **Broadwell**      | n/a          |
-| **Baytrail**       | n/a          |
-| **Braswell**       | n/a          |
+| **Sandybridge**    | n/a          |                                                                               |
+| **Ivybridge**      | n/a          |                                                                               |
+| **Haswell**        | n/a          |                                                                               |
+| **Broadwell**      | n/a          |                                                                               |
+| **Baytrail**       | n/a          |                                                                               |
+| **Braswell**       | n/a          |                                                                               |
 | **Skylake**        | AVS          | Models with a Celeron, Pentium, i3 or m3 CPU are eligible for a AUE discount. |
 | **Apollo Lake**    | AVS or SOF   | Can use either SOF or AVS                                                     |
-| **Kaby Lake**      | AVS          |
-| **Amber Lake**     | AVS          |
-| **Gemini Lake**    | SOF          |
-| **Comet Lake**     | SOF          |
-| **Picasso / Dali** | n/a          |
+| **Kaby Lake**      | AVS          |                                                                               |
+| **Amber Lake**     | AVS          |                                                                               |
+| **Gemini Lake**    | SOF          |                                                                               |
+| **Comet Lake**     | SOF          |                                                                               |
+| **Picasso / Dali** | n/a          |                                                                               |
 | **Tiger Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
-| **Jasper Lake**    | SOF          |
+| **Jasper Lake**    | SOF          |                                                                               |
 | **Alder Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
-| **Cezanne**        | SOF          |
-| **Mendocino**      | SOF          |
+| **Cezanne**        | SOF          |                                                                               |
+| **Mendocino**      | SOF          |                                                                               |

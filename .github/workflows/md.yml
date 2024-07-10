@@ -11,6 +11,6 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v16
         id: linter
         with:
-          globs: 'src/**/*.md'
+          globs: '**/*.md'
           config: '.markdownlint.jsonc'
           fix: true
