@@ -13,7 +13,11 @@ Refer to the [supported devices list](supported-devices.md) to figure out which 
 
 Depending on your device, you will need to do **one** of the following:
 
-- Take out a WP screw
-- [Unplug your battery](battery.md)
-- Bridge two jumpers
-- [Use a SuzyQable](suzyq.md) (A cable that enables CCD (Closed Case Debugging))
+* Take out a WP screw
+* [Unplug your battery](battery.md)
+* Bridge two jumpers
+* [Use a SuzyQable](suzyq.md) (A cable that enables CCD (Closed Case Debugging))
+
+::: warning
+On devices with a Ti50 security chip (2023+), you will additionally need to [disable RO verification](ti50-ap-ro.md).
+:::

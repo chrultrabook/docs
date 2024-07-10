@@ -6,13 +6,13 @@ Ventoy is a useful tool that allows you to have multiple OS installer images on 
 
 Before we begin, be sure to backup any data that may be on your USB drive as it will be erased during this process.
 
-<img src="/ventoy/backup.png">
+<img src="/ventoy/backup.png" alt="save to google drive">
 
 ## Downloading Ventoy
 
 Grab the latest Ventoy release from [GitHub](https://github.com/ventoy/Ventoy/releases). Be sure to get the Linux version.
 
-<img src="/ventoy/download.png">
+<img src="/ventoy/download.png" alt="Download Ventoy.linux.tar.gz">
 
 ## Extracting Ventoy
 
@@ -28,7 +28,7 @@ On commands 2 and 3, after typing `ventoy`, you can press tab to fill in the res
 
 You can then run `ls` to verify you have the correct files, it should look something like this:
 
-<img src="/ventoy/extract.png">
+<img src="/ventoy/extract.png" alt="extract ventoy">
 
 ## Starting Ventoy
 
@@ -40,13 +40,13 @@ Next, switch back to VT-1 by pressing Ctrl + Alt + 🡠 (F1)and open `http://loc
 
 You should see this on your screen now:
 
-<img src="/ventoy/ventoy.png">
+<img src="/ventoy/ventoy.png" alt="ventoy launch page">
 
 ## Installing Ventoy to USB
 
 Plug in your USB drive and click the green circle to refresh devices. You should see your USB drive get detected. Now click options, then Partition Style, then choose GPT.
 
-<img src="/ventoy/gpt.png">
+<img src="/ventoy/gpt.png" alt="choose gpt to format">
 
 Once you have done that and your drive is detected, click on Install and click Ok twice when prompted and again once the installation has completed. Once installation is complete, unplug and plug back in your USB drive.
 
@@ -56,8 +56,8 @@ Download an image of any OS you want. For Windows we recommend that you only use
 
 Open Files and click on your USB drive, you should then see a device named "Ventoy".
 
-<img src="/ventoy/ventoy-drive.png">
+<img src="/ventoy/ventoy-drive.png" alt="flashdrive img">
 
 Copy your images from Downloads to the Ventoy drive. Do not touch VTOYEFI. Once you have done that, eject your USB drive and now you are done.
 
-<img src="/ventoy/isos.png">
+<img src="/ventoy/isos.png" alt="ISO tab">

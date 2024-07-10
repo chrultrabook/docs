@@ -38,11 +38,11 @@ Please read this page before asking for help. Your help request will be pointed 
 
 - The UEFI Full ROM firmware only supports 64-bit OS, so be sure to use the 'x86_64' version of whatever OS you want to install. USB media created from 32-bit ISOs will simply fail to boot.
 
-### I'm running Legacy boot firmware now - can I switch to the UEFI firmware?
+### I'm running Legacy boot firmware now - Can I switch to the UEFI firmware?
 
 - If you are using SeaBIOS, you will likely need to re-install your operating system. Otherwise it should work fine.
 
-### Help! I can't exit Developer Mode!
+### Help! I can't exit Developer Mode
 
 - If you are trying to exit Developer Mode but get the error `WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON` or find the `Return to secure mode` button missing, you need to reset your GBB flags. You can do that by running [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) and selecting `3) Set Boot Options (GBB flags)`, followed by `5) Reset to factory default`.
   - Then exit developer mode by choosing "Return to secure mode" on the bootup screen

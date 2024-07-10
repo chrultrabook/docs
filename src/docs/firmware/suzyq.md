@@ -23,7 +23,7 @@ This method requires a SuzyQable, a chromeOS debug cable.
 4. You will be prompted to press the `PP` (physical presence) button several times. This is a fancy way of saying to press the power button. This process takes several minutes and ends with the message `PP Done!`.
 5. The device will suddenly reboot and exit developer mode. Re-enable developer mode and continue with the instructions.
 
-## Step 2: Disable Write Protect.
+## Step 2: Disable Write Protect
 
 1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
 2. Login as `root`.

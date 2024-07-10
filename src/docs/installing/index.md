@@ -11,13 +11,13 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 
 ## Windows
 
-### Pros:
+### Pros
 
 - Works on most platforms with minimal tweaking¹
 - Generally has better application support
 - Better game support
 
-### Cons:
+### Cons
 
 - Audio driver is paid (10 USD) for Skylake (6th generation) and newer devices
 - USB4/Thunderbolt driver is paid (20 USD) for **TigerLake** (11th generation Intel processors) and **newer** generations on devices that require them
@@ -32,13 +32,13 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 
 ## Linux
 
-### Pros:
+### Pros
 
 - Free audio support
 - Lightweight and optimal for Chrultrabooks with low storage / slow CPUs
 - Most hardware (biggest exception is audio) will work out of the box
 
-### Cons:
+### Cons
 
 - Potentially difficult for a new user (depending on the distro of choice)
 - Requires some work on the end user (running audio script, configuring keyboard mapping)
@@ -54,11 +54,11 @@ Be sure to check the [supported devices page](../firmware/supported-devices.md) 
 
 ## macOS
 
-### Pros:
+### Pros
 
 - OS experience is near identical to a Mac
 
-### Cons:
+### Cons
 
 - Battery life is subpar
 - Hardware based DRM (e.g AppleTV.app) is broken

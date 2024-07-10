@@ -46,7 +46,7 @@ See [this page](../firmware/flashing-firmware.md) for more information about RW_
 
 You will likely have audio issues after installing Linux. Run the following script to fix them.
 
-#### Prerequisites
+### Prerequisites
 
 - Python 3.10 or newer
 - Git

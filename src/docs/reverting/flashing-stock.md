@@ -25,8 +25,8 @@ If your device has hit AUE (Auto Update Expiration), you will not be able to rev
 
 6. Choose option 2: `Restore Stock ChromeOS Firmware`.
 
-::: tip
-If, for whatever reason, lost your stock firmware backup, Use an additional drive to flash a [recovery image](making-recovery-usb.md).
-:::
+   ::: tip
+   If, for whatever reason, lost your stock firmware backup, Use an additional drive to flash a [recovery image](making-recovery-usb.md).
+   :::
 
 7. Follow on-screen instructions

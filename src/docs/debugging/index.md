@@ -62,17 +62,17 @@ If you need to use SuzyQ, you can use `minicom` or `picocom` for example. It exp
 1. Download our debugging script.
    - `cd ~/Desktop;wget https://raw.githubusercontent.com/chrultrabook/linux-tools/main/debugging.sh`
 
-It will dump:
+   It will dump:
 
-- ACPI tables from sysfs (`/sys/firmware/acpi/*`)
-- DMI information (`dmidecode`)
-- Coreboot buffer (`cbmem`)
-- Linux kernel logs (`dmesg`)
-- List of PCI devices (`lspci`)
-- List of USB devices (`lsusb`)
-- Information about soundcards present in the system and their configuration
+   - ACPI tables from sysfs (`/sys/firmware/acpi/*`)
+   - DMI information (`dmidecode`)
+   - Coreboot buffer (`cbmem`)
+   - Linux kernel logs (`dmesg`)
+   - List of PCI devices (`lspci`)
+   - List of USB devices (`lsusb`)
+   - Information about soundcards present in the system and their configuration
 
-Into `debug-logs.tar.gz` archive on your desktop.
+   Into `debug-logs.tar.gz` archive on your desktop.
 
 2. Run it: `chmod +x debugging.sh;./debugging.sh`
 
@@ -83,7 +83,7 @@ Into `debug-logs.tar.gz` archive on your desktop.
 
 Flashrom is used to read and write from the SPI flash
 
-### Read flash:
+### Read flash
 
 - `sudo flashrom -p <programmer> -r <filename.rom>`
 - Example:
@@ -93,7 +93,7 @@ Flashrom is used to read and write from the SPI flash
 If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you want to write to the flash or else flashrom will fail.
 :::
 
-### Write flash:
+### Write flash
 
 - `sudo flashrom -p <programmer> -w <filename.rom>`
 - Intel Example:
@@ -101,7 +101,7 @@ If you have an Intel Chromebook, you will need to add `--ifd -i bios` if you wan
 - AMD Example:
   - `sudo flashrom -p internal -w stock.rom`
 
-### Write protection:
+### Write protection
 
 View status:
 
