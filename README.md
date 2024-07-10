@@ -1,3 +1,3 @@
-## Chrultrabook Docs
-Centralized project documentation 
+# Chrultrabook Docs
 
+Centralized project documentation

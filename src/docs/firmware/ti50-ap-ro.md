@@ -21,7 +21,8 @@ If you disabled WP via CCD and reset your CCD flags with `ccd reset factory`, yo
 3. Run `gsctool -a -I | grep AllowUnverifiedRo`.
 4. If that command has any output, your device has a Ti50. If you get no output or an error, your device either has a Cr50 or no GSC at all.
 
-## Step 2: Disable RO verification.
+## Step 2: Disable RO verification
+
 1. Unlock the GSC by running `gsctool -a -o`.
 2. Run `gsctool -a -I AllowUnverifiedRo:always`.
 3. Press the power button when prompted.
@@ -30,7 +31,8 @@ If you disabled WP via CCD and reset your CCD flags with `ccd reset factory`, yo
 If your device has a Ti50 and you don't disable RO verification, flashing full rom will brick the device (can be recovered with steps listed below).
 :::
 
-## Recovering a device bricked due to RO verification.
+## Recovering a device bricked due to RO verification
+
 ### Chromebooks
 
 1. Press and hold the `Power` button.
@@ -53,4 +55,3 @@ If your device has a Ti50 and you don't disable RO verification, flashing full r
 4. Repeat the above steps a second time.
 
 This will disable RO verification for 15 minutes, allowing you to permanently disable it.
-

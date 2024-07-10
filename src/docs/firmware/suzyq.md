@@ -2,6 +2,7 @@
 prev: write-protect
 next: false
 ---
+
 # Disabling write protect with a SuzyQable
 
 ::: tip
@@ -18,11 +19,12 @@ This method requires a SuzyQable, a chromeOS debug cable.
 
 1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
 2. Login as `root`.
-3. Run `gsctool -a -o`. 
+3. Run `gsctool -a -o`.
 4. You will be prompted to press the `PP` (physical presence) button several times. This is a fancy way of saying to press the power button. This process takes several minutes and ends with the message `PP Done!`.
 5. The device will suddenly reboot and exit developer mode. Re-enable developer mode and continue with the instructions.
 
-## Step 2: Disable Write Protect.
+## Step 2: Disable Write Protect
+
 1. Open VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
 2. Login as `root`.
 3. Plug in your cable
@@ -34,4 +36,3 @@ This method requires a SuzyQable, a chromeOS debug cable.
 7. Run `gsctool -a -I` to verify you have opened all the CCD flags. The current value for all CCD flags should be set to Y/Always.
 8. Verify `crossystem wpsw_cur` returns `0`.
 9. Reboot.
-
