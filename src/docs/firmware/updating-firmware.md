@@ -16,7 +16,7 @@ curl is not installed by default for Ubuntu or Ubuntu-based distros. To install 
 **DO NOT REBOOT if flash was not successful**
 :::
 
-### Potential Errors (Before Flashing)
+## Potential Errors (Before Flashing)
 
 If you get any of the errors found below please try some of these fixes
 
@@ -28,5 +28,5 @@ FATAL ERROR!`
      2. add `iomem=relaxed` to `GRUB_CMDLINE_LINUX` (Most likely at the top of the config)
      3. `grub-mkconfig -o /boot/grub/grub.cfg`
      4. Reboot and rerun the firmware-utility script
-   - If you are not using GRUB, please refer to (Arch Wiki)[wiki.archlinux.org/title/Kernel_parameters], for instructions on how to add `iomem=relaxed` to your respective kernel parameter
+   - If you are not using GRUB, please refer to [Arch Wiki](wiki.archlinux.org/title/Kernel_parameters), for instructions on how to add `iomem=relaxed` to your respective kernel parameter
    - If you get this error in a Live Linux ISO, please reflash with another Distro

@@ -79,7 +79,7 @@ Add the following SSDTs, kexts and modifications as needed:
 
 - Disable `Booter->Quirks->DevirtualiseMmio`: Fixes NVRAM and other runtime EFI services
 
-### SSDTs and ACPI Fixes:
+### SSDTs and ACPI Fixes
 
 - [croscorebootpatch](https://github.com/meghan06/croscorebootpatch): Fixes freeze during boot when using coreboot 4.20 and newer. Not needed when custom rom is used.
 - [Keyboard Map](https://github.com/1Revenger1/Acer-Spin-713-Hackintosh/blob/main/src/ACPI/SSDT-ChromeKeys.dsl): Maps FNx keys to ChromeOS mapping. This is an example, you may need to do your own mapping.
@@ -94,7 +94,7 @@ Add the following SSDTs, kexts and modifications as needed:
 - [VoodooPS2.kext](https://github.com/1Revenger1/VoodooPS2/releases): Fork of Acidanthera's VoodooPS2 which allows mapping keyboard brightness and other useful keys
 - [CrosEC.kext](https://github.com/1Revenger1/CrosEC/releases): Adds keyboard brightness, tablet mode, and other functionality
 
-#### Snapshot (cmd + r) or (ctrl + r) your `config.plist` after making modifications.
+#### Snapshot (cmd + r) or (ctrl + r) your `config.plist` after making modifications
 
 ::: danger
 If you dualboot with the SSDTs mentioned above, you might run into issues on other OSes. An `OSI_` check is not present in these SSDTs.

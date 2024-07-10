@@ -36,7 +36,7 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 1. Create a file called `chromebook-usbc.service` file in `/etc/systemd/system/`
 2. Paste the following contents into the file:
 
-   ```
+   ```txt
    [Unit]
    Description=Enable USB-C on chromebook
 

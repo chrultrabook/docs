@@ -5,7 +5,7 @@ Entering and exiting Developer mode will **wipe all** user data!
 Backup anything if you have to.
 :::
 
-### Reset GBB Flags
+## Reset GBB Flags
 
 If you get this error "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" or find the "Return to secure mode" button missing, you need to reset your gbb flags.
 

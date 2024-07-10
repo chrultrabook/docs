@@ -16,9 +16,9 @@ Most Skylake and older models (with a few exceptions) use a SOIC-8 flash chip wh
 3. A ch341a USB flash programmer
 4. A 1.8v adapter
 
-::: tip
-The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
-:::
+  ::: tip
+  The adapter is required for devices which use 1.8v flash chips. Some/Most Baytrail, Braswell, Skylake and many newer devices use a 1.8v flash chip. Baytrail is more reliable flashing at 3.3v though due to current leakage
+  :::
 
 5. Either a SOIC-8 chip clip or a WSON-8 probe
 
@@ -68,9 +68,9 @@ So let's get to it:
 7. Test connectivity and ensure the flash chip is properly identified:
    - `sudo flashrom -p ch341a_spi`
 
-Flashrom will produce output identifying the flash chip. If it doesn't, double check your connections to the programmer and the chip clip and retry.
+  Flashrom will produce output identifying the flash chip. If it doesn't, double check your connections to the programmer and the chip clip and retry.
 
-![image](/ch341aunbrick/500px-Flashrom_chip_detect.png)
+  ![image](/ch341aunbrick/500px-Flashrom_chip_detect.png)
 
 8. Determine file to be flashed
    - Depending on your desired use for the device, you have 3 options for flashing:
@@ -125,7 +125,7 @@ Now that everything is prepped, time to flash the device. To be thorough, we'll 
    - Otherwise use
      - `sudo flashrom -p ch341a_spi -w <filename>`
 
-Where \<filename\> is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 30s-90s to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written.
+  Where \<filename\> is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 30s-90s to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written.
 
 2. Verify the firmware
 
