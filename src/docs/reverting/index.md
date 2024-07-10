@@ -2,6 +2,7 @@
 prev: false
 next: flashing-stock
 ---
+
 # Reverting to Stock chromeOS
 
 ::: warning
@@ -18,4 +19,3 @@ If your device has hit AUE (Auto Update Expiration), you will not be able to rev
 You can revert your firmware back to stock and reinstall chromeOS.
 
 This is useful if your planning to sell your device.
-

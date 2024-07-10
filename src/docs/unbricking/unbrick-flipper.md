@@ -1,20 +1,20 @@
-# Unbricking with a Flipper Zero 
+# Unbricking with a Flipper Zero
 
 Yes, this is possible.
 
 ## Prerequisites
 
-* Your brain (please)
-* A Flipper Zero with up-to-date firmware
-  * It doesn't matter if you're using stock or custom FW.
-* A SOIC8 clip chip
-  * You can buy a cheap Chinese one [here](https://www.amazon.com/Ximimark-SOIC8-Socket-Adpter-Programmer/dp/B07BRSVRXV)
-* A screwdriver / pry tool to open your Chromebook
-* A copy of your stock ROM
-* A way to copy files onto your Flipper Zero
+- Your brain (please)
+- A Flipper Zero with up-to-date firmware
+  - It doesn't matter if you are using stock or custom FW.
+- A SOIC8 clip chip
+  - You can buy a cheap Chinese one [here](https://www.amazon.com/Ximimark-SOIC8-Socket-Adpter-Programmer/dp/B07BRSVRXV)
+- A screwdriver / pry tool to open your Chromebook
+- A copy of your stock ROM
+- A way to copy files onto your Flipper Zero
 
 ## Preparations
- 
+
 1. Locate the SPI flash chip (See [Unbricking Page](./), under "Hardware Disassembly")
 2. A understanding that this may not work on your system
 
@@ -57,7 +57,3 @@ Go back to `Apps -> GPIO -> SPI Mem Manager -> Saved -> Yourfilename.bin`. Open 
 ### Step 6
 
 Assuming all went well, you should no longer have a unbricked system.
-
-## Got Questions?
-
-Please ask in the Chrultrabook Discord, or email me (meghan6) at [meghann6@proton.me](mailto:meghann6@proton.me).

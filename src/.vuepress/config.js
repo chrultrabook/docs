@@ -44,7 +44,7 @@ export default {
         link: '/docs/firmware/',
       },
       {
-        text: 'Join the Community!',
+        text: 'Questions?',
         link: 'https://forum.chrultrabook.com/'
       }
     ],
@@ -150,10 +150,14 @@ export default {
             collapsible: true,
             children: [
               {
-                text: 'Linux Distro Specific Configuration',
+                text: 'Partitioning Instructions for Dual Booting',
+                link: '/docs/installing/dualboot'
+              },
+              {
+                text: 'Notes for non-standard distros',
                 link: '/docs/installing/distros',
               }
-            ]
+            ] // */
           },
           {
             text: 'Installing MacOS',
