@@ -11,9 +11,11 @@ If your device's firmware got into a bad state (will not POST), you can try unbr
 Try performing a EC reset beforehand to see if your device can recover.
 :::
 
-    ::: tip
-    If your device has a Ti50 chip and you didn't disable RO verification before flashing, follow [this guide](../firmware/ti50-ap-ro.md#recovering-a-device-bricked-due-to-ro-verification) to recover it.
-    :::
+
+::: tip
+If your device has a Ti50 chip and you didn't disable RO verification before flashing, follow [this guide](../firmware/ti50-ap-ro.md#recovering-a-device-bricked-due-to-ro-verification) to recover it.
+:::
+
 ---
 
 Here is the following ways that you can unbrick your device:
