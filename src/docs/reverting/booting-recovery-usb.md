@@ -2,6 +2,7 @@
 prev: making-recovery-usb
 next: false
 ---
+
 # Booting the Recovery USB
 
 ::: tip
@@ -18,4 +19,4 @@ Going through the recovery process will wipe **all** data on the internal drive.
 
 3. Begin the recovery process.
 
-4. Once its done, setup the system like normal.
+4. Once its done, set up the system like normal.

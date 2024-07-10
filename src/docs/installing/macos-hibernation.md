@@ -10,14 +10,14 @@ Some fixes in the `config.plist` are required in order to take advantage of this
   - While not strictly required, this speeds up resume times and prevents accidently booting another OS and changing hardware state underneath macOS.
 - Create a reserved memory region under `UEFI->ReservedMemory` with the properties:
 
-    | Field   | Type    | Value |
-    | ------- | ------- | ----- |
-    | Comment | String  | Fix black screen on wake from hibernation |
-    | Enabled | Boolean | True |
-    | Address | Number  | 569344 |
-    | Enabled | Boolean | True |
-    | Size    | Number  | 4096 |
-    | Type    | String  | RuntimeCode |
+  | Field   | Type    | Value                                     |
+  | ------- | ------- | ----------------------------------------- |
+  | Comment | String  | Fix black screen on wake from hibernation |
+  | Enabled | Boolean | True                                      |
+  | Address | Number  | 569344                                    |
+  | Enabled | Boolean | True                                      |
+  | Size    | Number  | 4096                                      |
+  | Type    | String  | RuntimeCode                               |
 
 ## Testing Hibernation
 
@@ -30,7 +30,7 @@ Some models (such as `KLED`) have drives not marked as internal, which prevents 
 To fix this, add the `built-in` property to the PCI device under `DeviceProperties->Add-><storage device path>`:
 
 | Field    | Type | Value      |
-| -------- | ---- | ---------- | 
+| -------- | ---- | ---------- |
 | built-in | Data | <01000000> |
 
 You may need to add an ACPI device as well.
