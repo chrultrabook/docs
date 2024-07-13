@@ -48,7 +48,7 @@ export default {
         link: 'https://forum.chrultrabook.com/'
       }
     ],
-	headerDepth: 0,
+    headerDepth: 0,
     sidebarDepth: 2,
     sidebar: [
       {
