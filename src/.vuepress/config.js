@@ -120,10 +120,6 @@ export default {
           {
             text: 'Flashing Manually',
             link: '/docs/firmware/manually-flashing',
-          },
-          {
-            text: 'Installing Ventoy With chromeOS',
-            link: '/docs/firmware/ventoy'
           }
         ]
       },
@@ -139,6 +135,12 @@ export default {
           {
             text: 'Creating a Bootable USB',
             link: '/docs/installing/bootableusb',
+            collapsible: true,
+            children: [
+              {
+                text: 'Using Ventoy on ChromeOS',
+                link: '/docs/installing/ventoy'
+              }
           },
           {
             text: 'Installing Windows',
