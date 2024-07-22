@@ -141,6 +141,7 @@ export default {
                 text: 'Using Ventoy on ChromeOS',
                 link: '/docs/installing/ventoy'
               }
+            ]
           },
           {
             text: 'Installing Windows',
