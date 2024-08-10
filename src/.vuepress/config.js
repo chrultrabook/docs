@@ -64,12 +64,12 @@ export default {
         collapsible: false,
         children: [
           {
-            text: 'Supported Devices',
-            link: '/docs/firmware/supported-devices',
-          },
-          {
             text: 'Finding System Info',
             link: '/docs/firmware/system-info',
+          },
+          {
+            text: 'Supported Devices',
+            link: '/docs/firmware/supported-devices',
           },
           {
             text: 'Known Issues',
