@@ -1,6 +1,6 @@
 ---
-prev: supported-devices
-next: known-issues
+prev: index.md
+next: supported-devices
 ---
 
 # Finding System Info
