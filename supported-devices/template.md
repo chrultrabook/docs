@@ -1,6 +1,6 @@
 ---
-prev: index.md
-next: system-info
+prev: system-info
+next: known-issues
 ---
 
 <!--

@@ -1,5 +1,5 @@
 ---
-prev: system-info
+prev: supported-devices
 next: developer-mode
 ---
 

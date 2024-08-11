@@ -1,6 +1,6 @@
 ---
 prev: false
-next: supported-devices
+next: system-info
 ---
 
 # Flashing Custom Firmware
