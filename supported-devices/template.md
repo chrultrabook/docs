@@ -36,12 +36,12 @@ If your device isn't listed, it doesn't have support.
 :::
 
 ::: tip
-If you're on a smaller screen, scroll sideways to see whole table.
+If you are on a smaller screen, scroll sideways to see whole table.
 :::
 
 <AddScript script-url="../../supported-devices.js"/>
-<p>Search: <input type="text" class="deviceSearch"></p>
-
+<p>
+<input type="text" class="deviceSearch" placeholder="Enter Your Boardname Or Device Name"></p>
 <div class="deviceTable">
 ${{TABLE}}
 </div>
