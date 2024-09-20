@@ -18,44 +18,58 @@
 :root {
   scroll-behavior: smooth;
   --back-to-top-z-index: 5;
-  --back-to-top-color: #3056d5;
-  --back-to-top-color-hover: #3056d5;
 
-  --c-brand: #3D50F5;
-  --c-brand-light: #4e5ff8;
-  --c-tip: #45d48c;
-  --c-nav: #F6F7F9;
+  --c-brand: #8e70e0;
+  --c-brand-light: #273ae7;
   --c-header: #000;
-  --c-text: #353841;
+  --c-text: #1b1d21;
+
+  --c-tip: #009400;
+  --c-tip-bg: #e6f6e6;
+  --c-tip-text:#003100;
+  --c-tip-title: #003100;
+  
+  --c-danger: #f53d7d;
+  --c-danger-bg: #fad1df;
+  --c-danger-title: #7d0026;
+
+  --c-text-accent:#5e54e7; //link colors
+  --border: #343333;
+
+  --c-bg-light:#cad8ff; //code snips
+  --c-placeholder: #2f2e2e;
+
+  --c-bg-navbar: #f6f7f9;
 }
 
 
 html.dark {
-  --c-brand: #B3C7FF; //changes accent color
-  --c-brand-light: #778bc2; //get started button hover
-  --c-tip: #30d56f; //tip bubble color
-  --c-bg:  #17181C;//dark mode background
-  --c-nav:#23262F;
-  --c-header: #fff;
-  --c-text: #BCC0C8;
-}
-.sidebar::-webkit-scrollbar {
-  width: 0%;
-  height: 0%;
-}
-.navbar{
-  background-color: var(--c-nav);
-  border: none;
-}
-.sidebar{
-  background-color: var(--c-nav);
-  font-size: 14px;
-  border: none;
-  margin-top: 1px;
+  --c-brand: rgb(158, 158, 216); //changes accent color
+  --c-border: #25262c; //track color, border color
+  --c-brand-light: #ccd5ee; //get started button hover
+
+  --c-tip: #009400; //tip side color
+  --c-tip-bg: #003100; //tip background color
+
+  --c-bg:  #1b1b1d;//dark mode background
+  --c-bg-navbar: #242526;//nav bar color
+
+  --c-text-accent: #67D6ED; //accent in nav
+  --c-text: #e2e2e2; //text for everything including nav
+  --c-header:#f1eded;
+
+  --c-danger-bg: #4e2232;
+  --c-danger: #f4558c;
+  --c-danger-text: #d8d6d6;
+  --c-danger-title: #fcc6d9;
+
+  --c-search: #282828;
+  --c-placeholder: #a7a4a4;
 }
 
-.header-anchor{
-  color: var(--c-header);
+.sidebar{
+  border: none;
+  margin-top: 1px;
 }
 
 .header-anchor p{
@@ -83,4 +97,19 @@ html.dark {
 
 div.theme-default-content:not(.custom), footer.page-meta:not(.custom), nav.page-nav:not(.custom) {
   max-width: 1800px;
+}
+
+.deviceSearch
+{
+  all: unset;
+  background-color: var(--c-search);
+  border-radius: 5px;
+  border: var(--border) solid 1.5px;
+  padding-left: 10px;
+  width: 18rem;
+
+}
+.deviceSearch::placeholder
+{
+  color: var(--c-placeholder);
 }
