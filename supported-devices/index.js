@@ -1,7 +1,12 @@
 //node index.js to run
 
-/**
-  How the formatting in devices.json works
+/*
+  devices.json should not be modified independently from the one in mrchromebox's website.
+*/
+
+/*
+  os-support.json overrides/adds to any data existing in devices.json from mrchromebox.
+  How the formatting in os-support.json works
 
 {
     "cpu generation": {
@@ -32,138 +37,50 @@
             },
         ]
     }
+}
 
 */
 
-function generateHTML(chromebooks) {
-  let html = `
-<table style="font-size: 14px !important;">
-    <tbody>`;
-  let first = true;
-  for (const generation in chromebooks) {
-    let devices = chromebooks[generation];
-    devices.devices.forEach((device) => {
-      //set defaults
-      if (device.windows === undefined)
-        device.windows = devices.default_windows;
-      if (device.linux === undefined) device.linux = devices.default_linux;
-      if (device.mac === undefined) device.mac = devices.default_mac;
-      if (device.wpMethod === undefined)
-        device.wpMethod = devices.default_wpmethod;
-      if (device.fullrom === undefined)
-        device.fullrom = devices.default_fullrom;
-      if (device.rwLegacy === undefined)
-        device.rwLegacy = devices.default_rwLegacy;
-    });
-    if (first) {
-      first = false;
-    } else {
-      html += `
-        <tr>
-            <td colspan="8"></td>
-        </tr>`;
+// modified version of https://stackoverflow.com/a/34749873
+function isObject(item) {
+  return (item && typeof item === 'object' && !Array.isArray(item));
+}
+function mergeDevices(target, ...sources) {
+  if (!sources.length) return target;
+  const source = sources.shift();
+
+  if (isObject(target) && isObject(source)) {
+    for (const key in source) {
+      if (isObject(source[key])) {
+        if (!target[key]) Object.assign(target, { [key]: {} });
+        mergeDevices(target[key], source[key]);
+      } else if (source[key] instanceof Array && target[key] instanceof Array && key === "devices") {
+        for (const entry of source[key]) {
+          let dest = target[key].findIndex(i => i.boardname === entry.boardname);
+          if (dest >= 0) Object.assign(target[key][dest], entry);
+        }
+      } else {
+        Object.assign(target, { [key]: source[key] });
+      }
     }
-    html += `
-        <tr>
-            <th colspan="8" style="text-align:left;"> <i>${generation}</i></th>
-        </tr>
-        <tr>
-            <th scope="col"> Device Name</th>
-            <th scope="col"> Board Name</th>
-            <th scope="col"> RW_LEGACY <br> Firmware</th>
-            <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
-            <th scope="col"> WP Method</th>
-            <th scope="col"> Windows Notes</th>
-            <th scope="col"> Linux Notes</th>
-            <th scope="col"> MacOS Notes</th>
-        </tr>`;
-
-    let windows;
-    let linux;
-    let mac;
-
-    devices.devices.forEach((device, index) => {
-      let devicename = device.device.join("<br>");
-      let rw_legacy = "";
-      if (device.rwLegacy === null) {
-        rw_legacy = '<span style="color:#ff0000"><b>EOL</b></span>';
-      } else if (device.rwLegacy === true) {
-        rw_legacy = "✅";
-      }
-      let full_rom = device.fullrom ? "✅" : "";
-
-      let win_out = "";
-      let linux_out = "";
-      let mac_out = "";
-      if (windows !== device.windows) {
-        let length = 0;
-        windows = device.windows;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].windows === windows) length++;
-          else break;
-        }
-        win_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${windows}</td>`;
-      }
-      if (linux !== device.linux) {
-        let length = 0;
-        linux = device.linux;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].linux === linux) length++;
-          else break;
-        }
-        if (!linux) linux = devices.default_linux;
-        linux_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${linux}</td>`;
-      }
-      if (mac !== device.mac) {
-        let length = 0;
-        mac = device.mac;
-        for (let i = index; i < devices.devices.length; i++) {
-          if (devices.devices[i].mac === mac) length++;
-          else break;
-        }
-        if (!mac) mac = devices.default_mac;
-        mac_out = `\n            <td rowspan="${length}" style=\"text-align:center;\">${mac}</td>`;
-      }
-
-      html += `
-        <tr>
-            <td>${devicename}</td>
-            <td style="text-align:center;"> ${device.boardname}</td>
-            <td style="text-align:center;"> ${rw_legacy}</td>
-            <td style="text-align:center;"> ${full_rom}</td>
-            <td style="text-align:center;"> ${device.wpMethod}</td>${win_out}${linux_out}${mac_out}
-        </tr>`;
-    });
   }
-  html += `
-    </tbody>
-</table>`;
-  return html;
+
+  return mergeDevices(target, ...sources);
 }
 
-const path = require("path");
-
 console.log("Loading...");
+
+const path = require("path");
 const fs = require("fs");
-let data = fs.readFileSync(path.join(__dirname, "template.md"), "utf8");
-data = data.replace("${{TABLE}}", generateHTML(require("./devices.json")));
 
-//Putting this in the template file causes the template be be showed in the listing
 fs.writeFileSync(
-  path.join(__dirname, "../src/docs/firmware/supported-devices.md"),
-  data
-);
-
-//Dont question the function.toString.... Javascript is funny
-fs.writeFileSync(
-  path.join(__dirname, "../src/.vuepress/public/supported-devices.js"),
-  fs
-    .readFileSync(path.join(__dirname, "search.js"), "utf-8")
-    .replace("{{script}}", generateHTML.toString())
-);
-fs.copyFileSync(
-  path.join(__dirname, "devices.json"),
-  path.join(__dirname, "../src/.vuepress/public/devices.json")
+  path.join(__dirname, "../src/.vuepress/public/devices.json"),
+  JSON.stringify(
+    mergeDevices(
+      JSON.parse(fs.readFileSync(path.join(__dirname, "devices.json"), "utf-8")),
+      JSON.parse(fs.readFileSync(path.join(__dirname, "os-support.json"), "utf-8"))
+    )
+  )
 );
 
 console.log("Done!");
