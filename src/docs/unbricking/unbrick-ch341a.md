@@ -103,7 +103,8 @@ The firmware in all ChromeOS devices contains a section (RO_VPD) which stores bo
 You do not need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
 :::
 
-1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary. If you use Fedora or Ultramarine Linux, you can install the `cbfstool` package from the [Terra repository](https://terra.fyralabs.com/). Otherwise, we can download/extract it:
+1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary.
+If you use Fedora or Ultramarine Linux, you can install the `cbfstool` package from the [Terra repository](https://terra.fyralabs.com/). Otherwise, we can download/extract it.
    - `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`
    - Option 1: Extract VPD from the firmware on device
      - `sudo flashrom -p ch341a_spi -r badflash.rom`
