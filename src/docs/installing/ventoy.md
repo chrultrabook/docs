@@ -1,6 +1,6 @@
-# Installing Ventoy to a USB drive with chromeOS
+# Using Ventoy on ChromeOS
 
-Ventoy is a useful tool that allows you to have multiple OS installer images on a single drive. It is also the only way to properly create an installer for Windows using chromeOS.
+Ventoy is a useful tool that allows you to have multiple OS installer images on a single drive. It is also the only way to properly create the Windows installer using ChromeOS.
 
 ## Backing up your drive
 
@@ -15,6 +15,10 @@ Grab the latest Ventoy release from [GitHub](https://github.com/ventoy/Ventoy/re
 <img src="/ventoy/download.png" alt="download linux version of ventoy">
 
 ## Extracting Ventoy
+
+::: tip NOTE
+You need to have already enabled Developer Mode first.
+:::
 
 Open VT-2 by pressing Ctrl + Alt + 🡢 (F2) and run the following commands as root:
 
@@ -36,7 +40,7 @@ Run the following command to start the Ventoy Web GUI:
 
 - `./VentoyWeb.sh`
 
-Next, switch back to VT-1 by pressing Ctrl + Alt + 🡠 (F1)and open `http://localhost:24680` in Chrome.
+Next, switch back to VT-1 by pressing Ctrl + Alt + 🡠 (F1) and open `http://localhost:24680` in Chrome.
 
 You should see this on your screen now:
 

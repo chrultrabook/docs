@@ -1,5 +1,6 @@
 ---
 home: true
+title: Home
 heroText: Welcome to the Chrultrabook Docs
 tagline: Convert your Chromebook into an Ultrabook!
 heroImage: /chrome.svg
@@ -17,8 +18,6 @@ footer:
 # What is a chrultrabook and who is this documentation for?
 
 A chrultrabook is a modified Chromebook that is able to run Windows, Linux, and sometimes macOS by using MrChromebox’s coreboot firmware. The purpose of this site is to provide documentation that is detailed, user-friendly, and has up-to-date information about the hardware, software, and firmware on Chromebooks.
-
----
 
 ## These docs focus on two main things
 
