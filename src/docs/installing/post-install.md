@@ -79,7 +79,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    ```
    In this case, the device ID is `GDIX0000:00 27C6:0E0C Stylus`.
 
-3. Create a .tablet file for libwacom
+2. Create a .tablet file for libwacom
    ``` bash
    sudo mkdir -p /etc/libwacom/
    sudo nano /etc/libwacom/google-{your board name}.tablet
@@ -101,7 +101,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    Stylus=true
    Touch=false
    ```
-4. Create the libinput override
+3. Create the libinput override
    ``` bash
    sudo mkdir -p /etc/libinput/
    sudo nano /etc/libinput/local-overrides.quirks
@@ -115,7 +115,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    ModelChromebook=1
    AttrPressureRange=1100:1000
    ```
-5. Update the libwacom database and restart the system
+4. Update the libwacom database and restart the system
    ``` bash
    sudo libwacom-update-db
    reboot
