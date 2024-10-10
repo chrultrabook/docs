@@ -65,7 +65,9 @@ If you experience issues in applications such as Parsec, or encounter disruptive
 
 Some Chromebooks come with USI styluses. They work fine in the newest versions of KDE Plasma, but they have a rotation issue in GNOME. The issue is that the stylus does not rotate with the screen, so it is only usable in one orientation. To fix this, we have to add an libinput override.
 
-1. Get the device ID of your stylus by running this script https://github.com/linuxwacom/libwacom/blob/master/tools/show-stylus.py.
+1. Get the device ID of your stylus
+   This information can either be read from cbmem or libwacom.
+   To get the ID from libwacom run this script https://github.com/linuxwacom/libwacom/blob/master/tools/show-stylus.py.
    ``` bash
    tux@fedora:~/Downloads/libwacom/tools$ sudo python ./show-stylus.py 
    Using "GDIX0000:00 27C6:0E0C Stylus": /dev/input/event5
@@ -77,7 +79,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    ```
    In this case, the device ID is `GDIX0000:00 27C6:0E0C Stylus`.
 
-2. Create a .tablet file for libwacom
+3. Create a .tablet file for libwacom
    ``` bash
    sudo mkdir -p /etc/libwacom/
    sudo nano /etc/libwacom/google-{your board name}.tablet
@@ -99,7 +101,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    Stylus=true
    Touch=false
    ```
-3. Create the libinput override
+4. Create the libinput override
    ``` bash
    sudo mkdir -p /etc/libinput/
    sudo nano /etc/libinput/local-overrides.quirks
@@ -113,7 +115,7 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    ModelChromebook=1
    AttrPressureRange=1100:1000
    ```
-4. Update the libwacom database and restart the system
+5. Update the libwacom database and restart the system
    ``` bash
    sudo libwacom-update-db
    reboot
