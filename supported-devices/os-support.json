@@ -1,0 +1,704 @@
+{
+  "Intel Sandybridge/Ivybridge": {
+    "default_windows": "Supported",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "Supported",
+    "devices": []
+  },
+  "Intel Haswell": {
+    "default_windows": "Supported",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "Supported",
+    "devices": [
+      {
+        "boardname": "PEPPY",
+        "mac": "Tested, Supported."
+      }
+    ]
+  },
+  "Intel Broadwell": {
+    "default_windows": "Supported",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "Supported",
+    "devices": [
+      {
+        "boardname": "GUADO",
+        "mac": "Tested, Supported."
+      },
+      {
+        "boardname": "LULU",
+        "mac": "Tested, Supported."
+      }
+    ]
+  },
+  "Intel Baytrail": {
+    "default_windows": "Supported",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Supported",
+    "devices": []
+  },
+  "Intel Braswell": {
+    "default_windows": "Supported",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Supported",
+    "devices": [
+      {
+        "boardname": "CELES",
+        "windows": "Requires platform clock workaround. (See <a href=\"../installing/post-install\">post install</a>)"
+      },
+      {
+        "windows": "No microphone support",
+        "boardname": "CYAN"
+      }
+    ]
+  },
+  "Intel Skylake": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
+    "devices": [
+      {
+        "boardname": "CAROLINE",
+        "mac": "Tested, unsupported. HD 515 broken, artifacts in recovery. EmeraldSDHC kernel panics."
+      },
+      {
+        "boardname": "LARS",
+        "mac": "Tested, supported. No touchscreen support."
+      }
+    ]
+  },
+  "Intel Apollolake": {
+    "default_windows": "Audio driver is paid. Buggy SD card.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "MicroSD detection issues<br><br>No headphone jack on SOF<br><br>max98357a on AVS doesn't have a volume limiter so speakers could get fried",
+    "devices": []
+  },
+  "Intel Kabylake / Amberlake": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
+    "devices": [
+      {
+        "boardname": "AKALI360",
+        "mac": "Tested, unsupported. EmeraldSDHC does not show eMMC drive. EmeraldSDHC + IRQ Conflict patch causes kernel panic"
+      },
+      {
+        "boardname": "ATLAS",
+        "windows": "Audio driver is paid. No webcam support.",
+        "linux": "Cameras do not work.",
+        "mac": "Tested, Supported."
+      },
+      {
+        "boardname": "EVE",
+        "mac": "Tested, Supported."
+      },
+      {
+        "boardname": "LEONA",
+        "mac": "Tested, Supported."
+      },
+      {
+        "boardname": "NAUTILUS",
+        "linux": "Camera on the keyboard doesn't work.",
+        "mac": "Tested, unsupported. HD 615 broken, will not boot without Ivy Bridge CPUID spoof and -igfxvesa. No acceleration."
+      },
+      {
+        "boardname": "NOCTURNE",
+        "windows": "Audio driver is paid. No webcam support.",
+        "linux": "Cameras do not work.",
+        "mac": "Tested, Supported."
+      },
+      {
+        "boardname": "SHYVANA",
+        "mac": "Tested, Supported."
+      }
+    ]
+  },
+  "Intel Geminilake": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Supported",
+    "devices": []
+  },
+  "Intel Whiskeylake": {
+    "default_windows": "?",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "?",
+    "devices": [
+      {
+        "boardname": "ARCADA"
+      },
+      {
+        "boardname": "SARIEN",
+        "linux": "SIM card slot was not tested. Everything else works under RW_LEGACY. This Chromebook has upgradable RAM and SSD."
+      }
+    ]
+  },
+  "Intel Cometlake": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
+    "default_linux": "Supported",
+    "devices": [
+      {
+        "boardname": "DRAGONAIR",
+        "linux": "Fingerprint reader doesn't work",
+        "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+      },
+      {
+        "boardname": "DRALLION",
+        "windows": "Supported",
+        "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+      },
+      {
+        "boardname": "DRALLION360",
+        "windows": "Supported"
+      },
+      {
+        "boardname": "DRATINI",
+        "linux": "Fingerprint reader doesn't work"
+      },
+      {
+        "boardname": "JINLON",
+        "linux": "Fingerprint reader doesn't work"
+      },
+      {
+        "boardname": "KLED",
+        "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+      },
+      {
+        "boardname": "KOHAKU",
+        "linux": "Fingerprint reader doesn't work.<br><br>Sleep issues related to EC (wakes up with lid closed)"
+      }
+    ]
+  },
+  "Intel TigerLake": {
+    "default_windows": "Audio and Thunderbolt drivers are paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
+    "devices": []
+  },
+  "Intel JasperLake": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Cameras untested.",
+    "devices": []
+  },
+  "Intel Alderlake": {
+    "default_windows": "Audio and Thunderbolt drivers are paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
+    "devices": [
+      {
+        "boardname": "KANO",
+        "windows": "Audio and Thunderbolt drivers are paid. No webcam support."
+      },
+      {
+        "boardname": "REDRIX",
+        "windows": "Audio and Thunderbolt drivers are paid. No webcam support.",
+        "linux": "Touchpad needs fix, no camera, see <a href=\"https://github.com/chrultrabook/docs/issues/72\">#72</a>"
+      },
+      {
+        "boardname": "VELL",
+        "windows": "Thunderbolt driver is paid. No audio or webcam support.",
+        "linux": "?"
+      }
+    ]
+  },
+  "Intel Alderlake-N": {
+    "default_windows": "Audio and USB4 drivers are paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Audio may not work.",
+    "devices": []
+  },
+  "AMD Stoneyridge": {
+    "default_windows": "Experimental Windows support. Requires patched drivers with testsigning enabled.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio",
+    "devices": []
+  },
+  "AMD Picasso": {
+    "default_windows": "Supported",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Needs to add \"iommu=pt\" to kernel parameters",
+    "devices": []
+  },
+  "AMD Cezanne": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "Speakers are not working currently.",
+    "devices": []
+  },
+  "AMD Mendocino": {
+    "default_windows": "Audio driver is paid.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "A recent kernel (6.8+) is needed for headphones to work.",
+    "devices": []
+  },
+  "Rockchip RK3288": {
+    "isExperimental": true,
+    "default_wpmethod": "screw",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "AOpen Chromebox Mini"
+        ],
+        "boardname": "FIEVEL"
+      },
+      {
+        "device": [
+          "Haier Chromebook 11",
+          "Lava Xolo Chromebook",
+          "Medion Chromebook Akoya S2013",
+          "True IDC Chromebook 11"
+        ],
+        "boardname": "JAQ"
+      },
+      {
+        "device": [
+          "CTL J2 / J4 Chromebook",
+          "EduGear Chromebook K",
+          "Epik 11.6\" Chromebook ELB1101",
+          "HiSense Chromebook 11",
+          "Mecer Chromebook",
+          "NComputing Chromebook CX100",
+          "Poin2 Chromebook 11",
+          "Positivo Chromebook CH1190",
+          "VideoNet Chromebook BL10"
+        ],
+        "boardname": "JERRY"
+      },
+      {
+        "device": [
+          "ASUS Chromebit CS10"
+        ],
+        "boardname": "MICKEY"
+      },
+      {
+        "device": [
+          "EduGear Chromebook M",
+          "Haier Chromebook 11e",
+          "Lumos Education Chromebook",
+          "MEDION Chromebook S2015",
+          "Nexian Chromebook 11.6\"",
+          "PCMerge Chromebook PCM-116E/PCM-116EB",
+          "Prowise Chromebook Entryline",
+          "Sector 5 E1 Rugged Chromebook",
+          "Viglen Chromebook 11"
+        ],
+        "boardname": "MIGHTY"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Flip C100PA"
+        ],
+        "boardname": "MINNIE"
+      },
+      {
+        "device": [
+          "ASUS Chromebook C201PA"
+        ],
+        "boardname": "SPEEDY"
+      },
+      {
+        "device": [
+          "AOpen Chromebase Mini"
+        ],
+        "boardname": "TIGER"
+      }
+    ]
+  },
+  "Rockchip RK3399": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "ASUS Chromebook Flip C101PA"
+        ],
+        "boardname": "BOB",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, screw"
+      },
+      {
+        "device": [
+          "AOpen Chromebook Commercial Tab",
+          "CTL Chromebook Tablet Tx1 for Education"
+        ],
+        "boardname": "DRUWL"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Tablet CT100"
+        ],
+        "boardname": "DUMO"
+      },
+      {
+        "device": [
+          "Samsung Chromebook Plus"
+        ],
+        "boardname": "KEVIN",
+        "wpMethod": "screw"
+      },
+      {
+        "device": [
+          "Acer Chromebook Tab 10"
+        ],
+        "boardname": "SCARLET"
+      }
+    ]
+  },
+  "MediaTek MT8173": {
+    "isExperimental": true,
+    "default_wpmethod": "screw",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP, GPU issues",
+    "devices": [
+      {
+        "device": [
+          "Acer Chromebook R13 (CB5-312T)"
+        ],
+        "boardname": "ELM"
+      },
+      {
+        "device": [
+          "ASUS Chromebook C202XA / C203XA",
+          "Lenovo 100e/300e Chromebook 2nd Gen MTK",
+          "Lenovo 300e/N23 Yoga/Flex 11 Chromebook",
+          "Lenovo Ideapad C330/S330 Chromebook",
+          "Poin2 Chromebook 11C",
+          "Poin2 Chromebook 14",
+          "Prowise Chromebook Eduline/360"
+        ],
+        "boardname": "HANA"
+      }
+    ]
+  },
+  "MediaTek MT8183": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "HP Chromebook x360 11MK G3 EE"
+        ],
+        "boardname": "BURNET"
+      },
+      {
+        "device": [
+          "Acer Chromebook 314 (CB314-2H/CB314-2HT)"
+        ],
+        "boardname": "COZMO"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Flip CM3200FVA"
+        ],
+        "boardname": "DAMU"
+      },
+      {
+        "device": [
+          "HP Chromebook 11MK G9 EE"
+        ],
+        "boardname": "ESCHE"
+      },
+      {
+        "device": [
+          "Lenovo IdeaPad Flex 3 Chromebook 11\""
+        ],
+        "boardname": "FENNEL"
+      },
+      {
+        "device": [
+          "Lenovo IdeaPad 3 Chromebook 14\""
+        ],
+        "boardname": "FENNEL14"
+      },
+      {
+        "device": [
+          "Acer Chromebook Spin 311 (CP311-3H)"
+        ],
+        "boardname": "JUNIPER"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Detachable CM3"
+        ],
+        "boardname": "KAKADU",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+      },
+      {
+        "device": [
+          "HP Chromebook 11a na0/ne0"
+        ],
+        "boardname": "KAPPA"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Detachable CZ1"
+        ],
+        "boardname": "KATSU",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+      },
+      {
+        "device": [
+          "Acer Chromebook 311 (CB311-11H/CB311-11HT)"
+        ],
+        "boardname": "KENZO"
+      },
+      {
+        "device": [
+          "Lenovo 10e Chromebook Tablet"
+        ],
+        "boardname": "KODAMA",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+      },
+      {
+        "device": [
+          "Lenovo Ideapad Duet Chromebook"
+        ],
+        "boardname": "KRANE",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+      },
+      {
+        "device": [
+          "Lenovo 100e Chromebook 2nd Gen MTK 2"
+        ],
+        "boardname": "MAKOMO"
+      },
+      {
+        "device": [
+          "Acer Chromebook Spin 311 (R722T)"
+        ],
+        "boardname": "PICO"
+      },
+      {
+        "device": [
+          "Acer Chromebook 311 (C722/C722T)"
+        ],
+        "boardname": "WILLOW"
+      }
+    ]
+  },
+  "MediaTek MT8192": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "ASUS Chromebook Flip CM3200FM1A"
+        ],
+        "boardname": "HAYATO"
+      },
+      {
+        "device": [
+          "Acer Chromebook 514 (CB514-2H, CB514-2HT)"
+        ],
+        "boardname": "SPHERION"
+      }
+    ]
+  },
+  "MediaTek MT8195": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "HP Chromebook x360 13b-ca0"
+        ],
+        "boardname": "DOJO"
+      },
+      {
+        "device": [
+          "Acer Chromebook Spin 513 (CP513-2H)"
+        ],
+        "boardname": "TOMATO"
+      }
+    ]
+  },
+  "MediaTek MT8186": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "ASUS Chromebook CZ1204C"
+        ],
+        "boardname": "CHINCHOU"
+      },
+      {
+        "device": [
+          "ASUS Chromebook Flip CZ1104F"
+        ],
+        "boardname": "CHINCHOU360"
+      },
+      {
+        "device": [
+          "Lenovo IdeaPad Slim 3 Chromebook 14M868"
+        ],
+        "boardname": "MAGNETON"
+      },
+      {
+        "device": [
+          "Lenovo 100e Chromebook Gen 4"
+        ],
+        "boardname": "RUSTY"
+      },
+      {
+        "device": [
+          "ASUS Chromebook CM30 Detachable"
+        ],
+        "boardname": "STARMIE"
+      },
+      {
+        "device": [
+          "Lenovo 300e Yoga Chromebook Gen 4"
+        ],
+        "boardname": "STEELIX"
+      },
+      {
+        "device": [
+          "ASUS Chromebook CM14 (CM1402C)"
+        ],
+        "boardname": "TENTACOOL"
+      },
+      {
+        "device": [
+          "ASUS Chromebook CM14 Flip (CM1402F)"
+        ],
+        "boardname": "TENTACRUEL"
+      },
+      {
+        "device": [
+          "Acer Chromebook 311 (C723)"
+        ],
+        "boardname": "VOLTORB"
+      }
+    ]
+  },
+  "MediaTek MT8188": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "No Windows support.",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "Lenovo Chromebook Duet 11\"",
+          "Lenovo Chromebook Duet EDU G2"
+        ],
+        "boardname": "CIRI"
+      }
+    ]
+  },
+  "Qualcomm Snapdragon 7c": {
+    "isExperimental": true,
+    "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "default_rwLegacy": false,
+    "default_fullrom": false,
+    "default_windows": "?",
+    "default_mac": "No MacOS support.",
+    "default_linux": "WIP",
+    "devices": [
+      {
+        "device": [
+          "HP Chromebook x2 11-da0"
+        ],
+        "boardname": "COACHZ",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>"
+      },
+      {
+        "device": [
+          "Lenovo IdeaPad Duet 5 Chromebook"
+        ],
+        "boardname": "HOMESTAR",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>"
+      },
+      {
+        "device": [
+          "HP Fortis 11 G9 Q Chromebook"
+        ],
+        "boardname": "KINGOFTOWN"
+      },
+      {
+        "device": [
+          "Acer Chromebook Spin 513 (CP513-1H, R841T, R841LT)"
+        ],
+        "boardname": "LAZOR"
+      },
+      {
+        "device": [
+          "Acer Chromebook 511 (C741L/C741LT)"
+        ],
+        "boardname": "LIMOZEEN"
+      },
+      {
+        "device": [
+          "Libera-Merdeka Chromebook C100/C110/C120/C150",
+          "Orbic Chromebook"
+        ],
+        "boardname": "PAZQUEL"
+      },
+      {
+        "device": [
+          "Prowise Chromebook 360 G1"
+        ],
+        "boardname": "PAZQUEL360"
+      },
+      {
+        "device": [
+          "Dynabook Chromebook C1"
+        ],
+        "boardname": "POMPOM"
+      },
+      {
+        "device": [
+          "Acer Chromebook Tab 510"
+        ],
+        "boardname": "QUACKINGSTICK",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>"
+      },
+      {
+        "device": [
+          "Lenovo IdeaPad Duet 3 Chromebook",
+          "Lenovo Duet Chromebook Education Edition"
+        ],
+        "boardname": "WORMDINGLER",
+        "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>"
+      }
+    ]
+  }
+}
