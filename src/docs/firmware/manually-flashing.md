@@ -4,8 +4,7 @@
 Flashing your own firmware has the potential to brick your device. Do not do this unless you are sure you know what you are doing/have a way to recover from a bad flash. Some level of knowledge with using the Linux command line is required.
 :::
 
-1. The steps below assume you are flashing an image named `coreboot.rom`; substitute it as necessary.
-
+1. Have your firmware rom. We will assume you already have the file you want to flash for this guide.
 2. Download flashrom, cbfstool, and gbb utility, decompress, and ensure they are executable:
    - For most distributions: `cd; curl -LO https://files.tree123.org/utils/x86_64/gnu/flashrom; chmod +x flashrom`
    - For musl (Alpine Linux): `cd; curl -LO https://files.tree123.org/utils/x86_64/musl/flashrom; chmod +x flashrom`
