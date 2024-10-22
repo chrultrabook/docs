@@ -7,9 +7,11 @@ Flashing your own firmware has the potential to brick your device. Do not do thi
 1. Have your firmware rom. We will assume you already have the file you want to flash for this guide.
 2. Download flashrom, cbfstool, and gbb utility, decompress, and ensure they are executable:
    - For most distributions: `cd; curl -LO https://files.tree123.org/utils/x86_64/gnu/flashrom; chmod +x flashrom`
-   - For musl (Alpine Linux): `cd; curl -LO https://files.tree123.org/utils/x86_64/musl/flashrom; chmod +x flashrom`
    - `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz && chmod +x cbfstool`
    - `wget https://mrchromebox.tech/files/util/gbb_utility.tar.gz && tar -zxf gbb_utility.tar.gz && chmod +x gbb_utility`
+   - For musl (Alpine Linux): `cd; curl -LO https://files.tree123.org/utils/x86_64/musl/flashrom; chmod +x flashrom`
+   - `curl -LO https://files.tree123.org/utils/x86_64/musl/cbfstool; chmod +x flashrom`
+   - `curl -LO https://files.tree123.org/utils/x86_64/musl/futility; chmod +x flashrom`
 
 3. Flash your custom ROM
    - Backup your current firmware (just in case things go wrong):
