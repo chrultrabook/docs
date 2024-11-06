@@ -5,13 +5,13 @@ Flashing your own firmware has the potential to brick your device. Do not do thi
 :::
 
 1. Have your firmware rom. We will assume you already have the file you want to flash for this guide.
-2. Download flashrom, cbfstool, and gbb utility, decompress, and ensure they are executable:
+2. Download flashrom, cbfstool, and futility, decompress, and ensure they are executable:
    - For most distributions: `cd; curl -LO https://files.tree123.org/utils/x86_64/gnu/flashrom; chmod +x flashrom`
-   - `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz && chmod +x cbfstool`
-   - `wget https://mrchromebox.tech/files/util/gbb_utility.tar.gz && tar -zxf gbb_utility.tar.gz && chmod +x gbb_utility`
+   - `curl -LO https://files.tree123.org/utils/x86_64/gnu/cbfstool; chmod +x cbfstool`
+   - `curl -LO https://files.tree123.org/utils/x86_64/gnu/futility; chmod +x futility`
    - For musl (Alpine Linux): `cd; curl -LO https://files.tree123.org/utils/x86_64/musl/flashrom; chmod +x flashrom`
-   - `curl -LO https://files.tree123.org/utils/x86_64/musl/cbfstool; chmod +x flashrom`
-   - `curl -LO https://files.tree123.org/utils/x86_64/musl/futility; chmod +x flashrom`
+   - `curl -LO https://files.tree123.org/utils/x86_64/musl/cbfstool; chmod +x cbfstool`
+   - `curl -LO https://files.tree123.org/utils/x86_64/musl/futility; chmod +x futility`
 
 3. Flash your custom ROM
    - Backup your current firmware (just in case things go wrong):
@@ -24,7 +24,7 @@ Flashing your own firmware has the potential to brick your device. Do not do thi
        - if your current firmware came from the firmware utility script run
          - `./cbfstool backup.rom extract -n hwid -f hwid.txt`
        - if it is stock firmware then run
-         - `./gbb_utility backup.rom --get --hwid > hwid.txt`
+         - `./futility gbbutility backup.rom --get --hwid > hwid.txt`
        - `./cbfstool coreboot.rom add -n hwid -f hwid.txt`
    - Flash your custom firmware:
        - AMD devices: `sudo ./flashrom -p internal -w coreboot.rom`
