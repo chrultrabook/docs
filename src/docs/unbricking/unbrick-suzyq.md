@@ -64,6 +64,14 @@ Let's get to it:
 If you are not sure which file to use for your device / do not know your device's board name, you can reference [the supported devices page](supported-device.html).
 :::
 
+::: tip
+On Alderlake devices, you may not see the flash chip right away. In this case you need to do the following:
+1. `echo "apshutdown" | sudo tee -a /dev/ttyUSB2`
+2. Wait about 5 seconds
+3. `echo "gpioset en_s5_rails 1" | sudo tee -a /dev/ttyUSB2`
+4. In every flashrom command, replace `raiden_debug_spi:target=AP` with `raiden_debug_spi:target=AP,custom_rst=True`
+:::
+
 ### Persisting the board's Vital Product Data (VPD)
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you are statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
