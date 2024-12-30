@@ -10,9 +10,9 @@ Please read this page before asking for help. Your help request will be pointed 
 
 - This depends on your use case. Only you can answer this question.
 
-### Should I use rw-legacy or full rom?
+### Should I use RW_LEGCY or full rom?
 
-- This depends on what you are looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. RW-legacy only supports linux.
+- This depends on what you are looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. RW_LEGACY only supports linux.
 
 ### My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?
 

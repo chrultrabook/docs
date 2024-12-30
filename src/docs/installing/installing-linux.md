@@ -15,7 +15,7 @@ Only Linux kernel 6.4 or newer is supported.
 
 ::: warning
 Old (>1 year) LTS releases **may have issues** and are not supported.  
-Debian 12 (Bookworm) and possibly Ubuntu require a custom kernel. In case of Debian, the [audio script](#fixing-audio) will automatically install it for you.
+One possible workaround for Debian 12 (Bookworm) and Ubuntu is using a custom kernel. In case of Debian, the audio script will automatically install it for you. Note that not all issues can be solved with a custom kernel, as the rest of the software on the system is still old.
 :::
 
 **Recommended distros as of October 2023 (in no particular order) are:**
