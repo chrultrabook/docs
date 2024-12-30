@@ -8,11 +8,11 @@ Please read this page before asking for help. Your help request will be pointed 
 
 ### What OS should I use?
 
-- This depends on your use case. Only you can answer this question. <!-- Not ubuntu plz -->
+- This depends on your use case. Only you can answer this question.
 
 ### Should I use rw-legacy or full rom?
 
-- This depends on what you are looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. Rw-legacy only supports linux.
+- This depends on what you are looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. RW-legacy only supports linux.
 
 ### My internal keyboard doesn't work, can I use an external keyboard to get into developer mode?
 
@@ -103,17 +103,9 @@ Please read this page before asking for help. Your help request will be pointed 
 
 ## Linux Questions
 
-### How come audio isn't working on Ubuntu / Ubuntu forks?
+### Audio isn't working on Debian, Ubuntu or some other Distribution?
 
-- Ubuntu and Ubuntu-based distros may have issues and are not supported, try switching to another distro. Debian is a great alternative if you are used to Ubuntu.
-
-### Why are Ubuntu/Ubuntu based distros not supported?
-
-- They consistently break packages.
-- They have started to force snap on their users.
-- They have published an LTS distro with a non-LTS kernel.
-
-Becuse of these things, Ubuntu is unsupported. We will not help you fix issues on Ubuntu.
+- Old (>1 year) LTS releases may have issues and are not supported, try switching to another distro.
 
 ### What Linux distros are recommended?
 
