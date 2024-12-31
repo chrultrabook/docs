@@ -10,7 +10,7 @@ Please read this page before asking for help. Your help request will be pointed 
 
 - This depends on your use case. Only you can answer this question.
 
-### Should I use RW_LEGCY or full rom?
+### Should I use RW_LEGACY or full rom?
 
 - This depends on what you are looking to use your device for. If you are planning on installing Windows or macOS you need to use full rom. RW_LEGACY only supports linux.
 
@@ -105,15 +105,15 @@ Please read this page before asking for help. Your help request will be pointed 
 
 ### Audio isn't working on Debian, Ubuntu or some other Distribution?
 
-- Old (>1 year) LTS releases may have issues and are not supported, try switching to another distro.
+- Old (>1 year) LTS releases may have issues and are not supported. If the [audio script](installing/installing-linux.md#fixing-audio) doesn't fix the issue, try switching to another distro.
 
 ### What Linux distros are recommended?
 
-- See [this page](installing/installing-linux.md).
+- Please see [this page](installing/installing-linux.md).
 
 ### How can I get audio working under Linux?
 
-- Please see [this GitHub repo](https://github.com/WeirdTreeThing/chromebook-linux-audio)
+- Please see [this page](installing/installing-linux.md#fixing-audio)
 
 ### How do I get my top row keys on Linux to act like how they did on chromeOS?
 
