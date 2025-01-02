@@ -14,7 +14,10 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 ### Drivers and QOL improvements
 
 - Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
-- Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
+- Automatic
+   * Use [One Click Driver Installer](https://github.com/death7654/Chromebook-Driver-Installer) To install drivers
+- Manual
+   * Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
 - Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
 
 ### CELES Post Install Workaround (Windows)
