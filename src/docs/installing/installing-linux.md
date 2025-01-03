@@ -14,19 +14,15 @@ Only Linux kernel 6.4 or newer is supported.
 ## Recommended Distributions
 
 ::: warning
-Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
+Old (>1 year) LTS releases **may have issues** and are not supported.  
+One possible workaround for Debian 12 (Bookworm) and Ubuntu is using a custom kernel. In case of Debian, the [audio script](#fixing-audio) will automatically install it for you. Note that not all issues can be solved with a custom kernel, as the rest of the software on the system is still old.
 :::
 
-::: warning
-Debian versions older than Debian 12 (Bookworm) are **not supported**. Debian 12 (Bookworm) requires a custom kernel, the [audio script](#fixing-audio) will automatically install it for you.
-:::
-
-**Recommended distros as of October 2023 (in no particular order) are:**
+**Recommended distros as of December 2024 (in no particular order) are:**
 
 - Arch Linux or EndeavourOS
 - Fedora or Ultramarine Linux
 - openSUSE Tumbleweed
-- Debian 12 (Bookworm)
 - Pop!\_OS
 
 ## Installation
