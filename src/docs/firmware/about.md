@@ -7,7 +7,7 @@ next: flashing-firmware
 
 ## RW_LEGACY
 
-- Updates/replaces the stock RW_LEGAGY payload (SeaBIOS or edk2) included on many older models; supplements the ChromeOS / secure boot payload (depthcharge)
+- Updates/replaces the stock RW_LEGACY payload (SeaBIOS or edk2) included on many older models; supplements the ChromeOS / secure boot payload (depthcharge)
 - Leaves all stock functionality intact, including the Developer Mode boot screen and Recovery Mode functionality
 - Allows device to dual-boot linux alongside ChromeOS
 - Does not require disabling write-protect
