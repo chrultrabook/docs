@@ -33,24 +33,16 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 
 ### Fixing USB C on TigerLake and AlderLake
 
-1. Create a file called `chromebook-usbc.service` file in `/etc/systemd/system/`
+Distros that use dracut for initramfs, such as Fedora, have an issue which prevents the `cros_ec_typec` kernel driver from loading correctly. You can fix it with the following steps.
+
+1. Create a file called `chromebook_typec.conf` file in `/etc/dracut.conf.d/`
 2. Paste the following contents into the file:
 
    ```txt
-   [Unit]
-   Description=Enable USB-C on chromebook
-
-   [Service]
-   Type=oneshot
-   RemainAfterExit=yes
-   ExecStartPre=/sbin/modprobe -r -a cros-ec-typec intel-pmc-mux
-   ExecStart=/sbin/modprobe -a intel-pmc-mux cros-ec-typec
-
-   [Install]
-   WantedBy=multi-user.target
+   omit_drivers+=" intel_pmc_mux "
    ```
 
-3. Enable the systemd service by typing `systemctl enable --now chromebook-usbc.service`, then it should work.
+3. Rebuild your initramfs with `sudo dracut --force`.
 
 ### CELES Post Install Workaround Possible (Linux)
 
