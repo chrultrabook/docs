@@ -8,7 +8,7 @@ next: post-install
 Thanks to recent advancements in the chrultrabook community, Linux works really well on most Chromebooks.
 
 ::: tip
-Only Linux kernel 6.4 or newer is supported.
+Only Linux kernel 6.6 or newer is supported.
 :::
 
 ## Recommended Distributions
