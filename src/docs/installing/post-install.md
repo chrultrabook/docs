@@ -54,10 +54,10 @@ Fedora, Debian, and Ubuntu have an issue which prevents the `cros_ec_typec` kern
 1. Open the file /etc/initramfs-tools/modules 
 2. Paste the follwing contents to the end of the file:
 
-  ```txt
-  cros-ec-typec
-  intel-pmc-mux
-  ```
+   ```txt
+   cros-ec-typec
+   intel-pmc-mux
+   ```
 
 3. Rebuild your initramfs with `sudo update-initramfs -u -k all`.
 
