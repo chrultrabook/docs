@@ -36,7 +36,9 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 
 ### Fixing USB C on TigerLake and AlderLake
 
-Distros that use dracut for initramfs, such as Fedora, have an issue which prevents the `cros_ec_typec` kernel driver from loading correctly. You can fix it with the following steps.
+Fedora, Debian, and Ubuntu have an issue which prevents the `cros_ec_typec` kernel driver from loading correctly. You can fix it with the following steps:
+
+#### Fedora
 
 1. Create a file called `chromebook_typec.conf` file in `/etc/dracut.conf.d/`
 2. Paste the following contents into the file:
@@ -46,6 +48,16 @@ Distros that use dracut for initramfs, such as Fedora, have an issue which preve
    ```
 
 3. Rebuild your initramfs with `sudo dracut --force`.
+
+#### Debian and Ubuntu
+1. Open the file /etc/initramfs-tools/modules 
+2. Paste the follwing contents to the end of the file:
+
+```txt
+cros-ec-typec
+intel-pmc-mux
+```
+3. Rebuild your initramfs with `sudo update-initramfs -u -k all`.
 
 ### CELES Post Install Workaround Possible (Linux)
 
