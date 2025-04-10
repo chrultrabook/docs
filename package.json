@@ -10,7 +10,7 @@
     "dev": "npm run device-table && vuepress dev src",
     "dev-prod": "npm run device-table && NODE_ENV=production vuepress dev src",
     "build": "npm run device-table && vuepress build src",
-    "device-table": "node supported-devices/index.js"
+    "device-table": "node devices/index.js"
   },
   "license": "MIT",
   "devDependencies": {
