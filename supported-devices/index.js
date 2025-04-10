@@ -13,8 +13,6 @@
         "default_windows": "Default Windows support message.",
         "default_mac": "Default macos support message.",
         "default_linux": "Default linux support message.",
-        "default_rwLegacy": false, //null = EOL (display red EOL message), true = supported (display checkbox), false = not supported
-        "default_fullrom": true, //true = supported, false = not supported.
         "default_wpmethod": ""<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook\" target=\"_blank\">switch</a>", //default wp method link.
         "devices": [ //This is an array
             {
@@ -31,7 +29,6 @@
                     "Coolio chromebook name"
                 ],
                 "boardname": "BOARDNAME",
-                "rwLegacy": null,
                 "wpMethod": "Different wp method link/method",
                 "windows": "Display Windows support message **instead of** the default message."
             },

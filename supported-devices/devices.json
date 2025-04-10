@@ -1,7 +1,5 @@
 {
     "Intel Sandybridge/Ivybridge": {
-        "default_rwLegacy": false,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -15,7 +13,6 @@
                     "Google Chromebook Pixel (2013)"
                 ],
                 "boardname": "LINK",
-                "rwLegacy": null,
                 "wpMethod": "<a href=\"/images/wp/Link_wp_screw.jpg\" class=\"internal\" title=\"Link_wp_screw.jpg\" target=\"_blank\">screw</a>"
             },
             {
@@ -50,8 +47,6 @@
     },
     "Intel Haswell": {
         "default_wpmethod": "",
-        "default_rwLegacy": null,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -120,8 +115,6 @@
     },
     "Intel Broadwell": {
         "default_wpmethod": "screw",
-        "default_rwLegacy": null,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -187,8 +180,6 @@
     },
     "Intel Baytrail": {
         "default_wpmethod": "screw",
-        "default_rwLegacy": null,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -287,8 +278,6 @@
     },
     "Intel Braswell": {
         "default_wpmethod": "screw",
-        "default_rwLegacy": null,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -379,8 +368,6 @@
     },
     "Intel Skylake": {
         "default_wpmethod": "screw",
-        "default_rwLegacy": null,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -424,8 +411,6 @@
     },
     "Intel Apollolake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -575,8 +560,6 @@
     },
     "Intel Kabylake / Amberlake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -732,8 +715,6 @@
     },
     "Intel Geminilake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -965,8 +946,6 @@
     },
     "Intel Whiskeylake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">battery</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": false,
         "devices": [
             {
                 "device": [
@@ -984,8 +963,6 @@
     },
     "Intel Cometlake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": false,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1006,7 +983,6 @@
                     "HP Chromebase 21.5\""
                 ],
                 "boardname": "DOOLY",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
             },
             {
@@ -1019,15 +995,13 @@
                 "device": [
                     "Dell Latitude 7410 Chromebook Enterprise"
                 ],
-                "boardname": "DRALLION",
-                "rwLegacy": true
+                "boardname": "DRALLION"
             },
             {
                 "device": [
                     "Dell Latitude 7410 2-in-1 Chromebook Enterprise"
                 ],
-                "boardname": "DRALLION360",
-                "rwLegacy": true
+                "boardname": "DRALLION360"
             },
             {
                 "device": [
@@ -1040,7 +1014,6 @@
                     "Asus Chromebox 4"
                 ],
                 "boardname": "DUFFY",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
@@ -1048,7 +1021,6 @@
                     "Asus Fanless Chromebox"
                 ],
                 "boardname": "FAFFY",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
             },
             {
@@ -1076,7 +1048,6 @@
                     "Acer Chromebox CXI4"
                 ],
                 "boardname": "KAISA",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Kaisa_wp.jpg\" class=\"internal\" title=\"Kaisa_wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
@@ -1108,7 +1079,6 @@
                     "HP Chromebox G3"
                 ],
                 "boardname": "NOIBAT",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\" target=\"_blank\">jumper</a>"
             },
             {
@@ -1118,15 +1088,12 @@
                     "ViewSonic NMP760 Chromebox"
                 ],
                 "boardname": "WYVERN",
-                "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\" target=\"_blank\">jumper</a>"
             }
         ]
     },
     "Intel TigerLake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1212,8 +1179,6 @@
     },
     "Intel JasperLake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1533,8 +1498,6 @@
     },
     "Intel Alderlake": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1707,8 +1670,6 @@
     },
     "Intel Alderlake-N": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1867,8 +1828,6 @@
     },
     "AMD Stoneyridge": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1923,8 +1882,6 @@
     },
     "AMD Picasso": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -1992,8 +1949,6 @@
     },
     "AMD Cezanne": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [
@@ -2011,8 +1966,6 @@
     },
     "AMD Mendocino": {
         "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, jumper",
-        "default_rwLegacy": true,
-        "default_fullrom": true,
         "devices": [
             {
                 "device": [

@@ -14,10 +14,6 @@ function generateHTML(devicesJson) {
       if (device.mac === undefined) device.mac = devices.default_mac;
       if (device.wpMethod === undefined)
         device.wpMethod = devices.default_wpmethod;
-      if (device.fullrom === undefined)
-        device.fullrom = devices.default_fullrom;
-      if (device.rwLegacy === undefined)
-        device.rwLegacy = devices.default_rwLegacy;
     });
     if (first) {
       first = false;
@@ -34,8 +30,6 @@ function generateHTML(devicesJson) {
         <tr>
             <th scope="col"> Device Name</th>
             <th scope="col"> Board Name</th>
-            <th scope="col"> RW_LEGACY <br> Firmware</th>
-            <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
             <th scope="col"> WP Method</th>
             <th scope="col"> Windows Notes</th>
             <th scope="col"> Linux Notes</th>
@@ -48,13 +42,6 @@ function generateHTML(devicesJson) {
 
     devices.devices.forEach((device, index) => {
       let devicename = device.device.join("<br>");
-      let rw_legacy = "";
-      if (device.rwLegacy === null) {
-        rw_legacy = '<span style="color:#ff0000"><b>EOL</b></span>';
-      } else if (device.rwLegacy === true) {
-        rw_legacy = "✅";
-      }
-      let full_rom = device.fullrom ? "✅" : "";
 
       let win_out = "";
       let linux_out = "";
@@ -93,8 +80,6 @@ function generateHTML(devicesJson) {
         <tr>
             <td>${devicename}</td>
             <td style="text-align:center;"> ${device.boardname}</td>
-            <td style="text-align:center;"> ${rw_legacy}</td>
-            <td style="text-align:center;"> ${full_rom}</td>
             <td style="text-align:center;"> ${device.wpMethod}</td>
             ${win_out}${linux_out}${mac_out}
         </tr>`;
