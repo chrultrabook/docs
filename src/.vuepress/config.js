@@ -55,10 +55,6 @@ export default {
         link: '/docs/faq',
       },
       {
-        text: 'Terminology',
-        link: '/docs/terminology',
-      },
-      {
         text: 'Firmware',
         link: '/docs/firmware/',
         collapsible: false,
