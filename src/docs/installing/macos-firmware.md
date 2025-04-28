@@ -10,10 +10,6 @@ Without the ME interface enabled, the following bugs can occur after waking from
 
 ## Custom Firmware
 
-### Prebuilt
-
-Prebuilts can be found at [ethanthesleepy.one](https://ethanthesleepy.one/macos/)
-
 ### Building Manually
 
 1. Follow the steps [here](../firmware/compiling-coreboot.md) to download the toolchain and build the firmware
