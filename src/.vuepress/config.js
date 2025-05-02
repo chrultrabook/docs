@@ -117,10 +117,6 @@ export default {
             text: 'Flashing Manually',
             link: '/docs/firmware/manually-flashing',
           },
-          {
-            text: 'Installing Ventoy With chromeOS',
-            link: '/docs/firmware/ventoy'
-          }
         ]
       },
       {
