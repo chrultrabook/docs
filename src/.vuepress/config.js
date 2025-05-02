@@ -129,10 +129,6 @@ export default {
             link: '/docs/installing/known-issues',
           },
           {
-            text: 'Creating a Bootable USB',
-            link: '/docs/installing/bootableusb',
-          },
-          {
             text: 'Installing Windows',
             link: '/docs/installing/installing-windows'
           },
