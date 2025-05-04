@@ -16,7 +16,9 @@ To convert your machine from Google's firmware and ChromeOS to Coreboot and AltO
 1. [Enable developer mode](developer-mode.md).
 2. [Disable write protect](write-protect.md) (If flashing UEFI).
 3. Run [MrChromebox's firmware utility script](https://mrchromebox.tech/#fwscript) within VT-2 (`ctrl` + `alt` + `f2` (right arrow)).
-   - Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter.
+   - If you don't see a command prompt, but a login prompt in the style: `home login:`, type-in "root"
+   - Type `cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh` and press Enter. Make sure to use `mrchromebox.tech` as domain, with **box** before the dot.
+   - If the command fails with `Read-only file system`, and you are sure that you followed the [write protect steps](write-protect.md), you must change your working directory. Use `lsblk` to list all mounted file systems and find one with write permission. Then, replace the `cd` in the commad with `cd XXX`, where `XXX` is the path to the writeable file system.
    - If you encounter certificate related errors when downloading the script from ChromeOS, then add `-k` to the `curl` and script command to bypass SSL certificate checking as so:
      - `cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
 4. If you are flashing Full ROM, the firmware script will prompt you to make a backup of your stock firmware. **Store it in a safe place** (Google Drive, another PC, etc), as reverting to stock firmware without a backup is **very difficult**.
