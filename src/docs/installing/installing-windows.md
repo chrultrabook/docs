@@ -13,10 +13,6 @@ Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supporte
 Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. **They are not supported** and may contain **undetectable malware** and/or security vulnerabilities.
 :::
 
-::: tip
-If you want to create a Windows installer from ChromeOS, see the [Installing Ventoy](../firmware/ventoy.md) page.
-:::
-
 1. Get a USB containing a Windows image. Ventoy, Rufus, and the official Windows media creation tool are the only methods that can be used to create a Windows USB.
 
 2. Bypassing Windows 11 installation checks:

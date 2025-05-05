@@ -55,10 +55,6 @@ export default {
         link: '/docs/faq',
       },
       {
-        text: 'Terminology',
-        link: '/docs/terminology',
-      },
-      {
         text: 'Firmware',
         link: '/docs/firmware/',
         collapsible: false,
@@ -121,10 +117,6 @@ export default {
             text: 'Flashing Manually',
             link: '/docs/firmware/manually-flashing',
           },
-          {
-            text: 'Installing Ventoy With chromeOS',
-            link: '/docs/firmware/ventoy'
-          }
         ]
       },
       {
@@ -135,10 +127,6 @@ export default {
           {
             text: 'Known Issues',
             link: '/docs/installing/known-issues',
-          },
-          {
-            text: 'Creating a Bootable USB',
-            link: '/docs/installing/bootableusb',
           },
           {
             text: 'Installing Windows',

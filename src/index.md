@@ -7,6 +7,8 @@ heroImageDark: /chrome.svg
 actions:
 - text: Get Started
   link: /docs/firmware/
+- text: Discuss on the forum
+  link: https://forum.chrultrabook.com
 footerHtml: true
 footer:
   <div class="home_footer">
@@ -14,15 +16,10 @@ footer:
   </div>
 ---
 
-# What is a chrultrabook and who is this documentation for?
+# Who is this documentation for?
 
-A chrultrabook is a modified Chromebook that is able to run Windows, Linux, and sometimes macOS by using MrChromebox’s coreboot firmware. The purpose of this site is to provide documentation that is detailed, user-friendly, and has up-to-date information about the hardware, software, and firmware on Chromebooks.
+The chrultrabook documentation is for people who are looking to replace ChromeOS with a different OS. This site contains information on how to replace the OS on your device, along with any extra info you may need to get the most out of your device.
 
 ---
 
-## These docs focus on two main things
-
-- Installing Windows/Linux/macOS on your Chromebook.
-- Learning in-depth information about your Chromebook.
-
-Because of this, you are expected to read, learn, and use Google. **This is NOT a one click procedure.**
+Because of the technical nature of this process, you are expected to have some technical background info and troubleshooting skills. **This is NOT a one click procedure.**
