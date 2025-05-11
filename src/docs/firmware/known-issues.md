@@ -1,5 +1,5 @@
 ---
-prev: supported-devices
+prev: devices
 next: developer-mode
 ---
 

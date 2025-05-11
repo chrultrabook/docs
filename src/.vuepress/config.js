@@ -64,8 +64,8 @@ export default {
             link: '/docs/firmware/system-info',
           },
           {
-            text: 'Supported Devices',
-            link: '/docs/firmware/supported-devices',
+            text: 'Devices',
+            link: '/docs/devices',
           },
           {
             text: 'Known Issues',

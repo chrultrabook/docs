@@ -9,7 +9,7 @@ next: about
 You do not have to disable write protect if flashing [RW_Legacy](about.md#rw_legacy).
 :::
 
-Refer to the [supported devices list](supported-devices.md) to figure out which method you need to use to disable write-protect on your device.
+Refer to the [devices list](devices.md) to figure out which method you need to use to disable write-protect on your device.
 
 Depending on your device, you will need to do **one** of the following:
 
