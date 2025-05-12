@@ -54,6 +54,10 @@ export default {
         text: 'FAQ',
         link: '/docs/faq',
       },
+	  {
+        text: 'Device Support Status',
+        link: '/docs/devices',
+	  },
       {
         text: 'Firmware',
         link: '/docs/firmware/',
@@ -62,10 +66,6 @@ export default {
           {
             text: 'Finding System Info',
             link: '/docs/firmware/system-info',
-          },
-          {
-            text: 'Devices',
-            link: '/docs/devices',
           },
           {
             text: 'Known Issues',
