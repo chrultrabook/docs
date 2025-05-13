@@ -41,7 +41,7 @@ export default {
     navbar: [
       {
         text: 'Documentation',
-        link: '/docs/firmware/',
+        link: '/docs/getting-started/prerequisites.html',
       },
       {
         text: 'Questions?',
@@ -57,6 +57,19 @@ export default {
 	  {
         text: 'Device Support Status',
         link: '/docs/devices',
+	  },
+      {
+        text: "Getting Started",
+		children: [
+			{
+          	  text: "Prerequisites",
+		  	  link: "/docs/getting-started/prerequisites"
+			},
+			{ 
+              text: "Choosing an OS and Boot Method",
+              link: "/docs/getting-started/choose-os-fw"
+        	},
+		]
 	  },
       {
         text: "Installing an OS",
