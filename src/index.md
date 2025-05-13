@@ -6,7 +6,7 @@ heroImage: /chrome.svg
 heroImageDark: /chrome.svg
 actions:
 - text: Get Started
-  link: /docs/firmware/
+  link: /docs/getting-started/prerequisites.html
 - text: Discuss on the forum
   link: https://forum.chrultrabook.com
 footerHtml: true
