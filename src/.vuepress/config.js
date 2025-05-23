@@ -77,10 +77,6 @@ export default {
         collapsible: false,
         children: [
           {
-            text: 'Known Issues',
-            link: '/docs/installing/known-issues',
-          },
-          {
             text: 'Installing Windows',
             link: '/docs/installing/installing-windows'
           },
