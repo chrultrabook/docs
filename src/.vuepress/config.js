@@ -114,10 +114,6 @@ export default {
             text: 'Post Install',
             link: '/docs/installing/post-install',
           },
-          {
-            text: 'Using ectool',
-            link: '/docs/installing/ectool',
-          }
         ]
       },
       {
