@@ -22,7 +22,3 @@
 - No PCIe SD card reader support.
 - No fingerprint reader support.
 - Continuity features (AirDrop, Sidecar, etc).
-
-::: tip
-For issues relating to hardware/firmware, see [this page](../firmware/known-issues.md).
-:::

@@ -12,7 +12,7 @@ Without the ME interface enabled, the following bugs can occur after waking from
 
 ### Building Manually
 
-1. Follow the steps [here](../firmware/compiling-coreboot.md) to download the toolchain and build the firmware
+1. Follow the steps [here](https://docs.mrchromebox.tech/docs/support/compiling.html) to download the toolchain and build the firmware
    - Continue these steps once `build-uefi.sh <boardname>` has been ran
 2. Run `make menuconfig`. You will be greeted by a menu which looks like the following:
 
@@ -30,4 +30,4 @@ Without the ME interface enabled, the following bugs can occur after waking from
 
 ## Flashing Firmware
 
-Follow the steps [on this page](../firmware/manually-flashing.md) to flash the new firmware.
+Follow the steps [on this page](https://docs.mrchromebox.tech/docs/firmware/manual-flashing.html) to flash the new firmware.
