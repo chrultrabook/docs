@@ -41,7 +41,7 @@ export default {
     navbar: [
       {
         text: 'Documentation',
-        link: '/docs/firmware/',
+        link: '/docs/getting-started/prerequisites.html',
       },
       {
         text: 'Questions?',
@@ -54,71 +54,23 @@ export default {
         text: 'FAQ',
         link: '/docs/faq',
       },
+	  {
+        text: 'Device Support Status',
+        link: '/docs/devices',
+	  },
       {
-        text: 'Firmware',
-        link: '/docs/firmware/',
-        collapsible: false,
-        children: [
-          {
-            text: 'Finding System Info',
-            link: '/docs/firmware/system-info',
-          },
-          {
-            text: 'Supported Devices',
-            link: '/docs/firmware/supported-devices',
-          },
-          {
-            text: 'Known Issues',
-            link: '/docs/firmware/known-issues',
-          },
-          {
-            text: 'Developer Mode',
-            link: '/docs/firmware/developer-mode',
-            collapsible: true,
-            children: [
-              {
-                text: 'Recovery Mode',
-                link: '/docs/firmware/recovery-mode',
-              }
-            ]
-          },
-          {
-            text: 'Disabling Write Protect',
-            link: '/docs/firmware/write-protect',
-            collapsible: true,
-            children: [
-              {
-                text: 'Using a SuzyQable',
-                link: '/docs/firmware/suzyq',
-              },
-              {
-                text: 'Unplugging the Battery',
-                link: '/docs/firmware/battery',
-              }
-            ]
-          },
-          {
-            text: 'Types of Firmware',
-            link: '/docs/firmware/about'
-          },
-          {
-            text: 'Flashing Firmware',
-            link: '/docs/firmware/flashing-firmware'
-          },
-          {
-            text: 'Updating Firmware',
-            link: '/docs/firmware/updating-firmware'
-          },
-          {
-            text: 'Compiling Custom Firmware',
-            link: '/docs/firmware/compiling-coreboot',
-          },
-          {
-            text: 'Flashing Manually',
-            link: '/docs/firmware/manually-flashing',
-          },
-        ]
-      },
+        text: "Getting Started",
+		children: [
+			{
+          	  text: "Prerequisites",
+		  	  link: "/docs/getting-started/prerequisites"
+			},
+			{ 
+              text: "Choosing an OS and Boot Method",
+              link: "/docs/getting-started/choose-os-fw"
+        	},
+		]
+	  },
       {
         text: "Installing an OS",
         link: "/docs/installing/",
@@ -180,44 +132,6 @@ export default {
           {
             text: 'Reporting Bugs',
             link: '/docs/debugging/bugreport',
-          }
-        ]
-      },
-      {
-        text: 'Unbricking',
-        link: '/docs/unbricking/',
-        collapsible: false,
-        children: [
-          {
-            text: 'Unbricking with a ch341a USB Programmer',
-            link: '/docs/unbricking/unbrick-ch341a',
-          },
-          {
-            text: 'Unbricking with a Suzy-Q Cable',
-            link: '/docs/unbricking/unbrick-suzyq',
-          },
-          {
-            text: 'Unbricking with a Flipper Zero',
-            link: '/docs/unbricking/unbrick-flipper',
-          }
-        ]
-      },
-      {
-        text: 'Reverting to chromeOS',
-        link: '/docs/reverting/',
-        collapsible: false,
-        children: [
-          {
-            text: 'Flashing Stock Firmware',
-            link: '/docs/reverting/flashing-stock',
-          },
-          {
-            text: 'Making a Recovery USB',
-            link: '/docs/reverting/making-recovery-usb',
-          },
-          {
-            text: 'Booting the Recovery USB',
-            link: '/docs/reverting/booting-recovery-usb',
           }
         ]
       },

@@ -6,7 +6,7 @@ next: false
 # Installing an OS
 
 ::: tip
-Be sure to check the [supported devices page](../firmware/supported-devices.md) to see what you can run.
+Be sure to check the [devices page](../devices.md) to see what you can run.
 :::
 
 ## Windows
