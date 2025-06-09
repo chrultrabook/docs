@@ -44,10 +44,6 @@ Be sure to check the [devices page](../devices.md) to see what you can run.
 - Requires some work on the end user (running audio script, configuring keyboard mapping)
 - AVS and SOF users experience instability at times
 
-  ::: warning
-  Ubuntu and Ubuntu-based distributions **may have issues** and are **not supported**.
-  :::
-
 <br>
 
 ### [Installing Linux →](installing-linux.md)
