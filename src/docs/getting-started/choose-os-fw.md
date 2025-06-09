@@ -15,7 +15,7 @@ There are three different ways to boot an alternate OS on your device, each with
 
 ### The Stock Bootloader (depthcharge)
 
-Since ChromeOS is Linux with a custom userspace, the stock bootloader (depthcharge) can load any Linux kernel. This method works on any device and does not modify the firmware at all. It is the only option on ARM devices since they do not have any custom firmware. If you choose method, refer to FyraLabs' [submarine guide](https://developer.fyralabs.com/submarine).
+Since ChromeOS is Linux with a custom userspace, the stock bootloader (depthcharge) can load any Linux kernel. This method works on any device and does not modify the firmware at all. It is the only option on ARM devices since they do not have any custom firmware. If you choose this method, refer to FyraLabs' [submarine guide](https://developer.fyralabs.com/submarine).
 
 ### RW_LEGACY (AltFW)
 
