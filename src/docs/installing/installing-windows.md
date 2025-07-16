@@ -3,14 +3,12 @@ prev: ./
 next: post-install
 ---
 
-# Installing Windows
+# Windows
 
-::: warning
-Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supported.
-:::
+Windows is a popular and (shockingly) well supported option for your Chromebook!
 
 ::: danger
-Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. **They are not supported** and may contain **undetectable malware** and/or security vulnerabilities.
+We **DO NOT SUPPORT** Windows distros or ANY other modified Windows image. Beyond security concerns, it's impossible to know what tweak could cause an issue, just use regular windows.
 :::
 
 1. Get a USB containing a Windows image. Ventoy, Rufus, and the official Windows media creation tool are the only methods that can be used to create a Windows USB.
@@ -43,6 +41,30 @@ Cab drivers are a little weird, but they're easy to install.
 5. Right click on all the `.inf` files, and select install.
 6. Reboot.
 
+# Post Install
+
+::: tip
+Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/releases) for fan controls, keyboard backlight controls, system information and more.
+:::
+
+## Windows
+
+### Drivers and QOL improvements
+
+- Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
+- Automatic
+  - Use [One Click Driver Installer](https://github.com/death7654/Chromebook-Driver-Installer) To install drivers
+- Manual
+  - Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
+- Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
+
+### CELES Post Install Workaround (Windows)
+
+1. Boot the Windows install media you used to install Windows.
+2. Click "Repair my computer" and select the Command Prompt option.
+3. Type `bcdedit /set {default} useplatformclock true` and press Enter.
+4. Reboot
+
 ## Paid Drivers
 
 Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
@@ -69,3 +91,10 @@ Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlice
 | **Alder Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
 | **Cezanne**        | SOF          |                                                                               |
 | **Mendocino**      | SOF          |                                                                               |
+
+### Windows
+
+- Some Chromebooks have no touchpad support in the installer.
+- No fingerprint reader support.
+- No TPM 2.0 support.
+- No IPU camera support.
