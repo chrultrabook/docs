@@ -43,6 +43,30 @@ Cab drivers are a little weird, but they're easy to install.
 5. Right click on all the `.inf` files, and select install.
 6. Reboot.
 
+# Post Install
+
+::: tip
+Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/releases) for fan controls, keyboard backlight controls, system information and more.
+:::
+
+## Windows
+
+### Drivers and QOL improvements
+
+- Compress the install with `compact.exe /compactos:always` in a Command Prompt with admin privileges if necessary.
+- Automatic
+  - Use [One Click Driver Installer](https://github.com/death7654/Chromebook-Driver-Installer) To install drivers
+- Manual
+  - Install [CoolStar's drivers](https://coolstar.org/chromebook/windows-install.html) if you haven't already
+- Buy audio and Thunderbolt/USB4 drivers (if needed), see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html)
+
+### CELES Post Install Workaround (Windows)
+
+1. Boot the Windows install media you used to install Windows.
+2. Click "Repair my computer" and select the Command Prompt option.
+3. Type `bcdedit /set {default} useplatformclock true` and press Enter.
+4. Reboot
+
 ## Paid Drivers
 
 Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlicense/login.html) for a step by step tutorial on purchasing drivers.
@@ -69,3 +93,10 @@ Please see [CoolStar's driver portal](https://coolstar.org/chromebook/driverlice
 | **Alder Lake**     | SOF, TB4     | TB4 and SOF can be purchased as a bundle.                                     |
 | **Cezanne**        | SOF          |                                                                               |
 | **Mendocino**      | SOF          |                                                                               |
+
+### Windows
+
+- Some Chromebooks have no touchpad support in the installer.
+- No fingerprint reader support.
+- No TPM 2.0 support.
+- No IPU camera support.

@@ -2,16 +2,16 @@
 
 Want to help support the docs? Well there's some ways you can help!
 
-## Contributing via Issues
+## File an Issue
 
-Contributing via Issues is pretty simple but there are some rules:
+File an issue when you notice an issue! We appreciate this kind of contribution but we ask that you follow some simple guidelines:
 
 - Reserve the issues tab exclusively for documentation-related matters; refrain from discussing personal support issues or OS installation problems there.
 - When reporting a typo or suggesting better clarification, please specify the page where the issue is found. It would be helpful to avoid searching extensively for these problems.
 
-## Contributing via PRs
+## Contributing Directly
 
-Some guidelines when contributing via PRs:
+We accept PRs to the docs, once again, there's some simple guidelines to follow:
 
 - Use your brain (please).
 - Proofread your submissions.
