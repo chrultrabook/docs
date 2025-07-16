@@ -1,27 +1,22 @@
-# Installing macOS
+---
+prev: ./
+next: post-install
+---
 
-Before we begin, it's important to know whether your Chromebook is even supported:
+# macOS
+
+Installing macOS on your Chromebook can be a fun challenge, but is not suitable for a daily drivable system, and it can take weeks to even get to the installer. You should not follow the instructions on this page unless you know what you're doing, or are ready to figure it out.
+
+Before getting started, it's important to know whether your Chromebook is even supported:
 
 - ARM/AMD CPUs are not supported.
 - Intel Celeron / Pentium CPUs are not supported.
 - Tiger Lake (11th gen) CPUs and newer are not supported.
-- You need at least 32GB of eMMC storage.
-
-**You will also need:**
-
-- Patience
-  - This is not a one click setup thing. It usually takes one or more weeks to have a stable hack.
-- A USB drive
-  - 4 gigabytes or more for a online installer.
-  - 32 gigabytes or more for offline installer.
-- The ability to use a command line
-  - We will not help you if you do not know how to `cd` to a directory.
+- You need at least 32GB of storage.
 
 ## Tested Devices
 
-::: tip
-This list is incomplete. Feel free to improve it.
-:::
+A small handful of devices have been tested by the Chrultrabook team and community:
 
 - Asus C425 (LEONA)
 - Asus C434 (SHYVANA)
@@ -59,7 +54,7 @@ This list is incomplete. Feel free to improve it.
 - [LuluMacOS](https://isi95010.github.io/LuluMacOS/)
   - Dell Chromebook 13 7310 (LULU)
 
-## Custom Firmware
+## Firmware
 
 It is recommended to [flash Coreboot firmware](macos-firmware) with the Management Engine Interface enabled on Skylake and newer.  
 Without the ME interface enabled, the following bugs can occur after waking from sleep:
@@ -72,7 +67,7 @@ Without the ME interface enabled, the following bugs can occur after waking from
 ## Installation
 
 Start by following the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide) for your CPU generation.
-Amber Lake Chromebooks should follow config.plist setup for Kaby Lake.  
+AmberLake Chromebooks should follow config.plist setup for KabyLake.  
 Add the following SSDTs, kexts and modifications as needed:
 
 ### config.plist Fixes
