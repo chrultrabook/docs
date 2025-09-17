@@ -130,6 +130,8 @@ Some Chromebooks come with USI styluses. They work fine in the newest versions o
    reboot
    ```
 
+If you get an error about 1 out of 3 expected values you are using a newer version of libwacom. We have to replace DeviceMatch=i2c:27c6:0e0c with DeviceMatch=i2c|27c6|27c6, in /etc/libwacom/google-jinlon.tablet, and run `sudo libwacom-update-db` again. 
+
 #### Example Files for Jinlon
 Here are the example files for the Jinlon Chromebook. The device ID is `GDIX0000:00 27C6:0E0C Stylus`.
 
