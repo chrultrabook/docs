@@ -33,13 +33,13 @@
   },
   "Intel Baytrail": {
     "default_windows": "Supported",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Supported",
     "devices": []
   },
   "Intel Braswell": {
     "default_windows": "Supported",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Supported",
     "devices": [
       {
@@ -69,7 +69,7 @@
   },
   "Intel Apollolake": {
     "default_windows": "Audio driver is paid. Buggy SD card.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "MicroSD detection issues<br><br>No headphone jack on SOF<br><br>max98357a on AVS doesn't have a volume limiter so speakers could get fried",
     "devices": []
   },
@@ -115,7 +115,7 @@
   },
   "Intel Geminilake": {
     "default_windows": "Audio driver is paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Supported",
     "devices": []
   },
@@ -172,19 +172,19 @@
   },
   "Intel TigerLake": {
     "default_windows": "Audio and Thunderbolt drivers are paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
     "devices": []
   },
   "Intel JasperLake": {
     "default_windows": "Audio driver is paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Cameras untested.",
     "devices": []
   },
   "Intel Alderlake": {
     "default_windows": "Audio and Thunderbolt drivers are paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
     "devices": [
       {
@@ -205,31 +205,31 @@
   },
   "Intel Alderlake-N": {
     "default_windows": "Audio and USB4 drivers are paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Audio may not work.",
     "devices": []
   },
   "AMD Stoneyridge": {
     "default_windows": "Experimental Windows support. Requires patched drivers with testsigning enabled.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio",
     "devices": []
   },
   "AMD Picasso": {
     "default_windows": "Supported",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Needs to add \"iommu=pt\" to kernel parameters",
     "devices": []
   },
   "AMD Cezanne": {
     "default_windows": "Audio driver is paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "Speakers are not working currently.",
     "devices": []
   },
   "AMD Mendocino": {
     "default_windows": "Audio driver is paid.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "A recent kernel (6.8+) is needed for headphones to work.",
     "devices": []
   },
@@ -239,7 +239,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -317,7 +317,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -361,7 +361,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP, GPU issues",
     "devices": [
       {
@@ -390,7 +390,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -501,7 +501,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -524,7 +524,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -547,7 +547,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -612,7 +612,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "No Windows support.",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {
@@ -630,7 +630,7 @@
     "default_rwLegacy": false,
     "default_fullrom": false,
     "default_windows": "?",
-    "default_mac": "No MacOS support.",
+    "default_mac": "No macOS support.",
     "default_linux": "WIP",
     "devices": [
       {

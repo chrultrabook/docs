@@ -100,7 +100,7 @@ export default {
             ] // */
           },
           {
-            text: 'Installing MacOS',
+            text: 'Installing macOS',
             link: '/docs/installing/installing-macos',
             collapsible: true,
             children: [

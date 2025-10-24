@@ -39,7 +39,7 @@ function generateHTML(devicesJson) {
             <th scope="col"> WP Method</th>
             <th scope="col"> Windows Notes</th>
             <th scope="col"> Linux Notes</th>
-            <th scope="col"> MacOS Notes</th>
+            <th scope="col"> macOS Notes</th>
         </tr>`;
 
     let windows;
