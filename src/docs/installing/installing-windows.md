@@ -13,7 +13,7 @@ Do not use Windows 8 or older. Only recent Windows 10 and 11 builds are supporte
 Do not use unofficial versions of Windows, such as Ghost Specter or tiny10/11. **They are not supported** and may contain **undetectable malware** and/or security vulnerabilities.
 :::
 
-1. Get a USB containing a Windows image. Ventoy, Rufus, and the official Windows media creation tool are the only methods that can be used to create a Windows USB.
+1. Get a USB containing a Windows image. Rufus, and the official Windows media creation tool are the only methods that can be used to create a Windows USB. If you want to skip step 2, you can use Rufus, as they can bypass Windows 11 requirements.
 
 2. Bypassing Windows 11 installation checks:
 

@@ -27,6 +27,16 @@ Install [Chrultrabook Tools](https://github.com/death7654/Chrultrabook-Tools/rel
 3. Type `bcdedit /set {default} useplatformclock true` and press Enter.
 4. Reboot
 
+### Doing an in-place upgrade (espetialy for Windows 11)
+
+1. Download the Windows .iso and then mount it.
+2. Click on the top bar and write cmd
+3. Type `setup /product server` for bypassing the requirements.
+4. Follow the instructions that appears on the screen.
+::: tip
+If you encounter issues while updating, remove CoolStar's drivers (touchpad, touchscreen, audio, etc.) before retrying — they may sometimes cause problems. Reinstall them after the installation finishes.
+:::
+
 ## Linux
 
 ### General QOL Fixes
