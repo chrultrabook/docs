@@ -180,7 +180,12 @@
     "default_windows": "Audio driver is paid.",
     "default_mac": "No MacOS support.",
     "default_linux": "Cameras untested.",
-    "devices": []
+    "devices": [
+      {
+        "boardname": "MAGMA",
+        "linux": "Supported"
+      }
+    ]
   },
   "Intel Alderlake": {
     "default_windows": "Audio and Thunderbolt drivers are paid.",
